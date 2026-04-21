@@ -1,0 +1,39 @@
+---
+id: 2026-04-05-Get-a-Free-Trading-Strategy-As-a-Welcome-Gift
+title: "Get a Free Trading Strategy As a Welcome Gift"
+source: "algomatictrading."
+url: https://algomatictrading.substack.com/p/get-a-free-trading-strategy
+date: 2026-04-05
+tags: #strategy #trading
+rating: green
+---
+
+# Get a Free Trading Strategy As a Welcome Gift
+
+## 一句话摘要
+
+Get a Free Trading Strategy As a Welcome Gift This is what you get for free if you subscribe to Algomatic Trading Algomatic Trading Apr 25, 2025 1 5 Share This daily swing system buys oversold pullbac
+
+## 关键要点
+
+- 待补充
+
+## 相关实体
+- 
+
+## 相关概念
+- 
+
+## 复现状态
+- 待复现
+
+## 评价
+
+| 指标 | 评分 | 备注 |
+|--------|-------|-------|
+| 数据质量 | ⭐⭐⭐☆☆ | 待评估 |
+| 可操作性 | ⭐⭐☆☆☆ | 待评估 |
+| 新题性 | ⭐⭐☆☆☆ | 待评估 |
+| 风险透明度 | ⭐⭐☆☆☆ | 待评估 |
+
+**总体**: 🟢 **Green** — 自动录入，内容待审阅。

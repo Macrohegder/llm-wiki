@@ -1,0 +1,51 @@
+# Best Day Trading Strategies: Proven Techniques and Insights
+
+**原文链接**: https://quantifiedstrategies.substack.com/p/best-day-trading-strategies-proven
+
+**发布时间**: Apr 25, 2024
+
+**抓取时间**: 2026-04-04 21:50:53
+
+---
+
+## 摘要
+
+Best Day Trading Strategies: Proven Techniques and Insights
+QuantifiedStrategies.com
+Apr 25, 2024
+1
+Share
+Most day traders use intraday data when backtesting and trading, for example, 5 mins or hourly data, but in this example, we’ll use daily bars. The reason for this is simplicity — it’s much easier to both backtest and trade using daily bars. Day trading with daily bars is smart and in most cases better (!).
+We backtest the following trading rules:
+We short at the open on the last trading day of the month (not a calendar day, but a trading day).
+We cover at the close
+We backtest the Russell 2000 futures (
+@RTY
+) from 2000 until the end of 2021 and we use 2022 as our out-of-sample backtest. We use the trading hours from 0830 to 1500 local Chicago time.
+This is how the strategy performed ...
+
+---
+
+## 全文
+
+Best Day Trading Strategies: Proven Techniques and Insights
+QuantifiedStrategies.com
+Apr 25, 2024
+1
+Share
+Most day traders use intraday data when backtesting and trading, for example, 5 mins or hourly data, but in this example, we’ll use daily bars. The reason for this is simplicity — it’s much easier to both backtest and trade using daily bars. Day trading with daily bars is smart and in most cases better (!).
+We backtest the following trading rules:
+We short at the open on the last trading day of the month (not a calendar day, but a trading day).
+We cover at the close
+We backtest the Russell 2000 futures (
+@RTY
+) from 2000 until the end of 2021 and we use 2022 as our out-of-sample backtest. We use the trading hours from 0830 to 1500 local Chicago time.
+This is how the strategy performed up until 2022 (Shown below)
+1
+Share
+Previous
+Next
+
+---
+
+*由 Substack Strategy Tracker 自动抓取*
