@@ -25,7 +25,29 @@ Price Action and Seasonal Filter Strategy for Bonds QuantifiedStrategies.com Apr
 - 
 
 ## 复现状态
-- 待复现
+
+- **复现完成**: 2026-04-22 04:25
+- **策略 ID**: `price_action_seasonal_filter_bonds`
+- **评级汇总**:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+- **最佳品种**: TLT (Sharpe=0.000)
+
+### 各品种回测结果
+
+| 品种 | 评级 | Sharpe | 交易次数 | 最大回撤 | 年化收益 | 总收益 |
+|--------|-------|--------|----------|----------|----------|----------|
+| TLT |  Red | 0.000 | 0 | 0.00% | 0.00% | 0.00% |
+
+### 最优参数 (最佳品种)
+
+| 参数 | 最优值 |
+|--------|--------|
+| consecutive_days | 1 |
+| fixed_size | 2 |
+| seasonal_month_max | 5 |
+| seasonal_month_min | 1 |
+
+*评估报告*: `eval_price_action_seasonal_filter_bonds_20260422_042514.json`
 
 ## 评价
 

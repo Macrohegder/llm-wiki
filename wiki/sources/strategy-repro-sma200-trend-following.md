@@ -60,3 +60,27 @@ rating: green
 - YAML: `strategies/inbox/sma200_trend_following_20260420.yaml`
 - 代码: `generated/sma200_trend_following20260420_strategy.py`
 - 评估报告: `reports/eval_sma200_trend_following_20260420_20260420_104244.json`
+
+## 复现状态
+
+- **复现完成**: 2026-04-20 10:42
+- **策略 ID**: `sma200_trend_following_20260420`
+- **评级汇总**:  Green=1 |  Yellow=0 |  Red=0 | Total=1
+
+- **最佳品种**: SPY (Sharpe=0.686)
+
+### 各品种回测结果
+
+| 品种 | 评级 | Sharpe | 交易次数 | 最大回撤 | 年化收益 | 总收益 |
+|--------|-------|--------|----------|----------|----------|----------|
+| SPY |  Green | 0.686 | 105 | -321.54% | 102.16% | 1193.13% |
+
+### 最优参数 (最佳品种)
+
+| 参数 | 最优值 |
+|--------|--------|
+| fixed_size | 35 |
+| sma_period | 112 |
+
+*评估报告*: `eval_sma200_trend_following_20260420_20260420_104244.json`
+

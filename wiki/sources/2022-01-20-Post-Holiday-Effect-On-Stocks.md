@@ -25,7 +25,12 @@ Post Holiday Effect On Stocks QuantifiedStrategies.com Jan 20, 2022 ∙ Paid Sha
 - 
 
 ## 复现状态
-- 待复现
+
+- **复现完成**: 2026-04-22 04:07
+- **策略 ID**: `thanksgiving_holiday_effect`
+- **评级汇总**:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
+*暂无回测结果*
 
 ## 评价
 
