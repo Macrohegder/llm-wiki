@@ -53,6 +53,40 @@
 
 ## 最近活动
 
+- [2026-04-22] 策略复现 `volatility_swing_trade_nasdaq_sp500` | 无绿色结果
+- [2026-04-22] 策略复现 `vix_fear_mean_reversion` | 无绿色结果
+- [2026-04-22] 策略复现 `vix_100_sma_cross` | 无绿色结果
+- [2026-04-22] 策略复现 `unfilled_gap_down_inside_day` | 无绿色结果
+- [2026-04-22] 策略复现 `turn_of_the_month` | 无绿色结果
+- [2026-04-22] 策略复现 `trend_following_gold_breakout` | 无绿色结果
+- [2026-04-22] 策略复现 `thanksgiving_holiday_effect` | 无绿色结果
+- [2026-04-22] 策略复现 `stochastic_short_term_mean_reversion` | 无绿色结果
+- [2026-04-22] 策略复现 `spy_gld_rotation` | 无绿色结果
+- [2026-04-22] 策略复现 `sp500_monthly_sma_momentum` | 无绿色结果
+- [2026-04-22] 策略复现 `sp500_momentum_monthly_sma` | 无绿色结果
+- [2026-04-22] 策略复现 `sma200_trend_following_20260420` | SPY Sharpe=0.686 MaxDD=-321.54%
+- [2026-04-22] 策略复现 `russell_2000_death_cross` | 无绿色结果
+- [2026-04-22] 策略复现 `rsi_2` | 无绿色结果
+- [2026-04-22] 策略复现 `pullback_trading_strategy` | 无绿色结果
+- [2026-04-22] 策略复现 `price_action_seasonal_filter_bonds` | 无绿色结果
+- [2026-04-22] 策略复现 `one_simple_momentum_4_etfs` | 无绿色结果
+- [2026-04-22] 策略复现 `nr7_enhanced` | 无绿色结果
+- [2026-04-22] 策略复现 `moving_average_crossover` | 无绿色结果
+- [2026-04-22] 策略复现 `mae_mfe_analysis` | 无绿色结果
+- [2026-04-22] 策略复现 `macd_hook_gold_strategy` | 无绿色结果
+- [2026-04-22] 策略复现 `macd_hook_gold` | GLD Sharpe=1.223 MaxDD=-135.25%
+- [2026-04-22] 策略复现 `macd_histogram_rev_20260416` | QQQ Sharpe=1.038 MaxDD=-40.25%
+- [2026-04-22] 策略复现 `macd_histogram_rev` | 无绿色结果
+- [2026-04-22] 策略复现 `macd_histogram_auto_test` | 无绿色结果
+- [2026-04-22] 策略复现 `macd_crossover` | 无绿色结果
+- [2026-04-22] 策略复现 `end_of_month_strategy_20260420` | SPY Sharpe=1.029 MaxDD=-90.70%
+- [2026-04-22] 策略复现 `donchian_channel_breakout` | 无绿色结果
+- [2026-04-22] 策略复现 `death_cross` | 无绿色结果
+- [2026-04-22] 策略复现 `consecutive_down_days_strategy` | 无绿色结果
+- [2026-04-22] 策略复现 `consecutive_down_days` | SPY Sharpe=1.762 MaxDD=-2.25%
+- [2026-04-22] 策略复现 `commodity_skewness_premium` | 无绿色结果
+- [2026-04-22] 策略复现 `combined_candlestick_strategy` | 无绿色结果
+- [2026-04-22] 策略复现 `backtested_bollinger_bands` | 无绿色结果
 - [2026-04-22] 策略复现 `rsi_2` | 无绿色结果
 - [2026-04-22] 策略复现 `rsi_2` | 无绿色结果
 - [2026-04-22] 策略复现 `rsi_2` | 无绿色结果

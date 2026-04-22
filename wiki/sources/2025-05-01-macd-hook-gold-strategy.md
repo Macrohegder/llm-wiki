@@ -49,6 +49,15 @@ rating: green
 
 原文展示了回测图表但未提供具体数值指标。
 
+
+## 复现状态
+
+- **复现完成**: 2026-04-22 06:29
+- **策略 ID**: `macd_hook_gold_strategy`
+- **评级汇总**:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
+*暂无回测结果*
+
 ## 评价
 
 **评级：GREEN** ✅
