@@ -96,6 +96,62 @@
 - [2026-04-22] 策略复现 `friday_gld` | 无绿色结果
 - [2026-04-22] 策略复现 `end_of_month_strategy_20260420` | SPY Sharpe=1.029 MaxDD=-90.70%
 - [2026-04-22] 策略复现 `donchian_channel_breakout` | 无绿色结果
+- [2026-04-22] 策略复现 `donchian_adx_breakout` | ETHUSDT_SWAP_OKX.GLOBAL Sharpe=1.192 MaxDD=-14.21%
+- [2026-04-22] 策略复现 `death_cross` | 无绿色结果
+- [2026-04-22] 策略复现 `crypto_trend_combo_v2` | GLD Sharpe=1.224 MaxDD=-653.67%
+- [2026-04-22] 策略复现 `crypto_trend_combo` | BTCUSDT_SWAP_OKX.GLOBAL Sharpe=1.741 MaxDD=-4.99%
+- [2026-04-22] 策略复现 `consecutive_down_days_strategy` | 无绿色结果
+- [2026-04-22] 策略复现 `consecutive_down_days` | SPY Sharpe=1.762 MaxDD=-2.25%
+- [2026-04-22] 策略复现 `commodity_skewness_premium` | 无绿色结果
+- [2026-04-22] 策略复现 `combined_candlestick_top5` | 无绿色结果
+- [2026-04-22] 策略复现 `combined_candlestick_strategy` | 无绿色结果
+- [2026-04-22] 策略复现 `bollinger_band_squeeze` | 无绿色结果
+- [2026-04-22] 策略复现 `bollinger_band_breakout` | 无绿色结果
+- [2026-04-22] 策略复现 `backtested_bollinger_bands_strategy` | 无绿色结果
+- [2026-04-22] 策略复现 `backtested_bollinger_bands` | 无绿色结果
+- [2026-04-22] 策略复现 `weekly_etf_rotation` | 无绿色结果
+- [2026-04-22] 策略复现 `volatility_swing_trade_nasdaq_sp500` | 无绿色结果
+- [2026-04-22] 策略复现 `vix_fear_mean_reversion` | 无绿色结果
+- [2026-04-22] 策略复现 `vix_fear_indicator` | 无绿色结果
+- [2026-04-22] 策略复现 `vix_fear_gauge` | 无绿色结果
+- [2026-04-22] 策略复现 `vix_100_sma_cross` | 无绿色结果
+- [2026-04-22] 策略复现 `unfilled_gap_inside_day` | 无绿色结果
+- [2026-04-22] 策略复现 `unfilled_gap_down_inside_day` | 无绿色结果
+- [2026-04-22] 策略复现 `turn_of_the_month` | 无绿色结果
+- [2026-04-22] 策略复现 `tuesday_vti` | 无绿色结果
+- [2026-04-22] 策略复现 `trend_following_gold_breakout` | 无绿色结果
+- [2026-04-22] 策略复现 `thanksgiving_holiday_effect` | 无绿色结果
+- [2026-04-22] 策略复现 `stochastic_short_term_mean_reversion` | 无绿色结果
+- [2026-04-22] 策略复现 `stochastic_mean_reversion` | 无绿色结果
+- [2026-04-22] 策略复现 `spy_gld_rotation` | 无绿色结果
+- [2026-04-22] 策略复现 `sp500_monthly_sma_momentum` | 无绿色结果
+- [2026-04-22] 策略复现 `sp500_momentum_monthly_sma` | 无绿色结果
+- [2026-04-22] 策略复现 `sma200_trend_following_20260420` | SPY Sharpe=0.686 MaxDD=-321.54%
+- [2026-04-22] 策略复现 `simple_momentum_4_etfs` | 无绿色结果
+- [2026-04-22] 策略复现 `russell_2000_death_cross` | 无绿色结果
+- [2026-04-22] 策略复现 `rsi_2_strategy` | 无绿色结果
+- [2026-04-22] 策略复现 `rsi_2_larry_connors` | 无绿色结果
+- [2026-04-22] 策略复现 `rsi_2` | 无绿色结果
+- [2026-04-22] 策略复现 `pullback_trading_strategy` | 无绿色结果
+- [2026-04-22] 策略复现 `price_action_seasonal_filter_bonds` | 无绿色结果
+- [2026-04-22] 策略复现 `pairs_trading_metals_complex` | 无绿色结果
+- [2026-04-22] 策略复现 `one_simple_momentum_strategy_4_etfs` | 无绿色结果
+- [2026-04-22] 策略复现 `one_simple_momentum_4_etfs` | 无绿色结果
+- [2026-04-22] 策略复现 `nr7_enhanced` | 无绿色结果
+- [2026-04-22] 策略复现 `nr7_breakout` | SPY Sharpe=1.288 MaxDD=-0.52%
+- [2026-04-22] 策略复现 `moving_average_crossover` | 无绿色结果
+- [2026-04-22] 策略复现 `metals_pairs_trading_reality_check` | 无绿色结果
+- [2026-04-22] 策略复现 `mae_mfe_excursion_optimizer` | 无绿色结果
+- [2026-04-22] 策略复现 `mae_mfe_analysis` | 无绿色结果
+- [2026-04-22] 策略复现 `macd_hook_gold_strategy` | 无绿色结果
+- [2026-04-22] 策略复现 `macd_hook_gold` | GLD Sharpe=1.223 MaxDD=-135.25%
+- [2026-04-22] 策略复现 `macd_histogram_rev_20260416` | QQQ Sharpe=1.038 MaxDD=-40.25%
+- [2026-04-22] 策略复现 `macd_histogram_rev` | 无绿色结果
+- [2026-04-22] 策略复现 `macd_histogram_auto_test` | 无绿色结果
+- [2026-04-22] 策略复现 `macd_crossover` | 无绿色结果
+- [2026-04-22] 策略复现 `friday_gld` | 无绿色结果
+- [2026-04-22] 策略复现 `end_of_month_strategy_20260420` | SPY Sharpe=1.029 MaxDD=-90.70%
+- [2026-04-22] 策略复现 `donchian_channel_breakout` | 无绿色结果
 - [2026-04-22] 策略复现 `donchian_adx_breakout` | SOLUSDT_SWAP_OKX.GLOBAL Sharpe=1.104 MaxDD=-6.63%
 - [2026-04-22] 策略复现 `death_cross` | 无绿色结果
 - [2026-04-22] 策略复现 `crypto_trend_combo_v2` | GLD Sharpe=1.224 MaxDD=-653.67%

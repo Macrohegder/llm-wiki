@@ -26,7 +26,7 @@ Bollinger Band Breakout Strategy QuantifiedStrategies.com Apr 15, 2026 ∙ Paid 
 
 ## 复现状态
 
-- **复现完成**: 2026-04-22 09:04
+- **复现完成**: 2026-04-22 09:29
 - **策略 ID**: `bollinger_band_breakout`
 - **评级汇总**:  Green=0 |  Yellow=1 |  Red=5 | Total=6
 
@@ -50,9 +50,9 @@ Bollinger Band Breakout Strategy QuantifiedStrategies.com Apr 15, 2026 ∙ Paid 
 | fixed_size | 15 |
 | lookback | 18 |
 | std_dev | 0.7 |
-| use_long_only | 1.1800000000000002 |
+| use_long_only | 0.7 |
 
-*评估报告*: `eval_bollinger_band_breakout_20260422_090413.json`
+*评估报告*: `eval_bollinger_band_breakout_20260422_092936.json`
 
 ## 评价
 
