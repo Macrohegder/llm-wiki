@@ -1,3 +1,18 @@
+
+## [2026-04-22] pipeline | 策略复现 rsi_2
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_rsi_2_20260422_062303.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 rsi_2
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_rsi_2_20260422_062303.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 rsi_2
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_rsi_2_20260422_062303.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
 ## [2025-05-01] pipeline | MACD Hook 黄金多头策略 OAT 复现
 - Action: `cta-strategy-factory` OAT pipeline (build → run → evaluate) on GLD
 - Period: 2005-01-01 ~ 2025-12-31, Capital $100,000
