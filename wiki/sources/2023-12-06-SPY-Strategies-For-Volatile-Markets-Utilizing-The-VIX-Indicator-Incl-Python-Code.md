@@ -25,7 +25,28 @@ SPY Strategies For Volatile Markets: Utilizing The VIX Indicator (Incl. Python C
 - 
 
 ## 复现状态
-- 待复现
+
+- **复现完成**: 2026-04-22 09:23
+- **策略 ID**: `vix_fear_indicator`
+- **评级汇总**:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+- **最佳品种**: SPY (Sharpe=0.000)
+
+### 各品种回测结果
+
+| 品种 | 评级 | Sharpe | 交易次数 | 最大回撤 | 年化收益 | 总收益 |
+|--------|-------|--------|----------|----------|----------|----------|
+| SPY |  Red | 0.000 | 0 | 0.00% | 0.00% | 0.00% |
+
+### 最优参数 (最佳品种)
+
+| 参数 | 最优值 |
+|--------|--------|
+| exit_decline_days | 3 |
+| fixed_size | 1 |
+| vix_entry_threshold | 13 |
+
+*评估报告*: `eval_vix_fear_indicator_20260422_092325.json`
 
 ## 评价
 

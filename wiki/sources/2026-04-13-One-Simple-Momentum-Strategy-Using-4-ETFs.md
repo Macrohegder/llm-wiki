@@ -26,8 +26,8 @@ One Simple Momentum Strategy Using 4 ETFs QuantifiedStrategies.com Apr 12, 2026 
 
 ## 复现状态
 
-- **复现完成**: 2026-04-22 04:18
-- **策略 ID**: `one_simple_momentum_4_etfs`
+- **复现完成**: 2026-04-22 09:22
+- **策略 ID**: `simple_momentum_4_etfs`
 - **评级汇总**:  Green=0 |  Yellow=0 |  Red=4 | Total=4
 
 - **最佳品种**: SPY (Sharpe=0.000)
@@ -45,10 +45,10 @@ One Simple Momentum Strategy Using 4 ETFs QuantifiedStrategies.com Apr 12, 2026 
 
 | 参数 | 最优值 |
 |--------|--------|
-| fixed_size | 2 |
+| fixed_size | 1 |
 | lookback_months | 6 |
 
-*评估报告*: `eval_one_simple_momentum_4_etfs_20260422_041814.json`
+*评估报告*: `eval_simple_momentum_4_etfs_20260422_092234.json`
 
 ## 评价
 

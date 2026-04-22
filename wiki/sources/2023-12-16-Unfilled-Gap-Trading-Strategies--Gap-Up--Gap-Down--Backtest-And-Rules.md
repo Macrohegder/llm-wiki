@@ -26,8 +26,8 @@ Unfilled Gap Trading? Strategies — (Gap Up / Gap Down) | (Backtest And Rules) 
 
 ## 复现状态
 
-- **复现完成**: 2026-04-22 04:08
-- **策略 ID**: `unfilled_gap_down_inside_day`
+- **复现完成**: 2026-04-22 09:23
+- **策略 ID**: `unfilled_gap_inside_day`
 - **评级汇总**:  Green=0 |  Yellow=0 |  Red=1 | Total=1
 
 - **最佳品种**: SPY (Sharpe=0.000)
@@ -42,10 +42,14 @@ Unfilled Gap Trading? Strategies — (Gap Up / Gap Down) | (Backtest And Rules) 
 
 | 参数 | 最优值 |
 |--------|--------|
-| exit_days | 4 |
-| fixed_size | 2 |
+| cond_days_1 | 1 |
+| cond_days_3 | 2 |
+| cond_days_5 | 2 |
+| cond_lookback_2 | 2 |
+| fixed_size | 1 |
+| hold_days | 1 |
 
-*评估报告*: `eval_unfilled_gap_down_inside_day_20260422_040859.json`
+*评估报告*: `eval_unfilled_gap_inside_day_20260422_092302.json`
 
 ## 评价
 

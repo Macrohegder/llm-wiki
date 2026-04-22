@@ -26,8 +26,8 @@ Backtested Bollinger Bands Trading Strategy QuantifiedStrategies.com Apr 06, 202
 
 ## 复现状态
 
-- **复现完成**: 2026-04-22 03:32
-- **策略 ID**: `backtested_bollinger_bands`
+- **复现完成**: 2026-04-22 09:02
+- **策略 ID**: `backtested_bollinger_bands_strategy`
 - **评级汇总**:  Green=0 |  Yellow=0 |  Red=1 | Total=1
 
 - **最佳品种**: SPY (Sharpe=0.000)
@@ -42,11 +42,12 @@ Backtested Bollinger Bands Trading Strategy QuantifiedStrategies.com Apr 06, 202
 
 | 参数 | 最优值 |
 |--------|--------|
-| bb_std_dev | 0.7049999999999998 |
-| fixed_size | 1 |
-| sma_period | 13 |
+| cond_lookback_1 | 1 |
+| fixed_size | 2 |
+| num_std_dev | 0.7949999999999998 |
+| sma_period | 11 |
 
-*评估报告*: `eval_backtested_bollinger_bands_20260422_033235.json`
+*评估报告*: `eval_backtested_bollinger_bands_strategy_20260422_090221.json`
 
 ## 评价
 

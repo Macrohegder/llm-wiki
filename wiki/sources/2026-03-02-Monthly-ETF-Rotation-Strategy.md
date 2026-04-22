@@ -25,7 +25,12 @@ Monthly ETF Rotation Strategy QuantifiedStrategies.com Mar 02, 2026 1 1 Share To
 - 
 
 ## 复现状态
-- 待复现
+
+- **复现完成**: 2026-04-22 09:02
+- **策略 ID**: `weekly_etf_rotation`
+- **评级汇总**:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
+*暂无回测结果*
 
 ## 评价
 

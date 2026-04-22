@@ -25,7 +25,30 @@ Pairs Trading in the Metals Complex: A Reality Check Replication, walk-forward t
 - 
 
 ## 复现状态
-- 待复现
+
+- **复现完成**: 2026-04-22 09:22
+- **策略 ID**: `pairs_trading_metals_complex`
+- **评级汇总**:  Green=0 |  Yellow=0 |  Red=2 | Total=2
+
+- **最佳品种**: GLD (Sharpe=0.000)
+
+### 各品种回测结果
+
+| 品种 | 评级 | Sharpe | 交易次数 | 最大回撤 | 年化收益 | 总收益 |
+|--------|-------|--------|----------|----------|----------|----------|
+| GLD |  Red | 0.000 | 0 | 0.00% | 0.00% | 0.00% |
+| SLV |  Red | 0.000 | 0 | 0.00% | 0.00% | 0.00% |
+
+### 最优参数 (最佳品种)
+
+| 参数 | 最优值 |
+|--------|--------|
+| entry_threshold | 12.3 |
+| exit_threshold | 23.5 |
+| fixed_size | 2 |
+| lookback | 8 |
+
+*评估报告*: `eval_pairs_trading_metals_complex_20260422_092202.json`
 
 ## 评价
 

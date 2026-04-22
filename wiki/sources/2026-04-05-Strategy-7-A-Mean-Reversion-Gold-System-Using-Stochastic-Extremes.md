@@ -25,7 +25,31 @@ Strategy #7: A Mean-Reversion Gold System Using Stochastic Extremes A surprising
 - 
 
 ## 复现状态
-- 待复现
+
+- **复现完成**: 2026-04-22 09:22
+- **策略 ID**: `stochastic_mean_reversion`
+- **评级汇总**:  Green=0 |  Yellow=0 |  Red=2 | Total=2
+
+- **最佳品种**: SPY (Sharpe=0.000)
+
+### 各品种回测结果
+
+| 品种 | 评级 | Sharpe | 交易次数 | 最大回撤 | 年化收益 | 总收益 |
+|--------|-------|--------|----------|----------|----------|----------|
+| SPY |  Red | 0.000 | 0 | 0.00% | 0.00% | 0.00% |
+| QQQ |  Red | 0.000 | 0 | 0.00% | 0.00% | 0.00% |
+
+### 最优参数 (最佳品种)
+
+| 参数 | 最优值 |
+|--------|--------|
+| cond_lookback_1 | 1 |
+| fixed_size | 1 |
+| lookback_period | 3 |
+| smoothing_period | 2 |
+| threshold | 15 |
+
+*评估报告*: `eval_stochastic_mean_reversion_20260422_092244.json`
 
 ## 评价
 

@@ -26,8 +26,8 @@ RSI 2 Strategy Explained: Larry Connors’ 2-Period RSI Trading Rules Quantified
 
 ## 复现状态
 
-- **复现完成**: 2026-04-22 06:23
-- **策略 ID**: `rsi_2`
+- **复现完成**: 2026-04-22 09:22
+- **策略 ID**: `rsi_2_strategy`
 - **评级汇总**:  Green=0 |  Yellow=0 |  Red=1 | Total=1
 
 - **最佳品种**: SPY (Sharpe=0.000)
@@ -42,12 +42,10 @@ RSI 2 Strategy Explained: Larry Connors’ 2-Period RSI Trading Rules Quantified
 
 | 参数 | 最优值 |
 |--------|--------|
-| fixed_size | 1 |
-| overbought | 44 |
-| oversold | 1 |
+| fixed_size | 2 |
 | rsi_period | 3 |
 
-*评估报告*: `eval_rsi_2_20260422_062303.json`
+*评估报告*: `eval_rsi_2_strategy_20260422_092217.json`
 
 ## 评价
 

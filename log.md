@@ -1,4 +1,302 @@
 
+## [2026-04-22] pipeline | 策略复现 weekly_etf_rotation
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_weekly_etf_rotation_20260422_090207.json`
+- Results:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
+## [2026-04-22] pipeline | 策略复现 volatility_swing_trade_nasdaq_sp500
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_volatility_swing_trade_nasdaq_sp500_20260422_040627.json`
+- Results:  Green=0 |  Yellow=0 |  Red=2 | Total=2
+
+## [2026-04-22] pipeline | 策略复现 vix_fear_mean_reversion
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_vix_fear_mean_reversion_20260422_041718.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 vix_fear_indicator
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_vix_fear_indicator_20260422_092325.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 vix_fear_gauge
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_vix_fear_gauge_20260422_092319.json`
+- Results:  Green=0 |  Yellow=0 |  Red=4 | Total=4
+
+## [2026-04-22] pipeline | 策略复现 vix_100_sma_cross
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_vix_100_sma_cross_20260422_033554.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 unfilled_gap_inside_day
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_unfilled_gap_inside_day_20260422_092302.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 unfilled_gap_down_inside_day
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_unfilled_gap_down_inside_day_20260422_040859.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 turn_of_the_month
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_turn_of_the_month_20260422_041947.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 tuesday_vti
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_tuesday_vti_20260422_092256.json`
+- Results:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
+## [2026-04-22] pipeline | 策略复现 trend_following_gold_breakout
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_trend_following_gold_breakout_20260422_035256.json`
+- Results:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
+## [2026-04-22] pipeline | 策略复现 thanksgiving_holiday_effect
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_thanksgiving_holiday_effect_20260422_040724.json`
+- Results:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
+## [2026-04-22] pipeline | 策略复现 stochastic_short_term_mean_reversion
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_stochastic_short_term_mean_reversion_20260422_040503.json`
+- Results:  Green=0 |  Yellow=0 |  Red=2 | Total=2
+
+## [2026-04-22] pipeline | 策略复现 stochastic_mean_reversion
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_stochastic_mean_reversion_20260422_092244.json`
+- Results:  Green=0 |  Yellow=0 |  Red=2 | Total=2
+
+## [2026-04-22] pipeline | 策略复现 spy_gld_rotation
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_spy_gld_rotation_20260422_032114.json`
+- Results:  Green=0 |  Yellow=0 |  Red=2 | Total=2
+
+## [2026-04-22] pipeline | 策略复现 sp500_monthly_sma_momentum
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_sp500_monthly_sma_momentum_20260422_040404.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 sp500_momentum_monthly_sma
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_sp500_momentum_monthly_sma_20260422_030534.json`
+- Results:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
+## [2026-04-22] pipeline | 策略复现 sma200_trend_following_20260420
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_sma200_trend_following_20260420_20260420_104244.json`
+- Results:  Green=1 |  Yellow=0 |  Red=0 | Total=1
+- Best: SPY | Sharpe=0.686 | Trades=105 | MaxDD=-321.54% | Annual=102.16%
+- Optimal params: {"sma_period": 112, "fixed_size": 35}
+
+## [2026-04-22] pipeline | 策略复现 simple_momentum_4_etfs
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_simple_momentum_4_etfs_20260422_092234.json`
+- Results:  Green=0 |  Yellow=0 |  Red=4 | Total=4
+
+## [2026-04-22] pipeline | 策略复现 russell_2000_death_cross
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_russell_2000_death_cross_20260422_031813.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 rsi_2_strategy
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_rsi_2_strategy_20260422_092217.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 rsi_2_larry_connors
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_rsi_2_larry_connors_20260422_092211.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 rsi_2
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_rsi_2_20260422_062303.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 pullback_trading_strategy
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_pullback_trading_strategy_20260422_061907.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 price_action_seasonal_filter_bonds
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_price_action_seasonal_filter_bonds_20260422_042514.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 pairs_trading_metals_complex
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_pairs_trading_metals_complex_20260422_092202.json`
+- Results:  Green=0 |  Yellow=0 |  Red=2 | Total=2
+
+## [2026-04-22] pipeline | 策略复现 one_simple_momentum_strategy_4_etfs
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_one_simple_momentum_strategy_4_etfs_20260422_092152.json`
+- Results:  Green=0 |  Yellow=0 |  Red=4 | Total=4
+
+## [2026-04-22] pipeline | 策略复现 one_simple_momentum_4_etfs
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_one_simple_momentum_4_etfs_20260422_041814.json`
+- Results:  Green=0 |  Yellow=0 |  Red=4 | Total=4
+
+## [2026-04-22] pipeline | 策略复现 nr7_enhanced
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_nr7_enhanced_20260422_031526.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 nr7_breakout
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_nr7_breakout_20260422_092135.json`
+- Results:  Green=1 |  Yellow=1 |  Red=4 | Total=6
+- Best: SPY | Sharpe=1.288 | Trades=460 | MaxDD=-0.52% | Annual=0.60%
+- Optimal params: {"nr_lookback": 2, "use_trend_filter": 0.82, "trend_ma_period": 15, "use_long_only": 1.1800000000000002, "fixed_size": 1}
+
+## [2026-04-22] pipeline | 策略复现 moving_average_crossover
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_moving_average_crossover_20260422_033024.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 metals_pairs_trading_reality_check
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_metals_pairs_trading_reality_check_20260422_091916.json`
+- Results:  Green=0 |  Yellow=0 |  Red=4 | Total=4
+
+## [2026-04-22] pipeline | 策略复现 mae_mfe_excursion_optimizer
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_mae_mfe_excursion_optimizer_20260422_091858.json`
+- Results:  Green=0 |  Yellow=0 |  Red=2 | Total=2
+
+## [2026-04-22] pipeline | 策略复现 mae_mfe_analysis
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_mae_mfe_analysis_20260422_041440.json`
+- Results:  Green=0 |  Yellow=0 |  Red=4 | Total=4
+
+## [2026-04-22] pipeline | 策略复现 macd_hook_gold_strategy
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_macd_hook_gold_strategy_20260422_062912.json`
+- Results:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
+## [2026-04-22] pipeline | 策略复现 macd_hook_gold
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_macd_hook_gold_20260420_171931.json`
+- Results:  Green=1 |  Yellow=0 |  Red=0 | Total=1
+- Best: GLD | Sharpe=1.223 | Trades=33 | MaxDD=-135.25% | Annual=207.83%
+- Optimal params: {"fast_period": 15, "slow_period": 19, "signal_period": 10, "hull_period": 10, "fixed_size": 70, "bullish_days": 5, "max_holding_days": 7, "stop_loss_pct": 3.69}
+
+## [2026-04-22] pipeline | 策略复现 macd_histogram_rev_20260416
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_macd_histogram_rev_20260416_20260416_064027.json`
+- Results:  Green=1 |  Yellow=1 |  Red=0 | Total=2
+- Best: QQQ | Sharpe=1.038 | Trades=92 | MaxDD=-40.25% | Annual=38.79%
+- Optimal params: {"decline_days": 3, "signal_period": 12, "slow_period": 34}
+
+## [2026-04-22] pipeline | 策略复现 macd_histogram_rev
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_macd_histogram_rev_20260422_091841.json`
+- Results:  Green=0 |  Yellow=0 |  Red=6 | Total=6
+
+## [2026-04-22] pipeline | 策略复现 macd_histogram_auto_test
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_macd_histogram_auto_test_20260417_154346.json`
+- Results:  Green=0 |  Yellow=1 |  Red=0 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 macd_crossover
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_macd_crossover_20260422_031201.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 friday_gld
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_friday_gld_20260422_091736.json`
+- Results:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
+## [2026-04-22] pipeline | 策略复现 end_of_month_strategy_20260420
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_end_of_month_strategy_20260420_20260420_140544.json`
+- Results:  Green=1 |  Yellow=0 |  Red=0 | Total=1
+- Best: SPY | Sharpe=1.029 | Trades=137 | MaxDD=-90.70% | Annual=71.59%
+- Optimal params: {"target_pct": 0.009399999999999999, "fixed_size": 35}
+
+## [2026-04-22] pipeline | 策略复现 donchian_channel_breakout
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_donchian_channel_breakout_20260422_035102.json`
+- Results:  Green=0 |  Yellow=0 |  Red=2 | Total=2
+
+## [2026-04-22] pipeline | 策略复现 donchian_adx_breakout
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_donchian_adx_breakout_20260422_091226.json`
+- Results:  Green=1 |  Yellow=1 |  Red=4 | Total=6
+- Best: SOLUSDT_SWAP_OKX.GLOBAL | Sharpe=1.104 | Trades=60 | MaxDD=-6.63% | Annual=9.65%
+- Optimal params: {"donchian_window": 22, "exit_window": 2, "adx_window": 12, "adx_threshold": 15, "adx_mode": 3, "use_long_only": 0.82, "ma_period": 159, "fixed_size": 15}
+
+## [2026-04-22] pipeline | 策略复现 death_cross
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_death_cross_20260422_035514.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 crypto_trend_combo_v2
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_crypto_trend_combo_v2_20260422_090825.json`
+- Results:  Green=4 |  Yellow=0 |  Red=0 | Total=4
+- Best: GLD | Sharpe=1.224 | Trades=651 | MaxDD=-653.67% | Annual=1599.65%
+- Optimal params: {"target_vol": 0.21, "max_leverage": 1.5039999999999998, "vol_lookback": 67, "rebalance_threshold": 0.47}
+
+## [2026-04-22] pipeline | 策略复现 crypto_trend_combo
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_crypto_trend_combo_20260422_090538.json`
+- Results:  Green=4 |  Yellow=0 |  Red=0 | Total=4
+- Best: BTCUSDT_SWAP_OKX.GLOBAL | Sharpe=1.741 | Trades=23 | MaxDD=-4.99% | Annual=14.31%
+- Optimal params: {"donchian_window": 38, "vol_lookback": 44, "target_vol": 0.13299999999999998, "max_leverage": 0.63}
+
+## [2026-04-22] pipeline | 策略复现 consecutive_down_days_strategy
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_consecutive_down_days_strategy_20260422_042101.json`
+- Results:  Green=0 |  Yellow=0 |  Red=3 | Total=3
+
+## [2026-04-22] pipeline | 策略复现 consecutive_down_days
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_consecutive_down_days_20260419_065041.json`
+- Results:  Green=11 |  Yellow=0 |  Red=7 | Total=18
+- Best: SPY | Sharpe=1.762 | Trades=174 | MaxDD=-2.25% | Annual=6.78%
+- Optimal params: {"decline_days": 3, "trend_ma_period": 90, "max_hold_days": 5, "rsi_exit_threshold": 25, "fixed_size": 15}
+
+## [2026-04-22] pipeline | 策略复现 commodity_skewness_premium
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_commodity_skewness_premium_20260422_042318.json`
+- Results:  Green=0 |  Yellow=0 |  Red=8 | Total=8
+
+## [2026-04-22] pipeline | 策略复现 combined_candlestick_top5
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_combined_candlestick_top5_20260422_090418.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 combined_candlestick_strategy
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_combined_candlestick_strategy_20260422_041242.json`
+- Results:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
+## [2026-04-22] pipeline | 策略复现 bollinger_band_squeeze
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_bollinger_band_squeeze_20260422_090710.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 bollinger_band_breakout
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_bollinger_band_breakout_20260422_090413.json`
+- Results:  Green=0 |  Yellow=1 |  Red=5 | Total=6
+
+## [2026-04-22] pipeline | 策略复现 backtested_bollinger_bands_strategy
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_backtested_bollinger_bands_strategy_20260422_090221.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-22] pipeline | 策略复现 backtested_bollinger_bands
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_backtested_bollinger_bands_20260422_033235.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
 ## [2026-04-22] pipeline | 策略复现 combined_candlestick_strategy
 - Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
 - Eval file: `eval_combined_candlestick_strategy_20260422_041242.json`
