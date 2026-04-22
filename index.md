@@ -43,6 +43,13 @@
 | [[strategy-repro-nr7-breakout]] | 2026-04-22 | 策略复现 | NR7窄幅突破：SPY Sharpe 1.288，最大回撤 0.52% |
 | [[strategy-repro-macd-histogram-rev-20260416]] | 2026-04-16 | 策略复现 | MACD Histogram均值回归：QQQ Sharpe 1.038，最大回撤 40.25% |
 | [[strategy-repro-macd-hook-gold]] | 2026-04-20 | 策略复现 | MACD Hook 黄金策略：GLD Sharpe 1.223，最大回撤 135.25% |
+| [[2025-04-22-simple-alpha-atlas-what-actually-works-across-markets-daily]] | 2025-04-22 | 文章 | Delphic Alpha 多资产 Alpha 图谱：12 个信号族×5 市场，零优化回测实证 |
+| [[2026-04-22-Bollinger-Band-Squeeze-Trading-Strategy]] | 2026-04-22 | 策略/文章 | 布林带挤压波动性突破策略，周线+RSI过滤，付费文章 |
+| [[2025-04-22-etf-mean-reversion-methods-mean-reversion-mini-portfolio-creation-part-2]] | 2025-04-22 | 策略/文章 | ETF均值回归四系统组合构建：Portfolio Effect是唯壹圣杯 |
+| [[2026-04-22-session-high-retest-intraday-strategy]] | 2026-04-22 | 策略/文章 | Session High Retest 量化日内策略：10品种、17年数据、Portfolio Sharpe 1.15 |
+| [[2026-02-23-systematic-intraday-trend-following-strategy]] | 2026-02-23 | 策略/文章 | 系统性日内趋势跟踪：动态边界+VWAP，SPY Sharpe 1.33 |
+| [[intraday-trading-strategies-compendium]] | 2026-04-22 | 概念/综合 | 日内交易策略汇编：7+篇文章总结 |
+| [[intraday-strategy-design-checklist]] | 2026-04-22 | 概念/Checklist | 日内策略设计十项检查清单 |
 
 ---
 

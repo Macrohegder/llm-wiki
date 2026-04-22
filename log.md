@@ -1,3 +1,28 @@
+## [2026-04-22] deep-process | 日内策略汇编 + Checklist
+- Action: 深度处理知识库中所有日内策略，生成汇编和 Checklist
+- 新增 wiki/sources/:
+  - 2026-04-22-session-high-retest-intraday-strategy.md (Session High Retest 深度处理，包含完整规则、回测数据、伪代码框架)
+  - 2026-02-23-systematic-intraday-trend-following-strategy.md (系统性日内趋势跟踪深度处理，SPY Sharpe 1.33)
+- 新增 wiki/concepts/:
+  - intraday-trading-strategies-compendium.md (汇编 7+篇日内策略，按类型分类、模板化)
+  - intraday-strategy-design-checklist.md (十项检查清单 + 3 个设计模板)
+- 涵盖策略: Session High Retest, Systematic Intraday TF, VWAP+StochRSI, VSO Momentum, ORB, Late Lunch, Next-Day Signal
+- 更新 index.md
+
+## [2026-04-22] ingest | 补录 2 篇未导入 Substack 文章
+- Action: 将 substack-strategy-tracker 中未入库的 2 篇文章导入 llm-wiki
+- 新增 raw/articles/:
+  - 2026-04-22-Bollinger-Band-Squeeze-Trading-Strategy.md (布林带挤压，yellow)
+  - 2025-04-22-etf-mean-reversion-methods-mean-reversion-mini-portfolio-creation-part-2.md (ETF均值回归组合，green)
+- 新增 wiki/sources/ 对应骨架
+- 更新 index.md
+
+## [2026-04-22] ingest | Delphic Alpha 多资产 Alpha 图谱文章
+- Action: 导入 Substack 文章至 llm-wiki
+- 新增: wiki/sources/2025-04-22-simple-alpha-atlas-what-actually-works-across-markets-daily.md
+- 内容: 12 alphas × 5 资产类别零优化回测，核心结论是无通用 alpha，必须匹配信号类型与市场微观结构
+- 更新: index.md
+
 
 ## [2026-04-22] pipeline | 策略复现 weekly_etf_rotation
 - Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
