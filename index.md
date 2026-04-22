@@ -55,7 +55,10 @@
 
 ## 🧠 综合结论 (Syntheses)
 
-*暂无综合页面*
+| 综合页面 | 日期 | 描述 |
+|----------|------|------|
+| [[intraday-trading-strategies-compendium]] | 2026-04-22 | 日内交易策略汇编：7+ 篇文章核心结论 |
+| [[mean-reversion-strategies-compendium]] | 2026-04-23 | 均值回归/反转策略汇编：12+ 策略分类、表现、10项关键注意事项 |
 
 ---
 

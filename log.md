@@ -1,3 +1,16 @@
+## [2026-04-23] synthesis | 均值回归/反转策略汇编
+- Action: 深度加工知识库中所有反转/均值回归策略，生成综合汇编页面
+- 新增 wiki/syntheses/:
+  - mean-reversion-strategies-compendium.md (汇编 12+ 策略，按5类信号类型分析，给10项关键注意事项，2套组合建议)
+- 核心结论:
+  - Green级可上实盘: Consecutive Down Days (SPY Sharpe 1.76), MACD Hook Gold (GLD Sharpe 1.22), MACD Histogram Rev (QQQ Sharpe 1.04), ETF MR Mini-Portfolio
+  - 趋势过滤器是反转策略生死线
+  - 出场规则比入场更重要 (`Close > yesterday's High` 是灵魂)
+  - 过拟合税: 回测 Sharpe 打 75 折
+  - Portfolio Effect 是唯一圣杯
+- 更新: index.md, log.md
+- 状态: 已推送远程仓库
+
 ## [2026-04-22] deep-process | 日内策略汇编 + Checklist
 - Action: 深度处理知识库中所有日内策略，生成汇编和 Checklist
 - 新增 wiki/sources/:
