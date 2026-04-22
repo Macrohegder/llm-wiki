@@ -53,6 +53,8 @@
 
 ## 最近活动
 
+- [2026-04-22] 策略复现 `combined_candlestick_strategy` | 无绿色结果
+- [2026-04-22] 策略复现 `combined_candlestick_strategy` | 无绿色结果
 - [2026-04-22] 策略复现 `volatility_swing_trade_nasdaq_sp500` | 无绿色结果
 - [2026-04-22] 策略复现 `vix_fear_mean_reversion` | 无绿色结果
 - [2026-04-22] 策略复现 `vix_100_sma_cross` | 无绿色结果

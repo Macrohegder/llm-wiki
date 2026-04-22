@@ -25,7 +25,30 @@ Stock Market Index Trading Strategies (Video, Rules, Backtest, Settings, Perform
 - 
 
 ## 复现状态
-- 待复现
+
+- **复现完成**: 2026-04-22 04:06
+- **策略 ID**: `volatility_swing_trade_nasdaq_sp500`
+- **评级汇总**:  Green=0 |  Yellow=0 |  Red=2 | Total=2
+
+- **最佳品种**: QQQ (Sharpe=0.000)
+
+### 各品种回测结果
+
+| 品种 | 评级 | Sharpe | 交易次数 | 最大回撤 | 年化收益 | 总收益 |
+|--------|-------|--------|----------|----------|----------|----------|
+| QQQ |  Red | 0.000 | 0 | 0.00% | 0.00% | 0.00% |
+| SPY |  Red | 0.000 | 0 | 0.00% | 0.00% | 0.00% |
+
+### 最优参数 (最佳品种)
+
+| 参数 | 最优值 |
+|--------|--------|
+| entry_threshold | 8.850000000000001 |
+| exit_threshold | 24.5 |
+| fixed_size | 2 |
+| rsi_period | 4 |
+
+*评估报告*: `eval_volatility_swing_trade_nasdaq_sp500_20260422_040627.json`
 
 ## 评价
 

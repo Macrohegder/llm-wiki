@@ -1,4 +1,9 @@
 
+## [2026-04-22] pipeline | 策略复现 combined_candlestick_strategy
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_combined_candlestick_strategy_20260422_041242.json`
+- Results:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
 ## [2026-04-22] pipeline | 策略复现 volatility_swing_trade_nasdaq_sp500
 - Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
 - Eval file: `eval_volatility_swing_trade_nasdaq_sp500_20260422_040627.json`

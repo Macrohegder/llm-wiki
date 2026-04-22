@@ -25,7 +25,12 @@ Candlestick Patterns That Actually Work: Ranked by Backtested Performance A Quan
 - 
 
 ## 复现状态
-- 待复现
+
+- **复现完成**: 2026-04-22 04:12
+- **策略 ID**: `combined_candlestick_strategy`
+- **评级汇总**:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
+*暂无回测结果*
 
 ## 评价
 
