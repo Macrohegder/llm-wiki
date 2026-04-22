@@ -36,6 +36,13 @@
 | [[2026-03-19-5-swing-trading-strategies-for-beginners]] | 2026-03-19 | 文章 | 5 个适合初学者的波段交易均值回归策略 |
 | [[2026-04-18-consecutive-down-days-strategy]] | 2026-04-18 | 文章 | 连续下跌日均值回归策略：在长期上升趋势中抓住短期恐惧买入 |
 | [[2025-04-13_karpathy_llm_wiki]] | 2025-04-13 | 文章 | Karpathy 分享的公开构建个人本地知识库的详细方法 |
+| [[strategy-repro-consecutive-down-days]] | 2026-04-19 | 策略复现 | 连续下跌日均值回归：SPY Sharpe 1.762，最大回撤 2.25% |
+| [[strategy-repro-crypto-trend-combo]] | 2026-04-22 | 策略复现 | 加密货趋势组合：BTC Sharpe 1.741，最大回撤 4.99% |
+| [[strategy-repro-crypto-trend-combo-v2]] | 2026-04-22 | 策略复现 | 加密货趋势组合V2：GLD Sharpe 1.224，多模型集成 |
+| [[strategy-repro-donchian-adx-breakout]] | 2026-04-22 | 策略复现 | Donchian+ADX突破：ETH Sharpe 1.192，最大回撤 14.21% |
+| [[strategy-repro-nr7-breakout]] | 2026-04-22 | 策略复现 | NR7窄幅突破：SPY Sharpe 1.288，最大回撤 0.52% |
+| [[strategy-repro-macd-histogram-rev-20260416]] | 2026-04-16 | 策略复现 | MACD Histogram均值回归：QQQ Sharpe 1.038，最大回撤 40.25% |
+| [[strategy-repro-macd-hook-gold]] | 2026-04-20 | 策略复现 | MACD Hook 黄金策略：GLD Sharpe 1.223，最大回撤 135.25% |
 
 ---
 
@@ -247,3 +254,11 @@
 7. 录入 "Consecutive Down Days Strategy" 文章 - 2026-04-18 - 🟡 Yellow 评级
 8. 初始化 LLM Wiki 知识库 - 2025-04-13
 9. 录入 Karpathy LLM Wiki 文章 - 2025-04-13
+
+10. 策略复现 "Consecutive Down Days Strategy" - 2026-04-19 - SPY Sharpe=1.762, 最大回撤 2.25% - 🔒 Green
+11. 策略复现 "Crypto Trend Combo" - 2026-04-22 - BTC Sharpe=1.741, 最大回撤 4.99% - 🔒 Green
+12. 策略复现 "Crypto Trend Combo V2" - 2026-04-22 - GLD Sharpe=1.224 - 🔒 Green
+13. 策略复现 "Donchian ADX Breakout" - 2026-04-22 - ETH Sharpe=1.192, 最大回撤 14.21% - 🔒 Green
+14. 策略复现 "NR7 Breakout" - 2026-04-22 - SPY Sharpe=1.288, 最大回撤 0.52% - 🔒 Green
+15. 策略复现 "MACD Histogram Mean Reversion" - 2026-04-16 - QQQ Sharpe=1.038, 最大回撤 40.25% - 🔒 Green
+16. 策略复现 "MACD Hook Gold Strategy" - 2026-04-20 - GLD Sharpe=1.223, 最大回撤 135.25% - 🔒 Green
