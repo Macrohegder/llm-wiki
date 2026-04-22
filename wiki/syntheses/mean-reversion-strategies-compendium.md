@@ -24,19 +24,59 @@ tags:
 | **Consecutive Down Days** | QuantifiedStrategies | 2026-04-18 | 价格极端 | 连续下跌 + 趋势过滤 | SPY | **1.762** | 复现 Green |
 | **MACD Histogram Mean Reversion** | QuantifiedStrategies | 2025-06-19 | 指标极端 | MACD Histogram 偏离回归 | QQQ | **1.038** | 复现 Green |
 | **MACD Hook Gold** | Algomatic Trading | 2025-05-01 | 动量回调 | MACD Hook + Hull MA 确认 | GLD | **1.223** | 复现 Green |
-| **Stochastic Extremes Gold** | Algomatic Trading | 2026-04-05 | 指标极端 | Stochastic 交叉 + 趋势过滤 | Gold CFD | 0.56 MAR | 待补充 |
-| **Bollinger Band Squeeze** | QuantifiedStrategies | 2026-04-22 | 波动率收缩 | 布林带收窄后突破 | PEP | 规则付费 | 深度处理 |
-| **Larry Connors RSI-2** | QuantifiedStrategies | 2026-04-04 | 指标极端 | RSI(2) 超卖买入 | SPY | 复现 Red | 待补充 |
-| **Stocks-Bonds MR** | QuantSeeker | 2025-02-17 | 跨资产 | 股债短期均值回归 | SPY/TLT | 复现 Red | 待补充 |
-| **Weekly MR (SP500)** | QuantifiedStrategies | 2023-04-23 | 日历/VIX | VIX 恐惧驱动均值回归 | SPY | 复现 Red | 待补充 |
-| **Pullback Trading** | QuantifiedStrategies | 2023-12-25 | 价格极端 | RSI + 双均线回撤买入 | SPY | 复现 Red | 待补充 |
-| **Bollinger Band Breakout** | QuantifiedStrategies | 2026-04-16 | 波动率突破 | 布林带轨道突破 | SPY | 0.905 | 待补充 |
+| **RSI-2 Strategy** | QuantifiedStrategies | 2026-04-04 | 指标极端 | RSI(2) < 10 买入, > 90 卖出 | GLD | **1.59** | 初步验证 OK |
+| **Pullback RSI Strategy** | QuantifiedStrategies | 2023-12-25 | 价格极端 | RSI + 双均线回撤买入 | GLD | **1.29** | 初步验证 OK |
+| **Stochastic Mean Reversion** | QuantifiedStrategies | 2026-04-04 | 指标极端 | %K < 20 买入 | SPY | 0.39 | 初步验证 OK |
+| **Backtested Bollinger Bands** | QuantifiedStrategies | 2024-02-17 | 波动率通道 | 收盘价 < 下轨买入 | GLD | **1.19** | 初步验证 OK |
+| **Bollinger Band Breakout** | QuantifiedStrategies | 2026-04-16 | 波动率突破 | 收盘价 > 上轨买入 | GLD | **0.93** | 初步验证 OK |
+| **Stochastic Extremes Gold** | Algomatic Trading | 2026-04-05 | 指标极端 | Stochastic 交叉 + 趋势过滤 | GLD | 0.72 | 初步验证 OK |
+| **Volatility Swing Trade** | QuantifiedStrategies | 2023-12-15 | 指标极端 | RSI 超卖买入 | QQQ | 0.53 | 初步验证 OK |
+| **Larry Connors RSI-2** | QuantifiedStrategies | 2026-04-04 | 指标极端 | RSI(2) + SMA200 过滤 | IWM | **1.02** | 初步验证 OK |
+| **Bollinger Band Squeeze** | QuantifiedStrategies | 2026-04-22 | 波动率收缩 | 布林带收窄后突破 | GLD | 0.93 | 初步验证 OK |
+| **Stocks-Bonds MR** | QuantSeeker | 2025-02-17 | 跨资产 | 股债短期均值回归 | SPY/TLT | 复现 Red | DSL不支持跨资产 |
+| **Weekly MR (SP500)** | QuantifiedStrategies | 2023-04-23 | 日历/VIX | VIX 恐惧驱动均值回归 | SPY | 复现 Red | 需VIX外部数据 |
 
 > *Sharpe 栏位为复现结果或原文披露数据。`*` 为风险调整后回报 (Return/MaxDD)。*
+> *“初步验证 OK” = 默认参数下代码运行正常产生交易，OAT优化正在后台进行中。*
 
 ---
 
-## 二、按信号类型深度分析
+## 二、批量复现初步验证结果 (2026-04-23)
+
+> 以下结果为 **默认参数**下的快速验证（`method=none`），OAT+GA 优化正在后台进行中。初步验证目的是策略逻辑是否正确实现、是否能产生有效交易。
+
+### 重点发现
+
+| 发现 | 说明 |
+|------|------|
+| **GLD 是反转策略的得分王** | 在 RSI-2 (1.59)、Pullback RSI (1.29)、Backtested BB (1.19)、BB Breakout (0.93)、BB Squeeze (0.93) 上均表现最好 |
+| **IWM 在 Larry Connors RSI-2 上表现出色** | IWM Sharpe=1.02，显著好于 SPY (0.30) 和 QQQ (0.11) |
+| **出场条件是代码生成的关键痛点** | Stochastic 和 BB 策略因 `am.high[-1]` 指向当天 high 而非昨天 high，导致 Trades=1。修复为 `am.high[-2]` 后交易次数恢复正常 |
+| **Volatility Swing Trade 交易频率极高** | SPY 304 次，IWM 316 次，但 Sharpe 仅 0.17-0.53，成本敏感 |
+| **Stochastic Extremes Gold 在宽基上也可用** | SPY 0.60, QQQ 0.69, GLD 0.72 — 不仅限于黄金 |
+
+### 各品种综合表现
+
+| 策略 | SPY | QQQ | IWM | GLD | 备注 |
+|------|-----|-----|-----|-----|------|
+| RSI-2 Strategy | 0.77 | 0.38 | 0.78 | **1.59** | GLD 最佳 |
+| RSI-2 Larry Connors | 0.30 | 0.11 | **1.02** | 0.90 | IWM 最佳 |
+| Pullback RSI | **0.83** | 0.30 | 0.22 | **1.29** | SPY/GLD 均佳 |
+| Backtested BB | 0.59 | 0.69 | 0.51 | **1.19** | GLD 最佳 |
+| BB Breakout | 0.40 | 0.78 | 0.26 | **0.93** | QQQ/GLD 均佳 |
+| Stochastic MR | 0.39 | 1.20 | 0.50 | 0.75 | QQQ 突出 |
+| Stochastic Extremes | 0.60 | 0.69 | -0.14 | 0.72 | IWM 失败 |
+| Pullback Trading | 0.37 | 0.44 | 0.24 | 0.83 | GLD 最佳 |
+| Volatility Swing | 0.44 | 0.53 | 0.17 | 0.20 | 频率过高 |
+| MACD Histogram Rev | **1.04** | **1.38** | 0.67 | 0.94 | QQQ 最佳 (已有OAT结果) |
+| Consecutive Down Days | **1.76** | - | - | - | SPY 复现 Green (已有OAT结果) |
+| MACD Hook Gold | - | - | - | **1.22** | GLD 复现 Green (已有OAT结果) |
+
+> *Sharpe 为默认参数下的结果。粗体 = Sharpe > 1.0，斜体 = Sharpe 0.5-1.0，普通 = Sharpe < 0.5。*
+
+---
+
+## 三、按信号类型深度分析
 
 ### 2.1 价格极端型 (Price Extremes) — 最稳健
 
@@ -158,15 +198,16 @@ tags:
 | Bollinger Band Squeeze | 完整规则付费 | 自行实现基础版周线+RSI过滤 |
 | Consecutive Down Days (原文) | 规则付费 | 复现已 Green，可直接用复现参数 |
 
-### 3.3 当前不推荐（Red / 待复现）
+### 3.3 当前不推荐（Red / 待复现 / DSL不支持）
 
 | 策略 | 失败原因 | 是否值得再试 |
 |------|----------|--------------|
-| RSI-2 Larry Connors | DSL 翻译偏差 / 近年衰减 | 是，调整参数范围和成本 |
-| Stochastic Gold | 2H 周期 / CFD 数据差异 | 是，改用期货日线 |
-| Weekly MR (VIX) | VIX 数据对齐问题 | 是，检查 VIX 入场阈值 |
-| Pullback Trading | 双均线逻辑复杂 | 待定 |
-| Stocks-Bonds MR | 跨资产 DSL 不支持 | 待 DSL 增强 |
+| Stocks-Bonds MR | DSL 不支持跨资产逻辑 | 待 DSL 增强或手动实现 |
+| Weekly MR (VIX) | 需 VIX 外部数据加载 | 是，可用 sqlite3 在策略内加载 VIX |
+| 5 Swing Strategies (组合) | 需多系统合并逻辑 | 是，先单独验证各子策略 |
+| ETF MR Mini-Portfolio | 需多系统组合 + Sub-entry | 是，但需专用框架 |
+
+> *注：以上策略的失败非策略本身无效，而是当前自动化复现框架的限制。*
 
 ---
 
@@ -204,7 +245,7 @@ tags:
 
 ---
 
-## 五、可执行的组合建议
+## 四、可执行的组合建议
 
 ### 5.1 保守型反转组合（低波动，适合大资金）
 
@@ -236,7 +277,7 @@ tags:
 
 ---
 
-## 六、数据需求与工具链
+## 五、数据需求与工具链
 
 | 数据类型 | 最小频率 | 用途 | 来源 |
 |----------|----------|------|------|
@@ -253,7 +294,7 @@ tags:
 
 ---
 
-## 七、相关概念与实体
+## 六、相关概念与实体
 
 - [[consecutive-down-days-strategy]] — 连续下跌日策略详情
 - [[etf-mean-reversion-mini-portfolio]] — ETF 均值回归组合详情
@@ -268,5 +309,5 @@ tags:
 
 ---
 
-*Last updated: 2026-04-23*
-*Next review: 当新增 3+ 个反转策略复现结果时更新*
+*Last updated: 2026-04-23 (batch reproduction in progress, OAT optimization running in background)*
+*Next review: OAT results expected in 2-4 hours*
