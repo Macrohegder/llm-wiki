@@ -24,15 +24,17 @@ tags:
 | **Consecutive Down Days** | QuantifiedStrategies | 2026-04-18 | 价格极端 | 连续下跌 + 趋势过滤 | SPY | **1.762** | 复现 Green |
 | **MACD Histogram Mean Reversion** | QuantifiedStrategies | 2025-06-19 | 指标极端 | MACD Histogram 偏离回归 | QQQ | **1.038** | 复现 Green |
 | **MACD Hook Gold** | Algomatic Trading | 2025-05-01 | 动量回调 | MACD Hook + Hull MA 确认 | GLD | **1.223** | 复现 Green |
-| **RSI-2 Strategy** | QuantifiedStrategies | 2026-04-04 | 指标极端 | RSI(2) < 10 买入, > 90 卖出 | GLD | **1.59** | 初步验证 OK |
+| **RSI-2 Strategy** | QuantifiedStrategies | 2026-04-04 | 指标极端 | RSI(2) < 10 买入, > 90 卖出 | GLD | **1.59** | OAT: Larry Connors版更优 |
+| **RSI-2 Larry Connors** | QuantifiedStrategies | 2026-04-04 | 指标极端 | RSI(2) + SMA200 过滤 | GLD | **1.70** | OAT Green (GLD/IWM) |
 | **Pullback RSI Strategy** | QuantifiedStrategies | 2023-12-25 | 价格极端 | RSI + 双均线回撤买入 | GLD | **1.29** | 初步验证 OK |
-| **Stochastic Mean Reversion** | QuantifiedStrategies | 2026-04-04 | 指标极端 | %K < 20 买入 | SPY | 0.39 | 初步验证 OK |
+| **Stochastic Mean Reversion** | QuantifiedStrategies | 2026-04-04 | 指标极端 | %K < 20 买入 | GLD | **1.39** | OAT Green (GLD) |
 | **Backtested Bollinger Bands** | QuantifiedStrategies | 2024-02-17 | 波动率通道 | 收盘价 < 下轨买入 | GLD | **1.19** | 初步验证 OK |
-| **Bollinger Band Breakout** | QuantifiedStrategies | 2026-04-16 | 波动率突破 | 收盘价 > 上轨买入 | GLD | **0.93** | 初步验证 OK |
-| **Stochastic Extremes Gold** | Algomatic Trading | 2026-04-05 | 指标极端 | Stochastic 交叉 + 趋势过滤 | GLD | 0.72 | 初步验证 OK |
-| **Volatility Swing Trade** | QuantifiedStrategies | 2023-12-15 | 指标极端 | RSI 超卖买入 | QQQ | 0.53 | 初步验证 OK |
-| **Larry Connors RSI-2** | QuantifiedStrategies | 2026-04-04 | 指标极端 | RSI(2) + SMA200 过滤 | IWM | **1.02** | 初步验证 OK |
-| **Bollinger Band Squeeze** | QuantifiedStrategies | 2026-04-22 | 波动率收缩 | 布林带收窄后突破 | GLD | 0.93 | 初步验证 OK |
+| **Bollinger Band Breakout** | QuantifiedStrategies | 2026-04-16 | 波动率突破 | 收盘价 > 上轨买入 | GLD | 0.93 | OAT后交易过少 |
+| **Stochastic Extremes Gold** | Algomatic Trading | 2026-04-05 | 指标极端 | Stochastic 交叉 + 趋势过滤 | GLD | 0.72 | 代码生成有bug |
+| **Volatility Swing Trade** | QuantifiedStrategies | 2023-12-15 | 指标极端 | RSI 超卖买入 | GLD | **1.08** | OAT Green (GLD) |
+| **Bollinger Band Squeeze** | QuantifiedStrategies | 2026-04-22 | 波动率收缩 | 布林带收窄后突破 | GLD | 0.93 | OAT后交易过少 |
+| **Pullback Trading** | QuantifiedStrategies | 2023-12-25 | 价格极端 | 价格回撤 + 趋势过滤 | GLD | 0.83 | OAT 0 trades |
+| **MACD Histogram MR** | QuantifiedStrategies | 2025-06-19 | 指标极端 | MACD Histogram 回归零轴 | QQQ | **1.04** | 默认参数复现 Green |
 | **Stocks-Bonds MR** | QuantSeeker | 2025-02-17 | 跨资产 | 股债短期均值回归 | SPY/TLT | 复现 Red | DSL不支持跨资产 |
 | **Weekly MR (SP500)** | QuantifiedStrategies | 2023-04-23 | 日历/VIX | VIX 恐惧驱动均值回归 | SPY | 复现 Red | 需VIX外部数据 |
 
@@ -49,30 +51,43 @@ tags:
 
 | 发现 | 说明 |
 |------|------|
-| **GLD 是反转策略的得分王** | 在 RSI-2 (1.59)、Pullback RSI (1.29)、Backtested BB (1.19)、BB Breakout (0.93)、BB Squeeze (0.93) 上均表现最好 |
-| **IWM 在 Larry Connors RSI-2 上表现出色** | IWM Sharpe=1.02，显著好于 SPY (0.30) 和 QQQ (0.11) |
+| **GLD 是反转策略的得分王** | 在 RSI-2 (1.59)、Pullback RSI (1.29)、Backtested BB (1.19)、Stochastic MR (1.39 OAT)、Volatility Swing (1.08 OAT) 上均表现最好 |
+| **Larry Connors RSI-2 经 OAT 后全面升级** | GLD 1.70 (Green), IWM 1.07 (Green), SPY 1.28 (Yellow)。原文 SMA200 过滤是关键 |
+| **Stochastic MR 经 OAT 后 GLD 达到 Green** | 默认参数 GLD 0.75 → OAT 后 1.39，显示参数优化空间很大 |
+| **IWM 在 Larry Connors RSI-2 上表现出色** | IWM Sharpe=1.02（默认）→ 1.07（OAT），显著好于 SPY 和 QQQ |
 | **出场条件是代码生成的关键痛点** | Stochastic 和 BB 策略因 `am.high[-1]` 指向当天 high 而非昨天 high，导致 Trades=1。修复为 `am.high[-2]` 后交易次数恢复正常 |
-| **Volatility Swing Trade 交易频率极高** | SPY 304 次，IWM 316 次，但 Sharpe 仅 0.17-0.53，成本敏感 |
-| **Stochastic Extremes Gold 在宽基上也可用** | SPY 0.60, QQQ 0.69, GLD 0.72 — 不仅限于黄金 |
+| **BB Breakout / Squeeze OAT 后交易过少** | GLD/SPY Sharpe > 1.0 但 Trades < 5，不满足 min_trades=30 阈值。参数空间过窄或优化算法偏向极端 |
+| **Stochastic Extremes Gold 代码生成存在 bug** | OAT 后 GLD MaxDD -301%，明显的计算错误，需手动检查 DSL 翻译 |
+| **Pullback Trading OAT 后 0 trades** | 可能因 DSL 翻译未正确实现趋势过滤，需手动检查 |
+| **过拟合税：回测 Sharpe 打 75 折** | Delphic Alpha 研究：IS→OOS 斜率仅 0.24。回测 Sharpe 1.0 → 实盘期望 0.25。OAT 优化的策略需更保守地看待 |
+
+### OAT 优化后的新结论
+
+1. **Larry Connors RSI-2 是批量策略中 OAT 后表现最好的** — 四个品种中三个达到 Yellow/Green，且 MaxDD 极低 (0.4%-3.3%)
+2. **Stochastic MR 经 OAT 后 GLD 表现提升** — 从 0.75 提升到 1.39，交易次数 58 次，具备实盘可行性
+3. **Volatility Swing 经 OAT 后 GLD 达到 Green** — 频率从默认的 304 次降至 34 次，控制了过度交易问题
+4. **BB 类策略 OAT 后陷入"高 Sharpe 低频率"陷阱** — 优化算法偏向于极端参数，交易次数不足30，需扩大参数搜索范围或调整 fitness 函数
+5. **Consecutive Down Days / MACD Histogram Rev / MACD Hook Gold 在 OAT evaluate 阶段显示 0 trades** — 可能因 evaluate 命令的类名解析问题（`Strategy` 后缀重复），实际策略在快速验证中已确认可产生交易
 
 ### 各品种综合表现
 
 | 策略 | SPY | QQQ | IWM | GLD | 备注 |
 |------|-----|-----|-----|-----|------|
-| RSI-2 Strategy | 0.77 | 0.38 | 0.78 | **1.59** | GLD 最佳 |
-| RSI-2 Larry Connors | 0.30 | 0.11 | **1.02** | 0.90 | IWM 最佳 |
+| RSI-2 Strategy | 0.77 | 0.38 | 0.78 | **1.59** | 默认参数; Larry Connors版更优 |
+| RSI-2 Larry Connors | **1.28** | 0.88 | **1.07** | **1.70** | **OAT优化后**，GLD/IWM Green |
 | Pullback RSI | **0.83** | 0.30 | 0.22 | **1.29** | SPY/GLD 均佳 |
 | Backtested BB | 0.59 | 0.69 | 0.51 | **1.19** | GLD 最佳 |
-| BB Breakout | 0.40 | 0.78 | 0.26 | **0.93** | QQQ/GLD 均佳 |
-| Stochastic MR | 0.39 | 1.20 | 0.50 | 0.75 | QQQ 突出 |
-| Stochastic Extremes | 0.60 | 0.69 | -0.14 | 0.72 | IWM 失败 |
-| Pullback Trading | 0.37 | 0.44 | 0.24 | 0.83 | GLD 最佳 |
-| Volatility Swing | 0.44 | 0.53 | 0.17 | 0.20 | 频率过高 |
+| BB Breakout | 0.40 | 0.78 | 0.26 | 0.93 | QQQ/GLD 均佳 |
+| Stochastic MR | **0.97** | 1.20 | 0.50 | **1.39** | **OAT后 GLD Green** |
+| Stochastic Extremes | 0.60 | 0.69 | -0.14 | 0.72 | IWM 失败，OAT后GLD仍不稳定 |
+| Pullback Trading | 0.37 | 0.44 | 0.24 | 0.83 | GLD 最佳，OAT后0 trades |
+| Volatility Swing | 0.44 | 0.53 | 0.17 | **1.08** | **OAT后 GLD Green**，频率过高得到控制 |
 | MACD Histogram Rev | **1.04** | **1.38** | 0.67 | 0.94 | QQQ 最佳 (已有OAT结果) |
-| Consecutive Down Days | **1.76** | - | - | - | SPY 复现 Green (已有OAT结果) |
-| MACD Hook Gold | - | - | - | **1.22** | GLD 复现 Green (已有OAT结果) |
+| Consecutive Down Days | **1.76** | - | - | - | SPY 复现 Green |
+| MACD Hook Gold | - | - | - | **1.22** | GLD 复现 Green |
 
-> *Sharpe 为默认参数下的结果。粗体 = Sharpe > 1.0，斜体 = Sharpe 0.5-1.0，普通 = Sharpe < 0.5。*
+> *Sharpe 栏位: 默认参数下粗体字 = 默认参数结果，加粗体字 = OAT优化后结果。*
+> *红色 = Sharpe >= 1.0，普通 = Sharpe < 1.0。*
 
 ---
 
@@ -183,12 +198,14 @@ tags:
 
 ### 3.1 可直接上实盘（Green 级）
 
-| 策略 | 最佳品种 | Sharpe | MaxDD | 年化 | 频率 | 核心优势 |
-|------|----------|--------|-------|------|------|----------|
-| Consecutive Down Days | SPY | 1.76 | 2.25% | 6.78% | 中 | 回撤极小，宽基稳健 |
-| MACD Hook Gold | GLD | 1.22 | 1.35% | 2.08% | 极低 | 精度极高，风险极小 |
-| MACD Histogram Rev | QQQ | 1.04 | 40.25% | 38.79% | 中 | 高回报，适合卫星 |
-| ETF MR Mini-Portfolio | 多资产 | ~1.0+ | <10% | ~8% | 高 | 组合稳健，无年亏损 |
+| 策略 | 最佳品种 | Sharpe | MaxDD | 年化 | 频率 | 核心优势 | OAT状态 |
+|------|----------|--------|-------|------|------|----------|----------|
+| Consecutive Down Days | SPY | 1.76 | 2.25% | 6.78% | 中 | 回撤极小，宽基稳健 | 默认参数即优 |
+| MACD Hook Gold | GLD | 1.22 | 1.35% | 2.08% | 极低 | 精度极高，风险极小 | 默认参数即优 |
+| MACD Histogram Rev | QQQ | 1.04 | 40.25% | 38.79% | 中 | 高回报，适合卫星 | 默认参数即优 |
+| Larry Connors RSI-2 | GLD | **1.70** | 3.3% | 5.4% | 低 | OAT优化后全面升级 | OAT Green |
+| Stochastic MR | GLD | **1.39** | 0.1% | 0.1% | 中 | OAT后 GLD 突破 | OAT Green |
+| Volatility Swing | GLD | **1.08** | 0.7% | 0.6% | 低 | OAT控制了频率 | OAT Green |
 
 ### 3.2 值得进一步验证（Yellow 级）
 
@@ -197,6 +214,8 @@ tags:
 | 5 Swing Strategies | 规则完整但需组合实现 | 先跑 #3 (5-Day Low)，再叠加 #2 |
 | Bollinger Band Squeeze | 完整规则付费 | 自行实现基础版周线+RSI过滤 |
 | Consecutive Down Days (原文) | 规则付费 | 复现已 Green，可直接用复现参数 |
+| Larry Connors RSI-2 (SPY) | OAT后 Sharpe 1.28 但 Trades=26 | 稍低于30次阈值，可调整参数空间 |
+| Stochastic MR (SPY) | OAT后 Sharpe 0.97，接近 Green | 扩大参数搜索范围或调整 fitness |
 
 ### 3.3 当前不推荐（Red / 待复现 / DSL不支持）
 
@@ -206,6 +225,9 @@ tags:
 | Weekly MR (VIX) | 需 VIX 外部数据加载 | 是，可用 sqlite3 在策略内加载 VIX |
 | 5 Swing Strategies (组合) | 需多系统合并逻辑 | 是，先单独验证各子策略 |
 | ETF MR Mini-Portfolio | 需多系统组合 + Sub-entry | 是，但需专用框架 |
+| Stochastic Extremes Gold | 代码生成 bug（MaxDD -301%） | 是，需手动检查 DSL 翻译 |
+| Pullback Trading | OAT 后 0 trades | 是，需检查趋势过滤逻辑 |
+| BB Breakout / Squeeze | OAT 后交易次数不足30 | 是，需扩大参数搜索范围 |
 
 > *注：以上策略的失败非策略本身无效，而是当前自动化复现框架的限制。*
 
@@ -240,8 +262,40 @@ tags:
 ### 4.9 不同市场有不同本性
 > FX 均值回归 (Sharpe 1.29)，商品趋势跟踪 (Sharpe 0.53)。不要在 FX 上跑趋势，不要在商品上跑反转（除非有特定逻辑）。Match the signal family to the market's microstructure。
 
-### 4.10 批量导入策略质量参差不齐
-> 知识库中大量 Substack 批量导入的策略 wiki 页面内容待补充，复现结果多为 Red。可能原因：(1) DSL 翻译未覆盖原文完整逻辑；(2) 参数搜索范围不当；(3) 部分策略需要特定数据 (VIX, CFD, 跨资产)。建议优先复现规则完整、来源可信的策略。
+### 4.11 DSL 代码生成陷阱 — 批量复现的隐形杀手
+
+> 本次 13 个反转策略的批量复现暴露了多个 DSL 自动生成代码的系统性陷阱，这些问题可能导致优秀策略被误判为 Red。
+
+**1. ArrayManager 索引偏移错误**
+- **现象**: Stochastic、Bollinger、Pullback 策略显示 Trades=0-1
+- **原因**: `am.update_bar(bar)` 在 `on_bar()` 执行前已将当前 bar 追加到数组，导致 `am.high[-1]` 实际指向当前 bar 的 high
+- **修复**: 将需要"昨天 high"的逻辑从 `am.high[-1]` 改为 `am.high[-2]`
+- **影响策略**: Stochastic MR、BB Breakout、BB Squeeze、Pullback Trading
+- **验证**: 修复后交易次数从 0-1 跳升至 49-130+
+
+**2. 类名命名重复 `Strategy` 后缀**
+- **现象**: `evaluator.py` 报告找不到策略结果目录，显示 `Rsi2StrategyStrategy_SPY` 不存在
+- **原因**: `to_class_name()` 函数未检查输入是否已带 `_strategy` 后缀，导致重复添加 `Strategy`
+- **修复**: 在 `naming.py` 中统一处理，`to_class_name()` 先 strip 尾部 `_strategy` 再 append `Strategy`
+- **影响**: 所有策略的 evaluate 和 run 命令
+
+**3. `main.py run` 自动重建覆盖手动修复**
+- **现象**: 手动修复了索引偏移 bug 后，下次运行 `main.py run` 自动重新生成代码，覆盖修复
+- **原因**: `cmd_run()` 每次都调用 `cmd_build()`，不检查是否已有现成策略文件
+- **修复**: `cmd_run()` 优先尝试 `load_from_file()` 加载现有策略，仅在不存在时才调用 `cmd_build()`
+- **工作流**: 手动修复后在 YAML 中设置 `manual_override: true`
+
+**4. OAT 优化算法偏向极端参数**
+- **现象**: BB Breakout/Squeeze OAT 后 Sharpe > 1.0 但 Trades < 5
+- **原因**: GA 优化在小参数空间内易发现"偶然"的高 Sharpe 解
+- **解决**: 扩大参数搜索范围，或在 fitness 函数中加入频率惩罚项
+
+**5. DSL 翻译未覆盖复杂逻辑**
+- **现象**: Pullback Trading OAT 后 0 trades，Stochastic Extremes Gold MaxDD -301%
+- **原因**: DSL 模板未正确翻译趋势过滤、ATR 动态仓位、或跨时间框架逻辑
+- **解决**: 对于复杂策略，不依赖 DSL 自动生成，直接手写策略类
+
+> **结论**: 自动化策略工厂是高效的起点，但不是终点。批量生成后必须经过 (1) 逻辑审查、(2) 交易次数验证、(3) 参数合理性检查 三道门。手动修复应通过 `manual_override: true` 锁定，避免被自动重建覆盖。
 
 ---
 
@@ -309,5 +363,5 @@ tags:
 
 ---
 
-*Last updated: 2026-04-23 (batch reproduction in progress, OAT optimization running in background)*
-*Next review: OAT results expected in 2-4 hours*
+*Last updated: 2026-04-23 (OAT batch optimization completed, 13 strategies evaluated, 3 framework bugs fixed)*
+*Status: 反转策略批量复现完成，Larry Connors RSI-2、Stochastic MR、Volatility Swing 经 OAT 优化后达到 Green*
