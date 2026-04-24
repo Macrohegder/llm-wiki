@@ -50,6 +50,7 @@
 | [[2026-02-23-systematic-intraday-trend-following-strategy]] | 2026-02-23 | 策略/文章 | 系统性日内趋势跟踪：动态边界+VWAP，SPY Sharpe 1.33 |
 | [[intraday-trading-strategies-compendium]] | 2026-04-22 | 概念/综合 | 日内交易策略汇编：7+篇文章总结 |
 | [[intraday-strategy-design-checklist]] | 2026-04-22 | 概念/Checklist | 日内策略设计十项检查清单 |
+|| [[tradingriot-analytics-platform]] | 2026-03-05 | 文章 | TradingRiot 自建多资产分析平台：1000+市场、Z-score筛选器、风险溢价分析 |
 
 ---
 
@@ -279,3 +280,4 @@
 ## 最新录入
 - 2026-04-24: 自动导入 1 篇 Substack 文章
 - 2026-04-24: 自动导入 1 篇 Substack 文章
+- 2026-04-25: 录入 TradingRiot 多资产分析平台文章
