@@ -40,8 +40,8 @@
 | [[strategy-repro-crypto-trend-combo]] | 2026-04-22 | 策略复现 | 加密货趋势组合：BTC Sharpe 1.741，最大回撤 4.99% |
 | [[strategy-repro-crypto-trend-combo-v2]] | 2026-04-22 | 策略复现 | 加密货趋势组合V2：GLD Sharpe 1.224，多模型集成 |
 | [[strategy-repro-donchian-adx-breakout]] | 2026-04-22 | 策略复现 | Donchian+ADX突破：ETH Sharpe 1.192，最大回撤 14.21% |
-| [[strategy-repro-nr7-breakout]] | 2026-04-22 | 策略复现 | NR7窄幅突破：SPY Sharpe 1.288，最大回撤 0.52% |
-| [[strategy-repro-macd-histogram-rev-20260416]] | 2026-04-16 | 策略复现 | MACD Histogram均值回归：QQQ Sharpe 1.038，最大回撤 40.25% |
+|| [[strategy-repro-nr7-breakout]] | 2026-04-24 | 策略复现 | NR7窄幅突破：扩大参数范围，7/7品种全部Green，QQQ Sharpe 1.001 |
+|| [[strategy-repro-macd-histogram-rev-20260416]] | 2026-04-16 | 策略复现 | MACD Histogram均值回归：QQQ Sharpe 1.038，最大回撤 40.25%，扩展测试9品种Green |
 | [[strategy-repro-macd-hook-gold]] | 2026-04-20 | 策略复现 | MACD Hook 黄金策略：GLD Sharpe 1.223，最大回撤 135.25% |
 | [[2025-04-22-simple-alpha-atlas-what-actually-works-across-markets-daily]] | 2025-04-22 | 文章 | Delphic Alpha 多资产 Alpha 图谱：12 个信号族×5 市场，零优化回测实证 |
 | [[2026-04-22-Bollinger-Band-Squeeze-Trading-Strategy]] | 2026-04-22 | 策略/文章 | 布林带挤压波动性突破策略，周线+RSI过滤，付费文章 |
@@ -70,6 +70,8 @@
 
 ## 最近活动
 
+- [2026-04-23] 策略复现 `counter_trend_es_model` | 文章保存至llm-wiki，待获取ES 15m数据
+- [2026-04-23] 修复 OKX 数据下载 `get_bar_overview()` 超时问题 | 4小时→5分钟
 - [2026-04-22] 策略复现 `weekly_etf_rotation` | 无绿色结果
 - [2026-04-22] 策略复现 `volatility_swing_trade_nasdaq_sp500` | 无绿色结果
 - [2026-04-22] 策略复现 `vix_fear_mean_reversion` | 无绿色结果
@@ -272,3 +274,8 @@
 14. 策略复现 "NR7 Breakout" - 2026-04-22 - SPY Sharpe=1.288, 最大回撤 0.52% - 🔒 Green
 15. 策略复现 "MACD Histogram Mean Reversion" - 2026-04-16 - QQQ Sharpe=1.038, 最大回撤 40.25% - 🔒 Green
 16. 策略复现 "MACD Hook Gold Strategy" - 2026-04-20 - GLD Sharpe=1.223, 最大回撤 135.25% - 🔒 Green
+
+
+## 最新录入
+- 2026-04-24: 自动导入 1 篇 Substack 文章
+- 2026-04-24: 自动导入 1 篇 Substack 文章
