@@ -53,7 +53,15 @@
 | [[2026-02-23-systematic-intraday-trend-following-strategy]] | 2026-02-23 | 策略/文章 | 系统性日内趋势跟踪：动态边界+VWAP，SPY Sharpe 1.33 |
 | [[intraday-trading-strategies-compendium]] | 2026-04-22 | 概念/综合 | 日内交易策略汇编：7+篇文章总结 |
 | [[intraday-strategy-design-checklist]] | 2026-04-22 | 概念/Checklist | 日内策略设计十项检查清单 |
-|| [[tradingriot-analytics-platform]] | 2026-03-05 | 文章 | TradingRiot 自建多资产分析平台：1000+市场、Z-score筛选器、风险溢价分析 |
+||| [[tradingriot-analytics-platform]] | 2026-03-05 | 文章 | TradingRiot 自建多资产分析平台：1000+市场、Z-score筛选器、风险溢价分析 ||| [[strategy-repro-gold-envelope]] | 2026-04-25 | 策略复现 | Gold Envelope 黄金包络线均值回归：GLD Sharpe 1.357，最大回撤 0.22% |
+|| [[strategy-repro-stochastic-extremes-gold]] | 2026-04-25 | 策略复现 | 随机指标极值黄金系统：Sharpe 0.956，全品种RED，交易次数严重不足 |
+|| [[strategy-repro-weekly-mean-reversion-sp500]] | 2026-04-25 | 策略复现 | SP500周线均值回归：Sharpe 0.954，193笔交易，Green |
+|| [[strategy-repro-bollinger-band-squeeze]] | 2026-04-25 | 策略复现 | 布林带收缩策略：全品种RED，QQQ Sharpe 0.766，信号稀疏 |
+|| [[strategy-repro-macd-bitcoin]] | 2026-04-25 | 策略复现 | 比特币MACD交叉策略：Sharpe 0.944，最大回撤 51.76%，RED |
+|| [[strategy-repro-pullback-trading]] | 2026-04-25 | 策略复现 | 回调交易策略：Sharpe 0.895，96笔交易，最大回撤 2.62%，YELLOW |
+|| [[strategy-repro-rsi2-did-you-miss]] | 2026-04-25 | 策略复现 | RSI-2隐藏策略：GLD Sharpe 1.479，IWM Sharpe 1.170，2 Green |
+|| [[strategy-repro-trading-hour-best]] | 2026-04-25 | 策略复现 | 最佳交易时段：无有效回测结果，需重新建模 |
+
 
 ---
 
@@ -75,7 +83,15 @@
 
 ## 最近活动
 
-- [2026-04-25] 反转策略全量分类完成 | 从1701篇Substack文章识别1043篇反转策略，生成八大类别复现清单
+|- [2026-04-25] 策略复现 `gold_envelope` | GLD Sharpe=1.357, 93笔交易, Green
+|- [2026-04-25] 策略复现 `stochastic_extremes_gold` | 全品种RED, GLD Sharpe=0.956, 交易不足
+|- [2026-04-25] 策略复现 `weekly_mean_reversion_sp500` | Sharpe=0.954, 193笔交易, Green
+|- [2026-04-25] 策略复现 `bollinger_band_squeeze` | 全品种RED, QQQ Sharpe=0.766, 48笔交易
+|- [2026-04-25] 策略复现 `macd_trading_strategy_for_bitcoin` | BTC Sharpe=0.944, 回撤51.76%, RED
+|- [2026-04-25] 策略复现 `pullback_trading` | SPY Sharpe=0.895, 96笔交易, YELLOW
+|- [2026-04-25] 策略复现 `rsi_2` (Did You Miss This) | GLD Sharpe=1.479, IWM Sharpe=1.170, 2 Green
+|- [2026-04-25] 策略复现 `what_trading_hour_is_the_best` | 无有效回测结果
+|- [2026-04-25] 反转策略8只全量同步至wiki | gold_envelope, stochastic_extremes, weekly_mr, bollinger_squeeze, macd_btc, pullback, rsi2, trading_hour
 - [2026-04-23] 策略复现 `counter_trend_es_model` | 文章保存至llm-wiki，待获取ES 15m数据
 - [2026-04-23] 修复 OKX 数据下载 `get_bar_overview()` 超时问题 | 4小时→5分钟
 - [2026-04-22] 策略复现 `weekly_etf_rotation` | 无绿色结果
@@ -280,6 +296,10 @@
 14. 策略复现 "NR7 Breakout" - 2026-04-22 - SPY Sharpe=1.288, 最大回撤 0.52% - 🔒 Green
 15. 策略复现 "MACD Histogram Mean Reversion" - 2026-04-16 - QQQ Sharpe=1.038, 最大回撤 40.25% - 🔒 Green
 16. 策略复现 "MACD Hook Gold Strategy" - 2026-04-20 - GLD Sharpe=1.223, 最大回撤 135.25% - 🔒 Green
+17. 策略复现 "Gold Envelope" - 2026-04-25 - GLD Sharpe=1.357, 93笔交易 - 🟡 Yellow (单品种Green)
+18. 策略复现 "Weekly Mean Reversion SP500" - 2026-04-25 - Sharpe=0.954, 193笔交易 - 🔒 Green
+19. 策略复现 "RSI-2 (Did You Miss This)" - 2026-04-25 - GLD Sharpe=1.479, IWM Sharpe=1.170 - 🔒 Green (2品种)
+20. 8个策略复现结果同步至wiki - 2026-04-25 - 反转策略批量化wiki同步完成
 
 
 ## 最新录入

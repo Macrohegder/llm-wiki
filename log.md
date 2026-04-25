@@ -1,4 +1,20 @@
 
+## [2026-04-25] sync | 8个反转策略复现结果同步至wiki
+
+- Action: 将pipeline queue中8个有回测数据但未同步的反转策略复现结果批量同步至llm-wiki
+- 新增 wiki/sources/:
+  - strategy-repro-gold-envelope.md | Gold Envelope 黄金包络线 | GLD Sharpe=1.357, 93笔交易, Green 🟢
+  - strategy-repro-stochastic-extremes-gold.md | 随机指标极值黄金系统 | 全品种RED, 交易次数严重不足 🔴
+  - strategy-repro-weekly-mean-reversion-sp500.md | SP500周线均值回归 | Sharpe=0.954, 193笔交易, Green 🟢
+  - strategy-repro-bollinger-band-squeeze.md | 布林带收缩策略 | 全品种RED, QQQ Sharpe=0.766, 48笔交易 🔴
+  - strategy-repro-macd-bitcoin.md | 比特币MACD交叉策略 | Sharpe=0.944, 回撤51.76%, RED 🔴
+  - strategy-repro-pullback-trading.md | 回调交易策略 | SPY Sharpe=0.895, 96笔交易, YELLOW 🟡
+  - strategy-repro-rsi2-did-you-miss.md | RSI-2隐藏策略 | GLD Sharpe=1.479, IWM Sharpe=1.170, 2品种Green 🟢
+  - strategy-repro-trading-hour-best.md | 最佳交易时段 | 无有效回测结果 🔴
+- 结果汇总: 3只Green (gold_envelope, weekly_mr, rsi2), 1只Yellow (pullback), 4只Red/无结果
+- 更新: index.md (Sources表格 + 最近活动 + 里程碑列表)
+- 状态: 等待git推送
+
 ## [2026-04-23] ingest | Counter-Trend ES Model (Alpha Algo Trading Research)
 - 新增: wiki/sources/2026-04-22_Counter-Trend-ES-Model.md
 - 新增概念: [[Counter-Trend Trading]], [[Snapback Trading]], [[Intraday Strategy]]
