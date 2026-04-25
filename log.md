@@ -1,4 +1,15 @@
 
+## [2026-04-26] ingest | Trading the Mean Reversion Curve
+
+- 作者: Quantitativo (Quant Trading Rules)
+- 来源: Substack (用户分享)
+- 新增: wiki/sources/2026-04-26_trading-the-mean-reversion-curve.md
+- 新增实体: [[Quantitativo]]
+- 新增概念: 均值回归曲线 / 参数分散组合
+- 更新: index.md, log.md
+- 存档: substack-strategy-tracker/articles/quantitativo/
+- Git: 待推送
+
 ## [2026-04-25] merge | Wiki 合并整理：quant-wiki + obsidian-vault → llm-wiki
 
 - Action: 将 quant-wiki (7.3MB, 本地仓库) 和 obsidian-vault (688KB, 独立 GitHub 仓库) 合并至 llm-wiki，然后清理原目录

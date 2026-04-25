@@ -11,6 +11,7 @@
 || [[Andrej Karpathy]] | 人物 | OpenAI 联合创始人之一，著名 AI 研究者，Tesla AI 前总监 |
 || [[Larry Connors]] | 人物 | 均值回归策略大师，Connors Research 创始人 |
 || [[QuantifiedStrategies-com]] | 网站 | Substack 量化策略网站，提供大量回测策略 |
+|| [[Quantitativo]] | 作者 | Quant Trading Rules Substack，均值回归 / 参数分散策略专家 |
 || [[QQQ]] | ETF | Invesco QQQ Trust，追踪纳斯达克100指数 |
 || [[SPY]] | ETF | SPDR S&P 500 ETF Trust |
 || [[XLP]] | ETF | Consumer Staples Select Sector SPDR Fund |
@@ -320,6 +321,7 @@
 
 
 ## 最新录入
+- 2026-04-26: [[Trading the Mean Reversion Curve]] - Quantitativo - 参数分散均值回归策略组合
 - 2026-04-25: 自动导入 1 篇 Substack 文章
 - 2026-04-25: 自动导入 1 篇 Substack 文章
 - 2026-04-25: 自动导入 1 篇 Substack 文章
