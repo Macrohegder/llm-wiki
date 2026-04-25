@@ -1,5 +1,23 @@
 
-## [2026-04-25] infrastructure | NR7 期货批量挖掘 Pipeline 扩展
+## [2026-04-25] merge | Wiki 合并整理：quant-wiki + obsidian-vault → llm-wiki
+
+- Action: 将 quant-wiki (7.3MB, 本地仓库) 和 obsidian-vault (688KB, 独立 GitHub 仓库) 合并至 llm-wiki，然后清理原目录
+- quant-wiki 迁移:
+  - raw/articles/ → 391 篇 QuantifiedStrategies Substack 文章
+  - wiki/sources/ → 391 篇摘要（0 文件名冲突）
+  - wiki/entities/ → 5 篇 (Larry Connors, QQQ, SPY, XLP, QuantifiedStrategies-com)
+  - wiki/concepts/ → 6 篇 (IBS, Mean-Reversion, Overnight-Edge, Position-Sizing, RSI, Williams %R)
+  - wiki/strategies/ → 5 篇
+  - wiki/syntheses/ → 1 篇
+- obsidian-vault 迁移:
+  - raw/notes/ → 17 篇手动日内策略笔记
+  - raw/articles/ → 34 篇 Substack 日内策略原文（6 篇 unique 文件名）
+  - raw/articles/ → 1 篇独立文章（商品期货分类笔记）
+- 新增合并 source 页面: wiki/sources/2026-04-25_quant-wiki-merge.md + 2026-04-25_obsidian-vault-merge-intraday-notes.md
+- llm-wiki 总计: raw/articles 1237 篇, raw/notes 26 篇, wiki/sources 2102 篇, entities 6, concepts 24, syntheses 4, strategies 7
+- 待清理: rm -rf ~/quant-wiki ~/obsidian-vault ~/Obsidian\ Vault
+- 更新: index.md (实体+概念+来源+最近活动), log.md
+- 状态: 合并完成，待 git commit + push + 清理
 
 - Action: 扩展 NR7 ETF 批量优化脚本支持 24 个 IB 期货品种
 - 修改文件:

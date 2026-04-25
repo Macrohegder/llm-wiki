@@ -8,7 +8,12 @@
 
 | 实体 | 类型 | 描述 |
 |------|------|------|
-| [[Andrej Karpathy]] | 人物 | OpenAI 联合创始人之一，著名 AI 研究者，Tesla AI 前总监 |
+|| [[Andrej Karpathy]] | 人物 | OpenAI 联合创始人之一，著名 AI 研究者，Tesla AI 前总监 |
+|| [[Larry Connors]] | 人物 | 均值回归策略大师，Connors Research 创始人 |
+|| [[QuantifiedStrategies-com]] | 网站 | Substack 量化策略网站，提供大量回测策略 |
+|| [[QQQ]] | ETF | Invesco QQQ Trust，追踪纳斯达克100指数 |
+|| [[SPY]] | ETF | SPDR S&P 500 ETF Trust |
+|| [[XLP]] | ETF | Consumer Staples Select Sector SPDR Fund |
 
 ---
 
@@ -22,6 +27,12 @@
 | [[LLM Wiki]] | 知识管理 | 由 LLM 持续维护的结构化 Markdown 知识库 |
 | [[RAG]] | AI | 检索增强生成，传统的文档问答方案 |
 | [[Memex]] | 历史 | Vannevar Bush 1945 年提出的"记忆延伸机器"构想 |
+| [[IBS (Internal Bar Strength)]] | 交易 | 内部柱强度指标，衡量收盘价在当日/当周区间内的位置 |
+| [[Mean-Reversion]] | 交易 | 均值回归策略大类 |
+| [[Overnight-Edge]] | 交易 | 隔夜持仓的统计优势 |
+| [[Position-Sizing]] | 风控 | 头寸规模管理方法 |
+| [[RSI (Relative Strength Index)]] | 指标 | 相对强弱指数 |
+| [[Williams %R]] | 指标 | 威廉指标，超买超卖判断 |
 
 ---
 
@@ -29,7 +40,9 @@
 
 | 来源 | 日期 | 来源类型 | 一句话摘要 |
 |------|------|----------|------|
-| [[2026-04-25-substack-batch-quantified-strategies]] | 2026-04-25 | 文章批量 | Substack Quantified Strategies 批量导入 407 篇策略文章 |
+|| [[2026-04-25_quant-wiki-merge]] | 2026-04-25 | 合并 | quant-wiki 早期量化知识库整体合并：391 篇量化策略文章、5 实体、6 概念 |
+|| [[2026-04-25_obsidian-vault-merge-intraday-notes]] | 2026-04-25 | 合并 | obsidian-vault 独立仓库合并：17 篇手动日内策略笔记、34 篇 Substack 原文 |
+|| [[2026-04-25-substack-batch-quantified-strategies]] | 2026-04-25 | 文章批量 | Substack Quantified Strategies 批量导入 407 篇策略文章 |
 | [[2026-04-25-substack-batch-unknown]] | 2026-04-25 | 文章批量 | Substack Unknown 批量导入 371 篇策略文章 |
 | [[2026-04-25-substack-batch-tradequantix]] | 2026-04-25 | 文章批量 | Substack TradeQuantiX 批量导入 67 篇策略文章 |
 | [[2025-05-01-macd-hook-gold-strategy]] | 2025-05-01 | 策略/文章 | MACD Hook 黄金多头策略：三重过滤+动态定量，规则极简可复现 |
@@ -84,6 +97,7 @@
 
 ## 最近活动
 
+|- [2026-04-25] **Wiki 合并整理** | quant-wiki(391篇) + obsidian-vault(68篇) 合并至 llm-wiki，新增 6 实体、6 概念、2 综合页面
 |- [2026-04-25] 策略复现 `gold_envelope` | GLD Sharpe=1.357, 93笔交易, Green
 |- [2026-04-25] 策略复现 `stochastic_extremes_gold` | 全品种RED, GLD Sharpe=0.956, 交易不足
 |- [2026-04-25] 策略复现 `weekly_mean_reversion_sp500` | Sharpe=0.954, 193笔交易, Green
