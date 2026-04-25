@@ -52,7 +52,8 @@
 | [[2026-04-22-session-high-retest-intraday-strategy]] | 2026-04-22 | 策略/文章 | Session High Retest 量化日内策略：10品种、17年数据、Portfolio Sharpe 1.15 |
 | [[2026-02-23-systematic-intraday-trend-following-strategy]] | 2026-02-23 | 策略/文章 | 系统性日内趋势跟踪：动态边界+VWAP，SPY Sharpe 1.33 |
 | [[intraday-trading-strategies-compendium]] | 2026-04-22 | 概念/综合 | 日内交易策略汇编：7+篇文章总结 |
-| [[intraday-strategy-design-checklist]] | 2026-04-22 | 概念/Checklist | 日内策略设计十项检查清单 |
+|| [[intraday-strategy-design-checklist]] | 2026-04-22 | 概念/Checklist | 日内策略设计十项检查清单 |
+|| [[2026-04-25-nr7-futures-batch-pipeline]] | 2026-04-25 | 基础设施扩展 | NR7 Breakout 期货批量挖掘 Pipeline：24个IB期货品种 |
 ||| [[tradingriot-analytics-platform]] | 2026-03-05 | 文章 | TradingRiot 自建多资产分析平台：1000+市场、Z-score筛选器、风险溢价分析 ||| [[strategy-repro-gold-envelope]] | 2026-04-25 | 策略复现 | Gold Envelope 黄金包络线均值回归：GLD Sharpe 1.357，最大回撤 0.22% |
 || [[strategy-repro-stochastic-extremes-gold]] | 2026-04-25 | 策略复现 | 随机指标极值黄金系统：Sharpe 0.956，全品种RED，交易次数严重不足 |
 || [[strategy-repro-weekly-mean-reversion-sp500]] | 2026-04-25 | 策略复现 | SP500周线均值回归：Sharpe 0.954，193笔交易，Green |
@@ -91,7 +92,8 @@
 |- [2026-04-25] 策略复现 `pullback_trading` | SPY Sharpe=0.895, 96笔交易, YELLOW
 |- [2026-04-25] 策略复现 `rsi_2` (Did You Miss This) | GLD Sharpe=1.479, IWM Sharpe=1.170, 2 Green
 |- [2026-04-25] 策略复现 `what_trading_hour_is_the_best` | 无有效回测结果
-|- [2026-04-25] 反转策略8只全量同步至wiki | gold_envelope, stochastic_extremes, weekly_mr, bollinger_squeeze, macd_btc, pullback, rsi2, trading_hour
+||- [2026-04-25] 反转策略8只全量同步至wiki | gold_envelope, stochastic_extremes, weekly_mr, bollinger_squeeze, macd_btc, pullback, rsi2, trading_hour
+|- [2026-04-25] NR7 期货批量 Pipeline 扩展 | asset_registry 新增24个IB期货合约规格 + 期货批量挖掘脚本
 - [2026-04-23] 策略复现 `counter_trend_es_model` | 文章保存至llm-wiki，待获取ES 15m数据
 - [2026-04-23] 修复 OKX 数据下载 `get_bar_overview()` 超时问题 | 4小时→5分钟
 - [2026-04-22] 策略复现 `weekly_etf_rotation` | 无绿色结果

@@ -1,4 +1,16 @@
 
+## [2026-04-25] infrastructure | NR7 期货批量挖掘 Pipeline 扩展
+
+- Action: 扩展 NR7 ETF 批量优化脚本支持 24 个 IB 期货品种
+- 修改文件:
+  - `cta/pipeline/asset_registry.py` — 新增 IB_FUTURES 模板 + 24个品种合约规格字典
+  - `pipeline_batch_nr7_etf.py` — 支持完整 vt_symbol（`@ES.CME`），新增 FUTURES_SYMBOLS + --futures/--futures-only
+  - `scripts/run_nr7_etf_batch.py` — 新增 FUTURES_SYMBOLS + FUTURES_EXCHANGE_MAP + futures_mode 参数
+- 数据库验证: 24个期货品种均可在 vnpy SQLite 中找到日线数据，最早数据自 2014 年起
+- 新增 wiki: [[2026-04-25-nr7-futures-batch-pipeline]]
+- 更新: index.md (Sources + 最近活动)
+- 状态: 待运行首轮期货优化
+
 ## [2026-04-25] sync | 8个反转策略复现结果同步至wiki
 
 - Action: 将pipeline queue中8个有回测数据但未同步的反转策略复现结果批量同步至llm-wiki
