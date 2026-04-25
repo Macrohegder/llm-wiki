@@ -1224,3 +1224,19 @@
 - 跳过(已存在): 388 篇
 - 涉及订阅源: Quantified Strategies, QuantSeeker, Algomatic Trading, TradeQuantiX, Delphic Alpha, TradingRiot
 
+
+## 2026-04-25 08:35 - 反转策略全量分类与汇编
+
+- 从 1701 篇 Substack 文章中自动识别出 **1043 篇反转策略** (61.3%)
+- 按八大类别系统分类：
+  1. 指标型均值回归 (346篇) — RSI、Williams R、Connors系列
+  2. 季节性均值回归 (190篇) — Turnaround Tuesday、月末效应
+  3. 隔夜/日内均值回归 (131篇) — 5日低点隔夜、开盘区间
+  4. 价格行为型均值回归 (87篇) — IBS、NR7、布林带
+  5. 连续下跌/极端事件反弹 (66篇) — 恐慌后反弹
+  6. 形态反转 (48篇) — 十字星、双顶双底
+  7. 统计套利/配对交易 (80篇) — 金银比、SPY/TLT
+  8. 资产配置轮动 (95篇) — Dual Momentum、ETF轮动
+- 生成汇编文档: wiki/syntheses/reversal-strategies-compendium.md
+- 建立复现优先级矩阵: P0(季节性+隔夜) > P1(指标型+价格行为) > P2(极端事件+形态) > P3(配对+轮动)
+

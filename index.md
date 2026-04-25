@@ -62,7 +62,8 @@
 | 综合页面 | 日期 | 描述 |
 |----------|------|------|
 | [[intraday-trading-strategies-compendium]] | 2026-04-22 | 日内交易策略汇编：7+ 篇文章核心结论 |
-| [[mean-reversion-strategies-compendium]] | 2026-04-23 | 均值回归/反转策略汇编：12+ 策略分类、表现、10项关键注意事项 |
+|| [[mean-reversion-strategies-compendium]] | 2026-04-23 | 均值回归/反转策略汇编：12+ 策略分类、表现、10项关键注意事项 |
+|| [[reversal-strategies-compendium]] | 2026-04-25 | 反转策略全量汇编：从1701篇文章识别1043篇反转策略，八大类别、复现优先级矩阵 |
 
 ---
 
@@ -74,6 +75,7 @@
 
 ## 最近活动
 
+- [2026-04-25] 反转策略全量分类完成 | 从1701篇Substack文章识别1043篇反转策略，生成八大类别复现清单
 - [2026-04-23] 策略复现 `counter_trend_es_model` | 文章保存至llm-wiki，待获取ES 15m数据
 - [2026-04-23] 修复 OKX 数据下载 `get_bar_overview()` 超时问题 | 4小时→5分钟
 - [2026-04-22] 策略复现 `weekly_etf_rotation` | 无绿色结果
