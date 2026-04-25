@@ -2,6 +2,18 @@
 ## [2026-04-25] merge | Wiki 合并整理：quant-wiki + obsidian-vault → llm-wiki
 
 - Action: 将 quant-wiki (7.3MB, 本地仓库) 和 obsidian-vault (688KB, 独立 GitHub 仓库) 合并至 llm-wiki，然后清理原目录
+- [... rest of existing entry]
+- 状态: 合并完成，已 git commit + push + 清理
+
+## [2026-04-25] import | 补录 substack-tracker 今日下载的 74 篇文章
+
+- Action: 将 substack-tracker 今天(2026-04-25)定时任务下载的 471 篇文章中，尚未导入的 74 篇补入 llm-wiki
+- TradeQuantiX: 66 篇（All-Weather Portfolio Research, Portfolio Development Series, Trading System Investigation Series, ETF Mean Reversion 等）
+- Algomatic Trading: 2 篇（How Correlation Between Strategies Affects Your Portfolio Risk, Portfolio 7 Gold Portfolio）
+- QuantSeeker: 2 篇（Pairs Trading in the Metals Complex, Weekly Research Recap）
+- 去重: 391 篇(quant-wiki 已合并) + 4 篇(之前已有) = 跳过 397 篇，实际导入 74 篇
+- sources 页面: 0 缺失（已有对应 source 页面来自之前的 batch 导入）
+- Git: 5e61100, 70 files, +9177 lines
 - quant-wiki 迁移:
   - raw/articles/ → 391 篇 QuantifiedStrategies Substack 文章
   - wiki/sources/ → 391 篇摘要（0 文件名冲突）
