@@ -83,9 +83,10 @@
 
 | 综合页面 | 日期 | 描述 |
 |----------|------|------|
-| [[intraday-trading-strategies-compendium]] | 2026-04-22 | 日内交易策略汇编：7+ 篇文章核心结论 |
-|| [[mean-reversion-strategies-compendium]] | 2026-04-23 | 均值回归/反转策略汇编：12+ 策略分类、表现、10项关键注意事项 |
-|| [[reversal-strategies-compendium]] | 2026-04-25 | 反转策略全量汇编：从1701篇文章识别1043篇反转策略，八大类别、复现优先级矩阵 |
+|| [[intraday-trading-strategies-compendium]] | 2026-04-22 | 日内交易策略汇编：7+ 篇文章核心结论 |
+||| [[mean-reversion-strategies-compendium]] | 2026-04-23 | 均值回归/反转策略汇编：12+ 策略分类、表现、10项关键注意事项 |
+||| [[reversal-strategies-compendium]] | 2026-04-25 | 反转策略全量汇编：从1701篇文章识别1043篇反转策略，八大类别、复现优先级矩阵 |
+||| [[reversal-deep-analysis-karpathy]] | 2026-04-25 | 反转策略深度分析 — Karpathy 视角：过拟合税、可信度分级、实盘路径 |
 
 ---
 

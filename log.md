@@ -1306,3 +1306,15 @@
 - 结论: 策略适合股票指数，不适合数字货币
 - 更新: index.md (修正旧条目格式+替换为准确指标值)
 
+## [2026-04-25] synthesis | 反转策略深度分析 — Karpathy 视角
+
+- 新文件: wiki/syntheses/reversal-deep-analysis-karpathy.md (17,150 chars)
+- 分析框架: Karpathy 式"什么在说谎，什么在赚钱"
+- 核心发现：
+  - ~13 个策略 × 多品种 ≈ 200 次回测后，仅 Consecutive Down Days, MACD Histogram, RSI-2 三种在默认参数下有真实 edge
+  - 过拟合税估算: 回测 Sharpe 1.7 → 实盘期望 Sharpe 0.4-0.6（折扣 ~75%）
+  - GLD 结构性偏倚: GLD 在 100% 的反转策略上有弱 edge — 这是 GLD 特质，非策略能力
+  - 推荐实盘组合: Consecutive Down Days(SPY) + MACD Histogram(QQQ) + ETF MR Mini-Portfolio
+- 识别三大自欺欺人陷阱: "Sharp 1.7 但 MaxDD 2%"综合征、OAT 76% 过拟合税、GLD 幻觉
+- 更新: index.md (合成页面列表添加 reversal-deep-analysis-karpathy)
+
