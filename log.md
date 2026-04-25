@@ -1256,3 +1256,11 @@
 - 生成汇编文档: wiki/syntheses/reversal-strategies-compendium.md
 - 建立复现优先级矩阵: P0(季节性+隔夜) > P1(指标型+价格行为) > P2(极端事件+形态) > P3(配对+轮动)
 
+## [2026-04-25] ingest | NR7 Narrow Range Breakout 策略复现报告
+- 来源: Quantified Strategies Substack
+- 新增: wiki/sources/nr7-breakout-reproduction.md | NR7窄幅突破策略
+- SPY Sharpe=1.288, 最大回撤仅0.52%, Green 🟢
+- QQQ Yellow (Sharpe=0.902), 加密货币4品种全Red
+- 结论: 策略适合股票指数，不适合数字货币
+- 更新: index.md (修正旧条目格式+替换为准确指标值)
+
