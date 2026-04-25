@@ -1,0 +1,19 @@
+# 策略配置: Session High Retest: A Quantitative Intraday Strategy Across 10 Futures Markets
+# 来源: https://open.substack.com/pub/delphicalpha/p/session-high-retest-a-quantitative
+# 生成时间: 2026-04-23
+# 注意: 参数来自文章提取，可能需要手动校准
+
+strategy:
+  description: 'From: https://open.substack.com/pub/delphicalpha/p/session-high-retest-a-quantitative'
+  end_date: '2024-12-31'
+  exchange: SMART
+  interval: d
+  name: 'Session High Retest: A Quantitative Intraday Strategy Across'
+  params:
+    lookback: 2008
+  position_size: 1.0
+  signal_type: session_high_retest
+  start_date: '2014-01-01'
+  stop_loss_pct: 0.05
+  symbols:
+  - SPY

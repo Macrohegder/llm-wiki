@@ -1,3 +1,16 @@
+
+## [2026-04-23] ingest | Counter-Trend ES Model (Alpha Algo Trading Research)
+- 新增: wiki/sources/2026-04-22_Counter-Trend-ES-Model.md
+- 新增概念: [[Counter-Trend Trading]], [[Snapback Trading]], [[Intraday Strategy]]
+- 更新: index.md (最近活动)
+- 状态: 文章已保存，待获取ES 15m数据完成完整复现
+- 文章结果: 1,482 trades, 1.64 PF, 48.99% WR, 2,335% Ret/DD over 28.5 years
+
+## [2026-04-23] fix | OKX Data Platform - get_bar_overview() timeout
+- 修复: okx/okx_download_vnpy.py _get_data_range_from_db() — SQLite直接查询替代get_bar_overview()
+- 效果: 4小时超时 → ~5分钟完成31品种K线+20品种资金费率更新
+- 关联: crypto-data-platform-maintenance skill Pitfalls #1 已同步更新
+
 ## [2026-04-23] synthesis | 均值回归/反转策略汇编
 - Action: 深度加工知识库中所有反转/均值回归策略，生成综合汇编页面
 - 新增 wiki/syntheses/:
@@ -1161,3 +1174,53 @@
 - [2026-04-21 02:05] OAT 复现 `20250725-futures-overreact-weekly-edge` — 加密货趋势跟踪策略近似版，GLD 最佳: Sharpe=1.32, 年化=9.46%, MaxDD=-5.28%
 
 - [2026-04-21 02:31] V2 复现 `20250725-futures-overreact-weekly-edge` — 9模型ensemble+合约乘数修复, GLD: Sharpe=1.21/年化=18.9%, BTC: Sharpe=0.59/年化=8.5%
+
+## [2026-04-24] auto-ingest | Substack 文章批量导入
+- 扫描: 105 篇
+- 导入: 1 篇
+- 跳过重复: 104 篇
+- 跳过 Paywall: 0 篇
+- 通知: 0 篇
+
+## [2026-04-24] auto-ingest | Substack 文章批量导入
+- 扫描: 106 篇
+- 导入: 1 篇
+- 跳过重复: 105 篇
+- 跳过 Paywall: 0 篇
+- 通知: 0 篇
+
+## [2026-04-25] auto-ingest | Substack 文章批量导入
+- 扫描: 3 篇
+- 导入: 1 篇
+- 跳过重复: 2 篇
+- 跳过 Paywall: 0 篇
+- 通知: 1 篇
+
+## [2026-04-25] auto-ingest | Substack 文章批量导入
+- 扫描: 4 篇
+- 导入: 1 篇
+- 跳过重复: 3 篇
+- 跳过 Paywall: 0 篇
+- 通知: 0 篇
+
+## [2026-04-25] auto-ingest | Substack 文章批量导入
+- 扫描: 5 篇
+- 导入: 1 篇
+- 跳过重复: 4 篇
+- 跳过 Paywall: 0 篇
+- 通知: 1 篇
+
+## [2026-04-25] auto-ingest | Substack 文章批量导入
+- 扫描: 6 篇
+- 导入: 1 篇
+- 跳过重复: 5 篇
+- 跳过 Paywall: 0 篇
+- 通知: 0 篇
+
+## 2026-04-25 09:13 - Substack 批量导入
+
+- 从 Substack Strategy Tracker 批量导入文章到 wiki/sources/
+- 成功导入: 920 篇
+- 跳过(已存在): 388 篇
+- 涉及订阅源: Quantified Strategies, QuantSeeker, Algomatic Trading, TradeQuantiX, Delphic Alpha, TradingRiot
+

@@ -1,0 +1,19 @@
+# 策略配置: ETF Mean Reversion Methods: Mean Reversion Mini-Portfolio Creation - Part 2
+# 来源: https://www.tradequantixnewsletter.com/p/etf-mean-reversion-methods-mean-reversion
+# 生成时间: 2026-04-23
+# 注意: 参数来自文章提取，可能需要手动校准
+
+strategy:
+  description: 'From: https://www.tradequantixnewsletter.com/p/etf-mean-reversion-methods-mean-reversion'
+  end_date: '2024-12-31'
+  exchange: SMART
+  interval: d
+  name: 'ETF Mean Reversion Methods: Mean Reversion Mini-Portfolio Cr'
+  params:
+    lookback: 2011
+  position_size: 1.0
+  signal_type: trend_breakout
+  start_date: '2014-01-01'
+  stop_loss_pct: 0.05
+  symbols:
+  - SPY

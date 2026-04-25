@@ -29,6 +29,9 @@
 
 | 来源 | 日期 | 来源类型 | 一句话摘要 |
 |------|------|----------|------|
+| [[2026-04-25-substack-batch-quantified-strategies]] | 2026-04-25 | 文章批量 | Substack Quantified Strategies 批量导入 407 篇策略文章 |
+| [[2026-04-25-substack-batch-unknown]] | 2026-04-25 | 文章批量 | Substack Unknown 批量导入 371 篇策略文章 |
+| [[2026-04-25-substack-batch-tradequantix]] | 2026-04-25 | 文章批量 | Substack TradeQuantiX 批量导入 67 篇策略文章 |
 | [[2025-05-01-macd-hook-gold-strategy]] | 2025-05-01 | 策略/文章 | MACD Hook 黄金多头策略：三重过滤+动态定量，规则极简可复现 |
 | [[strategy-repro-sma200-trend-following]] | 2026-04-20 | 策略复现 | S&P 500 200日SMA趋势跟踪：Sharpe 0.686，最大回撤 3.22% |
 | [[strategy-repro-end-of-month-spy]] | 2026-04-20 | 策略复现 | 月末SPY交易策略：Sharpe 1.029，最大回撤仅 0.91%，本批最佳 |
@@ -278,6 +281,10 @@
 
 
 ## 最新录入
+- 2026-04-25: 自动导入 1 篇 Substack 文章
+- 2026-04-25: 自动导入 1 篇 Substack 文章
+- 2026-04-25: 自动导入 1 篇 Substack 文章
+- 2026-04-25: 自动导入 1 篇 Substack 文章
 - 2026-04-24: 自动导入 1 篇 Substack 文章
 - 2026-04-24: 自动导入 1 篇 Substack 文章
 - 2026-04-25: 录入 TradingRiot 多资产分析平台文章
