@@ -42,6 +42,7 @@
     42|| 来源 | 日期 | 来源类型 | 一句话摘要 |
     43||------|------|----------|------|
     44||| [[reversal-strategy-landscape]] | 合成 | 反转策略全景分析：品种分类 × 策略类型 × 适用性图谱 |
+|| [[reversal-strategy-pipeline-2026-04-26]] | 2026-04-26 | 合成 | 反转策略失焦分析：规则明确尚未复现的策略清单 + 品种适配规律 + 优先级排名 |
     45||| [[2026-04-25_obsidian-vault-merge-intraday-notes]] | 2026-04-25 | 合并 | obsidian-vault 独立仓库合并：17 篇手动日内策略笔记、34 篇 Substack 原文 |
     46||| [[2026-04-25-substack-batch-quantified-strategies]] | 2026-04-25 | 文章批量 | Substack Quantified Strategies 批量导入 407 篇策略文章 |
     47|| [[2026-04-25-substack-batch-unknown]] | 2026-04-25 | 文章批量 | Substack Unknown 批量导入 371 篇策略文章 |
