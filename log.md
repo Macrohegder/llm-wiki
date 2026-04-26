@@ -1,6 +1,11 @@
 
 ## [2026-04-26] pipeline | 策略复现 larry_connors_b_strategy
 - Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_larry_connors_b_strategy_20260426_121738.json`
+- Results:  Green=0 |  Yellow=4 |  Red=1 | Total=5
+
+## [2026-04-26] pipeline | 策略复现 larry_connors_b_strategy
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
 - Eval file: `eval_larry_connors_b_strategy_20260426_090519.json`
 - Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
 
@@ -1361,3 +1366,8 @@
 - 复现: strategy_factory SPY 默认参数回测完成 (Sharpe 0.47, 72 trades)
 - 更新: index.md
 
+\n## [2026-04-26] repro | Connors %B Strategy — 完整6步流程
+- 复现: strategy_factory 完整流程（SPY 0.84/30, GLD 0.82/64, IWM 0.88/54, DIA 0.91/26, QQQ 0.99/11）
+- 修复: 3个已知Bug（参数名/N[-1]/percent_b未定义）
+- 验证: evaluate 4 Yellow / 1 Red, wiki sync 自动完成
+- 更新: wiki/sources/2026-04-25_connors-percent-b-strategy.md
