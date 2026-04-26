@@ -8,15 +8,20 @@
 
 30分钟K线，前5根bar的最高/最低作为区间。前一根bar的收盘价突破区间上沿→做空（fade breakout），突破下沿→做多（fade breakdown），否则空仓。持仓仅1根bar，开盘进、下一根开盘出。
 
-## 回测图表（Top 5 Positive Sharpe）
+## 回测图表
 
-| 品种 | 图表 |
-|------|------|
-| SI (白银) | ![SI Equity Curve](../raw/assets/fade_breakout_5bar_SI.png) |
-| NQ (纳斯达克) | ![NQ Equity Curve](../raw/assets/fade_breakout_5bar_NQ.png) |
-| ES (标普) | ![ES Equity Curve](../raw/assets/fade_breakout_5bar_ES.png) |
-| GC (黄金) | ![GC Equity Curve](../raw/assets/fade_breakout_5bar_GC.png) |
-| ZN (10Y国债) | ![ZN Equity Curve](../raw/assets/fade_breakout_5bar_ZN.png) |
+| 品种 | Sharpe | 图表 |
+|------|--------|------|
+| SI (白银) | 3.55 | ![SI Equity Curve](../raw/assets/fade_breakout_5bar_SI.png) |
+| NQ (纳斯达克) | 2.45 | ![NQ Equity Curve](../raw/assets/fade_breakout_5bar_NQ.png) |
+| ES (标普) | 2.23 | ![ES Equity Curve](../raw/assets/fade_breakout_5bar_ES.png) |
+| GC (黄金) | 1.33 | ![GC Equity Curve](../raw/assets/fade_breakout_5bar_GC.png) |
+| ZN (10Y国债) | 1.22 | ![ZN Equity Curve](../raw/assets/fade_breakout_5bar_ZN.png) |
+| CL (原油) | -0.99 | ![CL Equity Curve](../raw/assets/fade_breakout_5bar_CL.png) |
+| NG (天然气) | -0.25 | ![NG Equity Curve](../raw/assets/fade_breakout_5bar_NG.png) |
+| YM (道指) | -0.35 | ![YM Equity Curve](../raw/assets/fade_breakout_5bar_YM.png) |
+| RTY (罗素) | -1.10 | ![RTY Equity Curve](../raw/assets/fade_breakout_5bar_RTY.png) |
+| ZB (30Y国债) | -2.23 | ![ZB Equity Curve](../raw/assets/fade_breakout_5bar_ZB.png) |
 
 ## 回测结果（10品种，22个月数据）
 
