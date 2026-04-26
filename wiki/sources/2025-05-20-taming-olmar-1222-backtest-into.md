@@ -143,3 +143,27 @@ class OLMAR:
 | **Novelty** | ⭐⭐⭐⭐⭐ (OLMAR is a well-respected academic algorithm) |
 
 **Overall: 🟡 Yellow** — Excellent academic strategy with proven edge, but multi-asset requirement and extreme turnover make it challenging for single-instrument CTA implementation in vnpy.
+
+---
+
+## Reproduced: Single-Instrument SPY Version (2026-04-26)
+
+We implemented a single-instrument adaptation of OLMAR for SPY using vnpy BacktestingEngine:
+
+**Strategy Logic (Single-Instrument Adaptation):**
+- Compute 25-day SMA
+- Entry: close < MA × (1 - threshold) → LONG; close > MA × (1 + threshold) → SHORT
+- Exit: price crosses back to MA
+- Parameters: SMA period (10-60), deviation threshold (1%-15%)
+
+**Results Summary:**
+
+| Version | Symbol | Period | Sharpe | Trades | MaxDD | CAGR |
+|---------|--------|--------|--------|--------|-------|------|
+| OLMAR-SPY (default 2%) | SPY | 2014-2026 | **-0.14** | 183 | -16.6% | ~0% |
+| OLMAR-SPY (5% threshold) | SPY | 2014-2026 | **0.07** | 41 | -11.8% | ~0% |
+| OLMAR-SPY (OAT optimized) | SPY | 2014-2026 | 0.00 | 0 | 0% | — |
+
+**Key Finding:** The OLMAR algorithm's edge fundamentally comes from **cross-sectional portfolio diversification** (simultaneously holding many assets, some reverting up and others down). When reduced to a single instrument, the mean reversion signal on SPY alone is too weak to generate consistent alpha — especially in a long-term trending market like the S&P 500.
+
+**Takeaway:** This confirms the article's caveat — OLMAR is inherently a multi-asset portfolio strategy. Single-instrument simplification loses the core advantage and produces near-zero expected returns on major equity indices.

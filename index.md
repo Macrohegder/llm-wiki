@@ -41,7 +41,7 @@
     41|
     42|| 来源 | 日期 | 来源类型 | 一句话摘要 |
     43||------|------|----------|------|
-    44||| [[2025-05-20_taming-olmar-backtest]] | 2025-05-20 | 策略/文章 | OLMAR 在线投资组合选择系统，0.2x杠杆下106%CAGR |
+    44||| [[2025-05-20-taming-olmar-1222-backtest-into]] | 2025-05-20 | 策略/文章 | OLMAR 在线投资组合选择系统，0.2x杠杆下106%CAGR |
     45||| [[2026-04-25_obsidian-vault-merge-intraday-notes]] | 2026-04-25 | 合并 | obsidian-vault 独立仓库合并：17 篇手动日内策略笔记、34 篇 Substack 原文 |
     46||| [[2026-04-25-substack-batch-quantified-strategies]] | 2026-04-25 | 文章批量 | Substack Quantified Strategies 批量导入 407 篇策略文章 |
     47|| [[2026-04-25-substack-batch-unknown]] | 2026-04-25 | 文章批量 | Substack Unknown 批量导入 371 篇策略文章 |

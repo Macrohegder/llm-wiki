@@ -13,7 +13,7 @@
 
 - 作者: Stuart Farmer (Paper to Profit)
 - 来源: Substack (用户分享)
-- 新增: wiki/sources/2025-05-20_taming-olmar-backtest.md
+- 新增: wiki/sources/2025-05-20-taming-olmar-1222-backtest-into.md
 - 新增概念: [[OLMAR]], 在线投资组合选择
 - 更新: index.md, log.md
 - 存档: substack-strategy-tracker/articles/papertoprofit/
