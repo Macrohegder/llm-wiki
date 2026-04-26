@@ -9,6 +9,14 @@
 - Eval file: `eval_larry_connors_b_strategy_20260426_090519.json`
 - Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
 
+## [2026-04-26] ingest | Pullback Trading Strategies (QuantifiedStrategies)
+
+- 作者: QuantifiedStrategies
+- 来源: Substack
+- 新增: wiki/sources/2023-12-25-pullback-trading-strategies-backtest.md
+- 更新: index.md, log.md
+- 存档: substack-strategy-tracker/articles/quantifiedstrategies/
+
 ## [2026-04-26] ingest | Taming OLMAR's 1222% Backtest into a Sustainable 106% CAGR
 
 - 作者: Stuart Farmer (Paper to Profit)
