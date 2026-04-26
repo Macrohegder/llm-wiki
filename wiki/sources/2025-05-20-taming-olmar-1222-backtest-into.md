@@ -167,3 +167,22 @@ We implemented a single-instrument adaptation of OLMAR for SPY using vnpy Backte
 **Key Finding:** The OLMAR algorithm's edge fundamentally comes from **cross-sectional portfolio diversification** (simultaneously holding many assets, some reverting up and others down). When reduced to a single instrument, the mean reversion signal on SPY alone is too weak to generate consistent alpha — especially in a long-term trending market like the S&P 500.
 
 **Takeaway:** This confirms the article's caveat — OLMAR is inherently a multi-asset portfolio strategy. Single-instrument simplification loses the core advantage and produces near-zero expected returns on major equity indices.
+
+### Simple SPY Version ("close < MA×98%, 1-day hold") — Reproduced
+
+Following the article's simpler mean reversion example: buy SPY for 1 day when close < 98% of 20-day SMA.
+
+| Metric | Value |
+|--------|-------|
+| Symbol | SPY |
+| Period | 2006-05 to 2026-04 (5,027 days) |
+| Sharpe | **0.24** |
+| Trades | 632 (12.6% market exposure) |
+| MaxDD | -7.6% |
+| Total Return | +0.1% (20yr, net of slippage+commission) |
+| Avg Daily Return | ~0.002% |
+| Win Rate | ~56% (379 win / 295 loss) |
+
+**Finding:** The simple 1-day hold mean reversion on SPY produces positive Sharpe and very low drawdown, but the absolute returns are minimal due to extremely short holding periods and SPY's long-term upward trend — the strategy spends most of its time in cash during bull runs. It acts as a mild tail-risk hedge rather than a primary return driver.
+
+**OAT Optimized** (SMA 10-50, threshold 98%): Best Sharpe ~0.17 with only 54 trades over 20 years — overly conservative.
