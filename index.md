@@ -41,7 +41,7 @@
     41|
     42|| 来源 | 日期 | 来源类型 | 一句话摘要 |
     43||------|------|----------|------|
-    44||| [[2023-12-25-pullback-trading-strategies-backtest]] | 2023-12-25 | 策略/文章 | Pullback 回调策略: close>SMA200 + close<SMA20 + RSI5<45 |
+    44||| [[reversal-strategy-landscape]] | 合成 | 反转策略全景分析：品种分类 × 策略类型 × 适用性图谱 |
     45||| [[2026-04-25_obsidian-vault-merge-intraday-notes]] | 2026-04-25 | 合并 | obsidian-vault 独立仓库合并：17 篇手动日内策略笔记、34 篇 Substack 原文 |
     46||| [[2026-04-25-substack-batch-quantified-strategies]] | 2026-04-25 | 文章批量 | Substack Quantified Strategies 批量导入 407 篇策略文章 |
     47|| [[2026-04-25-substack-batch-unknown]] | 2026-04-25 | 文章批量 | Substack Unknown 批量导入 371 篇策略文章 |

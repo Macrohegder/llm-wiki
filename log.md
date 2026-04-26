@@ -1,4 +1,12 @@
 
+
+## [2026-04-26] synthesis | 反转策略全景分析
+
+- 新增: wiki/syntheses/reversal-strategy-landscape.md
+- 分析 10+ 反转策略 × 24 ETF 的品种分类匹配规律
+- 提出 4 大类反转策略 + 5 类品种的适配矩阵
+- 更新: index.md, log.md
+
 ## [2026-04-26] pipeline | 策略复现 larry_connors_b_strategy
 - Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
 - Eval file: `eval_larry_connors_b_strategy_20260426_121738.json`
