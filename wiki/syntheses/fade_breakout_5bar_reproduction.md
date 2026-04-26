@@ -8,6 +8,16 @@
 
 30分钟K线，前5根bar的最高/最低作为区间。前一根bar的收盘价突破区间上沿→做空（fade breakout），突破下沿→做多（fade breakdown），否则空仓。持仓仅1根bar，开盘进、下一根开盘出。
 
+## 回测图表（Top 5 Positive Sharpe）
+
+| 品种 | 图表 |
+|------|------|
+| SI (白银) | ![SI Equity Curve](../raw/assets/fade_breakout_5bar_SI.png) |
+| NQ (纳斯达克) | ![NQ Equity Curve](../raw/assets/fade_breakout_5bar_NQ.png) |
+| ES (标普) | ![ES Equity Curve](../raw/assets/fade_breakout_5bar_ES.png) |
+| GC (黄金) | ![GC Equity Curve](../raw/assets/fade_breakout_5bar_GC.png) |
+| ZN (10Y国债) | ![ZN Equity Curve](../raw/assets/fade_breakout_5bar_ZN.png) |
+
 ## 回测结果（10品种，22个月数据）
 
 | 品种 | 交易次数 | Sharpe | 回报% | 最大回撤% | 状态 |
