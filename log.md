@@ -1,4 +1,19 @@
 
+## [2026-04-26] pipeline | 策略复现 larry_connors_b_strategy
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_larry_connors_b_strategy_20260426_090519.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-26] pipeline | 策略复现 mean_reversion_curve_portfolio
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_mean_reversion_curve_portfolio_20260426_090331.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-26] pipeline | 策略复现 larry_connors_b_strategy
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_larry_connors_b_strategy_20260426_090024.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
 ## [2026-04-26] ingest | Trading the Mean Reversion Curve
 
 - 作者: Quantitativo (Quant Trading Rules)
@@ -1329,3 +1344,14 @@
 - 识别三大自欺欺人陷阱: "Sharp 1.7 但 MaxDD 2%"综合征、OAT 76% 过拟合税、GLD 幻觉
 - 更新: index.md (合成页面列表添加 reversal-deep-analysis-karpathy)
 
+
+## [2026-04-26] auto-ingest | Substack 文章批量导入
+- 扫描: 503 篇
+- 导入: 1 篇
+- 跳过重复: 502 篇
+- 跳过 Paywall: 0 篇
+- 通知: 0 篇
+
+## [2026-04-26] ingest | Larry Connors %B Strategy
+- 新增: wiki/sources/2026-04-25_connors-percent-b-strategy.md
+- 更新: index.md
