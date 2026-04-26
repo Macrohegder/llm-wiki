@@ -9,6 +9,15 @@
 - Eval file: `eval_larry_connors_b_strategy_20260426_090519.json`
 - Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
 
+## [2026-04-26] ingest | Taming OLMAR's 1222% Backtest into a Sustainable 106% CAGR
+
+- 作者: Stuart Farmer (Paper to Profit)
+- 来源: Substack (用户分享)
+- 新增: wiki/sources/2025-05-20_taming-olmar-backtest.md
+- 新增概念: [[OLMAR]], 在线投资组合选择
+- 更新: index.md, log.md
+- 存档: substack-strategy-tracker/articles/papertoprofit/
+
 ## [2026-04-26] pipeline | 策略复现 mean_reversion_curve_portfolio
 - Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
 - Eval file: `eval_mean_reversion_curve_portfolio_20260426_090331.json`
