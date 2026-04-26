@@ -12,7 +12,8 @@
     12||| [[Larry Connors]] | 人物 | 均值回归策略大师，Connors Research 创始人 |
     13||| [[QuantifiedStrategies-com]] | 网站 | Substack 量化策略网站，提供大量回测策略 |
     14||| [[Quantitativo]] | 作者 | Quant Trading Rules Substack，均值回归 / 参数分散策略专家 |
-    15||| [[QQQ]] | ETF | Invesco QQQ Trust，追踪纳斯达克100指数 |
+    15||| [[Delphic Alpha]] | 作者 | Substack 量化策略博客，专注日内 alpha 研究 |
+||| [[QQQ]] | ETF | Invesco QQQ Trust，追踪纳斯达克100指数 |
     16||| [[SPY]] | ETF | SPDR S&P 500 ETF Trust |
     17||| [[XLP]] | ETF | Consumer Staples Select Sector SPDR Fund |
     18|
@@ -29,8 +30,10 @@
     29|| [[RAG]] | AI | 检索增强生成，传统的文档问答方案 |
     30|| [[Memex]] | 历史 | Vannevar Bush 1945 年提出的"记忆延伸机器"构想 |
     31|| [[IBS (Internal Bar Strength)]] | 交易 | 内部柱强度指标，衡量收盘价在当日/当周区间内的位置 |
-    32|| [[Mean-Reversion]] | 交易 | 均值回归策略大类 |
-    33|| [[Overnight-Edge]] | 交易 | 隔夜持仓的统计优势 |
+||| [[Mean-Reversion]] | 交易 | 均值回归策略大类 |
+||| [[Intraday-Alpha]] | 交易 | 日内 alpha 信号研究，30分钟/日线多时间框架 |
+||| [[Fade-Breakout]] | 交易 | 突破失败策略：价格突破区间后反向交易 |
+||| [[Overnight-Edge]] | 交易 | 隔夜持仓的统计优势 |
     34|| [[Position-Sizing]] | 风控 | 头寸规模管理方法 |
     35|| [[RSI (Relative Strength Index)]] | 指标 | 相对强弱指数 |
     36|| [[Williams %R]] | 指标 | 威廉指标，超买超卖判断 |
@@ -47,7 +50,7 @@
     46||| [[2026-04-25-substack-batch-quantified-strategies]] | 2026-04-25 | 文章批量 | Substack Quantified Strategies 批量导入 407 篇策略文章 |
     47|| [[2026-04-25-substack-batch-unknown]] | 2026-04-25 | 文章批量 | Substack Unknown 批量导入 371 篇策略文章 |
     48|| [[2026-04-25-substack-batch-tradequantix]] | 2026-04-25 | 文章批量 | Substack TradeQuantiX 批量导入 67 篇策略文章 |
-    49|| [[2025-05-01-macd-hook-gold-strategy]] | 2025-05-01 | 策略/文章 | MACD Hook 黄金多头策略：三重过滤+动态定量，规则极简可复现 |
+    49|| [[2026-04-26-delphic-intraday-alpha-atlas]] | 2026-04-26 | 策略研究 | Delphic Alpha 日内 Alpha Atlas：30分钟K线上12个参数无关alpha信号的回测研究，Fade Breakout最强 |
     50|| [[strategy-repro-sma200-trend-following]] | 2026-04-20 | 策略复现 | S&P 500 200日SMA趋势跟踪：Sharpe 0.686，最大回撤 3.22% |
     51|| [[strategy-repro-end-of-month-spy]] | 2026-04-20 | 策略复现 | 月末SPY交易策略：Sharpe 1.029，最大回撤仅 0.91%，本批最佳 |
     52|| [[2026-03-28-simplest-intraday-momentum-strategy]] | 2026-03-28 | 文章 | 最简单的日内动量策略：VWAP控制过滤 + StochRSI时机入场 |
@@ -325,11 +328,12 @@
    323|20. 8个策略复现结果同步至wiki - 2026-04-25 - 反转策略批量化wiki同步完成
    324|
    325|
-   326|## 最新录入
+## 最新录入
 
-1. [[2026-04-25_connors-percent-b-strategy]] - Larry Connors %B Strategy（付费预览，Connors 经典均值回归策略，%B < 0 做多）
+1. [[reversal-strategy-pipeline-2026-04-26]] - 反转策略失焦分析：品种适配规律 + 优先级排名 + 新4策略复现
+2. (处理中: 5DL_ON Batch | WR Batch | CD_ON Batch)
 
-   327|- 2026-04-26: 自动导入 1 篇 Substack 文章
+### 最新动态
    328|- 2026-04-26: [[Trading the Mean Reversion Curve]] - Quantitativo - 参数分散均值回归策略组合
    329|- 2026-04-25: 自动导入 1 篇 Substack 文章
    330|- 2026-04-25: 自动导入 1 篇 Substack 文章

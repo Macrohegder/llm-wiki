@@ -1,5 +1,15 @@
 
 
+## [2026-04-26] ingest | The Intraday Alpha Atlas: What Works on 30-Minute Bars
+
+- 作者: Delphic Alpha
+- 来源: Substack (用户分享)
+- 新增: wiki/sources/2026-04-26-delphic-intraday-alpha-atlas.md
+- 新增概念: [[Intraday-Alpha]], [[Fade-Breakout]]
+- 新增实体: [[Delphic Alpha]]
+- 更新: index.md, log.md
+- 存档: substack-strategy-tracker/articles/delphicalpha/
+
 ## [2026-04-26] synthesis | 反转策略全景分析
 
 - 新增: wiki/syntheses/reversal-strategy-landscape.md
