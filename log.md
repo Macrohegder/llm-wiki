@@ -1355,3 +1355,9 @@
 ## [2026-04-26] ingest | Larry Connors %B Strategy
 - 新增: wiki/sources/2026-04-25_connors-percent-b-strategy.md
 - 更新: index.md
+
+## [2026-04-26] ingest + repro | Larry Connors %B Strategy
+- 新增: wiki/sources/2026-04-25_connors-percent-b-strategy.md
+- 复现: strategy_factory SPY 默认参数回测完成 (Sharpe 0.47, 72 trades)
+- 更新: index.md
+
