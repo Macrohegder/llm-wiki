@@ -25,7 +25,12 @@ Short-Term Mean Reversion in Equity ETFs Exploring the Most Effective Indicators
 - 
 
 ## 复现状态
-- 待复现
+
+- **复现完成**: 2026-04-27 19:12
+- **策略 ID**: `equity_curve_mean_reversion`
+- **评级汇总**:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
+*暂无回测结果*
 
 ## 评价
 

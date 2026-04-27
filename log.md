@@ -1,4 +1,9 @@
 
+## [2026-04-27] pipeline | 策略复现 equity_curve_mean_reversion
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_equity_curve_mean_reversion_20260427_191234.json`
+- Results:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
 ## [2026-04-27] pipeline | 策略复现 sp500_trend_following
 - Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
 - Eval file: `eval_sp500_trend_following_20260427_121454.json`
