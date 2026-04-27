@@ -1,4 +1,9 @@
 
+## [2026-04-27] pipeline | 策略复现 spy_overnight_200sma
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_spy_overnight_200sma_20260427_193301.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
 ## [2026-04-27] pipeline | 策略复现 equity_curve_mean_reversion
 - Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
 - Eval file: `eval_equity_curve_mean_reversion_20260427_192143.json`
