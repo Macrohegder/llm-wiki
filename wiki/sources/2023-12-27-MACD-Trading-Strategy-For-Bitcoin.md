@@ -5,6 +5,8 @@ source: "quantifiedstrategies."
 url: https://quantifiedstrategies.substack.com/p/macd-trading-strategy-for-bitcoin
 date: 2023-12-27
 tags: #strategy #trading
+status: reproduced
+reproduction_id: strategy-repro-macd-bitcoin
 rating: yellow
 ---
 
@@ -25,7 +27,12 @@ MACD Trading Strategy For Bitcoin QuantifiedStrategies.com Dec 27, 2023 ∙ Paid
 - 
 
 ## 复现状态
-- 待复现
+- **状态**: ✅ 已复现
+- **复现日期**: 2026-04-25
+- **复现报告**: [[strategy-repro-macd-bitcoin]]
+- **最佳品种**: BTCUSDT (Sharpe=0.944)
+- **评级**: 🔴 Red
+
 
 ## 评价
 

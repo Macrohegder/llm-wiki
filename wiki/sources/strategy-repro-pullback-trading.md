@@ -6,6 +6,7 @@ url: https://quantifiedstrategies.substack.com/p/pullback-trading-strategies-bac
 reproduced_at: 2026-04-25
 status: completed
 rating: yellow
+source_note: 2023-12-25-pullback-trading-strategies-backtest
 ---
 
 # Pullback Trading — 回调交易策略复现报告

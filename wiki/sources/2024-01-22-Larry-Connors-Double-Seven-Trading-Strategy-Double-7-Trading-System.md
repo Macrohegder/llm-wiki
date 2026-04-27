@@ -5,6 +5,8 @@ source: "quantifiedstrategies."
 url: https://quantifiedstrategies.substack.com/p/larry-connors-double-seven-trading
 date: 2024-01-22
 tags: #strategy #trading
+status: reproduced
+reproduction_id: strategy-repro-double-seven
 rating: yellow
 ---
 
@@ -25,7 +27,12 @@ Larry Connors’ Double Seven Trading Strategy (Double 7 Trading System) Quantif
 - 
 
 ## 复现状态
-- 待复现
+- **状态**: ✅ 已复现
+- **复现日期**: 2026-04-24
+- **复现报告**: [[strategy-repro-double-seven]]
+- **最佳品种**: SPY (Sharpe=0.944)
+- **评级**: 🟢 Green
+
 
 ## 评价
 

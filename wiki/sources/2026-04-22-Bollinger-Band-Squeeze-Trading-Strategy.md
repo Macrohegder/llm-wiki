@@ -5,6 +5,8 @@ source: "QuantifiedStrategies"
 url: https://quantifiedstrategies.substack.com/p/bollinger-band-squeeze-trading-strategy
 date: "2026-04-22"
 tags:
+status: reproduced
+reproduction_id: strategy-repro-bollinger-band-squeeze
   - strategy/volatility-breakout
   - asset/equity
   - topic/backtesting
@@ -38,7 +40,12 @@ status: ingested
 - [[concept:Coiled Spring Pattern]]
 
 ## 复现状态
-- 待复现。完整规则付费，仅知道使用周线+10周看回、RSI过滤器。
+- **状态**: ✅ 已复现
+- **复现日期**: 2026-04-25
+- **复现报告**: [[strategy-repro-bollinger-band-squeeze]]
+- **最佳品种**: QQQ (Sharpe=0.766)
+- **评级**: 🔴 Red
+
 
 ## 评价
 

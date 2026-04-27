@@ -5,6 +5,8 @@ source: "quantifiedstrategies."
 url: https://quantifiedstrategies.substack.com/p/buy-weakness-win-big-the-5-day-low
 date: 2026-04-14
 tags: #strategy #trading
+status: reproduced
+reproduction_id: strategy-repro-five-day-low
 rating: yellow
 ---
 
@@ -25,7 +27,12 @@ Buy Weakness, Win Big: The 5-Day Low Trading Strategy QuantifiedStrategies.com A
 - 
 
 ## 复现状态
-- 待复现
+- **状态**: ✅ 已复现
+- **复现日期**: 2026-04-24
+- **复现报告**: [[strategy-repro-five-day-low]]
+- **最佳品种**: SPY (Sharpe=0.925)
+- **评级**: 🟢 Green
+
 
 ## 评价
 

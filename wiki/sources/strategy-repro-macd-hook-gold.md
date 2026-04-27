@@ -6,6 +6,7 @@ url: https://algomatictrading.substack.com/p/escape-discretionary-trading-automa
 reproduced_at: 2026-04-20
 status: completed
 rating: green
+source_note: 2025-05-01-macd-hook-gold-strategy
 ---
 
 # MACD Hook Gold Strategy — 策略复现报告

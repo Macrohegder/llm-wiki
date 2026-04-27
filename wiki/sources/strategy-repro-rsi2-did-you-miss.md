@@ -6,6 +6,7 @@ url: https://quantifiedstrategies.substack.com/p/did-you-miss-this
 reproduced_at: 2026-04-25
 status: completed
 rating: green
+source_note: 2026-04-08-Did-You-Miss-This
 ---
 
 # RSI-2 隐藏策略 — 策略复现报告

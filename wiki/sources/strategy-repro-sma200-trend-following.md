@@ -6,6 +6,7 @@ url: https://quantifiedstrategies.substack.com/p/a-simple-trend-following-system
 reproduced_at: 2026-04-20
 status: completed
 rating: green
+source_note: 2024-03-03-A-Simple-Trend-Following-System-and-Strategy-in-the-SP-500-Insights-from-Meb-Faber-and-Paul-Tudor-Jones
 ---
 
 # S&P 500 200-Day SMA Trend Following — 策略复现报告

@@ -10,9 +10,18 @@ topics:
   - trend-filter
   - MA
 source: Substack
+status: reproduced
+reproduction_id: strategy-repro-pullback-trading
 ---
 
 # Pullback Trading Strategies (Backtest, Setup, Rules, Performance)
+
+## 复现状态
+- **状态**: ✅ 已复现
+- **复现日期**: 2026-04-26
+- **复现报告**: [[strategy-repro-pullback-trading]]
+- **最佳品种**: SPY (Sharpe=0.895)
+- **评级**: 🟡 Yellow
 
 ## Reproduced: SPY Pullback Strategy (2026-04-26)
 

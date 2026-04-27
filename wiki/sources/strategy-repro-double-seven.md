@@ -6,6 +6,7 @@ url: https://quantifiedstrategies.substack.com/p/larry-connors-double-seven-trad
 reproduced_at: 2026-04-24
 status: completed
 rating: green
+source_note: 2024-01-22-Larry-Connors-Double-Seven-Trading-Strategy-Double-7-Trading-System
 ---
 
 # Larry Connors Double Seven Trading Strategy — 策略复现报告

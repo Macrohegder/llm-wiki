@@ -6,6 +6,7 @@ url: https://quantifiedstrategies.substack.com/p/consecutive-down-days-strategy
 reproduced_at: 2026-04-19
 status: completed
 rating: green
+source_note: 2026-04-19-Consecutive-Down-Days-Strategy
 ---
 
 # Consecutive Down Days Strategy — 策略复现报告

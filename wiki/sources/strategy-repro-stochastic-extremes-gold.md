@@ -6,6 +6,7 @@ url: https://algomatictrading.substack.com/p/strategy-7-a-mean-reversion-gold-sy
 reproduced_at: 2026-04-25
 status: completed
 rating: red
+source_note: 2026-04-05-Strategy-7-A-Mean-Reversion-Gold-System-Using-Stochastic-Extremes
 ---
 
 # Stochastic Extremes Gold — 均值回归黄金系统复现报告

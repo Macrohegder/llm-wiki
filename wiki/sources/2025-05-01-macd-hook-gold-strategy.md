@@ -5,6 +5,8 @@ source: "Algomatic Trading"
 url: https://algomatictrading.substack.com/p/escape-discretionary-trading-automate
 date: 2025-05-01
 tags: #gold #macd #momentum #algorithmic-trading #prorealtime
+status: reproduced
+reproduction_id: strategy-repro-macd-hook-gold
 rating: green
 ---
 
@@ -51,12 +53,12 @@ rating: green
 
 
 ## 复现状态
+- **状态**: ✅ 已复现
+- **复现日期**: 2026-04-20
+- **复现报告**: [[strategy-repro-macd-hook-gold]]
+- **最佳品种**: GLD (Sharpe=1.223)
+- **评级**: 🟢 Green
 
-- **复现完成**: 2026-04-22 06:29
-- **策略 ID**: `macd_hook_gold_strategy`
-- **评级汇总**:  Green=0 |  Yellow=0 |  Red=0 | Total=0
-
-*暂无回测结果*
 
 ## 评价
 

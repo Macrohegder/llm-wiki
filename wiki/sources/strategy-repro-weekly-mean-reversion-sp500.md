@@ -6,6 +6,7 @@ url: https://quantifiedstrategies.substack.com/p/weekly-mean-reversion-system-fo
 reproduced_at: 2026-04-25
 status: completed
 rating: green
+source_note: 2023-04-23-Weekly-Mean-Reversion-System-For-SP-500-Stocks
 ---
 
 # SP500 周线均值回归策略 — 策略复现报告

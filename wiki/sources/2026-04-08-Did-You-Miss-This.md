@@ -5,6 +5,8 @@ source: "quantifiedstrategies."
 url: https://quantifiedstrategies.substack.com/p/did-you-miss-this
 date: 2026-04-08
 tags: #strategy #trading
+status: reproduced
+reproduction_id: strategy-repro-rsi2-did-you-miss
 rating: yellow
 ---
 
@@ -25,7 +27,12 @@ Did You Miss This? QuantifiedStrategies.com Apr 07, 2026 4 1 Share It’s been a
 - 
 
 ## 复现状态
-- 待复现
+- **状态**: ✅ 已复现
+- **复现日期**: 2026-04-25
+- **复现报告**: [[strategy-repro-rsi2-did-you-miss]]
+- **最佳品种**: GLD (Sharpe=1.479)
+- **评级**: 🟢 Green
+
 
 ## 评价
 

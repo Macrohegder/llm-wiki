@@ -6,6 +6,7 @@ url: https://quantifiedstrategies.substack.com/p/end-of-month-trading-strategy-i
 reproduced_at: 2026-04-20
 status: completed
 rating: green
+source_note: 2026-04-04_End-of-Month-Trading-Strategy-in-S&P-500-—-Update
 ---
 
 # End of Month Trading Strategy in S&P 500 — 策略复现报告

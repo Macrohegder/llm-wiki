@@ -5,6 +5,8 @@ source: "quantifiedstrategies."
 url: https://quantifiedstrategies.substack.com/p/a-simple-trend-following-system-and-b36
 date: 2024-03-03
 tags: #strategy #trading
+status: reproduced
+reproduction_id: strategy-repro-sma200-trend-following
 rating: yellow
 ---
 
@@ -25,7 +27,12 @@ A Simple Trend Following System and Strategy in the S&P 500: Insights from Meb F
 - 
 
 ## 复现状态
-- 待复现
+- **状态**: ✅ 已复现
+- **复现日期**: 2026-04-20
+- **复现报告**: [[strategy-repro-sma200-trend-following]]
+- **最佳品种**: SPY (Sharpe=0.591)
+- **评级**: 🟢 Green
+
 
 ## 评价
 

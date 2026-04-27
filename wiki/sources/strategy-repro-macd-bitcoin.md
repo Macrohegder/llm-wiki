@@ -6,6 +6,7 @@ url: https://quantifiedstrategies.substack.com/p/macd-trading-strategy-for-bitco
 reproduced_at: 2026-04-25
 status: completed
 rating: red
+source_note: 2023-12-27-MACD-Trading-Strategy-For-Bitcoin
 ---
 
 # MACD Trading Strategy For Bitcoin — 比特币MACD策略复现报告

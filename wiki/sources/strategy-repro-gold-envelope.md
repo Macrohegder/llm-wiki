@@ -6,6 +6,7 @@ url: https://quantifiedstrategies.substack.com/p/gold-envelope-trading-strategy-
 reproduced_at: 2026-04-25
 status: partial
 rating: yellow
+source_note: 2023-12-15-Gold-Envelope-Trading-Strategy---Rules-And-Performance
 ---
 
 # Gold Envelope Trading Strategy — 策略复现报告

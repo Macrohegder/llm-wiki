@@ -6,10 +6,15 @@ url: https://quantifiedstrategies.substack.com/p/nr7-trading-strategy-enhanced-n
 reproduced_at: 2026-04-22
 status: completed
 rating: green
+source_note: strategy-repro-nr7-breakout
 tags: [nr7, breakout, quantified-strategies, reproduction, green]
 ---
 
 # NR7 Narrow Range Breakout — 策略复现报告
+
+## 原文信息
+- **来源**: [[strategy-repro-nr7-breakout]]
+- **URL**: https://quantifiedstrategies.substack.com/p/nr7-trading-strategy-enhanced-narrow
 
 ## 策略说明
 

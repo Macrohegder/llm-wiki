@@ -6,6 +6,7 @@ url: https://quantifiedstrategies.substack.com/p/buy-weakness-win-big-the-5-day-
 reproduced_at: 2026-04-24
 status: completed
 rating: green
+source_note: 2026-04-14-Buy-Weakness-Win-Big-The-5-Day-Low-Trading-Strategy
 ---
 
 # 5-Day Low Trading Strategy — 策略复现报告

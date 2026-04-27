@@ -5,6 +5,8 @@ source: "quantifiedstrategies."
 url: https://quantifiedstrategies.substack.com/p/gold-envelope-trading-strategy-rules
 date: 2023-12-15
 tags: #strategy #trading
+status: reproduced
+reproduction_id: strategy-repro-gold-envelope
 rating: yellow
 ---
 
@@ -25,7 +27,12 @@ Gold Envelope Trading Strategy - Rules And Performance QuantifiedStrategies.com 
 - 
 
 ## 复现状态
-- 待复现
+- **状态**: ✅ 已复现
+- **复现日期**: 2026-04-25
+- **复现报告**: [[strategy-repro-gold-envelope]]
+- **最佳品种**: GLD (Sharpe=1.357)
+- **评级**: 🟡 Yellow
+
 
 ## 评价
 

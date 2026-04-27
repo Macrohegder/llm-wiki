@@ -6,6 +6,7 @@ url: https://quantifiedstrategies.substack.com/p/bollinger-band-squeeze-trading-
 reproduced_at: 2026-04-25
 status: completed
 rating: red
+source_note: 2026-04-22-Bollinger-Band-Squeeze-Trading-Strategy
 ---
 
 # Bollinger Band Squeeze — 布林带收缩策略复现报告

@@ -6,6 +6,8 @@ url: https://quantifiedstrategies.substack.com/p/macd-histogram-trading-strategy
 date: 2024-03-07
 tags: #strategy #trading
 rating: green
+status: reproduced
+reproduction_id: strategy-repro-macd-histogram-rev-20260416
 ---
 
 # MACD Histogram Trading Strategy — (Rules, Setup, Backtest, Example Insights)
@@ -25,7 +27,20 @@ MACD Histogram Trading Strategy — (Rules, Setup, Backtest, Example Insights) Q
 - 
 
 ## 复现状态
-- 待复现
+- **状态**: ✅ 已复现
+- **复现日期**: 2026-04-16
+- **复现报告**: [[strategy-repro-macd-histogram-rev-20260416]]
+- **扩展测试**: 2026-04-24 完成 14 品种测试
+- **最佳品种**: QQQ (Sharpe=1.038)
+- **评级**: 🟢 Green
+
+## 原文规则摘要
+
+原文策略规则：
+- MACD Histogram 柱状图连续下跌 4 天
+- 第 4 根柱状图必须低于零轴
+- 当日收盘价低于前一日
+- 出场：收盘价高于前一日
 
 ## 评价
 

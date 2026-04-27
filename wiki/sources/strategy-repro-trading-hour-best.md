@@ -6,6 +6,7 @@ url: https://quantifiedstrategies.substack.com/p/what-trading-hour-is-the-best
 reproduced_at: 2026-04-25
 status: failed
 rating: red
+source_note: 2022-03-09-What-Trading-Hour-Is-The-Best
 ---
 
 # 最佳交易时间策略 — 复现报告

@@ -6,6 +6,7 @@ url: https://algomatictrading.substack.com/p/strategy-8-the-easiest-trend-system
 reproduced_at: 2026-04-22
 status: completed
 rating: green
+source_note: 2026-04-05-Strategy-8-The-Easiest-Trend-System-Youll-Ever-Trade-Donchian-Channel-Breakout
 ---
 
 # Donchian Channel + ADX Breakout — 策略复现报告

@@ -5,6 +5,8 @@ source: "quantifiedstrategies."
 url: https://quantifiedstrategies.substack.com/p/what-trading-hour-is-the-best
 date: 2022-03-09
 tags: #strategy #trading
+status: reproduced
+reproduction_id: strategy-repro-trading-hour-best
 rating: yellow
 ---
 
@@ -25,7 +27,12 @@ What Trading Hour Is The Best? QuantifiedStrategies.com Mar 09, 2022 ∙ Paid Sh
 - 
 
 ## 复现状态
-- 待复现
+- **状态**: ✅ 已复现
+- **复现日期**: 2026-04-25
+- **复现报告**: [[strategy-repro-trading-hour-best]]
+- **最佳品种**:  (Sharpe=0.000)
+- **评级**: 🔴 Red
+
 
 ## 评价
 
