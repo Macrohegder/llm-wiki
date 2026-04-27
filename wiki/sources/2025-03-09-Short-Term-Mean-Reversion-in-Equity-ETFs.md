@@ -26,11 +26,35 @@ Short-Term Mean Reversion in Equity ETFs Exploring the Most Effective Indicators
 
 ## 复现状态
 
-- **复现完成**: 2026-04-27 19:12
+- **复现完成**: 2026-04-27 19:21
 - **策略 ID**: `equity_curve_mean_reversion`
-- **评级汇总**:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+- **评级汇总**:  Green=0 |  Yellow=0 |  Red=1 | Total=1
 
-*暂无回测结果*
+- **最佳品种**: SPY (Sharpe=0.621)
+
+### 各品种回测结果
+
+| 品种 | 评级 | Sharpe | 交易次数 | 最大回撤 | 年化收益 | 总收益 |
+|--------|-------|--------|----------|----------|----------|----------|
+| SPY |  Red | 0.621 | 15 | -12.07% | 3.13% | 61.41% |
+
+### 最优参数 (最佳品种)
+
+| 参数 | 最优值 |
+|--------|--------|
+| fixed_size | 1 |
+| len | 20 |
+| price_add_rate | 0.0 |
+| rsi_entry | 20 |
+| rsi_exit | 70 |
+| rsi_period | 2 |
+
+*评估报告*: `eval_equity_curve_mean_reversion_20260427_192143.json`
+
+
+### 回测图表
+
+![回测曲线](raw/assets/equity_curve_mean_reversion_equitycurvemeanreversionstrategy_spy_chart.png)
 
 ## 评价
 

@@ -103,6 +103,7 @@
     99|
    100|## 最近活动
 - [2026-04-27] 策略复现 `equity_curve_mean_reversion` | 无绿色结果
+- [2026-04-27] 策略复现 `equity_curve_mean_reversion` | 无绿色结果
 - [2026-04-27] 策略复现 `sp500_trend_following` | 无绿色结果
 - [2026-04-27] 策略复现 `profitable_systematic_rules` | 无绿色结果
 - [2026-04-27] 策略复现 `mean_reversion_curve_portfolio` | 无绿色结果
