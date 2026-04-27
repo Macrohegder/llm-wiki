@@ -1,4 +1,69 @@
 
+## [2026-04-27] pipeline | 策略复现 sp500_trend_following
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_sp500_trend_following_20260427_121454.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-27] pipeline | 策略复现 profitable_systematic_rules
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_profitable_systematic_rules_20260427_091031.json`
+- Results:  Green=0 |  Yellow=1 |  Red=1 | Total=2
+
+## [2026-04-27] pipeline | 策略复现 mean_reversion_curve_portfolio
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_mean_reversion_curve_portfolio_20260427_090548.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-27] pipeline | 策略复现 larry_connors_b_strategy
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_larry_connors_b_strategy_20260427_090530.json`
+- Results:  Green=0 |  Yellow=1 |  Red=0 | Total=1
+
+## [2026-04-27] pipeline | 策略复现 olmar_mean_reversion
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_olmar_mean_reversion_20260427_090513.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-27] pipeline | 策略复现 pullback_trading_strategy
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_pullback_trading_strategy_20260427_090458.json`
+- Results:  Green=0 |  Yellow=1 |  Red=0 | Total=1
+
+## [2026-04-27] pipeline | 策略复现 intraday_fade_breakout_30m
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_intraday_fade_breakout_30m_20260427_090443.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-27] pipeline | 策略复现 five_rules_systematic_trading
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_five_rules_systematic_trading_20260427_090435.json`
+- Results:  Green=0 |  Yellow=0 |  Red=4 | Total=4
+
+## [2026-04-27] pipeline | 策略复现 systematic_trading_rules
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_systematic_trading_rules_20260427_090432.json`
+- Results:  Green=0 |  Yellow=0 |  Red=0 | Total=0
+
+## [2026-04-27] pipeline | 策略复现 sp500_trend_following
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_sp500_trend_following_20260427_090423.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-27] pipeline | 策略复现 five_rules_profitable_trading
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_five_rules_profitable_trading_20260427_090402.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-27] pipeline | 策略复现 sp500_trend_following
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_sp500_trend_following_20260427_090335.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
+## [2026-04-27] pipeline | 策略复现 sp500_trend_following
+- Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
+- Eval file: `eval_sp500_trend_following_20260427_090019.json`
+- Results:  Green=0 |  Yellow=0 |  Red=1 | Total=1
+
 
 ## [2026-04-26] ingest | The Intraday Alpha Atlas: What Works on 30-Minute Bars
 
@@ -1406,3 +1471,17 @@
 - 修复: 3个已知Bug（参数名/N[-1]/percent_b未定义）
 - 验证: evaluate 4 Yellow / 1 Red, wiki sync 自动完成
 - 更新: wiki/sources/2026-04-25_connors-percent-b-strategy.md
+
+## [2026-04-27] auto-ingest | Substack 文章批量导入
+- 扫描: 505 篇
+- 导入: 1 篇
+- 跳过重复: 504 篇
+- 跳过 Paywall: 0 篇
+- 通知: 0 篇
+
+## [2026-04-27] auto-ingest | Substack 文章批量导入
+- 扫描: 58 篇
+- 导入: 1 篇
+- 跳过重复: 57 篇
+- 跳过 Paywall: 0 篇
+- 通知: 1 篇

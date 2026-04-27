@@ -26,8 +26,8 @@ Weekly Mean Reversion System For S&P 500 Stocks QuantifiedStrategies.com Apr 23,
 
 ## 复现状态
 
-- **复现完成**: 2026-04-22 04:17
-- **策略 ID**: `vix_fear_mean_reversion`
+- **复现完成**: 2026-04-27 09:05
+- **策略 ID**: `olmar_mean_reversion`
 - **评级汇总**:  Green=0 |  Yellow=0 |  Red=1 | Total=1
 
 - **最佳品种**: SPY (Sharpe=0.000)
@@ -42,11 +42,12 @@ Weekly Mean Reversion System For S&P 500 Stocks QuantifiedStrategies.com Apr 23,
 
 | 参数 | 最优值 |
 |--------|--------|
-| fixed_size | 2 |
-| vix_entry_threshold | 11.799999999999997 |
-| vix_exit_threshold | 8.850000000000001 |
+| fixed_size | 1 |
+| leverage | 0.2 |
+| price_add_rate | 0.0 |
+| window_size | 25 |
 
-*评估报告*: `eval_vix_fear_mean_reversion_20260422_041718.json`
+*评估报告*: `eval_olmar_mean_reversion_20260427_090513.json`
 
 ## 评价
 

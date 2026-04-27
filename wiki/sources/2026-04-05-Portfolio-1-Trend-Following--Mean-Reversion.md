@@ -26,7 +26,7 @@ Portfolio #1: Trend-Following + Mean-Reversion How combining Trend-Following wit
 
 ## 复现状态
 
-- **复现完成**: 2026-04-26 09:03
+- **复现完成**: 2026-04-27 09:05
 - **策略 ID**: `mean_reversion_curve_portfolio`
 - **评级汇总**:  Green=0 |  Yellow=0 |  Red=1 | Total=1
 
@@ -50,7 +50,7 @@ Portfolio #1: Trend-Following + Mean-Reversion How combining Trend-Following wit
 | rebalance_frequency | 5 |
 | rsi_entry_thresholds | 10 |
 
-*评估报告*: `eval_mean_reversion_curve_portfolio_20260426_090331.json`
+*评估报告*: `eval_mean_reversion_curve_portfolio_20260427_090548.json`
 
 ## 评价
 

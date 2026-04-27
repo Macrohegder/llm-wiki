@@ -102,6 +102,19 @@
     98|---
     99|
    100|## 最近活动
+- [2026-04-27] 策略复现 `sp500_trend_following` | 无绿色结果
+- [2026-04-27] 策略复现 `profitable_systematic_rules` | 无绿色结果
+- [2026-04-27] 策略复现 `mean_reversion_curve_portfolio` | 无绿色结果
+- [2026-04-27] 策略复现 `larry_connors_b_strategy` | 无绿色结果
+- [2026-04-27] 策略复现 `olmar_mean_reversion` | 无绿色结果
+- [2026-04-27] 策略复现 `pullback_trading_strategy` | 无绿色结果
+- [2026-04-27] 策略复现 `intraday_fade_breakout_30m` | 无绿色结果
+- [2026-04-27] 策略复现 `five_rules_systematic_trading` | 无绿色结果
+- [2026-04-27] 策略复现 `systematic_trading_rules` | 无绿色结果
+- [2026-04-27] 策略复现 `sp500_trend_following` | 无绿色结果
+- [2026-04-27] 策略复现 `five_rules_profitable_trading` | 无绿色结果
+- [2026-04-27] 策略复现 `sp500_trend_following` | 无绿色结果
+- [2026-04-27] 策略复现 `sp500_trend_following` | 无绿色结果
 - [2026-04-26] 策略复现 `larry_connors_b_strategy` | 无绿色结果
    101|
    102|- [2026-04-26] 策略复现 `larry_connors_b_strategy` | 无绿色结果
@@ -329,6 +342,8 @@
    324|
    325|
 ## 最新录入
+- 2026-04-27: 自动导入 1 篇 Substack 文章
+- 2026-04-27: 自动导入 1 篇 Substack 文章
 
 1. [[reversal-strategy-pipeline-2026-04-26]] - 反转策略失焦分析：品种适配规律 + 优先级排名 + 新4策略复现
 2. (处理中: 5DL_ON Batch | WR Batch | CD_ON Batch)

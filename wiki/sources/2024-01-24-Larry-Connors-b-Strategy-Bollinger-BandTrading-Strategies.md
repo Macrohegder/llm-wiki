@@ -26,9 +26,9 @@ Larry Connors’ %b Strategy (Bollinger Band)|Trading Strategies QuantifiedStrat
 
 ## 复现状态
 
-- **复现完成**: 2026-04-26 12:17
+- **复现完成**: 2026-04-27 09:05
 - **策略 ID**: `larry_connors_b_strategy`
-- **评级汇总**:  Green=0 |  Yellow=4 |  Red=1 | Total=5
+- **评级汇总**:  Green=0 |  Yellow=1 |  Red=0 | Total=1
 
 - **最佳品种**: SPY (Sharpe=0.845)
 
@@ -37,20 +37,18 @@ Larry Connors’ %b Strategy (Bollinger Band)|Trading Strategies QuantifiedStrat
 | 品种 | 评级 | Sharpe | 交易次数 | 最大回撤 | 年化收益 | 总收益 |
 |--------|-------|--------|----------|----------|----------|----------|
 | SPY |  Yellow | 0.845 | 30 | -0.41% | 0.13% | 2.68% |
-| QQQ |  Red | 0.988 | 11 | -0.75% | 0.34% | 2.72% |
-| GLD |  Yellow | 0.821 | 64 | -0.62% | 0.18% | 1.45% |
-| DIA |  Yellow | 0.908 | 26 | -0.26% | 0.17% | 2.08% |
-| IWM |  Yellow | 0.880 | 54 | -0.43% | 0.15% | 1.80% |
 
 ### 最优参数 (最佳品种)
 
 | 参数 | 最优值 |
 |--------|--------|
-| bb_period | 27 |
-| bb_std_dev | 1.9599999999999997 |
-| sma_period | 84 |
+| bb_period | 20 |
+| bb_std_dev | 2.0 |
+| fixed_size | 1 |
+| price_add_rate | 0.0 |
+| sma_period | 200 |
 
-*评估报告*: `eval_larry_connors_b_strategy_20260426_121738.json`
+*评估报告*: `eval_larry_connors_b_strategy_20260427_090530.json`
 
 ## 评价
 
