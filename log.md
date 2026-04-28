@@ -1,4 +1,9 @@
 
+## [2026-04-28] pipeline | 策略复现 macd_histogram_rev_20260416
+- Action: `strategy_factory` auto pipeline (build → run → evaluate → wiki sync)
+- Eval file: `eval_macd_histogram_rev_20260416_20260428_231105.json`
+- Results: 🟢 Green=0 | 🟡 Yellow=0 | 🔴 Red=4 | Total=4
+
 ## [2026-04-28] pipeline | 策略复现 simple_trend_following
 - Action: `strategy_factory` auto pipeline (build → run → evaluate → wiki sync)
 - Eval file: `eval_simple_trend_following_20260428_192347.json`

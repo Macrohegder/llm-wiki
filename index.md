@@ -61,6 +61,7 @@
 || SMA200 Trend Following | [[2024-03-03-A-Simple-Trend-Following-System-and-Strategy-in-the-SP-500-Insights-from-Meb-Faber-and-Paul-Tudor-Jones]] | [[strategy-repro-sma200-trend-following]] | SPY | 0.591 | 🟢 Green | 2026-04-20 |
 || Simple Trend Following (Dual Stop) | [[Simple Trend Following with Dual Stop]] | [[strategy-repro-simple-trend-dual-stop]] | QQQ | 1.02 | 🟡 Yellow | 2026-04-28 |
 | Weekly Mean Reversion SP500 | [[2023-04-23-Weekly-Mean-Reversion-System-For-SP-500-Stocks]] | [[strategy-repro-weekly-mean-reversion-sp500]] | SPY | 0.954 | 🟢 Green | 2026-04-25 |
+| strategy-repro-macd-histogram-rev-20260416 | [[strategy-repro-macd-histogram-rev-20260416]] | [[strategy-repro-macd_histogram_rev_20260416]] | SPY | 0.000 | 🔴 Red | 2026-04-28 |
 
 > **规则**: 策略列 → 原文 source 页 | 复现报告列 → 复现详情页 | 按 Sharpe 降序排列
 > **管理规则**: [[WIKI_REPRODUCTION_RULES]]
@@ -138,6 +139,7 @@
     98|---
     99|
    100|## 最近活动
+- [2026-04-28] 策略复现 `macd_histogram_rev_20260416` | 无绿色结果
 - [2026-04-28] 策略复现 `simple_trend_following` | QQQ Sharpe=1.023 MaxDD=-4.37%
 - [2026-04-28] 策略复现 `simple_trend_following` | QQQ Sharpe=1.023 MaxDD=-4.37%
 - [2026-04-28] 策略复现 `simple_trend_following` | QQQ Sharpe=1.023 MaxDD=-4.37%
