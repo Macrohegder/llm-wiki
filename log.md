@@ -6,6 +6,13 @@
 - Best: QQQ | Sharpe=1.023 | Trades=263 | MaxDD=-4.37% | Annual=5.66%
 - Optimal params: {"ma_period": 33, "fixed_stop_pct": 0.013, "trailing_stop_pct": 0.0219, "cond_lookback_1": 1, "cond_lookback_2": 2}
 
+## [2026-04-28] pipeline | 策略复现 simple_trend_following
+- Action: `strategy_factory` auto pipeline (build → run → evaluate → wiki sync)
+- Eval file: `eval_simple_trend_following_20260428_192347.json`
+- Results: 🟢 Green=2 | 🟡 Yellow=1 | 🔴 Red=1 | Total=4
+- Best: QQQ | Sharpe=1.023 | Trades=263 | MaxDD=-4.37% | Annual=5.66%
+- Optimal params: {"ma_period": 33, "fixed_stop_pct": 0.013, "trailing_stop_pct": 0.0219, "cond_lookback_1": 1, "cond_lookback_2": 2}
+
 ## [2026-04-27] pipeline | 策略复现 spy_overnight_200sma
 - Action: `cta-strategy-factory` auto pipeline (build → run → evaluate)
 - Eval file: `eval_spy_overnight_200sma_20260427_193301.json`
