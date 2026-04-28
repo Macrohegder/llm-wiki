@@ -1,6 +1,13 @@
 
 ## [2026-04-28] pipeline | 策略复现 macd_histogram_rev_20260416
 - Action: `strategy_factory` auto pipeline (build → run → evaluate → wiki sync)
+- Eval file: `eval_macd_histogram_rev_20260416_20260428_233544.json`
+- Results: 🟢 Green=1 | 🟡 Yellow=0 | 🔴 Red=3 | Total=4
+- Best: QQQ | Sharpe=1.397 | Trades=152 | MaxDD=-34.35% | Annual=63.95%
+- Optimal params: {"decline_days": 2, "fast_period": 11, "signal_period": 9, "slow_period": 41}
+
+## [2026-04-28] pipeline | 策略复现 macd_histogram_rev_20260416
+- Action: `strategy_factory` auto pipeline (build → run → evaluate → wiki sync)
 - Eval file: `eval_macd_histogram_rev_20260416_20260428_231105.json`
 - Results: 🟢 Green=0 | 🟡 Yellow=0 | 🔴 Red=4 | Total=4
 

@@ -88,12 +88,12 @@ source_note: 2024-03-07-MACD-Histogram-Trading-Strategy--Rules-Setup-Backtest-Ex
 - **状态**: ✅ 已复现
 - **复现日期**: 2026-04-28
 - **复现报告**: [[strategy-repro-macd_histogram_rev_20260416]]
-- **最佳品种**: SPY (Sharpe=0.000)
-- **评级**: 🔴 Red
+- **最佳品种**: QQQ (Sharpe=1.397)
+- **评级**: 🟢 Green
 
 | 品种 | 评级 | Sharpe | 交易数 |
 |------|------|--------|--------|
 | SPY | 🔴 Red | 0.000 | 0 |
-| QQQ | 🔴 Red | 0.000 | 0 |
+| QQQ | 🟢 Green | 1.397 | 152 |
 | IWM | 🔴 Red | 0.000 | 0 |
 | GLD | 🔴 Red | 0.000 | 0 |
