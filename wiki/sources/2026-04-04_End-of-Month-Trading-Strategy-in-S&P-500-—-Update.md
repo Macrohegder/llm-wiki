@@ -45,18 +45,3 @@ Results fro...
 ## 与已有知识的关联
 - 相关策略：[[strategy:]]
 - 相关综合研究：[[syntheses:]]
-
-## 复现状态
-- **状态**: ✅ 已复现
-- **复现日期**: 2026-04-20
-- **复现报告**: [[strategy-repro-end-of-month-spy]]
-- **最佳品种**: SPY (Sharpe=1.030)
-- **评级**: 🟢 Green
-
-## 个人批注
-<!-- 你自己的思考、怀疑、验证计划 -->
-- 
-- 
-
-## 原文备份
-详见 raw/articles/2026-04-04_End-of-Month-Trading-Strategy-in-S&P-500-—-Update.md

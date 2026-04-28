@@ -58,28 +58,3 @@ tags:
 
 ## 原文备份
 详见 raw/articles/2026-04-27_The-5-Rules-That-Separate-Profitable-Systematic-Traders-from-Everyone-Else.md
-
-## 复现状态
-
-- **复现完成**: 2026-04-27 09:10
-- **策略 ID**: `profitable_systematic_rules`
-- **评级汇总**:  Green=0 |  Yellow=1 |  Red=1 | Total=2
-
-- **最佳品种**: SPY (Sharpe=0.660)
-
-### 各品种回测结果
-
-| 品种 | 评级 | Sharpe | 交易次数 | 最大回撤 | 年化收益 | 总收益 |
-|--------|-------|--------|----------|----------|----------|----------|
-| SPY |  Red | 0.660 | 128 | -0.75% | 0.33% | 2.05% |
-| QQQ |  Yellow | 0.855 | 128 | -0.77% | 0.62% | 3.05% |
-
-### 最优参数 (最佳品种)
-
-| 参数 | 最优值 |
-|--------|--------|
-| atr_period | 8 |
-| sma_period | 26 |
-
-*评估报告*: `eval_profitable_systematic_rules_20260427_091031.json`
-

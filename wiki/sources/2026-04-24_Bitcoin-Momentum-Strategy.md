@@ -58,29 +58,3 @@ tags:
 
 ## 原文备份
 详见 raw/articles/2026-04-24_Bitcoin-Momentum-Strategy.md
-
-
-## 复现状态
-
-- **复现完成**: 2026-04-24 10:35
-- **策略 ID**: `bitcoin_momentum_strategy`
-- **评级汇总**: Green=0 | Yellow=1 | Red=0 | Total=1
-
-- **最佳品种**: BTCUSDT_SWAP_OKX.GLOBAL (Sharpe=0.476)
-
-### 各品种回测结果
-
-| 品种 | 评级 | Sharpe | 交易次数 | 最大回撤 | 年化收益 | 总收益 |
-|--------|-------|--------|----------|----------|----------|----------|
-| BTCUSDT_SWAP_OKX.GLOBAL | yellow | 0.476 | 598 | -54.03% | 13.36% | 83.15% |
-
-### 最优参数 (最佳品种)
-
-| 参数 | 最优值 |
-|--------|--------|
-| fast_period | 4 |
-| slow_period | 18 |
-| fixed_size | 1 |
-| price_add_rate | 0.0 |
-
-*评估报告*: `eval_bitcoin_momentum_strategy_20260424_103404.json`

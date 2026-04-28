@@ -22,23 +22,4 @@ Strategy #17: Trend-following Gold Breakout Trend-following gold with one rule: 
 - 
 
 ## 相关概念
-- 
-
-## 复现状态
-
-- **复现完成**: 2026-04-22 03:52
-- **策略 ID**: `trend_following_gold_breakout`
-- **评级汇总**:  Green=0 |  Yellow=0 |  Red=0 | Total=0
-
-*暂无回测结果*
-
-## 评价
-
-| 指标 | 评分 | 备注 |
-|--------|-------|-------|
-| 数据质量 | ⭐⭐⭐☆☆ | 待评估 |
-| 可操作性 | ⭐⭐☆☆☆ | 待评估 |
-| 新题性 | ⭐⭐☆☆☆ | 待评估 |
-| 风险透明度 | ⭐⭐☆☆☆ | 待评估 |
-
-**总体**: 🟡 **Yellow** — 自动录入，内容待审阅。
+-
