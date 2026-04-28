@@ -27,12 +27,19 @@ A Simple Trend Following System and Strategy in the S&P 500: Insights from Meb F
 - 
 
 ## 复现状态
+
 - **状态**: ✅ 已复现
-- **复现日期**: 2026-04-20
-- **复现报告**: [[strategy-repro-sma200-trend-following]]
-- **最佳品种**: SPY (Sharpe=0.591)
+- **复现日期**: 2026-04-28
+- **复现报告**: [[strategy-repro-simple_trend_following]]
+- **最佳品种**: QQQ (Sharpe=1.023)
 - **评级**: 🟢 Green
 
+| 品种 | 评级 | Sharpe | 交易数 |
+|------|------|--------|--------|
+| QQQ | 🟢 Green | 1.023 | 263 |
+| GLD | 🟢 Green | 1.007 | 202 |
+| SPY | 🟡 Yellow | 0.718 | 293 |
+| IWM | 🔴 Red | 0.167 | 560 |
 
 ## 评价
 
