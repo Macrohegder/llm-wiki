@@ -141,6 +141,7 @@
 - [2026-04-28] 策略复现 `simple_trend_following` | QQQ Sharpe=1.023 MaxDD=-4.37%
 - [2026-04-28] 策略复现 `simple_trend_following` | QQQ Sharpe=1.023 MaxDD=-4.37%
 - [2026-04-28] 策略复现 `simple_trend_following` | QQQ Sharpe=1.023 MaxDD=-4.37%
+- [2026-04-28] 策略复现 `simple_trend_following` | QQQ Sharpe=1.023 MaxDD=-4.37%
 - [2026-04-28] 策略复现 `simple_trend_following_dual_stop` | QQQ Sharpe 1.02, GLD Sharpe 1.01, IWM Sharpe 0.17 (推断实现, Yellow)
 - [2026-04-27] 策略复现 `spy_overnight_200sma` | 无绿色结果
 - [2026-04-27] 策略复现 `equity_curve_mean_reversion` | 无绿色结果
