@@ -57,7 +57,8 @@
 | Double Seven | [[2024-01-22-Larry-Connors-Double-Seven-Trading-Strategy-Double-7-Trading-System]] | [[strategy-repro-double-seven]] | SPY | 0.944 | 🟢 Green | 2026-04-24 |
 | 5-Day Low | [[2026-04-14-Buy-Weakness-Win-Big-The-5-Day-Low-Trading-Strategy]] | [[strategy-repro-five-day-low]] | SPY | 0.925 | 🟢 Green | 2026-04-24 |
 | Pullback Trading | [[2023-12-25-pullback-trading-strategies-backtest]] | [[strategy-repro-pullback-trading]] | SPY | 0.895 | 🟡 Yellow | 2026-04-25 |
-| SMA200 Trend Following | [[2024-03-03-A-Simple-Trend-Following-System-and-Strategy-in-the-SP-500-Insights-from-Meb-Faber-and-Paul-Tudor-Jones]] | [[strategy-repro-sma200-trend-following]] | SPY | 0.591 | 🟢 Green | 2026-04-20 |
+|| SMA200 Trend Following | [[2024-03-03-A-Simple-Trend-Following-System-and-Strategy-in-the-SP-500-Insights-from-Meb-Faber-and-Paul-Tudor-Jones]] | [[strategy-repro-sma200-trend-following]] | SPY | 0.591 | 🟢 Green | 2026-04-20 |
+|| Simple Trend Following (Dual Stop) | [[Simple Trend Following with Dual Stop]] | [[strategy-repro-simple-trend-dual-stop]] | QQQ | 1.02 | 🟡 Yellow | 2026-04-28 |
 | Weekly Mean Reversion SP500 | [[2023-04-23-Weekly-Mean-Reversion-System-For-SP-500-Stocks]] | [[strategy-repro-weekly-mean-reversion-sp500]] | SPY | 0.954 | 🟢 Green | 2026-04-25 |
 
 > **规则**: 策略列 → 原文 source 页 | 复现报告列 → 复现详情页 | 按 Sharpe 降序排列
@@ -136,6 +137,7 @@
     98|---
     99|
    100|## 最近活动
+- [2026-04-28] 策略复现 `simple_trend_following_dual_stop` | QQQ Sharpe 1.02, GLD Sharpe 1.01, IWM Sharpe 0.17 (推断实现, Yellow)
 - [2026-04-27] 策略复现 `spy_overnight_200sma` | 无绿色结果
 - [2026-04-27] 策略复现 `equity_curve_mean_reversion` | 无绿色结果
 - [2026-04-27] 策略复现 `equity_curve_mean_reversion` | 无绿色结果
