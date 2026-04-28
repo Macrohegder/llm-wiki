@@ -83,17 +83,11 @@ source_note: 2024-03-07-MACD-Histogram-Trading-Strategy--Rules-Setup-Backtest-Ex
 **真实性能图表**
 ![真实性能](MEDIA:/root/llm-wiki/raw/assets/macd_histogram_etf_real_performance_20260424.png)
 
-## 复现状态
+## 复现追踪
 
-- **状态**: ✅ 已复现
-- **复现日期**: 2026-04-28
-- **复现报告**: [[strategy-repro-macd_histogram_rev_20260416]]
-- **最佳品种**: QQQ (Sharpe=1.397)
-- **评级**: 🟢 Green
+| 复现日期 | 复现报告 | 状态 | 最佳品种 | 备注 |
+|----------|----------|------|----------|------|
+| 2026-04-16 | [[strategy-repro-macd_histogram_rev_20260416\|报告-20260416]] | 🟢 Green | QQQ (Sharpe=1.038) | 首次复现 |
+| 2026-04-28 | [[strategy-repro-macd_histogram_rev_20260416\|报告-20260428]] | 🟢 Green | QQQ (Sharpe=1.397) | 代码修复后重新验证 |
 
-| 品种 | 评级 | Sharpe | 交易数 |
-|------|------|--------|--------|
-| SPY | 🔴 Red | 0.000 | 0 |
-| QQQ | 🟢 Green | 1.397 | 152 |
-| IWM | 🔴 Red | 0.000 | 0 |
-| GLD | 🔴 Red | 0.000 | 0 |
+> **当前有效复现**: [[strategy-repro-macd_histogram_rev_20260416]]

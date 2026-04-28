@@ -12,6 +12,7 @@ source_note: macd_histogram_rev_20260416
 
 ## 原文信息
 - **策略 ID**: `macd_histogram_rev_20260416`
+- **原文摘要**: [[strategy-repro-macd-histogram-rev-20260416]]
 - **复现日期**: 2026-04-28
 - **评估报告**: `reports/eval_macd_histogram_rev_20260416_20260428_233544.json`
 
@@ -54,6 +55,13 @@ source_note: macd_histogram_rev_20260416
 - YAML: `strategies/inbox/macd_histogram_rev_20260416.yaml`
 - 代码: `generated/macd_histogram_rev_20260416_strategy.py`
 - 评估报告: `reports/eval_macd_histogram_rev_20260416_20260428_233544.json`
+
+## 历史复现记录
+
+| 日期 | 事件 | 结果 |
+|------|------|------|
+| 2026-04-16 | 首次复现 | QQQ Sharpe=1.038, 代码逻辑正确 |
+| 2026-04-28 | 代码被覆盖后恢复 | 从 git 恢复有效版本，修复 `daily_end_hour` 被 OAT 优化问题 |
 
 ---
 
