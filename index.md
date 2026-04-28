@@ -54,7 +54,7 @@
 | Donchian ADX Breakout | [[2026-04-05-Strategy-8-The-Easiest-Trend-System-Youll-Ever-Trade-Donchian-Channel-Breakout]] | [[strategy-repro-donchian-adx-breakout]] | ETH | 1.192 | 🟢 Green | 2026-04-22 |
 | MACD Histogram Mean Reversion | [[2024-03-07-MACD-Histogram-Trading-Strategy--Rules-Setup-Backtest-Example-Insights]] | [[strategy-repro-macd-histogram-rev-20260416]] | QQQ | 1.038 | 🟢 Green | 2026-04-16 |
 | End of Month SPY | [[2026-04-04_End-of-Month-Trading-Strategy-in-S&P-500-—-Update]] | [[strategy-repro-end-of-month-spy]] | SPY | 1.030 | 🟢 Green | 2026-04-20 |
-| 2024-03-03-A-Simple-Trend-Following-System-and-Strategy-in-the-SP-500-Insights-from-Meb-Faber-and-Paul-Tudor-Jones | [[2024-03-03-A-Simple-Trend-Following-System-and-Strategy-in-the-SP-500-Insights-from-Meb-Faber-and-Paul-Tudor-Jones]] | [[strategy-repro-simple_trend_following]] | QQQ | 1.023 | 🟢 Green | 2026-04-28 |
+| simple_trend_following | [[simple_trend_following]] | [[strategy-repro-simple_trend_following]] | QQQ | 1.023 | 🟢 Green | 2026-04-28 |
 | Double Seven | [[2024-01-22-Larry-Connors-Double-Seven-Trading-Strategy-Double-7-Trading-System]] | [[strategy-repro-double-seven]] | SPY | 0.944 | 🟢 Green | 2026-04-24 |
 | 5-Day Low | [[2026-04-14-Buy-Weakness-Win-Big-The-5-Day-Low-Trading-Strategy]] | [[strategy-repro-five-day-low]] | SPY | 0.925 | 🟢 Green | 2026-04-24 |
 | Pullback Trading | [[2023-12-25-pullback-trading-strategies-backtest]] | [[strategy-repro-pullback-trading]] | SPY | 0.895 | 🟡 Yellow | 2026-04-25 |
@@ -138,6 +138,7 @@
     98|---
     99|
    100|## 最近活动
+- [2026-04-28] 策略复现 `simple_trend_following` | QQQ Sharpe=1.023 MaxDD=-4.37%
 - [2026-04-28] 策略复现 `simple_trend_following` | QQQ Sharpe=1.023 MaxDD=-4.37%
 - [2026-04-28] 策略复现 `simple_trend_following` | QQQ Sharpe=1.023 MaxDD=-4.37%
 - [2026-04-28] 策略复现 `simple_trend_following_dual_stop` | QQQ Sharpe 1.02, GLD Sharpe 1.01, IWM Sharpe 0.17 (推断实现, Yellow)
