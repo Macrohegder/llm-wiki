@@ -1,9 +1,15 @@
 
+## [2026-04-29] ingest | SetupAlpha — 3x Leveraged ETF Strategy
+- 新增 raw: `raw/articles/setup4alpha-leveraged-etf-strategy.md`
+- 新增 source: `wiki/sources/2025-10-05_leveraged-etf-strategy.md`
+- 更新: `index.md` (+4 concepts, +source entry)
+- 关键内容: TQQQ+TMF 50/50 双月再平衡，15年 CAGR 19.6%，崩溃过滤器
+
 ## [2026-04-29] ingest | Algorithmicguys — Tradable Futures Portfolio
 - 新增 raw: `raw/articles/algorithmicguys-tradable-futures-portfolio.md`
 - 新增 source: `wiki/sources/2025-11-04_tradable-futures-portfolio.md`
 - 更新: `index.md` (实体 + 来源)
-- 关键内容: 12策略期货组合构建法，仅用 incubation/live 数据，Monte Carlo 验证
+- 关键内容: 12策略期货组合构建法，仅用 incubation/live 数据，Monte Carlo验证
 
 ## [2026-04-28] pipeline | 策略复现 macd_histogram_rev_20260416
 - Action: `strategy_factory` auto pipeline (build → run → evaluate → wiki sync)

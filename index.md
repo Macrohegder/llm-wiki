@@ -41,6 +41,10 @@
 || [[Portfolio Diversification]] | 组合管理 | 通过分散化降低组合波动，追求负相关性 |
 || [[Monte Carlo Simulation]] | 统计 | 通过随机重排交易序列评估策略/组合鲁棒性 |
 || [[Incubation Testing]] | 风控 | 策略上线前的实盘孵化测试阶段 |
+|| [[Beta Slippage]] | 交易 | 杠杆ETF因每日再平衡在震荡市中产生的收益衰减 |
+|| [[Leveraged ETF]] | 产品 | 使用衍生品提供2x/3x日收益倍数的交易所交易基金 |
+|| [[Portfolio Rebalancing]] | 组合管理 | 定期调整持仓权重以维持目标配置的纪律性操作 |
+|| [[Crash Filter]] | 风控 | 极端市场条件下自动减仓/清仓的保护机制 |
     37|
     38|---
     39|
@@ -114,6 +118,7 @@
     77||| [[strategy-repro-rsi2-did-you-miss]] | 2026-04-25 | 策略复现 | RSI-2隐藏策略：GLD Sharpe 1.479，IWM Sharpe 1.170，2 Green |
     78||| [[strategy-repro-trading-hour-best]] | 2026-04-25 | 策略复现 | 最佳交易时段：无有效回测结果，需重新建模 |
 || [[2025-11-04_tradable-futures-portfolio]] | 2025-11-04 | 文章 | Algorithmicguys 12策略期货组合构建法：仅用实盘数据，Monte Carlo验证，Profit/MaxDD=15 |
+|| [[2025-10-05_leveraged-etf-strategy]] | 2025-10-05 | 文章/策略 | SetupAlpha 3x杠杆ETF组合：TQQQ+TMF 50/50双月再平衡，15年CAGR 19.6%，回撤28.5% |
     79|
     80|
     81|---
