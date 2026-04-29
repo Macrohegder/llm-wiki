@@ -1,4 +1,10 @@
 
+## [2026-04-29] ingest | Algorithmicguys — Tradable Futures Portfolio
+- 新增 raw: `raw/articles/algorithmicguys-tradable-futures-portfolio.md`
+- 新增 source: `wiki/sources/2025-11-04_tradable-futures-portfolio.md`
+- 更新: `index.md` (实体 + 来源)
+- 关键内容: 12策略期货组合构建法，仅用 incubation/live 数据，Monte Carlo 验证
+
 ## [2026-04-28] pipeline | 策略复现 macd_histogram_rev_20260416
 - Action: `strategy_factory` auto pipeline (build → run → evaluate → wiki sync)
 - Eval file: `eval_macd_histogram_rev_20260416_20260428_233544.json`
@@ -1589,3 +1595,10 @@
 - 跳过重复: 4 篇
 - 跳过 Paywall: 0 篇
 - 通知: 0 篇
+
+## [2026-04-29] auto-ingest | Substack 文章批量导入
+- 扫描: 510 篇
+- 导入: 1 篇
+- 跳过重复: 509 篇
+- 跳过 Paywall: 0 篇
+- 通知: 1 篇

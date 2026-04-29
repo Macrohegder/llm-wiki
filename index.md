@@ -13,9 +13,10 @@
     13||| [[QuantifiedStrategies-com]] | 网站 | Substack 量化策略网站，提供大量回测策略 |
     14||| [[Quantitativo]] | 作者 | Quant Trading Rules Substack，均值回归 / 参数分散策略专家 |
     15||| [[Delphic Alpha]] | 作者 | Substack 量化策略博客，专注日内 alpha 研究 |
-||| [[QQQ]] | ETF | Invesco QQQ Trust，追踪纳斯达克100指数 |
-    16||| [[SPY]] | ETF | SPDR S&P 500 ETF Trust |
-    17||| [[XLP]] | ETF | Consumer Staples Select Sector SPDR Fund |
+|| [[QQQ]] | ETF | Invesco QQQ Trust，追踪纳斯达克100指数 |
+||| [[SPY]] | ETF | SPDR S&P 500 ETF Trust |
+||| [[XLP]] | ETF | Consumer Staples Select Sector SPDR Fund |
+||| [[Algorithmicguys]] | 作者/团队 | Substack 量化策略博客，TraderDunn/Eric 主理，专注期货策略与组合构建 |
     18|
     19|---
     20|
@@ -34,9 +35,12 @@
 ||| [[Intraday-Alpha]] | 交易 | 日内 alpha 信号研究，30分钟/日线多时间框架 |
 ||| [[Fade-Breakout]] | 交易 | 突破失败策略：价格突破区间后反向交易 |
 ||| [[Overnight-Edge]] | 交易 | 隔夜持仓的统计优势 |
-    34|| [[Position-Sizing]] | 风控 | 头寸规模管理方法 |
-    35|| [[RSI (Relative Strength Index)]] | 指标 | 相对强弱指数 |
-    36|| [[Williams %R]] | 指标 | 威廉指标，超买超卖判断 |
+|| [[Position-Sizing]] | 风控 | 头寸规模管理方法 |
+|| [[RSI (Relative Strength Index)]] | 指标 | 相对强弱指数 |
+|| [[Williams %R]] | 指标 | 威廉指标，超买超卖判断 |
+|| [[Portfolio Diversification]] | 组合管理 | 通过分散化降低组合波动，追求负相关性 |
+|| [[Monte Carlo Simulation]] | 统计 | 通过随机重排交易序列评估策略/组合鲁棒性 |
+|| [[Incubation Testing]] | 风控 | 策略上线前的实盘孵化测试阶段 |
     37|
     38|---
     39|
@@ -109,6 +113,7 @@
     76||| [[strategy-repro-pullback-trading]] | 2026-04-25 | 策略复现 | 回调交易策略：Sharpe 0.895，96笔交易，最大回撤 2.62%，YELLOW |
     77||| [[strategy-repro-rsi2-did-you-miss]] | 2026-04-25 | 策略复现 | RSI-2隐藏策略：GLD Sharpe 1.479，IWM Sharpe 1.170，2 Green |
     78||| [[strategy-repro-trading-hour-best]] | 2026-04-25 | 策略复现 | 最佳交易时段：无有效回测结果，需重新建模 |
+|| [[2025-11-04_tradable-futures-portfolio]] | 2025-11-04 | 文章 | Algorithmicguys 12策略期货组合构建法：仅用实盘数据，Monte Carlo验证，Profit/MaxDD=15 |
     79|
     80|
     81|---
@@ -390,6 +395,7 @@
    324|
    325|
 ## 最新录入
+- 2026-04-29: 自动导入 1 篇 Substack 文章
 - 2026-04-27: 自动导入 1 篇 Substack 文章
 - 2026-04-27: 自动导入 1 篇 Substack 文章
 - 2026-04-27: 自动导入 1 篇 Substack 文章
