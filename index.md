@@ -71,6 +71,7 @@
 || Simple Trend Following (Dual Stop) | [[Simple Trend Following with Dual Stop]] | [[strategy-repro-simple-trend-dual-stop]] | QQQ | 1.02 | 🟡 Yellow | 2026-04-28 |
 | Weekly Mean Reversion SP500 | [[2023-04-23-Weekly-Mean-Reversion-System-For-SP-500-Stocks]] | [[strategy-repro-weekly-mean-reversion-sp500]] | SPY | 0.954 | 🟢 Green | 2026-04-25 |
 | strategy-repro-macd-histogram-rev-20260416 | [[strategy-repro-macd-histogram-rev-20260416]] | [[strategy-repro-macd_histogram_rev_20260416]] | QQQ | 1.397 | 🟢 Green | 2026-04-28 |
+| 2026-04-04-RSI-Based-Range-Momentum-System | [[2026-04-04-RSI-Based-Range-Momentum-System]] | [[strategy-repro-rsi_range_momentum]] | SPY | 0.000 | 🔴 Red | 2026-04-30 |
 
 > **规则**: 策略列 → 原文 source 页 | 复现报告列 → 复现详情页 | 按 Sharpe 降序排列
 > **管理规则**: [[WIKI_REPRODUCTION_RULES]]
@@ -150,6 +151,7 @@
     98|---
     99|
    100|## 最近活动
+- [2026-04-30] 策略复现 `rsi_range_momentum` | 无绿色结果
 - [2026-04-30] 策略复现 `nr7_breakout` | SPY Sharpe=1.212 MaxDD=-6.51%
 - [2026-04-28] 策略复现 `macd_histogram_rev_20260416` | QQQ Sharpe=1.397 MaxDD=-34.35%
 - [2026-04-28] 策略复现 `macd_histogram_rev_20260416` | 无绿色结果
@@ -402,6 +404,7 @@
    324|
    325|
 ## 最新录入
+- 2026-04-30: 自动导入 1 篇 Substack 文章
 - 2026-04-29: 自动导入 1 篇 Substack 文章
 - 2026-04-27: 自动导入 1 篇 Substack 文章
 - 2026-04-27: 自动导入 1 篇 Substack 文章

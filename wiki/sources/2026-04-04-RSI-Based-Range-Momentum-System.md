@@ -23,3 +23,11 @@ RSI-Based Range Momentum System QuantifiedStrategies.com Apr 02, 2026 5 1 Share 
 
 ## 相关概念
 -
+
+## 复现追踪
+
+| 复现日期 | 复现报告 | 状态 | 最佳品种 |
+|----------|----------|------|----------|
+| 2026-04-30 | [[strategy-repro-rsi_range_momentum]] | 🔴 Red | SPY (Sharpe=0.000) |
+
+> **当前有效复现**: [[strategy-repro-rsi_range_momentum]]

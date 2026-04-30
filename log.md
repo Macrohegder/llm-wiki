@@ -1,4 +1,9 @@
 
+## [2026-04-30] pipeline | 策略复现 rsi_range_momentum
+- Action: `strategy_factory` auto pipeline (build → run → evaluate → wiki sync)
+- Eval file: `eval_rsi_range_momentum_20260430_093310.json`
+- Results: 🟢 Green=0 | 🟡 Yellow=0 | 🔴 Red=5 | Total=5
+
 ## [2026-04-30] pipeline | 策略复现 nr7_breakout
 - Action: `strategy_factory` auto pipeline (build → run → evaluate → wiki sync)
 - Eval file: `eval_nr7_breakout_20260430_083327.json`
@@ -1615,3 +1620,10 @@
 - 跳过重复: 509 篇
 - 跳过 Paywall: 0 篇
 - 通知: 1 篇
+
+## [2026-04-30] auto-ingest | Substack 文章批量导入
+- 扫描: 511 篇
+- 导入: 1 篇
+- 跳过重复: 510 篇
+- 跳过 Paywall: 0 篇
+- 通知: 0 篇
