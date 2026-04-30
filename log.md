@@ -1,4 +1,12 @@
 
+## [2026-04-30] update | Crypto策略回测结果汇总写入Wiki
+- 更新: [[strategy-repro-crypto-trend-combo]] — 添加BTC结果 (Sharpe=1.741, 回撤-4.99%)，更新最佳品种为BTC
+- 新增: [[strategy-repro-bitcoin-momentum]] — Bitcoin Momentum Strategy在BTC上Yellow评级 (Sharpe=0.476, 598交易, 回撤-54%)
+- 更新: [[strategy-repro-nr7_breakout]] — 添加crypto回测图表 (BTC/ETH/SOL/DOGE)
+- 复制图表: raw/assets/nr7_breakout_*_chart.png (4张)
+- 更新: index.md (已验证策略表更新BTC最佳品种 + 新增Bitcoin Momentum条目)
+- Crypto表现最佳: [[strategy-repro-crypto-trend-combo]] BTC Sharpe=1.741 | [[strategy-repro-nr7_breakout]] BTC Sharpe=1.021 | [[strategy-repro-donchian-adx-breakout]] ETH Sharpe=1.192 | SOL Sharpe=1.104
+
 ## [2026-04-30] pipeline | 策略复现 rsi_range_momentum
 - Action: `strategy_factory` auto pipeline (build → run → evaluate → wiki sync)
 - Eval file: `eval_rsi_range_momentum_20260430_093310.json`

@@ -53,14 +53,15 @@
 | 策略 | 原文 | 复现报告 | 最佳品种 | Sharpe | 评级 | 日期 |
 |------|------|----------|----------|--------|------|------|
 || KAMA + ATR RTY Trend | [[2025-07-01-kama-atr-rty-trend]] | [[strategy-repro-kama-atr-rty-20260430]] | RTY/ES | 1.783 | 🟢 Green | 2026-04-30 |
-|| Consecutive Down Days | [[2026-04-19-Consecutive-Down-Days-Strategy]] | [[strategy-repro-consecutive-down-days]] | SPY | 1.762 | 🟢 Green | 2026-04-19 |
-| Catching Crypto Trends | [[2026-04-22-Catching-Crypto-Trends]] | [[strategy-repro-crypto-trend-combo]] | ETH | 1.577 | 🟢 Green | 2026-04-22 |
+||| Consecutive Down Days | [[2026-04-19-Consecutive-Down-Days-Strategy]] | [[strategy-repro-consecutive-down-days]] | SPY | 1.762 | 🟢 Green | 2026-04-19 |
+|| Catching Crypto Trends | [[2026-04-22-Catching-Crypto-Trends]] | [[strategy-repro-crypto-trend-combo]] | BTC | 1.741 | 🟢 Green | 2026-04-22 |
 | RSI-2 Did You Miss This | [[2026-04-08-Did-You-Miss-This]] | [[strategy-repro-rsi2-did-you-miss]] | GLD | 1.479 | 🟢 Green | 2026-04-25 |
 | Gold Envelope | [[2023-12-15-Gold-Envelope-Trading-Strategy---Rules-And-Performance]] | [[strategy-repro-gold-envelope]] | GLD | 1.357 | 🟡 Yellow | 2026-04-25 |
 | NR7 Breakout | [[2026-04-22-NR7-Breakout-Strategy]] | [[strategy-repro-nr7-breakout]] | SPY | 1.288 | 🟢 Green | 2026-04-22 |
 | Crypto Trend Combo V2 | [[2026-04-22-Crypto-Trend-Combo-V2]] | [[strategy-repro-crypto-trend-combo-v2]] | GLD | 1.224 | 🟢 Green | 2026-04-22 |
 | MACD Hook Gold | [[2025-05-01-macd-hook-gold-strategy]] | [[strategy-repro-macd-hook-gold]] | GLD | 1.223 | 🟢 Green | 2026-04-20 |
-| strategy-repro-nr7-breakout | [[strategy-repro-nr7-breakout]] | [[strategy-repro-nr7_breakout]] | SPY | 1.212 | 🟢 Green | 2026-04-30 |
+|| NR7 Breakout (Updated) | [[2026-04-22-NR7-Breakout-Strategy]] | [[strategy-repro-nr7_breakout]] | SPY | 1.212 | 🟢 Green | 2026-04-30 |
+|| Bitcoin Momentum | [[2026-04-24-Bitcoin-Momentum-Strategy]] | [[strategy-repro-bitcoin-momentum]] | BTC | 0.476 | 🟡 Yellow | 2026-04-24 |
 | Donchian ADX Breakout | [[2026-04-05-Strategy-8-The-Easiest-Trend-System-Youll-Ever-Trade-Donchian-Channel-Breakout]] | [[strategy-repro-donchian-adx-breakout]] | ETH | 1.192 | 🟢 Green | 2026-04-22 |
 | MACD Histogram Mean Reversion | [[2024-03-07-MACD-Histogram-Trading-Strategy--Rules-Setup-Backtest-Example-Insights]] | [[strategy-repro-macd-histogram-rev-20260416]] | QQQ | 1.038 | 🟢 Green | 2026-04-16 |
 | End of Month SPY | [[2026-04-04_End-of-Month-Trading-Strategy-in-S&P-500-—-Update]] | [[strategy-repro-end-of-month-spy]] | SPY | 1.030 | 🟢 Green | 2026-04-20 |

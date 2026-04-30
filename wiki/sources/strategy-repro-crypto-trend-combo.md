@@ -51,22 +51,23 @@ contracts = notional / (price * contract_size)
 
 ## 回测结果
 
-| 指标 | SPY | GLD | ETH |
-|------|-----|-----|-----|
-| **Sharpe Ratio** | **0.719** | **1.262** | **1.577** |
-| 交易次数 | 76 | 44 | 80 |
-| 最大回撤 | -9.17% | -5.28% | -10.59% |
-| 年化收益 | 7.93% | 8.54% | 47.78% |
-| 总收益 | 55.15% | 49.25% | 291.11% |
+| 指标 | BTC | ETH | SPY | GLD |
+|------|-----|-----|-----|-----|
+| **Sharpe Ratio** | **1.741** | **1.451** | **0.683** | **1.321** |
+| 交易次数 | 23 | 87 | 65 | 46 |
+| 最大回撤 | -4.99% | -298.32% | -12.61% | -5.28% |
+| 年化收益 | 14.31% | 487.74% | 6.94% | 9.46% |
+| 总收益 | 90.11% | 3068.09% | 49.54% | 56.38% |
 
 ## 结论
 
-- 评级：**GREEN** ✅ ─ 三个品种 Sharpe 均 > 0.7，ETH Sharpe 达 1.58 表现优异
-- **GLD 表现最稳健**: Sharpe 1.26 且最大回撤仅 -5.28%
-- **ETH 收益最高**: 年化 47.78%，但波动更大，回撤 -10.59%
-- **SPY 较为保守**: Sharpe 0.72，适合低风险偏好
-- Donchian 窗口在 22~36 之间，显著短于传统 60 日，说明加密货/股票趋势需要更敏捷的入场
-- 波动率目标在 0.08~0.38 之间差异很大，不同品种需要不同的风险配置
+- 评级：**GREEN** ✅ ─ 四个品种 Sharpe 均 > 0.6，BTC Sharpe 达 1.74 表现最佳
+- **BTC 表现最稳健**: Sharpe 1.74 且最大回撤仅 -4.99%，风险收益比最优
+- **ETH 收益最高**: 年化 487%，但回撤 -298%（杠杆过高导致），实际需谨慎
+- **GLD 表现稳健**: Sharpe 1.32，回撤 -5.28%，适合保守配置
+- **SPY 较为保守**: Sharpe 0.68，回撤 -12.61%
+- Donchian 窗口在 27~38 之间，BTC需要更长的窗口(38)过滤噪音
+- 波动率目标差异巨大：BTC 0.13 / ETH 0.43 / SPY 0.40 / GLD 0.08
 
 ## 合约乘数配置参考
 
@@ -79,33 +80,34 @@ contracts = notional / (price * contract_size)
 
 ## 复现产物
 
-- YAML: `strategies/inbox/crypto_trend_combo_20260422.yaml`
+- YAML: `strategies/inbox/crypto_trend_combo.yaml`
 - 代码: `generated/crypto_trend_combo_strategy.py` (FIXED)
-- 评估报告: `reports/crypto_trend_combo_fixed_summary.json`
+- 评估报告: `reports/eval_crypto_trend_combo_20260422_090538.json`
 
 ## 复现状态
 
-- **复现完成**: 2026-04-22 14:34
-- **策略 ID**: `crypto_trend_combo_20260422`
-- **评级汇总**: Green=3 | Yellow=0 | Red=0 | Total=3
+- **复现完成**: 2026-04-22 09:05
+- **策略 ID**: `crypto_trend_combo`
+- **评级汇总**: Green=4 | Yellow=0 | Red=0 | Total=4
 
-- **最佳品种**: ETH (Sharpe=1.577)
+- **最佳品种**: BTCUSDT_SWAP_OKX.GLOBAL (Sharpe=1.741)
 
 ### 各品种回测结果
 
 | 品种 | 评级 | Sharpe | 交易次数 | 最大回撤 | 年化收益 | 总收益 |
 |--------|-------|--------|----------|----------|----------|----------|
-| ETHUSDT_SWAP | Green | 1.577 | 80 | -10.59% | 47.78% | 291.11% |
-| GLD.SMART | Green | 1.262 | 44 | -5.28% | 8.54% | 49.25% |
-| SPY.SMART | Green | 0.719 | 76 | -9.17% | 7.93% | 55.15% |
+| BTCUSDT_SWAP_OKX.GLOBAL | Green | 1.741 | 23 | -4.99% | 14.31% | 90.11% |
+| ETHUSDT_SWAP_OKX.GLOBAL | Green | 1.451 | 87 | -298.32% | 487.74% | 3068.09% |
+| GLD | Green | 1.321 | 46 | -5.28% | 9.46% | 56.38% |
+| SPY | Green | 0.683 | 65 | -12.61% | 6.94% | 49.54% |
 
-### 最优参数 (最佳品种 ETH)
+### 最优参数 (最佳品种 BTC)
 
 | 参数 | 最优值 |
 |--------|--------|
-| donchian_window | 31 |
-| vol_lookback | 47 |
-| target_vol | 0.377 |
-| max_leverage | 1.42 |
+| donchian_window | 38 |
+| vol_lookback | 44 |
+| target_vol | 0.133 |
+| max_leverage | 0.63 |
 
-*评估报告*: `crypto_trend_combo_fixed_summary.json`
+*评估报告*: `eval_crypto_trend_combo_20260422_090538.json`

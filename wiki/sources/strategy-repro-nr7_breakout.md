@@ -48,13 +48,18 @@ source_note: nr7_breakout
 
 ## 回测图表
 
+### ETF品种
+
 ![[raw/assets/strategy_charts/nr7_breakout/nr7breakoutstrategy_spy_chart.png]]
 ![[raw/assets/strategy_charts/nr7_breakout/nr7breakoutstrategy_qqq_chart.png]]
 ![[raw/assets/strategy_charts/nr7_breakout/nr7breakoutstrategy_gld_chart.png]]
-![[raw/assets/strategy_charts/nr7_breakout/nr7breakoutstrategy_btcusdt_swap_okx_chart.png]]
-![[raw/assets/strategy_charts/nr7_breakout/nr7breakoutstrategy_ethusdt_swap_okx_chart.png]]
-![[raw/assets/strategy_charts/nr7_breakout/nr7breakoutstrategy_solusdt_swap_okx_chart.png]]
-![[raw/assets/strategy_charts/nr7_breakout/nr7breakoutstrategy_dogeusdt_swap_okx_chart.png]]
+
+### Crypto品种
+
+![[raw/assets/nr7_breakout_BTCUSDT_SWAP_OKX_GLOBAL_chart.png]]
+![[raw/assets/nr7_breakout_ETHUSDT_SWAP_OKX_GLOBAL_chart.png]]
+![[raw/assets/nr7_breakout_SOLUSDT_SWAP_OKX_GLOBAL_chart.png]]
+![[raw/assets/nr7_breakout_DOGEUSDT_SWAP_OKX_GLOBAL_chart.png]]
 
 ## 复现产物
 
