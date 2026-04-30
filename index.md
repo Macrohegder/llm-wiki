@@ -52,7 +52,8 @@
 
 | 策略 | 原文 | 复现报告 | 最佳品种 | Sharpe | 评级 | 日期 |
 |------|------|----------|----------|--------|------|------|
-| Consecutive Down Days | [[2026-04-19-Consecutive-Down-Days-Strategy]] | [[strategy-repro-consecutive-down-days]] | SPY | 1.762 | 🟢 Green | 2026-04-19 |
+|| KAMA + ATR RTY Trend | [[2025-07-01-kama-atr-rty-trend]] | [[strategy-repro-kama-atr-rty-20260430]] | RTY | 1.783 | 🟢 Green | 2026-04-30 |
+|| Consecutive Down Days | [[2026-04-19-Consecutive-Down-Days-Strategy]] | [[strategy-repro-consecutive-down-days]] | SPY | 1.762 | 🟢 Green | 2026-04-19 |
 | Catching Crypto Trends | [[2026-04-22-Catching-Crypto-Trends]] | [[strategy-repro-crypto-trend-combo]] | ETH | 1.577 | 🟢 Green | 2026-04-22 |
 | RSI-2 Did You Miss This | [[2026-04-08-Did-You-Miss-This]] | [[strategy-repro-rsi2-did-you-miss]] | GLD | 1.479 | 🟢 Green | 2026-04-25 |
 | Gold Envelope | [[2023-12-15-Gold-Envelope-Trading-Strategy---Rules-And-Performance]] | [[strategy-repro-gold-envelope]] | GLD | 1.357 | 🟡 Yellow | 2026-04-25 |
