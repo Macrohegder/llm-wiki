@@ -118,6 +118,11 @@
     72||| [[strategy-repro-stochastic-extremes-gold]] | 2026-04-25 | 策略复现 | 随机指标极值黄金系统：Sharpe 0.956，全品种RED，交易次数严重不足 |
     73||| [[strategy-repro-weekly-mean-reversion-sp500]] | 2026-04-25 | 策略复现 | SP500周线均值回归：Sharpe 0.954，193笔交易，Green |
     74||| [[strategy-repro-bollinger-band-squeeze]] | 2026-04-25 | 策略复现 | 布林带收缩策略：全品种RED，QQQ Sharpe 0.766，信号稀疏 |
+| [[2026-04-27_RSI-30-50-Strategy-for-Beginners]] | 2026-04-27 | 策略/文章 | RSI 30-50 回调买入：RSI(5)跌破30入场、回升至50出场，SPY胜率81% |
+| [[2026-04-27_Trend-Following-Strategy-for-SP500]] | 2026-04-27 | 策略/文章 | S&P 500 趋势跟踪：1960年以来CAGR 6%，回撤25%（vs买入持有55%），付费墙遮挡规则 |
+| [[2026-04-27_Larry-Connors-pctB-Strategy]] | 2026-04-27 | 策略/文章 | Larry Connors %B均值回归：%B<0超卖入场，1993年以来63笔交易，平均收益1.3% |
+| [[2026-04-29_Ken-Griffin-Trading-Strategy]] | 2026-04-29 | 人物/系统 | Ken Griffin/Citadel多策略机器分析：非可复现策略，系统构建哲学参考 |
+| [[2026-04-30_Martingale-Strategy-for-Stocks]] | 2026-04-30 | 风险教育 | Martingale仓位管理批判：指数级风险，必爆仓，反面教材 |
     75||| [[strategy-repro-macd-bitcoin]] | 2026-04-25 | 策略复现 | 比特币MACD交叉策略：Sharpe 0.944，最大回撤 51.76%，RED |
     76||| [[strategy-repro-pullback-trading]] | 2026-04-25 | 策略复现 | 回调交易策略：Sharpe 0.895，96笔交易，最大回撤 2.62%，YELLOW |
     77||| [[strategy-repro-rsi2-did-you-miss]] | 2026-04-25 | 策略复现 | RSI-2隐藏策略：GLD Sharpe 1.479，IWM Sharpe 1.170，2 Green |

@@ -1640,6 +1640,20 @@
 - 通知: 1 篇
 
 ## [2026-04-30] auto-ingest | Substack 文章批量导入
+- 新增 source: [[2026-04-30_Martingale-Strategy-for-Stocks]] — Martingale 风险教育
+- 更新 source: [[2026-04-30_Martingale-Strategy-for-Stocks]] — 从空壳 preview-only 补全为完整分析
+
+## [2026-04-30] ingest | Substack 积压文章补录
+- 新增 source: [[2026-04-27_RSI-30-50-Strategy-for-Beginners]] — RSI 30-50 回调买入策略 (concrete_score: 85)
+- 新增 source: [[2026-04-27_Trend-Following-Strategy-for-SP500]] — S&P 500 趋势跟踪 (concrete_score: 40, 付费墙遮挡)
+- 新增 source: [[2026-04-27_Larry-Connors-pctB-Strategy]] — Larry Connors %B 均值回归 (concrete_score: 75)
+- 新增 source: [[2026-04-29_Ken-Griffin-Trading-Strategy]] — Ken Griffin/Citadel 系统分析 (concrete_score: 10, 非策略)
+- 新增 raw: quantifiedstrategies-2026-04-27-RSI-30-50-Strategy-for-Beginners.md
+- 新增 raw: quantifiedstrategies-2026-04-27-A-Trend-Following-Strategy-for-the-S&P-500.md
+- 新增 raw: quantifiedstrategies-2026-04-27-Larry-Connors-pctB-Strategy.md
+- 新增 raw: quantifiedstrategies-2026-04-29-Ken-Griffin-Trading-Strategy-Explained.md
+- 更新 index.md: 新增 5 条来源记录
+- 修复: Substack tracker 自动同步机制（见下方）
 - 扫描: 511 篇
 - 导入: 1 篇
 - 跳过重复: 510 篇
