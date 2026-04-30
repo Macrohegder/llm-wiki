@@ -59,6 +59,7 @@
 | NR7 Breakout | [[2026-04-22-NR7-Breakout-Strategy]] | [[strategy-repro-nr7-breakout]] | SPY | 1.288 | 🟢 Green | 2026-04-22 |
 | Crypto Trend Combo V2 | [[2026-04-22-Crypto-Trend-Combo-V2]] | [[strategy-repro-crypto-trend-combo-v2]] | GLD | 1.224 | 🟢 Green | 2026-04-22 |
 | MACD Hook Gold | [[2025-05-01-macd-hook-gold-strategy]] | [[strategy-repro-macd-hook-gold]] | GLD | 1.223 | 🟢 Green | 2026-04-20 |
+| strategy-repro-nr7-breakout | [[strategy-repro-nr7-breakout]] | [[strategy-repro-nr7_breakout]] | SPY | 1.212 | 🟢 Green | 2026-04-30 |
 | Donchian ADX Breakout | [[2026-04-05-Strategy-8-The-Easiest-Trend-System-Youll-Ever-Trade-Donchian-Channel-Breakout]] | [[strategy-repro-donchian-adx-breakout]] | ETH | 1.192 | 🟢 Green | 2026-04-22 |
 | MACD Histogram Mean Reversion | [[2024-03-07-MACD-Histogram-Trading-Strategy--Rules-Setup-Backtest-Example-Insights]] | [[strategy-repro-macd-histogram-rev-20260416]] | QQQ | 1.038 | 🟢 Green | 2026-04-16 |
 | End of Month SPY | [[2026-04-04_End-of-Month-Trading-Strategy-in-S&P-500-—-Update]] | [[strategy-repro-end-of-month-spy]] | SPY | 1.030 | 🟢 Green | 2026-04-20 |
@@ -149,6 +150,7 @@
     98|---
     99|
    100|## 最近活动
+- [2026-04-30] 策略复现 `nr7_breakout` | SPY Sharpe=1.212 MaxDD=-6.51%
 - [2026-04-28] 策略复现 `macd_histogram_rev_20260416` | QQQ Sharpe=1.397 MaxDD=-34.35%
 - [2026-04-28] 策略复现 `macd_histogram_rev_20260416` | 无绿色结果
 - [2026-04-28] 策略复现 `simple_trend_following` | QQQ Sharpe=1.023 MaxDD=-4.37%

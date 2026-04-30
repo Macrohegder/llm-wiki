@@ -62,33 +62,10 @@ tags: [nr7, breakout, quantified-strategies, reproduction, green]
 - 代码: `generated/nr7_breakout_strategy.py`
 - 评估报告: `reports/eval_nr7_breakout_20260422_094223.json`
 
-## 复现状态
+## 复现追踪
 
-- **复现完成**: 2026-04-22
-- **策略 ID**: `nr7_breakout`
-- **评级汇总**: Green=1 | Yellow=1 | Red=4 | Total=6
+| 复现日期 | 复现报告 | 状态 | 最佳品种 |
+|----------|----------|------|----------|
+| 2026-04-30 | [[strategy-repro-nr7_breakout]] | 🟢 Green | SPY (Sharpe=1.212) |
 
-- **最佳品种**: SPY (Sharpe=1.288)
-
-### 各品种回测结果
-
-| 品种 | 评级 | Sharpe | 交易次数 | 最大回撤 | 年化收益 | 总收益 |
-|--------|-------|--------|----------|----------|----------|----------|
-| SPY | Green | 1.288 | 460 | -0.52% | 0.60% | 3.67% |
-| QQQ | Yellow | 0.902 | 166 | -0.54% | 0.36% | 1.81% |
-| BTCUSDT_SWAP_OKX.GLOBAL | Red | 0.650 | 284 | -19.07% | 11.50% | 71.34% |
-| ETHUSDT_SWAP_OKX.GLOBAL | Red | 0.696 | 441 | -20.11% | 10.84% | 67.22% |
-| SOLUSDT_SWAP_OKX.GLOBAL | Red | 0.343 | 275 | -1.89% | 0.43% | 2.19% |
-| DOGEUSDT_SWAP_OKX.GLOBAL | Red | 0.268 | 379 | -5.96% | 0.96% | 5.48% |
-
-### 最优参数 (最佳品种)
-
-| 参数 | 最优值 |
-|--------|--------|
-| `nr_lookback` | 2 |
-| `use_trend_filter` | 0.7 |
-| `trend_ma_period` | 15 |
-| `use_long_only` | 0.94 |
-| `fixed_size` | 1 |
-
-*评估报告*: `eval_nr7_breakout_20260422_094223.json`
+> **当前有效复现**: [[strategy-repro-nr7_breakout]]

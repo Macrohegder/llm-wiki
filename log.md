@@ -1,4 +1,11 @@
 
+## [2026-04-30] pipeline | 策略复现 nr7_breakout
+- Action: `strategy_factory` auto pipeline (build → run → evaluate → wiki sync)
+- Eval file: `eval_nr7_breakout_20260430_083327.json`
+- Results: 🟢 Green=4 | 🟡 Yellow=0 | 🔴 Red=3 | Total=7
+- Best: SPY | Sharpe=1.212 | Trades=459 | MaxDD=-6.51% | Annual=4.88%
+- Optimal params: {"nr_lookback": 3, "trend_ma_period": 15, "use_long_only": 1.06, "use_trend_filter": 0.7}
+
 ## [2026-04-29] ingest | SetupAlpha — 3x Leveraged ETF Strategy
 - 新增 raw: `raw/articles/setup4alpha-leveraged-etf-strategy.md`
 - 新增 source: `wiki/sources/2025-10-05_leveraged-etf-strategy.md`
