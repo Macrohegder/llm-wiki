@@ -61,7 +61,9 @@ reproduced_date: 2026-04-30
 | 总手续费 | $46.23 |
 | 总滑点 | $2.06 |
 
-![RTY 回测图表](MEDIA:/root/.openclaw/workspace/strategy_factory/data/pipeline/KamaAtrRtyTrendStrategy_RTY_CME/kamaatrrtytrendstrategy_rty_chart.png)
+![RTY 回测图表](MEDIA:/root/llm-wiki/raw/assets/kama_atr_rty_trend_rty_20260430.png)
+
+![ES 回测图表](MEDIA:/root/llm-wiki/raw/assets/kama_atr_rty_trend_es_20260430.png)
 
 ### 多品种扩展测试结果
 
