@@ -1,4 +1,14 @@
 
+## [2026-04-30] synthesis | Crypto策略挖掘分析汇总报告
+- 新增合成报告: [[crypto-strategies-analysis-2026-04-30]]
+- 分析范围: 8策略 × 4 crypto品种 (BTC/ETH/SOL/DOGE)
+- 核心结论: 趋势跟踪 > 突破 > 动量 > 均值回归 (Crypto适配度)
+- 最佳策略: Crypto Trend Combo BTC (Sharpe=1.741, 回撤-4.99%)
+- 关键发现: BTC需长Donchian窗口(38日)，ETH高波动率目标危险(-298%回撤)
+- 应避免: 均值回归策略在crypto上普遍失效，DOGE上所有策略失效
+- 可操作建议: P0=Crypto Trend Combo(BTC)+NR7 Breakout(BTC), P1=Donchian ADX(ETH+SOL)
+- 更新: index.md (添加合成报告条目)
+
 ## [2026-04-30] update | Crypto策略回测结果汇总写入Wiki
 - 更新: [[strategy-repro-crypto-trend-combo]] — 添加BTC结果 (Sharpe=1.741, 回撤-4.99%)，更新最佳品种为BTC
 - 新增: [[strategy-repro-bitcoin-momentum]] — Bitcoin Momentum Strategy在BTC上Yellow评级 (Sharpe=0.476, 598交易, 回撤-54%)

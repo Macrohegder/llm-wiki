@@ -74,6 +74,7 @@
 | Weekly Mean Reversion SP500 | [[2023-04-23-Weekly-Mean-Reversion-System-For-SP-500-Stocks]] | [[strategy-repro-weekly-mean-reversion-sp500]] | SPY | 0.954 | 🟢 Green | 2026-04-25 |
 | strategy-repro-macd-histogram-rev-20260416 | [[strategy-repro-macd-histogram-rev-20260416]] | [[strategy-repro-macd_histogram_rev_20260416]] | QQQ | 1.397 | 🟢 Green | 2026-04-28 |
 || RSI2_MR CN Futures | [[rsi2mr-cn-futures-batch-2026-04-30]] | TF888 (5年国债) | 1.25 | 🟢 Green | 2026-04-30 |
+|| Crypto策略挖掘分析 | [[crypto-strategies-analysis-2026-04-30]] | BTC/ETH/SOL/DOGE | — | 合成报告 | 2026-04-30 |
 
 > **规则**: 策略列 → 原文 source 页 | 复现报告列 → 复现详情页 | 按 Sharpe 降序排列
 > **管理规则**: [[WIKI_REPRODUCTION_RULES]]
