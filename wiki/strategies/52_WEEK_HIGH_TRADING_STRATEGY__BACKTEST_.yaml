@@ -1,0 +1,18 @@
+# 策略配置: 52-WEEK HIGH TRADING STRATEGY (BACKTEST AND EXAMPLE) 📈
+# 来源: None
+# 生成时间: 2026-05-01
+# 注意: 参数来自文章提取，可能需要手动校准
+
+strategy:
+  description: 'From: None'
+  end_date: '2024-12-31'
+  exchange: SMART
+  interval: d
+  name: 52-WEEK HIGH TRADING STRATEGY (BACKTEST AND EXAMPLE) 📈
+  params: {}
+  position_size: 1.0
+  signal_type: trend_breakout
+  start_date: '2014-01-01'
+  stop_loss_pct: 0.03
+  symbols:
+  - SPY

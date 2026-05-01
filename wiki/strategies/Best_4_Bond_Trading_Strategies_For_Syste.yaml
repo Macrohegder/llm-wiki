@@ -1,0 +1,18 @@
+# 策略配置: Best 4 Bond Trading Strategies For Systematic Traders
+# 来源: None
+# 生成时间: 2026-05-01
+# 注意: 参数来自文章提取，可能需要手动校准
+
+strategy:
+  description: 'From: None'
+  end_date: '2024-12-31'
+  exchange: SMART
+  interval: d
+  name: Best 4 Bond Trading Strategies For Systematic Traders
+  params: {}
+  position_size: 1.0
+  signal_type: trend_breakout
+  start_date: '2014-01-01'
+  stop_loss_pct: 0.03
+  symbols:
+  - SPY
