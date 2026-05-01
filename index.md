@@ -37,6 +37,8 @@
 ||| [[Overnight-Edge]] | 交易 | 隔夜持仓的统计优势 |
 || [[Position-Sizing]] | 风控 | 头寸规模管理方法 |
 || [[RSI (Relative Strength Index)]] | 指标 | 相对强弱指数 |
+|| [[RSI2 Mean Reversion]] | 策略 | 2-period RSI + SMA200趋势过滤的均值回归策略，交易频率极低 |
+|| [[RSI Mean Reversion]] | 策略 | 14-period RSI 标准均值回归，带ATR止损，交易频率中等 |
 || [[Williams %R]] | 指标 | 威廉指标，超买超卖判断 |
 || [[Portfolio Diversification]] | 组合管理 | 通过分散化降低组合波动，追求负相关性 |
 || [[Monte Carlo Simulation]] | 统计 | 通过随机重排交易序列评估策略/组合鲁棒性 |
@@ -97,7 +99,8 @@
     51|| [[strategy-repro-end-of-month-spy]] | 2026-04-20 | 策略复现 | 月末SPY交易策略：Sharpe 1.029，最大回撤仅 0.91%，本批最佳 |
     52|| [[2026-03-28-simplest-intraday-momentum-strategy]] | 2026-03-28 | 文章 | 最简单的日内动量策略：VWAP控制过滤 + StochRSI时机入场 |
     53|| [[2026-03-19-5-swing-trading-strategies-for-beginners]] | 2026-03-19 | 文章 | 5 个适合初学者的波段交易均值回归策略 |
-    54|| [[2026-04-18-consecutive-down-days-strategy]] | 2026-04-18 | 文章 | 连续下跌日均值回归策略：在长期上升趋势中抓住短期恐惧买入 |
+    54|| [[2026-05-01_cta-developer-rsi-strategy-confusion-fix]] | 2026-05-01 | 排查记录 | cta_developer RSI/RSI2策略混淆bug修复与crypto回测结论 |
+|| [[2026-04-18-consecutive-down-days-strategy]] | 2026-04-18 | 文章 | 连续下跌日均值回归策略：在长期上升趋势中抓住短期恐惧买入 |
     55|| [[2025-04-13_karpathy_llm_wiki]] | 2025-04-13 | 文章 | Karpathy 分享的公开构建个人本地知识库的详细方法 |
     56|| [[strategy-repro-consecutive-down-days]] | 2026-04-19 | 策略复现 | 连续下跌日均值回归：SPY Sharpe 1.762，最大回撤 2.25% |
     57|| [[strategy-repro-crypto-trend-combo]] | 2026-04-22 | 策略复现 | 加密货趋势组合：BTC Sharpe 1.741，最大回撤 4.99% |

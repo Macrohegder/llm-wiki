@@ -22,6 +22,24 @@
 - Eval file: `eval_rsi_range_momentum_20260430_093310.json`
 - Results: 🟢 Green=0 | 🟡 Yellow=0 | 🔴 Red=5 | Total=5
 
+## [2026-05-01] fix | cta_developer RSI/RSI2策略混淆bug修复
+- 问题: `pipeline.py --strategy RSI2_MR` 误匹配到 `RsiMeanReversionStrategy`（RSI）
+- 根因: `resolve_strategy()` 模糊匹配 `k.upper() in name.upper()` 导致短别名 `RSI` 匹配长输入 `RSI2_MR`
+- 修复: `pipeline.py` `resolve_strategy()` 改为 4 级优先级（精确→大小写不敏感精确→标准化→子串长度降序）
+- 同步: `run_batch.py` `STRATEGY_OPT_PARAMS` 补全 `Rsi2Mr`/`rsi2mr`/`RsiMeanReversion`/`RSI`/`rsi` 别名
+- 验证: `RSI2_MR` → `Rsi2MrStrategy` ✓ | `rsi2mr` → `Rsi2MrStrategy` ✓ | `RSI` → `RsiMeanReversionStrategy` ✓
+- 新增 source: [[2026-05-01_cta-developer-rsi-strategy-confusion-fix]]
+- 更新: index.md（添加概念条目 + source 条目）
+
+## [2026-05-01] backtest | RSI vs RSI2 crypto日线回测（BTC/ETH/SOL/DOGE）
+- 策略: `RsiMeanReversionStrategy`（RSI）+ 硬性 50 次交易约束 + GA pop=200 ngen=50
+- 结果: 4/4 交易次数达标（54-66 笔），但夏普全负
+  - BTC: 62 trades, Sharpe=-0.01 | ETH: 66 trades, Sharpe=-0.09
+  - DOGE: 66 trades, Sharpe=-0.15, 总收益=-56% | SOL: 54 trades, Sharpe=-0.52
+- 结论: RSI 均值回归在 crypto 强趋势市场失效，频繁止损导致亏损
+- 对比: `Rsi2MrStrategy`（RSI2）在同一条件下硬性 50 次约束 → 无组合达标（6 年交易 <20 次）
+- 产出: `/root/.openclaw/workspace/cta_developer/data/batch_results/rsi_crypto_20260501_114331/`
+
 ## [2026-04-30] pipeline | 策略复现 nr7_breakout
 - Action: `strategy_factory` auto pipeline (build → run → evaluate → wiki sync)
 - Eval file: `eval_nr7_breakout_20260430_083327.json`
