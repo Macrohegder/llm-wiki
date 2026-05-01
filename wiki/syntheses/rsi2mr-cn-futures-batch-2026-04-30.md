@@ -4,7 +4,7 @@ tags:
   - strategy/mean-reversion
   - asset/cn-futures
   - pipeline/batch
-  - strategy/RSI2-MR
+  - strategy/RSI-Mean-Reversion
 date: "2026-04-30"
 related:
   - "[[strategy:RSI-2 Mean Reversion (SPY)]]"
@@ -14,10 +14,10 @@ related:
   - "[[2026-04-25-nr7-futures-batch-pipeline]]"
 ---
 
-# RSI2_MR 国内期货批量回测报告
+# RSI 均值回归国内期货批量回测报告
 
-> **策略**: RsiMeanReversionStrategy (Connor RSI-2 改进版，带 ATR 止损)  
-> **别名**: RSI2_MR  
+> **策略**: RsiMeanReversionStrategy (通用 RSI 均值回归，带 ATR 止损)  
+> **别名**: RSI_Mean_Reversion  
 > **回测区间**: 2020-01-01 ~ 2026-04-29 (约 6.3 年)  
 > **品种数**: 8 (4 个股指期货 + AU 黄金 + 3 个国债期货)  
 > **优化方法**: GA (pop=20, ngen=10)  
@@ -123,7 +123,7 @@ related:
 | 美股 ETF | GLD (RSI2 Did You Miss) | 1.48 | 黄金 ETF 表现最佳 |
 | 美股 ETF | SPY (原版 RSI2) | ~0.9 | 大盘指数稳健但收益偏低 |
 
-**结论**: RSI2 均值回归策略在**国内国债期货**上的表现优于美股 ETF，Sharpe 1.14-1.25 属于顶级水平。
+> **结论**: RSI 均值回归策略在**国内国债期货**上的表现优于美股 ETF，Sharpe 1.14-1.25 属于顶级水平。
 
 ---
 

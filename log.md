@@ -1643,6 +1643,18 @@
 - 新增 source: [[2026-04-30_Martingale-Strategy-for-Stocks]] — Martingale 风险教育
 - 更新 source: [[2026-04-30_Martingale-Strategy-for-Stocks]] — 从空壳 preview-only 补全为完整分析
 
+## [2026-05-01] fix | 修正 RSI 策略复现档案错误
+- **修正**: `wiki/syntheses/rsi2mr-cn-futures-batch-2026-04-30.md`
+  - 策略名称: RSI2_MR → **RSI Mean Reversion**（实际跑的是 `RsiMeanReversionStrategy`，非 Connor RSI-2）
+  - 别名: RSI2_MR → **RSI_Mean_Reversion**
+  - tag: strategy/RSI2-MR → **strategy/RSI-Mean-Reversion**
+- **更新**: `wiki/sources/strategy-repro-rsi2-did-you-miss.md`
+  - 新增扩展测试章节: 国内期货 AU888 + GLD 再验证 (2026-04-30)
+  - AU888: RED, Sharpe=0.23, 16笔交易, 回撤-9.3%
+  - GLD 再验证: YELLOW, Sharpe=0.72, 15笔交易（vs 上次 Sharpe=1.48）
+  - 更新评级汇总: Green=2 | Yellow=2 | Red=2 | Total=6
+- **更新**: `index.md` — RSI2_MR CN Futures → **RSI Mean Reversion CN Futures**
+
 ## [2026-04-30] ingest | Substack 积压文章补录
 - 新增 source: [[2026-04-27_RSI-30-50-Strategy-for-Beginners]] — RSI 30-50 回调买入策略 (concrete_score: 85)
 - 新增 source: [[2026-04-27_Trend-Following-Strategy-for-SP500]] — S&P 500 趋势跟踪 (concrete_score: 40, 付费墙遮挡)
