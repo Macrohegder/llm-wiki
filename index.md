@@ -76,7 +76,8 @@
 | Weekly Mean Reversion SP500 | [[2023-04-23-Weekly-Mean-Reversion-System-For-SP-500-Stocks]] | [[strategy-repro-weekly-mean-reversion-sp500]] | SPY | 0.954 | 🟢 Green | 2026-04-25 |
 | strategy-repro-macd-histogram-rev-20260416 | [[strategy-repro-macd-histogram-rev-20260416]] | [[strategy-repro-macd_histogram_rev_20260416]] | QQQ | 1.397 | 🟢 Green | 2026-04-28 |
 || RSI Mean Reversion CN Futures | [[rsi2mr-cn-futures-batch-2026-04-30]] | TF888 (5年国债) | 1.25 | 🟢 Green | 2026-04-30 |
-|| Crypto策略挖掘分析 | [[crypto-strategies-analysis-2026-04-30]] | BTC/ETH/SOL/DOGE | — | 合成报告 | 2026-04-30 |
+||| Crypto策略挖掘分析 | [[crypto-strategies-analysis-2026-04-30]] | BTC/ETH/SOL/DOGE | — | 合成报告 | 2026-04-30 |
+||| PivotShift BTC | [[2026-05-01-this-nasdaq-strategy-has-a-75-win-rate]] | [[strategy-repro-pivot-shift-btc]] | BTC | 0.718 | 🟡 Yellow | 2026-05-01 |
 
 > **规则**: 策略列 → 原文 source 页 | 复现报告列 → 复现详情页 | 按 Sharpe 降序排列
 > **管理规则**: [[WIKI_REPRODUCTION_RULES]]
@@ -125,7 +126,8 @@
 | [[2026-04-27_Trend-Following-Strategy-for-SP500]] | 2026-04-27 | 策略/文章 | S&P 500 趋势跟踪：1960年以来CAGR 6%，回撤25%（vs买入持有55%），付费墙遮挡规则 |
 | [[2026-04-27_Larry-Connors-pctB-Strategy]] | 2026-04-27 | 策略/文章 | Larry Connors %B均值回归：%B<0超卖入场，1993年以来63笔交易，平均收益1.3% |
 | [[2026-04-29_Ken-Griffin-Trading-Strategy]] | 2026-04-29 | 人物/系统 | Ken Griffin/Citadel多策略机器分析：非可复现策略，系统构建哲学参考 |
-| [[2026-04-30_Martingale-Strategy-for-Stocks]] | 2026-04-30 | 风险教育 | Martingale仓位管理批判：指数级风险，必爆仓，反面教材 |
+|| [[2026-04-30_Martingale-Strategy-for-Stocks]] | 2026-04-30 | 风险教育 | Martingale仓位管理批判：指数级风险，必爆仓，反面教材 |
+|| [[2026-05-01-this-nasdaq-strategy-has-a-75-win-rate]] | 2026-05-01 | 策略/文章 | PivotShift: 75%胜率纳斯达克策略，日线枢轴压缩+12月过滤，付费墙遮挡关键参数 |
     75||| [[strategy-repro-macd-bitcoin]] | 2026-04-25 | 策略复现 | 比特币MACD交叉策略：Sharpe 0.944，最大回撤 51.76%，RED |
     76||| [[strategy-repro-pullback-trading]] | 2026-04-25 | 策略复现 | 回调交易策略：Sharpe 0.895，96笔交易，最大回撤 2.62%，YELLOW |
     77||| [[strategy-repro-rsi2-did-you-miss]] | 2026-04-25 | 策略复现 | RSI-2隐藏策略：GLD Sharpe 1.479，IWM Sharpe 1.170，2 Green |
@@ -165,6 +167,7 @@
 - [2026-04-30] 批量回测 `RSI Mean Reversion` 国内期货 8 品种 | TF888 Sharpe=1.25, T888 Sharpe=1.14, 6/8 Green | [[rsi2mr-cn-futures-batch-2026-04-30]]
 - [2026-04-30] 策略复现 `rsi_range_momentum` | 无绿色结果
 - [2026-04-30] 策略复现 `nr7_breakout` | SPY Sharpe=1.212 MaxDD=-6.51%
+- [2026-05-01] 策略复现 `pivot_shift_btc` | BTC Sharpe=0.718 MaxDD=-32.6% Yellow (参数推断, 单品种, 出场bug修复)
 - [2026-04-28] 策略复现 `macd_histogram_rev_20260416` | QQQ Sharpe=1.397 MaxDD=-34.35%
 - [2026-04-28] 策略复现 `macd_histogram_rev_20260416` | 无绿色结果
 - [2026-04-28] 策略复现 `simple_trend_following` | QQQ Sharpe=1.023 MaxDD=-4.37%
@@ -416,6 +419,7 @@
    324|
    325|
 ## 最新录入
+- 2026-05-01: 自动导入 1 篇 Substack 文章 (roguequant - PivotShift)
 - 2026-04-30: 自动导入 1 篇 Substack 文章
 - 2026-04-29: 自动导入 1 篇 Substack 文章
 - 2026-04-27: 自动导入 1 篇 Substack 文章
