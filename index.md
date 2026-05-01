@@ -77,7 +77,8 @@
 | strategy-repro-macd-histogram-rev-20260416 | [[strategy-repro-macd-histogram-rev-20260416]] | [[strategy-repro-macd_histogram_rev_20260416]] | QQQ | 1.397 | 🟢 Green | 2026-04-28 |
 || RSI Mean Reversion CN Futures | [[rsi2mr-cn-futures-batch-2026-04-30]] | TF888 (5年国债) | 1.25 | 🟢 Green | 2026-04-30 |
 ||| Crypto策略挖掘分析 | [[crypto-strategies-analysis-2026-04-30]] | BTC/ETH/SOL/DOGE | — | 合成报告 | 2026-04-30 |
-||| PivotShift BTC | [[2026-05-01-this-nasdaq-strategy-has-a-75-win-rate]] | [[strategy-repro-pivot-shift-btc]] | BTC | 0.718 | 🟡 Yellow | 2026-05-01 |
+|||| PivotShift BTC | [[2026-05-01-this-nasdaq-strategy-has-a-75-win-rate]] | [[strategy-repro-pivot-shift-btc]] | BTC | 0.718 | 🟡 Yellow | 2026-05-01 |
+||| Connors %B Long Only | [[2026-04-30-Connors-%B-Long-Only-Portfolio-Addition]] | [[strategy-repro-connors-percent-b-long-only]] | ES/SPY | TBD | 🟡 Yellow | 2026-05-01 |
 
 > **规则**: 策略列 → 原文 source 页 | 复现报告列 → 复现详情页 | 按 Sharpe 降序排列
 > **管理规则**: [[WIKI_REPRODUCTION_RULES]]
@@ -114,6 +115,7 @@
     64|| [[2026-04-22-Bollinger-Band-Squeeze-Trading-Strategy]] | 2026-04-22 | 策略/文章 | 布林带挤压波动性突破策略，周线+RSI过滤，付费文章 |
     65|| [[2025-04-22-etf-mean-reversion-methods-mean-reversion-mini-portfolio-creation-part-2]] | 2025-04-22 | 策略/文章 | ETF均值回归四系统组合构建：Portfolio Effect是唯壹圣杯 |
     66|| [[2026-04-22-session-high-retest-intraday-strategy]] | 2026-04-22 | 策略/文章 | Session High Retest 量化日内策略：10品种、17年数据、Portfolio Sharpe 1.15 |
+|| [[2026-04-30-Connors-%B-Long-Only-Portfolio-Addition]] | 2026-04-30 | 策略/文章 | Connors %B 纯做多均值回归：2009年公开策略，加入组合后Return/DD从16.82提升至20.64 |
     67|| [[2026-02-23-systematic-intraday-trend-following-strategy]] | 2026-02-23 | 策略/文章 | 系统性日内趋势跟踪：动态边界+VWAP，SPY Sharpe 1.33 |
     68|| [[intraday-trading-strategies-compendium]] | 2026-04-22 | 概念/综合 | 日内交易策略汇编：7+篇文章总结 |
     69||| [[intraday-strategy-design-checklist]] | 2026-04-22 | 概念/Checklist | 日内策略设计十项检查清单 |
