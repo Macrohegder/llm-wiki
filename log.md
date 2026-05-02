@@ -1,4 +1,22 @@
 
+
+## [2026-04-26] synthesis | 反转策略全景分析
+
+- 新增: wiki/syntheses/reversal-strategy-landscape.md
+- 分析 10+ 反转策略 × 24 ETF 的品种分类匹配规律
+- 提出 4 大类反转策略 + 5 类品种的适配矩阵
+- 更新: index.md, log.md
+
+## [2026-05-02] ingest | Delphic Alpha — The Exotic Alpha Atlas
+- 新增 source: [[delphicalpha-exotic-alpha-atlas-beyond-textbook]]
+- 来源: Delphic Alpha / Substack
+- 主题: 18 exotic alphas (skewness, kurtosis, acceleration, fractal regime, Keltner reversion) × 5 asset classes × 30-min bars
+- 核心结论: Keltner Reversion (ATR-normalized MR) 是最安全 exotic 升级；商品 OOS 灾难性失败 (−163% shrinkage)
+- 样本外发现: 股指/FX 稳健，加密货币 regime change，商品 regime break
+- 状态: 仅保存摘要，用户要求不复现
+- 更新: index.md (添加最新录入条目)
+
+
 ## [2026-04-30] synthesis | Crypto策略挖掘分析汇总报告
 - 新增合成报告: [[crypto-strategies-analysis-2026-04-30]]
 - 分析范围: 8策略 × 4 crypto品种 (BTC/ETH/SOL/DOGE)

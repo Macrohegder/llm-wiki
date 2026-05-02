@@ -50,7 +50,15 @@
     37|
     38|---
     39|
-    40|## ✅ 已验证策略 (Verified Strategies)
+    40|## 📥 最新录入
+
+| 来源 | 日期 | 类型 | 摘要 |
+|------|------|------|------|
+| [[delphicalpha-exotic-alpha-atlas-beyond-textbook]] | 2026-05-02 | source | Delphic Alpha: 18 exotic alphas × 5 asset classes on 30-min bars. Keltner Reversion dominant. Commodities disaster OOS. |
+
+---
+
+## ✅ 已验证策略 (Verified Strategies)
 
 | 策略 | 原文 | 复现报告 | 最佳品种 | Sharpe | 评级 | 日期 |
 |------|------|----------|----------|--------|------|------|
