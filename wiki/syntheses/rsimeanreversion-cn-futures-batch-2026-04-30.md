@@ -1,20 +1,20 @@
 ---
+id: rsimeanreversion-cn-futures-batch-2026-04-30
+title: "RsiMeanReversionStrategy 国内期货批量回测报告"
 tags:
   - syntheses
   - strategy/mean-reversion
   - asset/cn-futures
   - pipeline/batch
-  - strategy/RSI-Mean-Reversion
+  - strategy/RsiMeanReversion
 date: "2026-04-30"
 related:
-  - "[[strategy:RSI-2 Mean Reversion (SPY)]]"
-  - "[[strategy:RSI-2 Did You Miss This]]"
   - "[[mean-reversion-strategies-comparison]]"
   - "[[mean-reversion-strategies-compendium]]"
   - "[[2026-04-25-nr7-futures-batch-pipeline]]"
 ---
 
-# RSI 均值回归国内期货批量回测报告
+# RsiMeanReversionStrategy 国内期货批量回测报告
 
 > **策略**: RsiMeanReversionStrategy (通用 RSI 均值回归，带 ATR 止损)  
 > **别名**: RSI_Mean_Reversion  
@@ -54,7 +54,7 @@ related:
 ### 1. 国债期货表现最佳
 - **T888** (10年期国债): Sharpe 1.14，收益 686%，回撤 -20%
 - **TF888** (5年期国债): Sharpe 1.25，收益 572%，回撤 -19%
-- 国债期货的**均值回归特性**与 RSI2 策略高度契合
+- 国债期货的**均值回归特性**与 `RsiMeanReversionStrategy` 策略高度契合
 - 交易数充足 (68-122 笔)，统计显著性高
 
 ### 2. 股指期货全部 Green
@@ -143,13 +143,12 @@ related:
 - [ ] 对 T888/TF888 进行参数置换测试 (过拟验证)
 - [ ] 检查回撤金额异常 (T888 -165 万 vs 回撤率 -20%)
 - [ ] 测试国债期货组合 (T+TF+TL 多品种分散)
-- [ ] 对比 IB 国债期货 (ZB/ZN) 的 RSI2 表现
+- [ ] 对比 IB 国债期货 (ZB/ZN) 的 `RsiMeanReversionStrategy` 表现
 - [ ] 加入趋势过滤器 (如 SMA200) 看是否能提升股指期货表现
 
 ---
 
 ## 参考来源
-- [[strategy-repro-rsi2-did-you-miss]] — RSI2 "Did You Miss This" 复现报告 (GLD Sharpe 1.48)
 - [[mean-reversion-strategies-comparison]] — 5 个均值回归策略对比研究
 - [[mean-reversion-strategies-compendium]] — 均值回归策略全量汇编
 - [[2026-04-25-nr7-futures-batch-pipeline]] — NR7 期货批量 Pipeline (cta_developer)
