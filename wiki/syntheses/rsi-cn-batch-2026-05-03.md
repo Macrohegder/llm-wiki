@@ -14,7 +14,7 @@ tags:
 
 > 知识合成页 | 基于 cta_developer batch pipeline 自动生成
 > 创建：2026-05-03 | 策略：RSI
-> 批次目录：`rsi_cn_20260503_165351`
+> 批次目录：`rsi_cn_20260503_175559`
 
 ---
 
@@ -53,8 +53,8 @@ tags:
 ## 三、原始报告
 
 详细报告（含参数、图表、验证结果）位于：
-- **CSV**: `/root/.openclaw/workspace/cta_developer/data/batch_results/rsi_cn_20260503_165351/report.csv`
-- **MD**: `/root/.openclaw/workspace/cta_developer/data/batch_results/rsi_cn_20260503_165351/report.md`
+- **CSV**: `/root/.openclaw/workspace/cta_developer/data/batch_results/rsi_cn_20260503_175559/report.csv`
+- **MD**: `/root/.openclaw/workspace/cta_developer/data/batch_results/rsi_cn_20260503_175559/report.md`
 
 ---
 
