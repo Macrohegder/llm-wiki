@@ -29,7 +29,7 @@ tags:
 | Green 评级 | 0 |
 | Yellow 评级 | 0 |
 
-
+- **最佳品种**: XAUUSDT_SWAP_OKX.GLOBAL (Sharpe=0.13)
 
 ---
 
@@ -39,17 +39,17 @@ tags:
 
 | 排名 | 品种 | 夏普 | 年化收益% | 最大回撤% | 交易笔数 | 评级 |
 |:---:|:---|:---:|:---:|:---:|:---:|:---:|
-| 1 | BTCUSDT_SWAP_OKX.GLOBAL | N/A | N/A | N/A | N/A | ⚪ N/A |
-| 2 | ETHUSDT_SWAP_OKX.GLOBAL | N/A | N/A | N/A | N/A | ⚪ N/A |
-| 3 | XAUUSDT_SWAP_OKX.GLOBAL | N/A | N/A | N/A | N/A | ⚪ N/A |
+| 1 | XAUUSDT_SWAP_OKX.GLOBAL | 0.1347353228168211 | 7.994320471375142e-06 | -8.163638500263915e-05 | 6 | ⚪ N/A |
+| 2 | BTCUSDT_SWAP_OKX.GLOBAL | -0.012229553135931319 | -0.00021013225913256203 | -0.03136048064967889 | 62 | ⚪ N/A |
+| 3 | ETHUSDT_SWAP_OKX.GLOBAL | -0.06429965941669957 | -0.0007697677296540994 | -0.020073113095275628 | 108 | ⚪ N/A |
 
 ---
 
 ## 三、原始报告
 
 详细报告（含参数、图表、验证结果）位于：
-- **CSV**: `/root/.openclaw/workspace/cta_developer/data/batch_results/rsi_crypto_20260503_175559/report.csv`
-- **MD**: `/root/.openclaw/workspace/cta_developer/data/batch_results/rsi_crypto_20260503_175559/report.md`
+- **CSV**: `data/batch_results/rsi_crypto_20260503_175559/report.csv`
+- **MD**: `data/batch_results/rsi_crypto_20260503_175559/report.md`
 
 ---
 
