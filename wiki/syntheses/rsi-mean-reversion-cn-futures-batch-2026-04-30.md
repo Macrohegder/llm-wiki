@@ -1,5 +1,5 @@
 ---
-id: rsimeanreversion-cn-futures-batch-2026-04-30
+id: rsi-mean-reversion-cn-futures-batch-2026-04-30
 title: "RsiMeanReversionStrategy 国内期货批量回测报告"
 tags:
   - syntheses
@@ -23,7 +23,7 @@ related:
 > **优化方法**: GA (pop=20, ngen=10)  
 > **生成日期**: 2026-04-30  
 > **数据来源**: cta_developer batch pipeline  
-> **原始报告**: `/root/.openclaw/workspace/cta_developer/data/batch_results/rsi2mr_cn_full/report.csv`
+> **原始报告**: `/root/.openclaw/workspace/cta_developer/data/batch_results/rsimeanreversion_cn_full/report.csv`
 
 ---
 

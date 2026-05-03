@@ -265,7 +265,7 @@ tags:
 ## 九、相关页面
 
 - [[cta-developer-crypto-batch-2026-04-30]] — CTA Developer Crypto批量回测报告
-- [[rsimeanreversion-cn-futures-batch-2026-04-30]] — RsiMeanReversionStrategy 中国期货批量回测
+- [[rsi-mean-reversion-cn-futures-batch-2026-04-30]] — RsiMeanReversionStrategy 中国期货批量回测
 - [[mean-reversion-strategies-comparison]] — 均值回归策略对比分析
 - [[reversal-strategy-landscape]] — 反转策略全景分析
 
