@@ -1,4 +1,12 @@
 
+## [2026-05-03] pipeline | RSI ETF 批量回测写入 Wiki
+- 新增合成报告: [[rsi-etf-batch-2026-05-03]]
+- 策略: RSI
+- 资产: ETF
+- 批次目录: `/root/.openclaw/workspace/cta_developer/data/batch_results/rsi_etf_20260503_175559`
+- 更新: index.md, log.md
+
+
 ## [2026-05-03] pipeline | RSI CN 批量回测写入 Wiki
 - 新增合成报告: [[rsi-cn-batch-2026-05-03]]
 - 策略: RSI
