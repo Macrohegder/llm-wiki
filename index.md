@@ -52,6 +52,7 @@
     39|
     40|## 📥 最新录入
 
+- 2026-05-03: SMR CN 批量回测 — [[smr-cn-batch-2026-05-03]]
 | 来源 | 日期 | 类型 | 摘要 |
 |------|------|------|------|
 | [[delphicalpha-exotic-alpha-atlas-beyond-textbook]] | 2026-05-02 | source | Delphic Alpha: 18 exotic alphas × 5 asset classes on 30-min bars. Keltner Reversion dominant. Commodities disaster OOS. |

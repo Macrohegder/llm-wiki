@@ -1,4 +1,12 @@
 
+## [2026-05-03] pipeline | SMR CN 批量回测写入 Wiki
+- 新增合成报告: [[smr-cn-batch-2026-05-03]]
+- 策略: SMR
+- 资产: CN
+- 批次目录: `data/batch_results/smr_cn`
+- 更新: index.md, log.md
+
+
 
 ## [2026-04-26] synthesis | 反转策略全景分析
 
