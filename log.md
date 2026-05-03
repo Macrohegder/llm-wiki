@@ -1,4 +1,12 @@
 
+## [2026-05-03] pipeline | RSI CRYPTO 批量回测写入 Wiki
+- 新增合成报告: [[rsi-crypto-batch-2026-05-03]]
+- 策略: RSI
+- 资产: CRYPTO
+- 批次目录: `/root/.openclaw/workspace/cta_developer/data/batch_results/rsi_crypto_20260503_164345`
+- 更新: index.md, log.md
+
+
 ## [2026-05-03] pipeline | SMR CN 批量回测写入 Wiki
 - 新增合成报告: [[smr-cn-batch-2026-05-03]]
 - 策略: SMR
