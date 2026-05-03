@@ -29,7 +29,7 @@ tags:
 | Green 评级 | 0 |
 | Yellow 评级 | 0 |
 
-
+- **最佳品种**: SPY.SMART (Sharpe=0.87)
 
 ---
 
@@ -39,19 +39,19 @@ tags:
 
 | 排名 | 品种 | 夏普 | 年化收益% | 最大回撤% | 交易笔数 | 评级 |
 |:---:|:---|:---:|:---:|:---:|:---:|:---:|
-| 1 | GLD.SMART | N/A | N/A | N/A | N/A | ⚪ N/A |
-| 2 | IWM.SMART | N/A | N/A | N/A | N/A | ⚪ N/A |
-| 3 | QQQ.SMART | N/A | N/A | N/A | N/A | ⚪ N/A |
-| 4 | SPY.SMART | N/A | N/A | N/A | N/A | ⚪ N/A |
-| 5 | TLT.SMART | N/A | N/A | N/A | N/A | ⚪ N/A |
+| 1 | SPY.SMART | 0.8681544741685608 | 0.012616878191938675 | -0.01690064542459302 | 82 | ⚪ N/A |
+| 2 | GLD.SMART | 0.7381982528086406 | 0.01788419565843566 | -0.036774562031048355 | 56 | ⚪ N/A |
+| 3 | TLT.SMART | 0.6378460851864598 | 0.010082987558435105 | -0.01951240717752179 | 56 | ⚪ N/A |
+| 4 | QQQ.SMART | 0.515225176189841 | 0.009162214228125784 | -0.024888751914541464 | 52 | ⚪ N/A |
+| 5 | IWM.SMART | 0.47075249403342445 | 0.011736303733165306 | -0.037140133939748216 | 87 | ⚪ N/A |
 
 ---
 
 ## 三、原始报告
 
 详细报告（含参数、图表、验证结果）位于：
-- **CSV**: `/root/.openclaw/workspace/cta_developer/data/batch_results/rsi_etf_20260503_175559/report.csv`
-- **MD**: `/root/.openclaw/workspace/cta_developer/data/batch_results/rsi_etf_20260503_175559/report.md`
+- **CSV**: `data/batch_results/rsi_etf_20260503_175559/report.csv`
+- **MD**: `data/batch_results/rsi_etf_20260503_175559/report.md`
 
 ---
 
