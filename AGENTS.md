@@ -1,202 +1,75 @@
-# AGENTS.md - LLM Wiki 个人知识库
+# LLM Wiki - 量化策略知识库
 
-这是你的 LLM Wiki 知识库。遵循本文档来构建和维护一个结构化的、相互链接的 Markdown 知识库。
+## 项目定位
+基于 Karpathy LLM Wiki 模式构建的持久化 Markdown 知识资产。承接 cta_developer 的回测输出，为 tracker 和实盘决策提供策略验证历史与知识储备。
 
-## 🎯 核心理念
-
-不同于传统 RAG（每次提问重新检索），**LLM Wiki 是一个持久的、复利式的知识资产**：
-- 每份新资料录入时，LLM 将其融入已有知识体系
-- 交叉引用、矛盾标记、综合结论都已存在
-- 知识只需编译一次，之后持续更新
-
-## 📁 目录结构
+## 目录结构
 
 ```
 llm-wiki/
-├── AGENTS.md              # 本文档 - 规范配置
-├── index.md               # 内容目录 - 所有页面索引
-├── log.md                 # 操作日志 - 时间线记录
-├── raw/                   # 原始资料层（只读）
-│   ├── articles/          # 文章剪藏
-│   ├── papers/            # 论文 PDF
-│   ├── notes/             # 随手笔记
-│   └── assets/            # 图片附件
-└── wiki/                  # Wiki 层（LLM 维护）
-    ├── sources/           # 资料摘要
-    ├── entities/          # 实体页面（人物、公司、产品）
-    ├── concepts/          # 概念页面（理论、方法）
-    ├── syntheses/         # 综合结论
-    └── queries/           # 问答输出
+├── index.md                  # 主索引：实体、概念、来源、已验证策略总览
+├── log.md                    # 活动日志：录入、复现、批量回测时间线
+├── raw/
+│   ├── articles/             # 原始策略文章（Substack/博客）
+│   ├── papers/               # 学术论文
+│   ├── notes/                # 手动笔记
+│   └── batch_reports/        # cta_developer 批量回测报告（自动生成）
+└── wiki/
+    ├── entities/             # 实体卡片：人物、品种、作者、ETF
+    ├── concepts/             # 概念卡片：均值回归、趋势跟踪、RSI 等
+    ├── sources/              # 来源引用：文章、博客的引用页
+    └── syntheses/            # 综合报告：批量回测汇总、策略汇编
 ```
 
-## 🔄 三种核心操作
+## 命名规范
 
-### 1. 录入 (Ingest)
+| 目录 | 命名格式 | 示例 |
+|------|----------|------|
+| `raw/articles/` | `YYYY-MM-DD-标题.md` | `2026-04-18-consecutive-down-days-strategy.md` |
+| `wiki/entities/` | `实体名.md` | `Larry-Connors.md` |
+| `wiki/concepts/` | `概念名.md` | `mean-reversion.md` |
+| `wiki/syntheses/` | `主题-日期.md` | `rsi-etf-batch-2026-05-03.md` |
 
-当有新资料加入时：
+## 与 cta_developer 的协作
 
-1. 将资料放入 `raw/` 对应子目录
-2. 阅读资料，与我讨论关键要点
-3. 在 `wiki/sources/` 创建摘要页面
-4. 更新或创建相关的 `wiki/entities/` 和 `wiki/concepts/` 页面
-5. 检查并标记与已有知识的矛盾
-6. 更新 `index.md`
-7. 在 `log.md` 记录操作
+### 批量回测报告同步（自动）
+- 由 `cta_developer/scripts/publish_to_wiki.py` 自动同步
+- 输出到 `wiki/syntheses/` 和 `raw/batch_reports/`
+- 自动更新 `index.md` 和 `log.md`
 
-**命名约定**: `sources/YYYY-MM-DD_资料简短标题.md`
-
-### 2. 查询 (Query)
-
-向我提问时：
-
-1. 先阅读 `index.md` 找到相关页面
-2. 深入阅读相关页面内容
-3. 综合作答并引用来源
-4. （可选）将高质量答案作为新页面写入 `wiki/queries/` 或 `wiki/syntheses/`
-
-**输出格式**: 根据问题灵活选择 - Markdown、对比表格、Marp 幻灯片、图表等
-
-### 3. 检查 (Lint)
-
-定期执行健康检查：
-
-- [ ] 页面之间的矛盾
-- [ ] 被新资料推翻的陈旧说法
-- [ ] 没有任何入链的孤立页面
-- [ ] 被提及但缺少独立页面的重要概念
-- [ ] 缺失的交叉引用
-- [ ] 可以填补的信息空白
-
-## 📝 页面规范
-
-### 源资料页面 (sources/)
-
+### 策略复现记录（手动维护）
+复现完成后，手动更新 `index.md` 的"已验证策略"表：
 ```markdown
-# 资料标题
-
-**来源**: URL/PDF/书籍
-**日期**: YYYY-MM-DD
-**标签**: #tag1 #tag2
-
-## 一句话摘要
-
-## 关键要点
-
-- 
-- 
-
-## 相关实体
-- [[实体名]]
-
-## 相关概念
-- [[概念名]]
+| 策略 | 原文 | 复现报告 | 最佳品种 | Sharpe | 评级 | 日期 |
 ```
 
-### 实体页面 (entities/)
+### 评级标准
+- 🟢 **Green**: Sharpe ≥ 0.8 且 交易数 ≥ 50
+- 🟡 **Yellow**: Sharpe ≥ 0.5 且 交易数 ≥ 30
+- 🔴 **Red**: 不满足以上
 
-```markdown
-# 实体名称
+## 与 tracker 的协作
+tracker 在构建实盘组合前，应查阅本 wiki：
+- `index.md` → "已验证策略"表确认策略回测表现
+- `wiki/syntheses/` → 查看批量回测综合报告
+- 只有 Green/Yellow 评级的策略建议纳入实盘组合
 
-**类型**: 人物/公司/产品/地点
-**首次提及**: [[来源页面]]
+## 安全红线
+- **禁止**保存 API Key、账户密码、Telegram Token
+- **禁止**保存实盘持仓明细、交易记录
+- 策略参数、回测结果、文章摘要可以保存
 
-## 概述
+## 常用操作
 
-## 关键信息
+```bash
+# 查看知识库状态
+cd /root/llm-wiki && git status
 
-## 相关实体
-- 
+# 手动添加文章后提交
+git add raw/articles/ index.md log.md
+git commit -m "wiki: 录入 XXX 策略文章"
+git push
 
-## 相关概念
-- 
-
-## 所有提及此实体的来源
-- [[来源1]]
-- [[来源2]]
+# 查看已验证策略列表
+grep -A 50 "已验证策略" index.md
 ```
-
-### 概念页面 (concepts/)
-
-```markdown
-# 概念名称
-
-**定义**: 一句话定义
-**相关领域**: 
-
-## 详细解释
-
-## 与其他概念的关系
-- vs [[概念A]]: 区别
-- + [[概念B]]: 关联
-
-## 应用实例
-- 
-```
-
-## 🔗 交叉引用规则
-
-- 使用 Obsidian 格式 `[[页面名]]` 创建双向链接
-- 每个实体/概念页面应包含"所有提及"列表
-- 在发现矛盾时，在页面中明确标注并引用来源
-
-## 📊 特殊文件
-
-### index.md 结构
-
-```markdown
-# Wiki 索引
-
-## 实体 (Entities)
-| 实体 | 类型 | 描述 |
-|------|------|------|
-| [[实体名]] | 人物 | 一句话描述 |
-
-## 概念 (Concepts)
-| 概念 | 领域 | 描述 |
-|------|------|------|
-| [[概念名]] | 领域 | 一句话描述 |
-
-## 最新录入
-1. [[来源1]] - YYYY-MM-DD
-2. [[来源2]] - YYYY-MM-DD
-```
-
-### log.md 格式
-
-```markdown
-# 操作日志
-
-## [2025-04-13] ingest | Karpathy LLM Wiki 文章
-- 新增: wiki/sources/2025-04-13_karpathy_llm_wiki.md
-- 新增概念: [[LLM Wiki]], [[RAG]], [[Memex]]
-- 更新: index.md
-
-## [2025-04-13] query | 如何设计个人知识库
-- 输出: wiki/queries/pkb_design_principles.md
-```
-
-## 🛠 工具推荐
-
-- **Obsidian**: Wiki 的 IDE，支持图谱视图
-- **Obsidian Web Clipper**: 浏览器剪藏插件
-- **Git**: 版本控制和备份
-- **qmd**: 本地 Markdown 搜索引擎（可选）
-
-## 🎬 首次使用流程
-
-1. 在 Obsidian 中打开 `~/llm-wiki` 目录
-2. 将本文档（AGENTS.md）发给我，确认我理解了规范
-3. 放入第一篇资料到 `raw/articles/`
-4. 说"录入这篇文章"
-5. 我会按照上述流程处理
-
-## 💡 提示
-
-- **不要手写 Wiki** - 让我来写和维护
-- **你的角色**: 筛选资料、指引方向、提出好问题
-- **我的角色**: 摘要、交叉引用、归档、维护
-- Wiki 是 Git 仓库 - 全 Markdown，版本控制开箱即用
-
----
-
-*基于 Andrej Karpathy 的 LLM Wiki 模式*
