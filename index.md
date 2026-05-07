@@ -52,6 +52,7 @@
     39|
     40|## 📥 最新录入
 
+- 2026-05-07: MH CRYPTO 批量回测 — [[mh-crypto-batch-2026-05-07]]
 - 2026-05-06: RSI2_NEW CRYPTO 批量回测 — [[rsi2_new-crypto-batch-2026-05-06]]
 - 2026-05-06: RSI2 CRYPTO 批量回测 — [[rsi2-crypto-batch-2026-05-06]]
 - 2026-05-06: RSI CRYPTO 批量回测 — [[rsi-crypto-batch-2026-05-06]]
@@ -102,6 +103,7 @@
 | Weekly Mean Reversion SP500 | [[2023-04-23-Weekly-Mean-Reversion-System-For-SP-500-Stocks]] | [[strategy-repro-weekly-mean-reversion-sp500]] | SPY | 0.954 | 🟢 Green | 2026-04-25 |
 | strategy-repro-macd-histogram-rev-20260416 | [[strategy-repro-macd-histogram-rev-20260416]] | [[strategy-repro-macd_histogram_rev_20260416]] | QQQ | 1.397 | 🟢 Green | 2026-04-28 |
 || RSI Mean Reversion CN Futures | [[rsi2mr-cn-futures-batch-2026-04-30]] | TF888 (5年国债) | 1.25 | 🟢 Green | 2026-04-30 |
+| 2026-05-07-vgrsi-multi-timeframe-cta-strategy | [[2026-05-07-vgrsi-multi-timeframe-cta-strategy]] | [[strategy-repro-vgrsi]] | ETHUSDT_SWAP_OKX.GLOBAL | -4.066 | 🔴 Red | 2026-05-07 |
 ||| Crypto策略挖掘分析 | [[crypto-strategies-analysis-2026-04-30]] | BTC/ETH/SOL/DOGE | — | 合成报告 | 2026-04-30 |
 |||| PivotShift BTC | [[2026-05-01-this-nasdaq-strategy-has-a-75-win-rate]] | [[strategy-repro-pivot-shift-btc]] | BTC | 0.718 | 🟡 Yellow | 2026-05-01 |
 ||| Connors %B Long Only | [[2026-04-30-Connors-%B-Long-Only-Portfolio-Addition]] | [[strategy-repro-connors-percent-b-long-only]] | ES/SPY | TBD | 🟡 Yellow | 2026-05-01 |
@@ -192,6 +194,7 @@
     98|---
     99|
    100|## 最近活动
+- [2026-05-07] 策略复现 `vgrsi` | 无绿色结果
 - [2026-04-30] 批量回测 `RSI Mean Reversion` 国内期货 8 品种 | TF888 Sharpe=1.25, T888 Sharpe=1.14, 6/8 Green | [[rsi2mr-cn-futures-batch-2026-04-30]]
 - [2026-04-30] 策略复现 `rsi_range_momentum` | 无绿色结果
 - [2026-04-30] 策略复现 `nr7_breakout` | SPY Sharpe=1.212 MaxDD=-6.51%

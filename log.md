@@ -1,4 +1,17 @@
 
+## [2026-05-07] pipeline | MH CRYPTO 批量回测写入 Wiki
+- 新增合成报告: [[mh-crypto-batch-2026-05-07]]
+- 策略: MH
+- 资产: CRYPTO
+- 批次目录: `/root/quant/cta_developer/data/batch_results/mh_crypto_20260507_112353`
+- 更新: index.md, log.md
+
+
+## [2026-05-07] pipeline | 策略复现 vgrsi
+- Action: `strategy_factory` auto pipeline (build → run → evaluate → wiki sync)
+- Eval file: `eval_vgrsi_20260507_104546.json`
+- Results: 🟢 Green=0 | 🟡 Yellow=0 | 🔴 Red=2 | Total=2
+
 ## [2026-05-06] pipeline | RSI2_NEW CRYPTO 批量回测写入 Wiki
 - 新增合成报告: [[rsi2_new-crypto-batch-2026-05-06]]
 - 策略: RSI2_NEW
