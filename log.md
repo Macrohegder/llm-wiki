@@ -1,4 +1,12 @@
 
+## [2026-05-08] pipeline | VPMACD ETF 批量回测写入 Wiki
+- 新增合成报告: [[vpmacd-etf-batch-2026-05-08]]
+- 策略: VPMACD
+- 资产: ETF
+- 批次目录: `data/batch_results/vpmacd_etf_20260508_091200`
+- 更新: index.md, log.md
+
+
 ## [2026-05-07] pipeline | MH CRYPTO 批量回测写入 Wiki
 - 新增合成报告: [[mh-crypto-batch-2026-05-07]]
 - 策略: MH

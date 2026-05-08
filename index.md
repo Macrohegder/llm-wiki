@@ -52,6 +52,7 @@
     39|
     40|## 📥 最新录入
 
+- 2026-05-08: VPMACD ETF 批量回测 — [[vpmacd-etf-batch-2026-05-08]]
 - 2026-05-07: MH CRYPTO 批量回测 — [[mh-crypto-batch-2026-05-07]]
 - 2026-05-06: RSI2_NEW CRYPTO 批量回测 — [[rsi2_new-crypto-batch-2026-05-06]]
 - 2026-05-06: RSI2 CRYPTO 批量回测 — [[rsi2-crypto-batch-2026-05-06]]
