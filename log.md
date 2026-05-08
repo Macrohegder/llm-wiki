@@ -1,4 +1,12 @@
 
+## [2026-05-08] pipeline | RSI2MR CRYPTO 批量回测写入 Wiki
+- 新增合成报告: [[rsi2mr-crypto-batch-2026-05-08]]
+- 策略: RSI2MR
+- 资产: CRYPTO
+- 批次目录: `/root/quant/cta_developer/data/batch_results/rsi2mr_crypto_20260508_132959`
+- 更新: index.md, log.md
+
+
 ## [2026-05-08] pipeline | VPMACD ETF 批量回测写入 Wiki
 - 新增合成报告: [[vpmacd-etf-batch-2026-05-08]]
 - 策略: VPMACD
