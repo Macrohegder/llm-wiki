@@ -108,7 +108,8 @@
 | 2026-05-07-vgrsi-multi-timeframe-cta-strategy | [[2026-05-07-vgrsi-multi-timeframe-cta-strategy]] | [[strategy-repro-vgrsi]] | ETHUSDT_SWAP_OKX.GLOBAL | -4.066 | 🔴 Red | 2026-05-07 |
 ||| Crypto策略挖掘分析 | [[crypto-strategies-analysis-2026-04-30]] | BTC/ETH/SOL/DOGE | — | 合成报告 | 2026-04-30 |
 |||| PivotShift BTC | [[2026-05-01-this-nasdaq-strategy-has-a-75-win-rate]] | [[strategy-repro-pivot-shift-btc]] | BTC | 0.718 | 🟡 Yellow | 2026-05-01 |
-||| Connors %B Long Only | [[2026-04-30-Connors-%B-Long-Only-Portfolio-Addition]] | [[strategy-repro-connors-percent-b-long-only]] | ES/SPY | TBD | 🟡 Yellow | 2026-05-01 |
+|| Thermostat | [[2026-05-13-thermostat-trading-strategy]] | [[strategy-repro-thermostat]] | SPY | 1.283 | 🟡 Yellow | 2026-05-13 |
+|| Connors %B Long Only | [[2026-04-30-Connors-%B-Long-Only-Portfolio-Addition]] | [[strategy-repro-connors-percent-b-long-only]] | ES/SPY | TBD | 🟡 Yellow | 2026-05-01 |
 
 > **规则**: 策略列 → 原文 source 页 | 复现报告列 → 复现详情页 | 按 Sharpe 降序排列
 > **管理规则**: [[WIKI_REPRODUCTION_RULES]]
