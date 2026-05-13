@@ -63,6 +63,7 @@
 - 2026-05-03: RSI ETF 批量回测 — [[rsi-etf-batch-2026-05-03]]
 - 2026-05-03: RSI CN 批量回测 — [[rsi-cn-batch-2026-05-03]]
 - 2026-05-03: RSI CRYPTO 批量回测 — [[rsi-crypto-batch-2026-05-03]]
+- 2026-04-28: Bensdorp 7系统组合策略概念框架 — [[building-a-better-system-from-a-bunch-of-average-ones]]
 - 2026-05-03: RSI ETF 批量回测 — [[rsi-etf-batch-2026-05-03]]
 - 2026-05-03: RSI CN 批量回测 — [[rsi-cn-batch-2026-05-03]]
 - 2026-05-03: RSI CRYPTO 批量回测 — [[rsi-crypto-batch-2026-05-03]]
