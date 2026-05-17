@@ -37,3 +37,10 @@ Position Sizing 是指每次交易分配多少资金到单个策略/信号的决
 
 ## 笔记历史
 - 2026-04-18 创建
+
+## cta_developer 中已实现的策略
+
+- [[BensdorpMetaStrategy]] — `cta/strategies/bensdorp_meta_strategy.py`
+- [[DonchianEnsembleCryptoTrendStrategy]] — `cta/strategies/donchian_ensemble_crypto_trend_strategy.py`
+- [[TrendMeanReversionPortfolioStrategy]] — `cta/strategies/trend_mean_reversion_portfolio_strategy.py`
+

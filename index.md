@@ -172,7 +172,78 @@
     80|
     81|---
     82|
-    83|## 🧠 综合结论 (Syntheses)
+    83|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## cta_developer 策略资产
+
+cta_developer 中的策略代码资产与批量挖掘结果。
+
+### 策略全景（按逻辑分类）
+
+| 逻辑类型 | 策略数 | 代表策略 |
+|----------|--------|----------|
+| Mean Reversion | 22 | [[ConsecutiveDownDaysStrategy]], [[FiveDayLowOvernightStrategy]], [[FiveDayLowRangeStrategy]] |
+| Trend Following | 11 | [[CtaTrendStrategy]], [[DonchianAdxBreakoutStrategy]], [[MacdHookGoldStrategy]] |
+| Intraday | 26 | [[CincoStrategy]], [[CincoLongOnlyStrategy]], [[DemarkScalperStrategy]] |
+| Portfolio | 3 | [[BensdorpMetaStrategy]], [[DonchianEnsembleCryptoTrendStrategy]], [[TrendMeanReversionPortfolioStrategy]] |
+| Hybrid | 2 | [[MoneyGrabberStrategy]], [[ThermostatStrategy]] |
+| Pattern | 1 | [[CandlestickPatternStrategy]] |
+| Unknown | 1 | [[Tt1Strategy]] |
+
+### 高潜力空白机会
+
+- **Crypto 均值回归空白**: [[LarryConnorsBStrategy]], [[MarketConditionStrategy]], [[OscillatorReversionStrategy]], [[PanicReliefStrategy]], [[StochasticMrStrategy]], [[PullbackMrLongShortStrategy]]
+- **ETF TLT 空白**: 仅 [[TripleRsiLongShortStrategy]] 有结果
+- **日内策略品种扩展**: 大部分日内策略仅在 if88 测试，未扩展至 ETF/Crypto
+
+### 批量挖掘覆盖矩阵
+
+见 [[cta-mining-coverage-matrix]] 或 `cta_developer/reports/mining_coverage_matrix.md`
+
+---
+
+## 🧠 综合结论 (Syntheses)
     84|
     85|| 综合页面 | 日期 | 描述 |
     86||----------|------|------|

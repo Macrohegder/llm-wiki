@@ -131,3 +131,33 @@ tags:
 ---
 
 *Last updated: 2026-04-22*
+
+## cta_developer 中已实现的策略
+
+- [[CincoLongOnlyStrategy]] — `cta/strategies/cinco_strategy_longonly.py`
+- [[CincoStrategy]] — `cta/strategies/cinco_strategy.py`
+- [[DemarkScalperStrategy]] — `cta/strategies/demark_scalper_strategy.py`
+- [[Han123Strategy]] — `cta/strategies/han123_strategy.py`
+- [[IntradayBreakoutStrategy]] — `cta/strategies/intraday_breakout_strategy.py`
+- [[IntradayOpenAtrBreakoutHybridStrategy]] — `cta/strategies/intraday_open_atr_breakout_strategy.py`
+- [[IntradayOpenAtrBreakoutIntradayStrategy]] — `cta/strategies/intraday_open_atr_breakout_strategy.py`
+- [[IntradayOpenAtrBreakoutStrategy]] — `cta/strategies/intraday_open_atr_breakout_strategy.py`
+- [[LimitedDualThrustStrategy]] — `cta/strategies/limited_dual_thrust_strategy.py`
+- [[MomentumMeanReversionStrategy]] — `cta/strategies/momentum_mean_reversion_strategy.py`
+- [[OrbLongBar15Strategy]] — `cta/strategies/orb_falsification_strategy.py`
+- [[OrbLongBar1Strategy]] — `cta/strategies/orb_falsification_strategy.py`
+- [[OrbPullbackStrategy]] — `cta/strategies/orb_falsification_strategy.py`
+- [[OrbShortBar15Strategy]] — `cta/strategies/orb_falsification_strategy.py`
+- [[OrbShortBar1Strategy]] — `cta/strategies/orb_falsification_strategy.py`
+- [[Ou60MinStrategy]] — `cta/strategies/ou_falsification_strategy.py`
+- [[OuThreshold15Strategy]] — `cta/strategies/ou_falsification_strategy.py`
+- [[OuThreshold20Strategy]] — `cta/strategies/ou_falsification_strategy.py`
+- [[OuThreshold25Strategy]] — `cta/strategies/ou_falsification_strategy.py`
+- [[UltimaStrategy]] — `cta/strategies/ultima_strategy.py`
+- [[VolumeDryUpDownStrategy]] — `cta/strategies/volume_falsification_strategy.py`
+- [[VolumeDryUpUpStrategy]] — `cta/strategies/volume_falsification_strategy.py`
+- [[VvgCloseFadeStrategy]] — `cta/strategies/vvg_falsification_strategy.py`
+- [[VvgContinuationStrategy]] — `cta/strategies/vvg_falsification_strategy.py`
+- [[VvgReversalStrategy]] — `cta/strategies/vvg_falsification_strategy.py`
+- [[YmTradingStrategy]] — `cta/strategies/ym_trading_strategy.py`
+

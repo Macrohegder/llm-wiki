@@ -11,3 +11,8 @@
 
 ---
 *Stub page created during ingest of 5 Swing Trading Strategies for Beginners*
+
+## cta_developer 中已实现的策略
+
+- [[CandlestickPatternStrategy]] — `cta/strategies/candlestick_pattern_strategy.py`
+
