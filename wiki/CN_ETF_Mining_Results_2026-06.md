@@ -9,13 +9,13 @@ created: "2026-06-14"
 # CN ETF 策略挖掘结果汇总 (2026-06)
 
 > 来源: `cta_developer` CN ETF 批量挖掘
-> 生成时间: 2026-06-14 10:15:16
+> 生成时间: 2026-06-14 11:24:00
 > 筛选标准: Sharpe > 0.8 且 交易次数 > 50
 
 ## 概览
 
-- 达标策略数: **27**
-- 达标品种数: **329**
+- 达标策略数: **26**
+- 达标品种数: **319**
 
 ### 按策略统计
 
@@ -41,7 +41,6 @@ created: "2026-06-14"
 | StochasticMrStrategy | 17 | 511220.SSE | 1.454 |
 | TangoStrategy | 8 | 511220.SSE | 1.098 |
 | TigerRsiStrategy | 15 | 159570.SZSE | 1.533 |
-| TripleRsiLongShortStrategy | 10 | 159920.SZSE | 1.258 |
 | Tt1Strategy | 65 | 511520.SSE | 2.612 |
 | VolatilitySupportStrategy | 25 | 159650.SZSE | 2.431 |
 | VpMacdStrategy | 30 | 511200.SSE | 2.085 |
@@ -354,23 +353,6 @@ created: "2026-06-14"
 | 515220 | SSE | 0.833 | 66 | 286.02% | -4.39% | ![515220](MEDIA:raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/515220_SSE.png) |
 | 511090 | SSE | 0.824 | 79 | 33.00% | -0.63% | ![511090](MEDIA:raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/511090_SSE.png) |
 | 159870 | SZSE | 0.817 | 51 | 111.29% | -2.53% | ![159870](MEDIA:raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/159870_SZSE.png) |
-
-## TripleRsiLongShortStrategy
-
-达标品种数: **10**
-
-| 品种 | 交易所 | Sharpe | 交易数 | 年化收益% | 最大回撤% | 图表 |
-|------|--------|--------|--------|-----------|-----------|------|
-| 159920 | SZSE | 1.258 | 60 | 46.71% | -0.38% | ![159920](MEDIA:raw/assets/cn_etf_mining_2026-06/TripleRsiLongShortStrategy/159920_SZSE.png) |
-| 513050 | SSE | 1.234 | 78 | 91.08% | -0.82% | ![513050](MEDIA:raw/assets/cn_etf_mining_2026-06/TripleRsiLongShortStrategy/513050_SSE.png) |
-| 159636 | SZSE | 1.187 | 54 | 123.73% | -0.90% | ![159636](MEDIA:raw/assets/cn_etf_mining_2026-06/TripleRsiLongShortStrategy/159636_SZSE.png) |
-| 512480 | SSE | 0.985 | 54 | 118.05% | -1.60% | ![512480](MEDIA:raw/assets/cn_etf_mining_2026-06/TripleRsiLongShortStrategy/512480_SSE.png) |
-| 513330 | SSE | 0.981 | 74 | 59.77% | -0.63% | ![513330](MEDIA:raw/assets/cn_etf_mining_2026-06/TripleRsiLongShortStrategy/513330_SSE.png) |
-| 511380 | SSE | 0.922 | 70 | 26.87% | -0.27% | ![511380](MEDIA:raw/assets/cn_etf_mining_2026-06/TripleRsiLongShortStrategy/511380_SSE.png) |
-| 511180 | SSE | 0.869 | 58 | 25.12% | -0.59% | ![511180](MEDIA:raw/assets/cn_etf_mining_2026-06/TripleRsiLongShortStrategy/511180_SSE.png) |
-| 513120 | SSE | 0.861 | 52 | 97.59% | -1.07% | ![513120](MEDIA:raw/assets/cn_etf_mining_2026-06/TripleRsiLongShortStrategy/513120_SSE.png) |
-| 159995 | SZSE | 0.834 | 62 | 88.93% | -1.54% | ![159995](MEDIA:raw/assets/cn_etf_mining_2026-06/TripleRsiLongShortStrategy/159995_SZSE.png) |
-| 518880 | SSE | 0.811 | 54 | 34.21% | -0.45% | ![518880](MEDIA:raw/assets/cn_etf_mining_2026-06/TripleRsiLongShortStrategy/518880_SSE.png) |
 
 ## Tt1Strategy
 
