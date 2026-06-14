@@ -7,8 +7,8 @@ timeframe: "daily"
 direction: "long_only"
 source: "QuantifiedStrategies"
 status: "production"
-markets-tested: ['etf', 'crypto', 'cn_futures']
-created: "2026-05-18"
+markets-tested: ['etf', 'cn_futures']
+created: "2026-06-14"
 ---
 
 # IbsRsiMeanReversion
@@ -34,11 +34,11 @@ IBS + RSI Mean Reversion Strategy
 
 | 品种 | Sharpe | 交易数 | 年化收益% | 最大回撤% |
 |------|--------|--------|-----------|-----------|
-| T888 | 🟢 1.148 | 130 | 102.11% | -73.23% |
-| TL888 | 🟢 1.038 | 94 | 283.47% | -243.67% |
-| TF888 | 🟡 0.745 | 128 | 42.78% | -76.29% |
-| IC888 | 🟡 0.557 | 246 | 786.58% | -1958.36% |
-| IH888 | 🔴 0.469 | 56 | 243.29% | -760.06% |
+| BZ888 | 🟡 2.565 | 26 | 98.21% | -9.19% |
+| PT888 | 🟡 2.417 | 4 | 199.21% | -0.57% |
+| AD888 | 🟡 2.406 | 35 | 295.49% | -38.55% |
+| LG888 | 🟢 2.334 | 55 | 76.28% | -10.35% |
+| OP888 | 🟡 2.063 | 21 | 74.30% | -10.82% |
 
 ### ETF
 

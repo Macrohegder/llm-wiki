@@ -8,7 +8,7 @@ direction: "long_only"
 source: "unknown"
 status: "experimental"
 markets-tested: []
-created: "2026-05-18"
+created: "2026-06-14"
 ---
 
 # YmTrading
@@ -33,7 +33,7 @@ YM Trading Strategy - ROC Oscillator with DMI Filter (15m + 60m Multi-Timeframe)
 | IM888 | 🟢 1.244 | 136 | 804.93% | -859.52% |
 | IH888 | 🟡 0.565 | 66 | 108.44% | -468.09% |
 | IC888 | 🟡 0.540 | 150 | 389.30% | -605.49% |
-| IF888 | 🔴 0.285 | 254 | 231.73% | -1594.25% |
+| IF888 | 🔴 -0.234 | 214 | -160.12% | -2567.44% |
 
 ## 相关策略
 

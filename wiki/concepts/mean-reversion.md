@@ -24,6 +24,9 @@
 - [[MacdHistogramRevStrategy]] — `cta/strategies/macd_histogram_rev_strategy.py`
 - [[MacdHistogramStrategy]] — `cta/strategies/macd_histogram_strategy.py`
 - [[MarketConditionStrategy]] — `cta/strategies/market_condition_strategy.py`
+- [[MrxBandStrategy]] — `cta/strategies/mrx_band_strategy.py`
+- [[NgStochPivotMeanRevLongShortStrategy]] — `cta/strategies/ng_stoch_pivot_mean_rev_longshort_strategy.py`
+- [[NgStochPivotMeanRevStrategy]] — `cta/strategies/ng_stoch_pivot_mean_rev_strategy.py`
 - [[OscillatorReversionStrategy]] — `cta/strategies/oscillator_reversion_strategy.py`
 - [[PanicReliefStrategy]] — `cta/strategies/panic_relief_strategy.py`
 - [[PullbackMrLongShortStrategy]] — `cta/strategies/pullback_mr_longshort_strategy.py`
@@ -35,4 +38,6 @@
 - [[TripleRsiLongShortStrategy]] — `cta/strategies/triple_rsi_longshort_strategy.py`
 - [[VolatilitySupportStrategy]] — `cta/strategies/volatility_support_strategy.py`
 - [[WilliamsRMrSimpleStrategy]] — `cta/strategies/williams_r_mr_simple_strategy.py`
+- [[WilliamsRVolFilterStrategy]] — `cta/strategies/williams_r_vol_filter_strategy.py`
+- [[WohuStrategy]] — `cta/strategies/wohu_strategy.py`
 

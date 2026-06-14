@@ -8,7 +8,7 @@ direction: "long_only"
 source: "微信公众号"
 status: "experimental"
 markets-tested: []
-created: "2026-05-18"
+created: "2026-06-14"
 ---
 
 # DemarkScalper

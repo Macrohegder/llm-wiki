@@ -7,8 +7,8 @@ timeframe: "daily"
 direction: "long_only"
 source: "QuantifiedStrategies"
 status: "production"
-markets-tested: ['etf', 'crypto', 'cn_futures']
-created: "2026-05-18"
+markets-tested: ['cn_futures', 'etf', 'crypto']
+created: "2026-06-14"
 ---
 
 # WilliamsRMrSimple
@@ -32,11 +32,11 @@ Williams %R Mean Reversion Simple Strategy (QuantifiedStrategies) (自包含版)
 
 | 品种 | Sharpe | 交易数 | 年化收益% | 最大回撤% |
 |------|--------|--------|-----------|-----------|
-| IC888 | 🟢 0.908 | 60 | 1051.49% | -2221.74% |
-| AU888 | 🟢 0.807 | 91 | 564.45% | -1247.99% |
-| IF888 | 🟡 0.780 | 130 | 2088.45% | -2015.97% |
-| T888 | 🟡 0.770 | 84 | 142.17% | -329.00% |
-| TF888 | 🟡 0.527 | 78 | 77.75% | -342.87% |
+| 159397 | 🟡 2.121 | 4 | 2.96% | -0.53% |
+| LG888 | 🟡 1.901 | 9 | 42.38% | -9.89% |
+| BZ888 | 🟡 1.827 | 1 | 36.33% | -0.80% |
+| PR888 | 🟡 1.656 | 16 | 140.53% | -58.37% |
+| 588170 | 🟡 1.621 | 4 | 320.00% | -77.05% |
 
 ### Crypto
 

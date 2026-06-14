@@ -18,6 +18,7 @@
 - [[MacdHookGoldStrategy]] — `cta/strategies/macd_hook_gold_strategy.py`
 - [[Nr7BreakoutStrategy]] — `cta/strategies/nr7_breakout_strategy.py`
 - [[OpenMomentumStrategy]] — `cta/strategies/open_momentum_strategy.py`
+- [[QullamaggieSwingStrategy]] — `cta/strategies/qullamaggie_swing_strategy.py`
 - [[StochMomentumFilterStrategy]] — `cta/strategies/stoch_momentum_filter_strategy.py`
 - [[TangoStrategy]] — `cta/strategies/tango_strategy.py`
 - [[TurningPointStrategy]] — `cta/strategies/turning_point_strategy.py`

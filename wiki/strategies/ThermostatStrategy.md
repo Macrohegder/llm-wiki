@@ -7,8 +7,8 @@ timeframe: "daily"
 direction: "long_only"
 source: "微信公众号"
 status: "production"
-markets-tested: []
-created: "2026-05-18"
+markets-tested: ['cn_futures']
+created: "2026-06-14"
 ---
 
 # Thermostat
@@ -27,8 +27,6 @@ created: "2026-05-18"
 恒温器交易策略 (Thermostat Strategy)
 
 ## 批量挖掘结果
-
-> 暂无批量挖掘记录
 
 ## 相关策略
 

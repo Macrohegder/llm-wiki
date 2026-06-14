@@ -7,8 +7,8 @@ timeframe: "daily"
 direction: "long_only"
 source: "QuantifiedStrategies"
 status: "production"
-markets-tested: ['etf', 'crypto', 'cn_futures']
-created: "2026-05-18"
+markets-tested: ['cn_futures', 'etf', 'crypto']
+created: "2026-06-14"
 ---
 
 # PullbackMr
@@ -32,11 +32,11 @@ Pullback Mean Reversion Strategy (QuantifiedStrategies) (自包含版)
 
 | 品种 | Sharpe | 交易数 | 年化收益% | 最大回撤% |
 |------|--------|--------|-----------|-----------|
-| IC888 | 🟢 1.017 | 68 | 1386.42% | -1260.06% |
-| T888 | 🟢 0.984 | 56 | 185.56% | -328.06% |
-| AU888 | 🟢 0.925 | 79 | 633.14% | -1296.38% |
-| IF888 | 🟢 0.894 | 50 | 833.56% | -949.01% |
-| IM888 | 🟢 0.818 | 50 | 950.94% | -1195.20% |
+| PS888 | 🟡 2.241 | 18 | 524.51% | -123.22% |
+| 159363 | 🟡 2.052 | 15 | 480.08% | -89.78% |
+| 159397 | 🟡 1.835 | 4 | 2.46% | -0.53% |
+| BZ888 | 🟡 1.827 | 1 | 36.33% | -0.80% |
+| PR888 | 🟡 1.674 | 14 | 104.54% | -33.23% |
 
 ### Crypto
 
