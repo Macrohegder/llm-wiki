@@ -1,5 +1,615 @@
 {
   "long_only": {
+    "ConsecutiveDownDaysStrategy": [
+      {
+        "vt_symbol": "159816.SZSE",
+        "symbol": "159816",
+        "exchange": "SZSE",
+        "sharpe": 1.2135376324407263,
+        "trades": 94,
+        "annual": 11.953812058978643,
+        "max_dd": -0.09552507696269304,
+        "batch_ts": "20260611_132713",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/ConsecutiveDownDaysStrategy/159816_SZSE.png"
+      },
+      {
+        "vt_symbol": "588200.SSE",
+        "symbol": "588200",
+        "exchange": "SSE",
+        "sharpe": 1.1299920934487317,
+        "trades": 56,
+        "annual": 391.8233025662048,
+        "max_dd": -3.0676506265512224,
+        "batch_ts": "20260611_132713",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/ConsecutiveDownDaysStrategy/588200_SSE.png"
+      },
+      {
+        "vt_symbol": "511220.SSE",
+        "symbol": "511220",
+        "exchange": "SSE",
+        "sharpe": 0.9065180929414317,
+        "trades": 111,
+        "annual": 14.233882444691018,
+        "max_dd": -0.2866444312687478,
+        "batch_ts": "20260611_132713",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/ConsecutiveDownDaysStrategy/511220_SSE.png"
+      },
+      {
+        "vt_symbol": "515450.SSE",
+        "symbol": "515450",
+        "exchange": "SSE",
+        "sharpe": 0.9049952152302604,
+        "trades": 118,
+        "annual": 121.64694442718758,
+        "max_dd": -1.310134752836215,
+        "batch_ts": "20260611_132713",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/ConsecutiveDownDaysStrategy/515450_SSE.png"
+      },
+      {
+        "vt_symbol": "562800.SSE",
+        "symbol": "562800",
+        "exchange": "SSE",
+        "sharpe": 0.849909857533256,
+        "trades": 55,
+        "annual": 97.14202020583751,
+        "max_dd": -2.1163692978893027,
+        "batch_ts": "20260611_132713",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/ConsecutiveDownDaysStrategy/562800_SSE.png"
+      }
+    ],
+    "DonchianAdxBreakoutStrategy": [
+      {
+        "vt_symbol": "511360.SSE",
+        "symbol": "511360",
+        "exchange": "SSE",
+        "sharpe": 6.061511175697504,
+        "trades": 59,
+        "annual": 13.231769684556069,
+        "max_dd": -0.02531932663635652,
+        "batch_ts": "20260612_151235",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/DonchianAdxBreakoutStrategy/511360_SSE.png"
+      },
+      {
+        "vt_symbol": "511220.SSE",
+        "symbol": "511220",
+        "exchange": "SSE",
+        "sharpe": 2.1303105442997334,
+        "trades": 67,
+        "annual": 21.896966096646473,
+        "max_dd": -0.13042668479632236,
+        "batch_ts": "20260612_151235",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/DonchianAdxBreakoutStrategy/511220_SSE.png"
+      },
+      {
+        "vt_symbol": "513500.SSE",
+        "symbol": "513500",
+        "exchange": "SSE",
+        "sharpe": 0.9094890017568553,
+        "trades": 93,
+        "annual": 93.21910529902048,
+        "max_dd": -1.4661495078770457,
+        "batch_ts": "20260612_151235",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/DonchianAdxBreakoutStrategy/513500_SSE.png"
+      }
+    ],
+    "FiveDayLowOvernightStrategy": [
+      {
+        "vt_symbol": "513920.SSE",
+        "symbol": "513920",
+        "exchange": "SSE",
+        "sharpe": 1.5600602220320088,
+        "trades": 68,
+        "annual": 111.42420018444128,
+        "max_dd": -0.46665514996810686,
+        "batch_ts": "20260611_132713",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowOvernightStrategy/513920_SSE.png"
+      },
+      {
+        "vt_symbol": "159509.SZSE",
+        "symbol": "159509",
+        "exchange": "SZSE",
+        "sharpe": 0.9742582079102029,
+        "trades": 70,
+        "annual": 230.5004982686504,
+        "max_dd": -1.4804333626036978,
+        "batch_ts": "20260611_132713",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowOvernightStrategy/159509_SZSE.png"
+      }
+    ],
+    "FiveDayLowRangeStrategy": [
+      {
+        "vt_symbol": "513920.SSE",
+        "symbol": "513920",
+        "exchange": "SSE",
+        "sharpe": 1.675417797600147,
+        "trades": 60,
+        "annual": 142.05584282923874,
+        "max_dd": -0.634374924832017,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowRangeStrategy/513920_SSE.png"
+      },
+      {
+        "vt_symbol": "588220.SSE",
+        "symbol": "588220",
+        "exchange": "SSE",
+        "sharpe": 1.4018950059201498,
+        "trades": 74,
+        "annual": 291.11888378700496,
+        "max_dd": -2.7718937343361336,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowRangeStrategy/588220_SSE.png"
+      },
+      {
+        "vt_symbol": "588200.SSE",
+        "symbol": "588200",
+        "exchange": "SSE",
+        "sharpe": 1.191081760503709,
+        "trades": 100,
+        "annual": 315.1063469612222,
+        "max_dd": -3.3587102974119367,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowRangeStrategy/588200_SSE.png"
+      },
+      {
+        "vt_symbol": "513630.SSE",
+        "symbol": "513630",
+        "exchange": "SSE",
+        "sharpe": 1.0393312455812054,
+        "trades": 56,
+        "annual": 81.39635860064264,
+        "max_dd": -0.7928364125790461,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowRangeStrategy/513630_SSE.png"
+      },
+      {
+        "vt_symbol": "513310.SSE",
+        "symbol": "513310",
+        "exchange": "SSE",
+        "sharpe": 1.033690743863212,
+        "trades": 90,
+        "annual": 422.18927300977754,
+        "max_dd": -3.1528546681232568,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowRangeStrategy/513310_SSE.png"
+      },
+      {
+        "vt_symbol": "513120.SSE",
+        "symbol": "513120",
+        "exchange": "SSE",
+        "sharpe": 0.8960255912876,
+        "trades": 108,
+        "annual": 131.7714488286649,
+        "max_dd": -2.2030741543556567,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowRangeStrategy/513120_SSE.png"
+      },
+      {
+        "vt_symbol": "513130.SSE",
+        "symbol": "513130",
+        "exchange": "SSE",
+        "sharpe": 0.8363050673472322,
+        "trades": 102,
+        "annual": 74.72873957682602,
+        "max_dd": -0.9722528458270862,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowRangeStrategy/513130_SSE.png"
+      }
+    ],
+    "FiveDayLowStrategy": [
+      {
+        "vt_symbol": "513920.SSE",
+        "symbol": "513920",
+        "exchange": "SSE",
+        "sharpe": 1.7717196291063764,
+        "trades": 109,
+        "annual": 0.0022471762133300928,
+        "max_dd": -1.1827829180555423e-05,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowStrategy/513920_SSE.png"
+      },
+      {
+        "vt_symbol": "159566.SZSE",
+        "symbol": "159566",
+        "exchange": "SZSE",
+        "sharpe": 1.6205914624043165,
+        "trades": 127,
+        "annual": 0.004316606292384426,
+        "max_dd": -1.732889606025999e-05,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowStrategy/159566_SZSE.png"
+      },
+      {
+        "vt_symbol": "513630.SSE",
+        "symbol": "513630",
+        "exchange": "SSE",
+        "sharpe": 1.3172334753127326,
+        "trades": 107,
+        "annual": 0.0014605016315922426,
+        "max_dd": -6.580194678858378e-06,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowStrategy/513630_SSE.png"
+      },
+      {
+        "vt_symbol": "159570.SZSE",
+        "symbol": "159570",
+        "exchange": "SZSE",
+        "sharpe": 1.1978400235741253,
+        "trades": 93,
+        "annual": 0.002815595758493025,
+        "max_dd": -1.6233839575842112e-05,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowStrategy/159570_SZSE.png"
+      },
+      {
+        "vt_symbol": "159326.SZSE",
+        "symbol": "159326",
+        "exchange": "SZSE",
+        "sharpe": 1.1469962079660678,
+        "trades": 81,
+        "annual": 0.0024505005077566505,
+        "max_dd": -1.907285112751163e-05,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowStrategy/159326_SZSE.png"
+      },
+      {
+        "vt_symbol": "513120.SSE",
+        "symbol": "513120",
+        "exchange": "SSE",
+        "sharpe": 0.9921094029695519,
+        "trades": 157,
+        "annual": 0.0017506459934253835,
+        "max_dd": -1.669684390252038e-05,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowStrategy/513120_SSE.png"
+      },
+      {
+        "vt_symbol": "159509.SZSE",
+        "symbol": "159509",
+        "exchange": "SZSE",
+        "sharpe": 0.9785760047501314,
+        "trades": 86,
+        "annual": 0.002481040243256852,
+        "max_dd": -1.853133564616914e-05,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowStrategy/159509_SZSE.png"
+      },
+      {
+        "vt_symbol": "513500.SSE",
+        "symbol": "513500",
+        "exchange": "SSE",
+        "sharpe": 0.8409706595872318,
+        "trades": 240,
+        "annual": 0.0011887555843676947,
+        "max_dd": -1.6396920350561973e-05,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowStrategy/513500_SSE.png"
+      },
+      {
+        "vt_symbol": "517520.SSE",
+        "symbol": "517520",
+        "exchange": "SSE",
+        "sharpe": 0.8330619382123896,
+        "trades": 107,
+        "annual": 0.0025637173514357395,
+        "max_dd": -3.620319062601544e-05,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowStrategy/517520_SSE.png"
+      },
+      {
+        "vt_symbol": "563360.SSE",
+        "symbol": "563360",
+        "exchange": "SSE",
+        "sharpe": 0.8076900545661609,
+        "trades": 53,
+        "annual": 0.0007750873606937603,
+        "max_dd": -6.19352930746178e-06,
+        "batch_ts": "20260611_170803",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/FiveDayLowStrategy/563360_SSE.png"
+      }
+    ],
+    "GoldEnvelopeStrategy": [
+      {
+        "vt_symbol": "515080.SSE",
+        "symbol": "515080",
+        "exchange": "SSE",
+        "sharpe": 0.9813551026116072,
+        "trades": 67,
+        "annual": 136.2064182533507,
+        "max_dd": -1.8054551031354635,
+        "batch_ts": "20260611_204823",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/GoldEnvelopeStrategy/515080_SSE.png"
+      },
+      {
+        "vt_symbol": "515100.SSE",
+        "symbol": "515100",
+        "exchange": "SSE",
+        "sharpe": 0.9717125426908658,
+        "trades": 53,
+        "annual": 128.81006675965517,
+        "max_dd": -1.9817285067814678,
+        "batch_ts": "20260611_204823",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/GoldEnvelopeStrategy/515100_SSE.png"
+      },
+      {
+        "vt_symbol": "510880.SSE",
+        "symbol": "510880",
+        "exchange": "SSE",
+        "sharpe": 0.8550122180490861,
+        "trades": 68,
+        "annual": 91.36339662688442,
+        "max_dd": -1.4406338084230248,
+        "batch_ts": "20260611_204823",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/GoldEnvelopeStrategy/510880_SSE.png"
+      }
+    ],
+    "IbsMeanReversionStrategy": [
+      {
+        "vt_symbol": "511260.SSE",
+        "symbol": "511260",
+        "exchange": "SSE",
+        "sharpe": 1.5022793826295526,
+        "trades": 89,
+        "annual": 20.20177073429979,
+        "max_dd": -0.20308079779534768,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/511260_SSE.png"
+      },
+      {
+        "vt_symbol": "515220.SSE",
+        "symbol": "515220",
+        "exchange": "SSE",
+        "sharpe": 1.1656511376387162,
+        "trades": 58,
+        "annual": 188.86568247276193,
+        "max_dd": -1.5334238020541573,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/515220_SSE.png"
+      },
+      {
+        "vt_symbol": "513980.SSE",
+        "symbol": "513980",
+        "exchange": "SSE",
+        "sharpe": 1.1380296645727421,
+        "trades": 102,
+        "annual": 107.4724978376045,
+        "max_dd": -0.9341924056767368,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/513980_SSE.png"
+      },
+      {
+        "vt_symbol": "510500.SSE",
+        "symbol": "510500",
+        "exchange": "SSE",
+        "sharpe": 1.1304447489270377,
+        "trades": 56,
+        "annual": 154.8892851932045,
+        "max_dd": -1.7061431479379947,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/510500_SSE.png"
+      },
+      {
+        "vt_symbol": "511380.SSE",
+        "symbol": "511380",
+        "exchange": "SSE",
+        "sharpe": 1.0769914953082362,
+        "trades": 52,
+        "annual": 39.71769005453077,
+        "max_dd": -0.5665817014606117,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/511380_SSE.png"
+      },
+      {
+        "vt_symbol": "511180.SSE",
+        "symbol": "511180",
+        "exchange": "SSE",
+        "sharpe": 0.9638316841661854,
+        "trades": 69,
+        "annual": 53.586130899563415,
+        "max_dd": -0.6423308048239086,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/511180_SSE.png"
+      },
+      {
+        "vt_symbol": "159792.SZSE",
+        "symbol": "159792",
+        "exchange": "SZSE",
+        "sharpe": 0.9555544341616621,
+        "trades": 58,
+        "annual": 88.33352018640223,
+        "max_dd": -1.115097349257874,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/159792_SZSE.png"
+      },
+      {
+        "vt_symbol": "515880.SSE",
+        "symbol": "515880",
+        "exchange": "SSE",
+        "sharpe": 0.9458181702801902,
+        "trades": 86,
+        "annual": 254.36971923469497,
+        "max_dd": -2.94151021743395,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/515880_SSE.png"
+      },
+      {
+        "vt_symbol": "562500.SSE",
+        "symbol": "562500",
+        "exchange": "SSE",
+        "sharpe": 0.9166642979202869,
+        "trades": 58,
+        "annual": 63.738674337709966,
+        "max_dd": -0.8516639698819152,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/562500_SSE.png"
+      },
+      {
+        "vt_symbol": "518600.SSE",
+        "symbol": "518600",
+        "exchange": "SSE",
+        "sharpe": 0.8623987594997617,
+        "trades": 51,
+        "annual": 87.88778538642357,
+        "max_dd": -1.0003204103266363,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/518600_SSE.png"
+      },
+      {
+        "vt_symbol": "159892.SZSE",
+        "symbol": "159892",
+        "exchange": "SZSE",
+        "sharpe": 0.8579947608198136,
+        "trades": 52,
+        "annual": 107.39624874977255,
+        "max_dd": -1.2656748476750774,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/159892_SZSE.png"
+      },
+      {
+        "vt_symbol": "512100.SSE",
+        "symbol": "512100",
+        "exchange": "SSE",
+        "sharpe": 0.8451093382372848,
+        "trades": 54,
+        "annual": 134.67386154296588,
+        "max_dd": -3.5270726114992454,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/512100_SSE.png"
+      },
+      {
+        "vt_symbol": "516150.SSE",
+        "symbol": "516150",
+        "exchange": "SSE",
+        "sharpe": 0.8440922140499058,
+        "trades": 70,
+        "annual": 162.4881128339079,
+        "max_dd": -2.195205749852864,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/516150_SSE.png"
+      },
+      {
+        "vt_symbol": "513310.SSE",
+        "symbol": "513310",
+        "exchange": "SSE",
+        "sharpe": 0.837949961803891,
+        "trades": 70,
+        "annual": 380.65263406696255,
+        "max_dd": -4.6292301027852965,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/513310_SSE.png"
+      },
+      {
+        "vt_symbol": "159636.SZSE",
+        "symbol": "159636",
+        "exchange": "SZSE",
+        "sharpe": 0.8236468889819425,
+        "trades": 68,
+        "annual": 119.3226421125243,
+        "max_dd": -1.44094945389562,
+        "batch_ts": "20260611_204853",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsMeanReversionStrategy/159636_SZSE.png"
+      }
+    ],
+    "IbsRsiMeanReversionStrategy": [
+      {
+        "vt_symbol": "159326.SZSE",
+        "symbol": "159326",
+        "exchange": "SZSE",
+        "sharpe": 1.3169417659333886,
+        "trades": 71,
+        "annual": 210.37825723248596,
+        "max_dd": -0.8002015653199878,
+        "batch_ts": "20260612_002904",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsRsiMeanReversionStrategy/159326_SZSE.png"
+      },
+      {
+        "vt_symbol": "513310.SSE",
+        "symbol": "513310",
+        "exchange": "SSE",
+        "sharpe": 1.1456491615628004,
+        "trades": 164,
+        "annual": 308.7358735170377,
+        "max_dd": -2.2241283395844613,
+        "batch_ts": "20260612_002904",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsRsiMeanReversionStrategy/513310_SSE.png"
+      },
+      {
+        "vt_symbol": "588170.SSE",
+        "symbol": "588170",
+        "exchange": "SSE",
+        "sharpe": 1.1223897429536829,
+        "trades": 52,
+        "annual": 264.66069730604625,
+        "max_dd": -1.0835696213952508,
+        "batch_ts": "20260612_002904",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsRsiMeanReversionStrategy/588170_SSE.png"
+      },
+      {
+        "vt_symbol": "159363.SZSE",
+        "symbol": "159363",
+        "exchange": "SZSE",
+        "sharpe": 1.0674255835982287,
+        "trades": 54,
+        "annual": 258.6308637099707,
+        "max_dd": -1.6236551904337042,
+        "batch_ts": "20260612_002904",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsRsiMeanReversionStrategy/159363_SZSE.png"
+      },
+      {
+        "vt_symbol": "159570.SZSE",
+        "symbol": "159570",
+        "exchange": "SZSE",
+        "sharpe": 1.0556579295511315,
+        "trades": 114,
+        "annual": 314.998560128116,
+        "max_dd": -5.004517574970922,
+        "batch_ts": "20260612_002904",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsRsiMeanReversionStrategy/159570_SZSE.png"
+      },
+      {
+        "vt_symbol": "159566.SZSE",
+        "symbol": "159566",
+        "exchange": "SZSE",
+        "sharpe": 1.0048588110147045,
+        "trades": 60,
+        "annual": 140.44280768000056,
+        "max_dd": -1.0222366912800005,
+        "batch_ts": "20260612_002904",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsRsiMeanReversionStrategy/159566_SZSE.png"
+      },
+      {
+        "vt_symbol": "515080.SSE",
+        "symbol": "515080",
+        "exchange": "SSE",
+        "sharpe": 0.8823269100909679,
+        "trades": 60,
+        "annual": 35.43728543463322,
+        "max_dd": -0.40662229765339347,
+        "batch_ts": "20260612_002904",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsRsiMeanReversionStrategy/515080_SSE.png"
+      },
+      {
+        "vt_symbol": "159636.SZSE",
+        "symbol": "159636",
+        "exchange": "SZSE",
+        "sharpe": 0.8760892043162198,
+        "trades": 52,
+        "annual": 81.22367780616375,
+        "max_dd": -1.0135637048426727,
+        "batch_ts": "20260612_002904",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsRsiMeanReversionStrategy/159636_SZSE.png"
+      },
+      {
+        "vt_symbol": "511380.SSE",
+        "symbol": "511380",
+        "exchange": "SSE",
+        "sharpe": 0.8207912327707464,
+        "trades": 56,
+        "annual": 24.267938920489872,
+        "max_dd": -0.30124007587775103,
+        "batch_ts": "20260612_002904",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/IbsRsiMeanReversionStrategy/511380_SSE.png"
+      }
+    ],
     "MacdHistogramRevStrategy": [
       {
         "vt_symbol": "513050.SSE",
@@ -57,83 +667,162 @@
         "asset_path": "raw/assets/cn_etf_mining_2026-06/MacdHistogramRevStrategy/510300_SSE.png"
       }
     ],
-    "MrxBandStrategy": [
+    "MacdHistogramStrategy": [
       {
-        "vt_symbol": "159570.SZSE",
-        "symbol": "159570",
+        "vt_symbol": "159516.SZSE",
+        "symbol": "159516",
         "exchange": "SZSE",
-        "sharpe": 1.329849418131335,
-        "trades": 60,
-        "annual": 463.8143688280808,
-        "max_dd": -3.1698087850384358,
-        "batch_ts": "20260612_223335",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/MrxBandStrategy/159570_SZSE.png"
+        "sharpe": 1.5320978155299552,
+        "trades": 64,
+        "annual": 172.2941777586206,
+        "max_dd": -1.1111354688830986,
+        "batch_ts": "20260612_002943",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/MacdHistogramStrategy/159516_SZSE.png"
       },
       {
-        "vt_symbol": "159509.SZSE",
-        "symbol": "159509",
+        "vt_symbol": "588200.SSE",
+        "symbol": "588200",
+        "exchange": "SSE",
+        "sharpe": 1.1673778881050325,
+        "trades": 52,
+        "annual": 117.1024286281555,
+        "max_dd": -0.5722264215160323,
+        "batch_ts": "20260612_002943",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/MacdHistogramStrategy/588200_SSE.png"
+      },
+      {
+        "vt_symbol": "159852.SZSE",
+        "symbol": "159852",
         "exchange": "SZSE",
-        "sharpe": 1.1007830971073782,
+        "sharpe": 0.9990295251640162,
         "trades": 54,
-        "annual": 251.16038443702652,
-        "max_dd": -2.0229549667680193,
-        "batch_ts": "20260612_223335",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/MrxBandStrategy/159509_SZSE.png"
+        "annual": 64.55147906814592,
+        "max_dd": -0.47646681556143494,
+        "batch_ts": "20260612_002943",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/MacdHistogramStrategy/159852_SZSE.png"
       },
       {
         "vt_symbol": "513050.SSE",
         "symbol": "513050",
         "exchange": "SSE",
-        "sharpe": 1.093092563345487,
-        "trades": 91,
-        "annual": 163.6072385249902,
-        "max_dd": -2.3299287894133984,
-        "batch_ts": "20260612_223335",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/MrxBandStrategy/513050_SSE.png"
+        "sharpe": 0.9403226243922552,
+        "trades": 80,
+        "annual": 66.03491176883095,
+        "max_dd": -0.7632522564469261,
+        "batch_ts": "20260612_002943",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/MacdHistogramStrategy/513050_SSE.png"
       },
       {
-        "vt_symbol": "513130.SSE",
-        "symbol": "513130",
-        "exchange": "SSE",
-        "sharpe": 1.0747515590953811,
-        "trades": 57,
-        "annual": 75.92010342065512,
-        "max_dd": -0.651569449716989,
-        "batch_ts": "20260612_223335",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/MrxBandStrategy/513130_SSE.png"
+        "vt_symbol": "159901.SZSE",
+        "symbol": "159901",
+        "exchange": "SZSE",
+        "sharpe": 0.8969217972585007,
+        "trades": 80,
+        "annual": 43.00532587504377,
+        "max_dd": -0.6020158590115693,
+        "batch_ts": "20260612_002943",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/MacdHistogramStrategy/159901_SZSE.png"
       },
       {
-        "vt_symbol": "588220.SSE",
-        "symbol": "588220",
-        "exchange": "SSE",
-        "sharpe": 0.9631304920527941,
-        "trades": 63,
-        "annual": 318.6878661135969,
-        "max_dd": -2.6426687978600034,
-        "batch_ts": "20260612_223335",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/MrxBandStrategy/588220_SSE.png"
+        "vt_symbol": "159819.SZSE",
+        "symbol": "159819",
+        "exchange": "SZSE",
+        "sharpe": 0.845629232363265,
+        "trades": 58,
+        "annual": 49.75830525695719,
+        "max_dd": -0.4333983282846718,
+        "batch_ts": "20260612_002943",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/MacdHistogramStrategy/159819_SZSE.png"
       },
       {
-        "vt_symbol": "511090.SSE",
-        "symbol": "511090",
-        "exchange": "SSE",
-        "sharpe": 0.9367036286272271,
-        "trades": 65,
-        "annual": 44.49192610281449,
-        "max_dd": -0.44530351374678817,
-        "batch_ts": "20260612_223335",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/MrxBandStrategy/511090_SSE.png"
+        "vt_symbol": "159915.SZSE",
+        "symbol": "159915",
+        "exchange": "SZSE",
+        "sharpe": 0.8135589417606424,
+        "trades": 142,
+        "annual": 103.06902887545428,
+        "max_dd": -2.147092506054978,
+        "batch_ts": "20260612_002943",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/MacdHistogramStrategy/159915_SZSE.png"
       },
       {
-        "vt_symbol": "511380.SSE",
-        "symbol": "511380",
+        "vt_symbol": "159892.SZSE",
+        "symbol": "159892",
+        "exchange": "SZSE",
+        "sharpe": 0.8132198585409701,
+        "trades": 59,
+        "annual": 35.01002135759786,
+        "max_dd": -0.5769926088382158,
+        "batch_ts": "20260612_002943",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/MacdHistogramStrategy/159892_SZSE.png"
+      }
+    ],
+    "MarketConditionStrategy": [
+      {
+        "vt_symbol": "159980.SZSE",
+        "symbol": "159980",
+        "exchange": "SZSE",
+        "sharpe": 0.9764533131916371,
+        "trades": 120,
+        "annual": 0.0008411559504665536,
+        "max_dd": -2.272173588702931e-05,
+        "batch_ts": "20260612_040954",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/MarketConditionStrategy/159980_SZSE.png"
+      },
+      {
+        "vt_symbol": "159326.SZSE",
+        "symbol": "159326",
+        "exchange": "SZSE",
+        "sharpe": 0.9437561631478419,
+        "trades": 53,
+        "annual": 0.0013217500501877617,
+        "max_dd": -1.0702357600730993e-05,
+        "batch_ts": "20260612_040954",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/MarketConditionStrategy/159326_SZSE.png"
+      },
+      {
+        "vt_symbol": "563360.SSE",
+        "symbol": "563360",
         "exchange": "SSE",
-        "sharpe": 0.8374872886619551,
-        "trades": 54,
-        "annual": 38.595008470204085,
-        "max_dd": -0.33094766357667166,
-        "batch_ts": "20260612_223335",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/MrxBandStrategy/511380_SSE.png"
+        "sharpe": 0.9205741904253538,
+        "trades": 53,
+        "annual": 0.0009326662393505103,
+        "max_dd": -7.553448797016222e-06,
+        "batch_ts": "20260612_040954",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/MarketConditionStrategy/563360_SSE.png"
+      },
+      {
+        "vt_symbol": "518880.SSE",
+        "symbol": "518880",
+        "exchange": "SSE",
+        "sharpe": 0.893127485334539,
+        "trades": 315,
+        "annual": 0.004562497034651147,
+        "max_dd": -9.415009582805172e-05,
+        "batch_ts": "20260612_040954",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/MarketConditionStrategy/518880_SSE.png"
+      },
+      {
+        "vt_symbol": "517520.SSE",
+        "symbol": "517520",
+        "exchange": "SSE",
+        "sharpe": 0.8301792996270388,
+        "trades": 74,
+        "annual": 0.0018444035764459184,
+        "max_dd": -1.6604619532580763e-05,
+        "batch_ts": "20260612_040954",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/MarketConditionStrategy/517520_SSE.png"
+      },
+      {
+        "vt_symbol": "513500.SSE",
+        "symbol": "513500",
+        "exchange": "SSE",
+        "sharpe": 0.814152604889953,
+        "trades": 158,
+        "annual": 0.0009645456564959538,
+        "max_dd": -1.3605070971184517e-05,
+        "batch_ts": "20260612_040954",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/MarketConditionStrategy/513500_SSE.png"
       }
     ],
     "NgStochPivotMeanRevStrategy": [
@@ -369,18 +1058,97 @@
         "asset_path": "raw/assets/cn_etf_mining_2026-06/NgStochPivotMeanRevStrategy/513090_SSE.png"
       }
     ],
-    "TigerRsiStrategy": [
+    "PullbackMrStrategy": [
       {
-        "vt_symbol": "159570.SZSE",
-        "symbol": "159570",
-        "exchange": "SZSE",
-        "sharpe": 1.5330827211188498,
-        "trades": 52,
-        "annual": 428.54238253513694,
-        "max_dd": -1.973644898033973,
-        "batch_ts": "20260612_185325",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/159570_SZSE.png"
+        "vt_symbol": "588220.SSE",
+        "symbol": "588220",
+        "exchange": "SSE",
+        "sharpe": 1.318228413898201,
+        "trades": 66,
+        "annual": 215.29148170839906,
+        "max_dd": -1.5207511229320483,
+        "batch_ts": "20260612_041034",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/PullbackMrStrategy/588220_SSE.png"
       },
+      {
+        "vt_symbol": "159816.SZSE",
+        "symbol": "159816",
+        "exchange": "SZSE",
+        "sharpe": 1.1149580194528848,
+        "trades": 68,
+        "annual": 12.150666704753613,
+        "max_dd": -0.07483696285401151,
+        "batch_ts": "20260612_041034",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/PullbackMrStrategy/159816_SZSE.png"
+      },
+      {
+        "vt_symbol": "511030.SSE",
+        "symbol": "511030",
+        "exchange": "SSE",
+        "sharpe": 0.9849321424641322,
+        "trades": 66,
+        "annual": 10.176213082576298,
+        "max_dd": -0.18331449989746346,
+        "batch_ts": "20260612_041034",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/PullbackMrStrategy/511030_SSE.png"
+      },
+      {
+        "vt_symbol": "511260.SSE",
+        "symbol": "511260",
+        "exchange": "SSE",
+        "sharpe": 0.8957851392938844,
+        "trades": 56,
+        "annual": 14.173305727072217,
+        "max_dd": -0.2720496134805319,
+        "batch_ts": "20260612_041034",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/PullbackMrStrategy/511260_SSE.png"
+      },
+      {
+        "vt_symbol": "518880.SSE",
+        "symbol": "518880",
+        "exchange": "SSE",
+        "sharpe": 0.8479698625898536,
+        "trades": 63,
+        "annual": 170.2811017998695,
+        "max_dd": -4.544933993881238,
+        "batch_ts": "20260612_041034",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/PullbackMrStrategy/518880_SSE.png"
+      },
+      {
+        "vt_symbol": "560860.SSE",
+        "symbol": "560860",
+        "exchange": "SSE",
+        "sharpe": 0.8464992230903545,
+        "trades": 67,
+        "annual": 160.82851308142298,
+        "max_dd": -3.9756907392766,
+        "batch_ts": "20260612_041034",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/PullbackMrStrategy/560860_SSE.png"
+      },
+      {
+        "vt_symbol": "516650.SSE",
+        "symbol": "516650",
+        "exchange": "SSE",
+        "sharpe": 0.8312971185285176,
+        "trades": 51,
+        "annual": 180.82693535837015,
+        "max_dd": -3.9681459740034826,
+        "batch_ts": "20260612_041034",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/PullbackMrStrategy/516650_SSE.png"
+      },
+      {
+        "vt_symbol": "513500.SSE",
+        "symbol": "513500",
+        "exchange": "SSE",
+        "sharpe": 0.8042700948900584,
+        "trades": 90,
+        "annual": 100.84792668007874,
+        "max_dd": -1.7490205999776156,
+        "batch_ts": "20260612_041034",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/PullbackMrStrategy/513500_SSE.png"
+      }
+    ],
+    "TigerRsiStrategy": [
       {
         "vt_symbol": "159816.SZSE",
         "symbol": "159816",
@@ -391,72 +1159,6 @@
         "max_dd": -0.07217925190952312,
         "batch_ts": "20260612_185325",
         "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/159816_SZSE.png"
-      },
-      {
-        "vt_symbol": "513120.SSE",
-        "symbol": "513120",
-        "exchange": "SSE",
-        "sharpe": 1.3586470038433722,
-        "trades": 62,
-        "annual": 150.49667762345234,
-        "max_dd": -0.7067024846713033,
-        "batch_ts": "20260612_185325",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/513120_SSE.png"
-      },
-      {
-        "vt_symbol": "511260.SSE",
-        "symbol": "511260",
-        "exchange": "SSE",
-        "sharpe": 1.2086286687692747,
-        "trades": 63,
-        "annual": 20.940097569073778,
-        "max_dd": -0.27095509104848203,
-        "batch_ts": "20260612_185325",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/511260_SSE.png"
-      },
-      {
-        "vt_symbol": "159636.SZSE",
-        "symbol": "159636",
-        "exchange": "SZSE",
-        "sharpe": 1.093213246356054,
-        "trades": 62,
-        "annual": 133.04331326793434,
-        "max_dd": -0.7685263454780725,
-        "batch_ts": "20260612_185325",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/159636_SZSE.png"
-      },
-      {
-        "vt_symbol": "512400.SSE",
-        "symbol": "512400",
-        "exchange": "SSE",
-        "sharpe": 1.072726490559931,
-        "trades": 51,
-        "annual": 432.0644936794456,
-        "max_dd": -4.433508069529058,
-        "batch_ts": "20260612_185325",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/512400_SSE.png"
-      },
-      {
-        "vt_symbol": "159892.SZSE",
-        "symbol": "159892",
-        "exchange": "SZSE",
-        "sharpe": 0.9984525277478323,
-        "trades": 70,
-        "annual": 64.8892441637854,
-        "max_dd": -0.7544067679664105,
-        "batch_ts": "20260612_185325",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/159892_SZSE.png"
-      },
-      {
-        "vt_symbol": "159796.SZSE",
-        "symbol": "159796",
-        "exchange": "SZSE",
-        "sharpe": 0.993112814194212,
-        "trades": 52,
-        "annual": 104.7658000984614,
-        "max_dd": -2.062978670718893,
-        "batch_ts": "20260612_185325",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/159796_SZSE.png"
       },
       {
         "vt_symbol": "588220.SSE",
@@ -470,28 +1172,6 @@
         "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/588220_SSE.png"
       },
       {
-        "vt_symbol": "159869.SZSE",
-        "symbol": "159869",
-        "exchange": "SZSE",
-        "sharpe": 0.8924449505563563,
-        "trades": 348,
-        "annual": 147.50845444304227,
-        "max_dd": -2.790191885484629,
-        "batch_ts": "20260612_185325",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/159869_SZSE.png"
-      },
-      {
-        "vt_symbol": "511380.SSE",
-        "symbol": "511380",
-        "exchange": "SSE",
-        "sharpe": 0.8758567592536889,
-        "trades": 80,
-        "annual": 28.353341857959318,
-        "max_dd": -0.4248443684324065,
-        "batch_ts": "20260612_185325",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/511380_SSE.png"
-      },
-      {
         "vt_symbol": "513630.SSE",
         "symbol": "513630",
         "exchange": "SSE",
@@ -501,39 +1181,6 @@
         "max_dd": -0.8465993818632189,
         "batch_ts": "20260612_185325",
         "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/513630_SSE.png"
-      },
-      {
-        "vt_symbol": "515220.SSE",
-        "symbol": "515220",
-        "exchange": "SSE",
-        "sharpe": 0.8325720103532528,
-        "trades": 66,
-        "annual": 286.0166202516791,
-        "max_dd": -4.390380360424461,
-        "batch_ts": "20260612_185325",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/515220_SSE.png"
-      },
-      {
-        "vt_symbol": "511090.SSE",
-        "symbol": "511090",
-        "exchange": "SSE",
-        "sharpe": 0.8243965956903057,
-        "trades": 79,
-        "annual": 33.00336174130829,
-        "max_dd": -0.6283274181312044,
-        "batch_ts": "20260612_185325",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/511090_SSE.png"
-      },
-      {
-        "vt_symbol": "159870.SZSE",
-        "symbol": "159870",
-        "exchange": "SZSE",
-        "sharpe": 0.8172374297264683,
-        "trades": 51,
-        "annual": 111.29064253812948,
-        "max_dd": -2.5259198848953455,
-        "batch_ts": "20260612_185325",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/TigerRsiStrategy/159870_SZSE.png"
       }
     ],
     "Tt1Strategy": [
@@ -547,6 +1194,318 @@
         "max_dd": -0.036197550003287074,
         "batch_ts": "20260613_055436",
         "asset_path": "raw/assets/cn_etf_mining_2026-06/Tt1Strategy/511360_SSE.png"
+      }
+    ],
+    "VolatilitySupportStrategy": [
+      {
+        "vt_symbol": "159650.SZSE",
+        "symbol": "159650",
+        "exchange": "SZSE",
+        "sharpe": 2.43081649555534,
+        "trades": 51,
+        "annual": 13.564623039349588,
+        "max_dd": -0.044964037787051915,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/159650_SZSE.png"
+      },
+      {
+        "vt_symbol": "159363.SZSE",
+        "symbol": "159363",
+        "exchange": "SZSE",
+        "sharpe": 2.3533450447967885,
+        "trades": 55,
+        "annual": 1136.2537600966762,
+        "max_dd": -1.8664482140142797,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/159363_SZSE.png"
+      },
+      {
+        "vt_symbol": "511580.SSE",
+        "symbol": "511580",
+        "exchange": "SSE",
+        "sharpe": 2.174958866024725,
+        "trades": 57,
+        "annual": 18.043586737646972,
+        "max_dd": -0.06732669685851246,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/511580_SSE.png"
+      },
+      {
+        "vt_symbol": "511520.SSE",
+        "symbol": "511520",
+        "exchange": "SSE",
+        "sharpe": 2.022849932105059,
+        "trades": 52,
+        "annual": 41.894304990422185,
+        "max_dd": -0.2896577147982507,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/511520_SSE.png"
+      },
+      {
+        "vt_symbol": "511360.SSE",
+        "symbol": "511360",
+        "exchange": "SSE",
+        "sharpe": 1.6669125760630557,
+        "trades": 77,
+        "annual": 12.747941453964359,
+        "max_dd": -0.14151472216976513,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/511360_SSE.png"
+      },
+      {
+        "vt_symbol": "511220.SSE",
+        "symbol": "511220",
+        "exchange": "SSE",
+        "sharpe": 1.4700908683649239,
+        "trades": 93,
+        "annual": 31.283880820061405,
+        "max_dd": -0.43461878354213984,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/511220_SSE.png"
+      },
+      {
+        "vt_symbol": "511090.SSE",
+        "symbol": "511090",
+        "exchange": "SSE",
+        "sharpe": 1.3805825937130665,
+        "trades": 75,
+        "annual": 88.17827297245921,
+        "max_dd": -1.2046894707359934,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/511090_SSE.png"
+      },
+      {
+        "vt_symbol": "511260.SSE",
+        "symbol": "511260",
+        "exchange": "SSE",
+        "sharpe": 1.3590527845166411,
+        "trades": 114,
+        "annual": 31.39872161271495,
+        "max_dd": -0.30907006975550066,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/511260_SSE.png"
+      },
+      {
+        "vt_symbol": "159816.SZSE",
+        "symbol": "159816",
+        "exchange": "SZSE",
+        "sharpe": 1.275102790686856,
+        "trades": 94,
+        "annual": 30.579980127809847,
+        "max_dd": -0.15847543376708392,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/159816_SZSE.png"
+      },
+      {
+        "vt_symbol": "159566.SZSE",
+        "symbol": "159566",
+        "exchange": "SZSE",
+        "sharpe": 1.2293072645323415,
+        "trades": 63,
+        "annual": 483.62792128,
+        "max_dd": -2.9537419803423792,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/159566_SZSE.png"
+      },
+      {
+        "vt_symbol": "517520.SSE",
+        "symbol": "517520",
+        "exchange": "SSE",
+        "sharpe": 1.179199988989333,
+        "trades": 85,
+        "annual": 636.9352307046354,
+        "max_dd": -5.028958664278848,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/517520_SSE.png"
+      },
+      {
+        "vt_symbol": "518880.SSE",
+        "symbol": "518880",
+        "exchange": "SSE",
+        "sharpe": 1.1708608730908958,
+        "trades": 151,
+        "annual": 311.0792270884389,
+        "max_dd": -4.778272330788143,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/518880_SSE.png"
+      },
+      {
+        "vt_symbol": "513310.SSE",
+        "symbol": "513310",
+        "exchange": "SSE",
+        "sharpe": 1.1352184079299583,
+        "trades": 114,
+        "annual": 684.7165721677031,
+        "max_dd": -7.22413536467562,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/513310_SSE.png"
+      },
+      {
+        "vt_symbol": "159516.SZSE",
+        "symbol": "159516",
+        "exchange": "SZSE",
+        "sharpe": 1.134242084600699,
+        "trades": 76,
+        "annual": 377.28957738620755,
+        "max_dd": -3.0545073550066517,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/159516_SZSE.png"
+      },
+      {
+        "vt_symbol": "513920.SSE",
+        "symbol": "513920",
+        "exchange": "SSE",
+        "sharpe": 1.1145335527997324,
+        "trades": 55,
+        "annual": 256.2618648524154,
+        "max_dd": -1.5167299741416034,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/513920_SSE.png"
+      },
+      {
+        "vt_symbol": "518600.SSE",
+        "symbol": "518600",
+        "exchange": "SSE",
+        "sharpe": 1.0944444881618367,
+        "trades": 147,
+        "annual": 231.80194120287325,
+        "max_dd": -3.906490700569872,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/518600_SSE.png"
+      },
+      {
+        "vt_symbol": "511100.SSE",
+        "symbol": "511100",
+        "exchange": "SSE",
+        "sharpe": 1.08437548348785,
+        "trades": 55,
+        "annual": 22.545856791519558,
+        "max_dd": -0.28661162876392443,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/511100_SSE.png"
+      },
+      {
+        "vt_symbol": "513750.SSE",
+        "symbol": "513750",
+        "exchange": "SSE",
+        "sharpe": 1.0089318124944333,
+        "trades": 101,
+        "annual": 257.2827566449149,
+        "max_dd": -2.4238404231160167,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/513750_SSE.png"
+      },
+      {
+        "vt_symbol": "560860.SSE",
+        "symbol": "560860",
+        "exchange": "SSE",
+        "sharpe": 1.0026647967611066,
+        "trades": 89,
+        "annual": 306.3741327452961,
+        "max_dd": -4.658622164339738,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/560860_SSE.png"
+      },
+      {
+        "vt_symbol": "159980.SZSE",
+        "symbol": "159980",
+        "exchange": "SZSE",
+        "sharpe": 0.9545556287092465,
+        "trades": 132,
+        "annual": 221.72221663853634,
+        "max_dd": -3.849220538456618,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/159980_SZSE.png"
+      },
+      {
+        "vt_symbol": "159326.SZSE",
+        "symbol": "159326",
+        "exchange": "SZSE",
+        "sharpe": 0.9537989354166184,
+        "trades": 51,
+        "annual": 279.13983176040665,
+        "max_dd": -2.988111687527684,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/159326_SZSE.png"
+      },
+      {
+        "vt_symbol": "513630.SSE",
+        "symbol": "513630",
+        "exchange": "SSE",
+        "sharpe": 0.9266852509332362,
+        "trades": 51,
+        "annual": 187.4756390895805,
+        "max_dd": -1.6887262272053436,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/513630_SSE.png"
+      },
+      {
+        "vt_symbol": "515880.SSE",
+        "symbol": "515880",
+        "exchange": "SSE",
+        "sharpe": 0.9083107803310987,
+        "trades": 249,
+        "annual": 348.3266348483963,
+        "max_dd": -6.672593134727875,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/515880_SSE.png"
+      },
+      {
+        "vt_symbol": "512890.SSE",
+        "symbol": "512890",
+        "exchange": "SSE",
+        "sharpe": 0.8952455543165977,
+        "trades": 139,
+        "annual": 157.9278943696931,
+        "max_dd": -1.6117291453694056,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/512890_SSE.png"
+      },
+      {
+        "vt_symbol": "513500.SSE",
+        "symbol": "513500",
+        "exchange": "SSE",
+        "sharpe": 0.8655387994670244,
+        "trades": 111,
+        "annual": 215.70436532723747,
+        "max_dd": -4.328468109556182,
+        "batch_ts": "20260612_113144",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/VolatilitySupportStrategy/513500_SSE.png"
+      }
+    ],
+    "WilliamsRMrSimpleStrategy": [
+      {
+        "vt_symbol": "511030.SSE",
+        "symbol": "511030",
+        "exchange": "SSE",
+        "sharpe": 0.9834243320200634,
+        "trades": 70,
+        "annual": 15.247981740871602,
+        "max_dd": -0.2964298725745976,
+        "batch_ts": "20260612_151135",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/WilliamsRMrSimpleStrategy/511030_SSE.png"
+      },
+      {
+        "vt_symbol": "159611.SZSE",
+        "symbol": "159611",
+        "exchange": "SZSE",
+        "sharpe": 0.9079093112810813,
+        "trades": 64,
+        "annual": 90.26525976046058,
+        "max_dd": -1.5500142028340702,
+        "batch_ts": "20260612_151135",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/WilliamsRMrSimpleStrategy/159611_SZSE.png"
+      },
+      {
+        "vt_symbol": "515450.SSE",
+        "symbol": "515450",
+        "exchange": "SSE",
+        "sharpe": 0.8186158770245326,
+        "trades": 74,
+        "annual": 101.98920862192861,
+        "max_dd": -1.4519250864848754,
+        "batch_ts": "20260612_151135",
+        "asset_path": "raw/assets/cn_etf_mining_2026-06/WilliamsRMrSimpleStrategy/515450_SSE.png"
       }
     ],
     "WilliamsRVolFilterStrategy": [
@@ -729,17 +1688,6 @@
     ],
     "WohuStrategy": [
       {
-        "vt_symbol": "159570.SZSE",
-        "symbol": "159570",
-        "exchange": "SZSE",
-        "sharpe": 1.9263327920592392,
-        "trades": 60,
-        "annual": 569.8307555837663,
-        "max_dd": -2.1763821200921436,
-        "batch_ts": "20260612_223315",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/WohuStrategy/159570_SZSE.png"
-      },
-      {
         "vt_symbol": "159816.SZSE",
         "symbol": "159816",
         "exchange": "SZSE",
@@ -751,116 +1699,6 @@
         "asset_path": "raw/assets/cn_etf_mining_2026-06/WohuStrategy/159816_SZSE.png"
       },
       {
-        "vt_symbol": "513750.SSE",
-        "symbol": "513750",
-        "exchange": "SSE",
-        "sharpe": 1.2698143115894105,
-        "trades": 72,
-        "annual": 220.0299663366556,
-        "max_dd": -1.8328471535813857,
-        "batch_ts": "20260612_223315",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/WohuStrategy/513750_SSE.png"
-      },
-      {
-        "vt_symbol": "159636.SZSE",
-        "symbol": "159636",
-        "exchange": "SZSE",
-        "sharpe": 1.2362331272255365,
-        "trades": 88,
-        "annual": 152.659950680656,
-        "max_dd": -1.1480714746744438,
-        "batch_ts": "20260612_223315",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/WohuStrategy/159636_SZSE.png"
-      },
-      {
-        "vt_symbol": "513050.SSE",
-        "symbol": "513050",
-        "exchange": "SSE",
-        "sharpe": 1.17038662162237,
-        "trades": 106,
-        "annual": 114.07676148587834,
-        "max_dd": -1.2466195334440873,
-        "batch_ts": "20260612_223315",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/WohuStrategy/513050_SSE.png"
-      },
-      {
-        "vt_symbol": "562800.SSE",
-        "symbol": "562800",
-        "exchange": "SSE",
-        "sharpe": 1.0354247931357008,
-        "trades": 79,
-        "annual": 183.3431890722162,
-        "max_dd": -2.3773196236477774,
-        "batch_ts": "20260612_223315",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/WohuStrategy/562800_SSE.png"
-      },
-      {
-        "vt_symbol": "588220.SSE",
-        "symbol": "588220",
-        "exchange": "SSE",
-        "sharpe": 0.9266610933025233,
-        "trades": 68,
-        "annual": 245.61785216481735,
-        "max_dd": -2.6292470074000067,
-        "batch_ts": "20260612_223315",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/WohuStrategy/588220_SSE.png"
-      },
-      {
-        "vt_symbol": "511260.SSE",
-        "symbol": "511260",
-        "exchange": "SSE",
-        "sharpe": 0.9195112896601172,
-        "trades": 119,
-        "annual": 15.946894026486799,
-        "max_dd": -0.2714362551965076,
-        "batch_ts": "20260612_223315",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/WohuStrategy/511260_SSE.png"
-      },
-      {
-        "vt_symbol": "515450.SSE",
-        "symbol": "515450",
-        "exchange": "SSE",
-        "sharpe": 0.8478743183798383,
-        "trades": 97,
-        "annual": 114.58824389430933,
-        "max_dd": -1.4744487844045,
-        "batch_ts": "20260612_223315",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/WohuStrategy/515450_SSE.png"
-      },
-      {
-        "vt_symbol": "515220.SSE",
-        "symbol": "515220",
-        "exchange": "SSE",
-        "sharpe": 0.8465163865834889,
-        "trades": 62,
-        "annual": 307.71910346113935,
-        "max_dd": -6.798183261815831,
-        "batch_ts": "20260612_223315",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/WohuStrategy/515220_SSE.png"
-      },
-      {
-        "vt_symbol": "513980.SSE",
-        "symbol": "513980",
-        "exchange": "SSE",
-        "sharpe": 0.8454452915940172,
-        "trades": 58,
-        "annual": 46.21152272027387,
-        "max_dd": -0.6285550697939701,
-        "batch_ts": "20260612_223315",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/WohuStrategy/513980_SSE.png"
-      },
-      {
-        "vt_symbol": "159920.SZSE",
-        "symbol": "159920",
-        "exchange": "SZSE",
-        "sharpe": 0.822166646315328,
-        "trades": 86,
-        "annual": 43.23705025379495,
-        "max_dd": -1.0443996114395493,
-        "batch_ts": "20260612_223315",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/WohuStrategy/159920_SZSE.png"
-      },
-      {
         "vt_symbol": "511580.SSE",
         "symbol": "511580",
         "exchange": "SSE",
@@ -870,721 +1708,10 @@
         "max_dd": -0.05173610634412082,
         "batch_ts": "20260612_223315",
         "asset_path": "raw/assets/cn_etf_mining_2026-06/WohuStrategy/511580_SSE.png"
-      },
-      {
-        "vt_symbol": "511180.SSE",
-        "symbol": "511180",
-        "exchange": "SSE",
-        "sharpe": 0.8122360229632887,
-        "trades": 105,
-        "annual": 30.431799657641655,
-        "max_dd": -0.3748557308396617,
-        "batch_ts": "20260612_223315",
-        "asset_path": "raw/assets/cn_etf_mining_2026-06/WohuStrategy/511180_SSE.png"
       }
     ]
   },
   "filtered_short": {
-    "ConsecutiveDownDaysStrategy": [
-      {
-        "vt_symbol": "159816.SZSE",
-        "symbol": "159816",
-        "exchange": "SZSE",
-        "sharpe": 1.2135376324407263,
-        "trades": 94,
-        "annual": 11.953812058978643,
-        "max_dd": -0.09552507696269304,
-        "batch_ts": "20260611_132713"
-      },
-      {
-        "vt_symbol": "588200.SSE",
-        "symbol": "588200",
-        "exchange": "SSE",
-        "sharpe": 1.1299920934487317,
-        "trades": 56,
-        "annual": 391.8233025662048,
-        "max_dd": -3.0676506265512224,
-        "batch_ts": "20260611_132713"
-      },
-      {
-        "vt_symbol": "511220.SSE",
-        "symbol": "511220",
-        "exchange": "SSE",
-        "sharpe": 0.9065180929414317,
-        "trades": 111,
-        "annual": 14.233882444691018,
-        "max_dd": -0.2866444312687478,
-        "batch_ts": "20260611_132713"
-      },
-      {
-        "vt_symbol": "515450.SSE",
-        "symbol": "515450",
-        "exchange": "SSE",
-        "sharpe": 0.9049952152302604,
-        "trades": 118,
-        "annual": 121.64694442718758,
-        "max_dd": -1.310134752836215,
-        "batch_ts": "20260611_132713"
-      },
-      {
-        "vt_symbol": "562800.SSE",
-        "symbol": "562800",
-        "exchange": "SSE",
-        "sharpe": 0.849909857533256,
-        "trades": 55,
-        "annual": 97.14202020583751,
-        "max_dd": -2.1163692978893027,
-        "batch_ts": "20260611_132713"
-      }
-    ],
-    "DonchianAdxBreakoutStrategy": [
-      {
-        "vt_symbol": "511360.SSE",
-        "symbol": "511360",
-        "exchange": "SSE",
-        "sharpe": 6.061511175697504,
-        "trades": 59,
-        "annual": 13.231769684556069,
-        "max_dd": -0.02531932663635652,
-        "batch_ts": "20260612_151235"
-      },
-      {
-        "vt_symbol": "511220.SSE",
-        "symbol": "511220",
-        "exchange": "SSE",
-        "sharpe": 2.1303105442997334,
-        "trades": 67,
-        "annual": 21.896966096646473,
-        "max_dd": -0.13042668479632236,
-        "batch_ts": "20260612_151235"
-      },
-      {
-        "vt_symbol": "513500.SSE",
-        "symbol": "513500",
-        "exchange": "SSE",
-        "sharpe": 0.9094890017568553,
-        "trades": 93,
-        "annual": 93.21910529902048,
-        "max_dd": -1.4661495078770457,
-        "batch_ts": "20260612_151235"
-      }
-    ],
-    "FiveDayLowOvernightStrategy": [
-      {
-        "vt_symbol": "513920.SSE",
-        "symbol": "513920",
-        "exchange": "SSE",
-        "sharpe": 1.5600602220320088,
-        "trades": 68,
-        "annual": 111.42420018444128,
-        "max_dd": -0.46665514996810686,
-        "batch_ts": "20260611_132713"
-      },
-      {
-        "vt_symbol": "159509.SZSE",
-        "symbol": "159509",
-        "exchange": "SZSE",
-        "sharpe": 0.9742582079102029,
-        "trades": 70,
-        "annual": 230.5004982686504,
-        "max_dd": -1.4804333626036978,
-        "batch_ts": "20260611_132713"
-      }
-    ],
-    "FiveDayLowRangeStrategy": [
-      {
-        "vt_symbol": "513920.SSE",
-        "symbol": "513920",
-        "exchange": "SSE",
-        "sharpe": 1.675417797600147,
-        "trades": 60,
-        "annual": 142.05584282923874,
-        "max_dd": -0.634374924832017,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "588220.SSE",
-        "symbol": "588220",
-        "exchange": "SSE",
-        "sharpe": 1.4018950059201498,
-        "trades": 74,
-        "annual": 291.11888378700496,
-        "max_dd": -2.7718937343361336,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "588200.SSE",
-        "symbol": "588200",
-        "exchange": "SSE",
-        "sharpe": 1.191081760503709,
-        "trades": 100,
-        "annual": 315.1063469612222,
-        "max_dd": -3.3587102974119367,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "513630.SSE",
-        "symbol": "513630",
-        "exchange": "SSE",
-        "sharpe": 1.0393312455812054,
-        "trades": 56,
-        "annual": 81.39635860064264,
-        "max_dd": -0.7928364125790461,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "513310.SSE",
-        "symbol": "513310",
-        "exchange": "SSE",
-        "sharpe": 1.033690743863212,
-        "trades": 90,
-        "annual": 422.18927300977754,
-        "max_dd": -3.1528546681232568,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "513120.SSE",
-        "symbol": "513120",
-        "exchange": "SSE",
-        "sharpe": 0.8960255912876,
-        "trades": 108,
-        "annual": 131.7714488286649,
-        "max_dd": -2.2030741543556567,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "513130.SSE",
-        "symbol": "513130",
-        "exchange": "SSE",
-        "sharpe": 0.8363050673472322,
-        "trades": 102,
-        "annual": 74.72873957682602,
-        "max_dd": -0.9722528458270862,
-        "batch_ts": "20260611_170803"
-      }
-    ],
-    "FiveDayLowStrategy": [
-      {
-        "vt_symbol": "513920.SSE",
-        "symbol": "513920",
-        "exchange": "SSE",
-        "sharpe": 1.7717196291063764,
-        "trades": 109,
-        "annual": 0.0022471762133300928,
-        "max_dd": -1.1827829180555423e-05,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "159566.SZSE",
-        "symbol": "159566",
-        "exchange": "SZSE",
-        "sharpe": 1.6205914624043165,
-        "trades": 127,
-        "annual": 0.004316606292384426,
-        "max_dd": -1.732889606025999e-05,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "513630.SSE",
-        "symbol": "513630",
-        "exchange": "SSE",
-        "sharpe": 1.3172334753127326,
-        "trades": 107,
-        "annual": 0.0014605016315922426,
-        "max_dd": -6.580194678858378e-06,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "159570.SZSE",
-        "symbol": "159570",
-        "exchange": "SZSE",
-        "sharpe": 1.1978400235741253,
-        "trades": 93,
-        "annual": 0.002815595758493025,
-        "max_dd": -1.6233839575842112e-05,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "159326.SZSE",
-        "symbol": "159326",
-        "exchange": "SZSE",
-        "sharpe": 1.1469962079660678,
-        "trades": 81,
-        "annual": 0.0024505005077566505,
-        "max_dd": -1.907285112751163e-05,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "513120.SSE",
-        "symbol": "513120",
-        "exchange": "SSE",
-        "sharpe": 0.9921094029695519,
-        "trades": 157,
-        "annual": 0.0017506459934253835,
-        "max_dd": -1.669684390252038e-05,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "159509.SZSE",
-        "symbol": "159509",
-        "exchange": "SZSE",
-        "sharpe": 0.9785760047501314,
-        "trades": 86,
-        "annual": 0.002481040243256852,
-        "max_dd": -1.853133564616914e-05,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "513500.SSE",
-        "symbol": "513500",
-        "exchange": "SSE",
-        "sharpe": 0.8409706595872318,
-        "trades": 240,
-        "annual": 0.0011887555843676947,
-        "max_dd": -1.6396920350561973e-05,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "517520.SSE",
-        "symbol": "517520",
-        "exchange": "SSE",
-        "sharpe": 0.8330619382123896,
-        "trades": 107,
-        "annual": 0.0025637173514357395,
-        "max_dd": -3.620319062601544e-05,
-        "batch_ts": "20260611_170803"
-      },
-      {
-        "vt_symbol": "563360.SSE",
-        "symbol": "563360",
-        "exchange": "SSE",
-        "sharpe": 0.8076900545661609,
-        "trades": 53,
-        "annual": 0.0007750873606937603,
-        "max_dd": -6.19352930746178e-06,
-        "batch_ts": "20260611_170803"
-      }
-    ],
-    "GoldEnvelopeStrategy": [
-      {
-        "vt_symbol": "515080.SSE",
-        "symbol": "515080",
-        "exchange": "SSE",
-        "sharpe": 0.9813551026116072,
-        "trades": 67,
-        "annual": 136.2064182533507,
-        "max_dd": -1.8054551031354635,
-        "batch_ts": "20260611_204823"
-      },
-      {
-        "vt_symbol": "515100.SSE",
-        "symbol": "515100",
-        "exchange": "SSE",
-        "sharpe": 0.9717125426908658,
-        "trades": 53,
-        "annual": 128.81006675965517,
-        "max_dd": -1.9817285067814678,
-        "batch_ts": "20260611_204823"
-      },
-      {
-        "vt_symbol": "510880.SSE",
-        "symbol": "510880",
-        "exchange": "SSE",
-        "sharpe": 0.8550122180490861,
-        "trades": 68,
-        "annual": 91.36339662688442,
-        "max_dd": -1.4406338084230248,
-        "batch_ts": "20260611_204823"
-      }
-    ],
-    "IbsMeanReversionStrategy": [
-      {
-        "vt_symbol": "511260.SSE",
-        "symbol": "511260",
-        "exchange": "SSE",
-        "sharpe": 1.5022793826295526,
-        "trades": 89,
-        "annual": 20.20177073429979,
-        "max_dd": -0.20308079779534768,
-        "batch_ts": "20260611_204853"
-      },
-      {
-        "vt_symbol": "515220.SSE",
-        "symbol": "515220",
-        "exchange": "SSE",
-        "sharpe": 1.1656511376387162,
-        "trades": 58,
-        "annual": 188.86568247276193,
-        "max_dd": -1.5334238020541573,
-        "batch_ts": "20260611_204853"
-      },
-      {
-        "vt_symbol": "513980.SSE",
-        "symbol": "513980",
-        "exchange": "SSE",
-        "sharpe": 1.1380296645727421,
-        "trades": 102,
-        "annual": 107.4724978376045,
-        "max_dd": -0.9341924056767368,
-        "batch_ts": "20260611_204853"
-      },
-      {
-        "vt_symbol": "510500.SSE",
-        "symbol": "510500",
-        "exchange": "SSE",
-        "sharpe": 1.1304447489270377,
-        "trades": 56,
-        "annual": 154.8892851932045,
-        "max_dd": -1.7061431479379947,
-        "batch_ts": "20260611_204853"
-      },
-      {
-        "vt_symbol": "511380.SSE",
-        "symbol": "511380",
-        "exchange": "SSE",
-        "sharpe": 1.0769914953082362,
-        "trades": 52,
-        "annual": 39.71769005453077,
-        "max_dd": -0.5665817014606117,
-        "batch_ts": "20260611_204853"
-      },
-      {
-        "vt_symbol": "511180.SSE",
-        "symbol": "511180",
-        "exchange": "SSE",
-        "sharpe": 0.9638316841661854,
-        "trades": 69,
-        "annual": 53.586130899563415,
-        "max_dd": -0.6423308048239086,
-        "batch_ts": "20260611_204853"
-      },
-      {
-        "vt_symbol": "159792.SZSE",
-        "symbol": "159792",
-        "exchange": "SZSE",
-        "sharpe": 0.9555544341616621,
-        "trades": 58,
-        "annual": 88.33352018640223,
-        "max_dd": -1.115097349257874,
-        "batch_ts": "20260611_204853"
-      },
-      {
-        "vt_symbol": "515880.SSE",
-        "symbol": "515880",
-        "exchange": "SSE",
-        "sharpe": 0.9458181702801902,
-        "trades": 86,
-        "annual": 254.36971923469497,
-        "max_dd": -2.94151021743395,
-        "batch_ts": "20260611_204853"
-      },
-      {
-        "vt_symbol": "562500.SSE",
-        "symbol": "562500",
-        "exchange": "SSE",
-        "sharpe": 0.9166642979202869,
-        "trades": 58,
-        "annual": 63.738674337709966,
-        "max_dd": -0.8516639698819152,
-        "batch_ts": "20260611_204853"
-      },
-      {
-        "vt_symbol": "518600.SSE",
-        "symbol": "518600",
-        "exchange": "SSE",
-        "sharpe": 0.8623987594997617,
-        "trades": 51,
-        "annual": 87.88778538642357,
-        "max_dd": -1.0003204103266363,
-        "batch_ts": "20260611_204853"
-      },
-      {
-        "vt_symbol": "159892.SZSE",
-        "symbol": "159892",
-        "exchange": "SZSE",
-        "sharpe": 0.8579947608198136,
-        "trades": 52,
-        "annual": 107.39624874977255,
-        "max_dd": -1.2656748476750774,
-        "batch_ts": "20260611_204853"
-      },
-      {
-        "vt_symbol": "512100.SSE",
-        "symbol": "512100",
-        "exchange": "SSE",
-        "sharpe": 0.8451093382372848,
-        "trades": 54,
-        "annual": 134.67386154296588,
-        "max_dd": -3.5270726114992454,
-        "batch_ts": "20260611_204853"
-      },
-      {
-        "vt_symbol": "516150.SSE",
-        "symbol": "516150",
-        "exchange": "SSE",
-        "sharpe": 0.8440922140499058,
-        "trades": 70,
-        "annual": 162.4881128339079,
-        "max_dd": -2.195205749852864,
-        "batch_ts": "20260611_204853"
-      },
-      {
-        "vt_symbol": "513310.SSE",
-        "symbol": "513310",
-        "exchange": "SSE",
-        "sharpe": 0.837949961803891,
-        "trades": 70,
-        "annual": 380.65263406696255,
-        "max_dd": -4.6292301027852965,
-        "batch_ts": "20260611_204853"
-      },
-      {
-        "vt_symbol": "159636.SZSE",
-        "symbol": "159636",
-        "exchange": "SZSE",
-        "sharpe": 0.8236468889819425,
-        "trades": 68,
-        "annual": 119.3226421125243,
-        "max_dd": -1.44094945389562,
-        "batch_ts": "20260611_204853"
-      }
-    ],
-    "IbsRsiMeanReversionStrategy": [
-      {
-        "vt_symbol": "159326.SZSE",
-        "symbol": "159326",
-        "exchange": "SZSE",
-        "sharpe": 1.3169417659333886,
-        "trades": 71,
-        "annual": 210.37825723248596,
-        "max_dd": -0.8002015653199878,
-        "batch_ts": "20260612_002904"
-      },
-      {
-        "vt_symbol": "513310.SSE",
-        "symbol": "513310",
-        "exchange": "SSE",
-        "sharpe": 1.1456491615628004,
-        "trades": 164,
-        "annual": 308.7358735170377,
-        "max_dd": -2.2241283395844613,
-        "batch_ts": "20260612_002904"
-      },
-      {
-        "vt_symbol": "588170.SSE",
-        "symbol": "588170",
-        "exchange": "SSE",
-        "sharpe": 1.1223897429536829,
-        "trades": 52,
-        "annual": 264.66069730604625,
-        "max_dd": -1.0835696213952508,
-        "batch_ts": "20260612_002904"
-      },
-      {
-        "vt_symbol": "159363.SZSE",
-        "symbol": "159363",
-        "exchange": "SZSE",
-        "sharpe": 1.0674255835982287,
-        "trades": 54,
-        "annual": 258.6308637099707,
-        "max_dd": -1.6236551904337042,
-        "batch_ts": "20260612_002904"
-      },
-      {
-        "vt_symbol": "159570.SZSE",
-        "symbol": "159570",
-        "exchange": "SZSE",
-        "sharpe": 1.0556579295511315,
-        "trades": 114,
-        "annual": 314.998560128116,
-        "max_dd": -5.004517574970922,
-        "batch_ts": "20260612_002904"
-      },
-      {
-        "vt_symbol": "159566.SZSE",
-        "symbol": "159566",
-        "exchange": "SZSE",
-        "sharpe": 1.0048588110147045,
-        "trades": 60,
-        "annual": 140.44280768000056,
-        "max_dd": -1.0222366912800005,
-        "batch_ts": "20260612_002904"
-      },
-      {
-        "vt_symbol": "515080.SSE",
-        "symbol": "515080",
-        "exchange": "SSE",
-        "sharpe": 0.8823269100909679,
-        "trades": 60,
-        "annual": 35.43728543463322,
-        "max_dd": -0.40662229765339347,
-        "batch_ts": "20260612_002904"
-      },
-      {
-        "vt_symbol": "159636.SZSE",
-        "symbol": "159636",
-        "exchange": "SZSE",
-        "sharpe": 0.8760892043162198,
-        "trades": 52,
-        "annual": 81.22367780616375,
-        "max_dd": -1.0135637048426727,
-        "batch_ts": "20260612_002904"
-      },
-      {
-        "vt_symbol": "511380.SSE",
-        "symbol": "511380",
-        "exchange": "SSE",
-        "sharpe": 0.8207912327707464,
-        "trades": 56,
-        "annual": 24.267938920489872,
-        "max_dd": -0.30124007587775103,
-        "batch_ts": "20260612_002904"
-      }
-    ],
-    "MacdHistogramStrategy": [
-      {
-        "vt_symbol": "159516.SZSE",
-        "symbol": "159516",
-        "exchange": "SZSE",
-        "sharpe": 1.5320978155299552,
-        "trades": 64,
-        "annual": 172.2941777586206,
-        "max_dd": -1.1111354688830986,
-        "batch_ts": "20260612_002943"
-      },
-      {
-        "vt_symbol": "588200.SSE",
-        "symbol": "588200",
-        "exchange": "SSE",
-        "sharpe": 1.1673778881050325,
-        "trades": 52,
-        "annual": 117.1024286281555,
-        "max_dd": -0.5722264215160323,
-        "batch_ts": "20260612_002943"
-      },
-      {
-        "vt_symbol": "159852.SZSE",
-        "symbol": "159852",
-        "exchange": "SZSE",
-        "sharpe": 0.9990295251640162,
-        "trades": 54,
-        "annual": 64.55147906814592,
-        "max_dd": -0.47646681556143494,
-        "batch_ts": "20260612_002943"
-      },
-      {
-        "vt_symbol": "513050.SSE",
-        "symbol": "513050",
-        "exchange": "SSE",
-        "sharpe": 0.9403226243922552,
-        "trades": 80,
-        "annual": 66.03491176883095,
-        "max_dd": -0.7632522564469261,
-        "batch_ts": "20260612_002943"
-      },
-      {
-        "vt_symbol": "159901.SZSE",
-        "symbol": "159901",
-        "exchange": "SZSE",
-        "sharpe": 0.8969217972585007,
-        "trades": 80,
-        "annual": 43.00532587504377,
-        "max_dd": -0.6020158590115693,
-        "batch_ts": "20260612_002943"
-      },
-      {
-        "vt_symbol": "159819.SZSE",
-        "symbol": "159819",
-        "exchange": "SZSE",
-        "sharpe": 0.845629232363265,
-        "trades": 58,
-        "annual": 49.75830525695719,
-        "max_dd": -0.4333983282846718,
-        "batch_ts": "20260612_002943"
-      },
-      {
-        "vt_symbol": "159915.SZSE",
-        "symbol": "159915",
-        "exchange": "SZSE",
-        "sharpe": 0.8135589417606424,
-        "trades": 142,
-        "annual": 103.06902887545428,
-        "max_dd": -2.147092506054978,
-        "batch_ts": "20260612_002943"
-      },
-      {
-        "vt_symbol": "159892.SZSE",
-        "symbol": "159892",
-        "exchange": "SZSE",
-        "sharpe": 0.8132198585409701,
-        "trades": 59,
-        "annual": 35.01002135759786,
-        "max_dd": -0.5769926088382158,
-        "batch_ts": "20260612_002943"
-      }
-    ],
-    "MarketConditionStrategy": [
-      {
-        "vt_symbol": "159980.SZSE",
-        "symbol": "159980",
-        "exchange": "SZSE",
-        "sharpe": 0.9764533131916371,
-        "trades": 120,
-        "annual": 0.0008411559504665536,
-        "max_dd": -2.272173588702931e-05,
-        "batch_ts": "20260612_040954"
-      },
-      {
-        "vt_symbol": "159326.SZSE",
-        "symbol": "159326",
-        "exchange": "SZSE",
-        "sharpe": 0.9437561631478419,
-        "trades": 53,
-        "annual": 0.0013217500501877617,
-        "max_dd": -1.0702357600730993e-05,
-        "batch_ts": "20260612_040954"
-      },
-      {
-        "vt_symbol": "563360.SSE",
-        "symbol": "563360",
-        "exchange": "SSE",
-        "sharpe": 0.9205741904253538,
-        "trades": 53,
-        "annual": 0.0009326662393505103,
-        "max_dd": -7.553448797016222e-06,
-        "batch_ts": "20260612_040954"
-      },
-      {
-        "vt_symbol": "518880.SSE",
-        "symbol": "518880",
-        "exchange": "SSE",
-        "sharpe": 0.893127485334539,
-        "trades": 315,
-        "annual": 0.004562497034651147,
-        "max_dd": -9.415009582805172e-05,
-        "batch_ts": "20260612_040954"
-      },
-      {
-        "vt_symbol": "517520.SSE",
-        "symbol": "517520",
-        "exchange": "SSE",
-        "sharpe": 0.8301792996270388,
-        "trades": 74,
-        "annual": 0.0018444035764459184,
-        "max_dd": -1.6604619532580763e-05,
-        "batch_ts": "20260612_040954"
-      },
-      {
-        "vt_symbol": "513500.SSE",
-        "symbol": "513500",
-        "exchange": "SSE",
-        "sharpe": 0.814152604889953,
-        "trades": 158,
-        "annual": 0.0009645456564959538,
-        "max_dd": -1.3605070971184517e-05,
-        "batch_ts": "20260612_040954"
-      }
-    ],
     "MoneyGrabberStrategy": [
       {
         "vt_symbol": "159611.SZSE",
@@ -1667,6 +1794,78 @@
         "batch_ts": "20260613_055446"
       }
     ],
+    "MrxBandStrategy": [
+      {
+        "vt_symbol": "159570.SZSE",
+        "symbol": "159570",
+        "exchange": "SZSE",
+        "sharpe": 1.329849418131335,
+        "trades": 60,
+        "annual": 463.8143688280808,
+        "max_dd": -3.1698087850384358,
+        "batch_ts": "20260612_223335"
+      },
+      {
+        "vt_symbol": "159509.SZSE",
+        "symbol": "159509",
+        "exchange": "SZSE",
+        "sharpe": 1.1007830971073782,
+        "trades": 54,
+        "annual": 251.16038443702652,
+        "max_dd": -2.0229549667680193,
+        "batch_ts": "20260612_223335"
+      },
+      {
+        "vt_symbol": "513050.SSE",
+        "symbol": "513050",
+        "exchange": "SSE",
+        "sharpe": 1.093092563345487,
+        "trades": 91,
+        "annual": 163.6072385249902,
+        "max_dd": -2.3299287894133984,
+        "batch_ts": "20260612_223335"
+      },
+      {
+        "vt_symbol": "513130.SSE",
+        "symbol": "513130",
+        "exchange": "SSE",
+        "sharpe": 1.0747515590953811,
+        "trades": 57,
+        "annual": 75.92010342065512,
+        "max_dd": -0.651569449716989,
+        "batch_ts": "20260612_223335"
+      },
+      {
+        "vt_symbol": "588220.SSE",
+        "symbol": "588220",
+        "exchange": "SSE",
+        "sharpe": 0.9631304920527941,
+        "trades": 63,
+        "annual": 318.6878661135969,
+        "max_dd": -2.6426687978600034,
+        "batch_ts": "20260612_223335"
+      },
+      {
+        "vt_symbol": "511090.SSE",
+        "symbol": "511090",
+        "exchange": "SSE",
+        "sharpe": 0.9367036286272271,
+        "trades": 65,
+        "annual": 44.49192610281449,
+        "max_dd": -0.44530351374678817,
+        "batch_ts": "20260612_223335"
+      },
+      {
+        "vt_symbol": "511380.SSE",
+        "symbol": "511380",
+        "exchange": "SSE",
+        "sharpe": 0.8374872886619551,
+        "trades": 54,
+        "annual": 38.595008470204085,
+        "max_dd": -0.33094766357667166,
+        "batch_ts": "20260612_223335"
+      }
+    ],
     "OscillatorReversionStrategy": [
       {
         "vt_symbol": "511220.SSE",
@@ -1727,88 +1926,6 @@
         "annual": 174.59510301957417,
         "max_dd": -4.975915523917986,
         "batch_ts": "20260613_021406"
-      }
-    ],
-    "PullbackMrStrategy": [
-      {
-        "vt_symbol": "588220.SSE",
-        "symbol": "588220",
-        "exchange": "SSE",
-        "sharpe": 1.318228413898201,
-        "trades": 66,
-        "annual": 215.29148170839906,
-        "max_dd": -1.5207511229320483,
-        "batch_ts": "20260612_041034"
-      },
-      {
-        "vt_symbol": "159816.SZSE",
-        "symbol": "159816",
-        "exchange": "SZSE",
-        "sharpe": 1.1149580194528848,
-        "trades": 68,
-        "annual": 12.150666704753613,
-        "max_dd": -0.07483696285401151,
-        "batch_ts": "20260612_041034"
-      },
-      {
-        "vt_symbol": "511030.SSE",
-        "symbol": "511030",
-        "exchange": "SSE",
-        "sharpe": 0.9849321424641322,
-        "trades": 66,
-        "annual": 10.176213082576298,
-        "max_dd": -0.18331449989746346,
-        "batch_ts": "20260612_041034"
-      },
-      {
-        "vt_symbol": "511260.SSE",
-        "symbol": "511260",
-        "exchange": "SSE",
-        "sharpe": 0.8957851392938844,
-        "trades": 56,
-        "annual": 14.173305727072217,
-        "max_dd": -0.2720496134805319,
-        "batch_ts": "20260612_041034"
-      },
-      {
-        "vt_symbol": "518880.SSE",
-        "symbol": "518880",
-        "exchange": "SSE",
-        "sharpe": 0.8479698625898536,
-        "trades": 63,
-        "annual": 170.2811017998695,
-        "max_dd": -4.544933993881238,
-        "batch_ts": "20260612_041034"
-      },
-      {
-        "vt_symbol": "560860.SSE",
-        "symbol": "560860",
-        "exchange": "SSE",
-        "sharpe": 0.8464992230903545,
-        "trades": 67,
-        "annual": 160.82851308142298,
-        "max_dd": -3.9756907392766,
-        "batch_ts": "20260612_041034"
-      },
-      {
-        "vt_symbol": "516650.SSE",
-        "symbol": "516650",
-        "exchange": "SSE",
-        "sharpe": 0.8312971185285176,
-        "trades": 51,
-        "annual": 180.82693535837015,
-        "max_dd": -3.9681459740034826,
-        "batch_ts": "20260612_041034"
-      },
-      {
-        "vt_symbol": "513500.SSE",
-        "symbol": "513500",
-        "exchange": "SSE",
-        "sharpe": 0.8042700948900584,
-        "trades": 90,
-        "annual": 100.84792668007874,
-        "max_dd": -1.7490205999776156,
-        "batch_ts": "20260612_041034"
       }
     ],
     "RsiMeanReversionStrategy": [
@@ -2095,6 +2212,128 @@
         "annual": 405.16840852444426,
         "max_dd": -4.049975073778705,
         "batch_ts": "20260613_093456"
+      }
+    ],
+    "TigerRsiStrategy": [
+      {
+        "vt_symbol": "159570.SZSE",
+        "symbol": "159570",
+        "exchange": "SZSE",
+        "sharpe": 1.5330827211188498,
+        "trades": 52,
+        "annual": 428.54238253513694,
+        "max_dd": -1.973644898033973,
+        "batch_ts": "20260612_185325"
+      },
+      {
+        "vt_symbol": "513120.SSE",
+        "symbol": "513120",
+        "exchange": "SSE",
+        "sharpe": 1.3586470038433722,
+        "trades": 62,
+        "annual": 150.49667762345234,
+        "max_dd": -0.7067024846713033,
+        "batch_ts": "20260612_185325"
+      },
+      {
+        "vt_symbol": "511260.SSE",
+        "symbol": "511260",
+        "exchange": "SSE",
+        "sharpe": 1.2086286687692747,
+        "trades": 63,
+        "annual": 20.940097569073778,
+        "max_dd": -0.27095509104848203,
+        "batch_ts": "20260612_185325"
+      },
+      {
+        "vt_symbol": "159636.SZSE",
+        "symbol": "159636",
+        "exchange": "SZSE",
+        "sharpe": 1.093213246356054,
+        "trades": 62,
+        "annual": 133.04331326793434,
+        "max_dd": -0.7685263454780725,
+        "batch_ts": "20260612_185325"
+      },
+      {
+        "vt_symbol": "512400.SSE",
+        "symbol": "512400",
+        "exchange": "SSE",
+        "sharpe": 1.072726490559931,
+        "trades": 51,
+        "annual": 432.0644936794456,
+        "max_dd": -4.433508069529058,
+        "batch_ts": "20260612_185325"
+      },
+      {
+        "vt_symbol": "159892.SZSE",
+        "symbol": "159892",
+        "exchange": "SZSE",
+        "sharpe": 0.9984525277478323,
+        "trades": 70,
+        "annual": 64.8892441637854,
+        "max_dd": -0.7544067679664105,
+        "batch_ts": "20260612_185325"
+      },
+      {
+        "vt_symbol": "159796.SZSE",
+        "symbol": "159796",
+        "exchange": "SZSE",
+        "sharpe": 0.993112814194212,
+        "trades": 52,
+        "annual": 104.7658000984614,
+        "max_dd": -2.062978670718893,
+        "batch_ts": "20260612_185325"
+      },
+      {
+        "vt_symbol": "159869.SZSE",
+        "symbol": "159869",
+        "exchange": "SZSE",
+        "sharpe": 0.8924449505563563,
+        "trades": 348,
+        "annual": 147.50845444304227,
+        "max_dd": -2.790191885484629,
+        "batch_ts": "20260612_185325"
+      },
+      {
+        "vt_symbol": "511380.SSE",
+        "symbol": "511380",
+        "exchange": "SSE",
+        "sharpe": 0.8758567592536889,
+        "trades": 80,
+        "annual": 28.353341857959318,
+        "max_dd": -0.4248443684324065,
+        "batch_ts": "20260612_185325"
+      },
+      {
+        "vt_symbol": "515220.SSE",
+        "symbol": "515220",
+        "exchange": "SSE",
+        "sharpe": 0.8325720103532528,
+        "trades": 66,
+        "annual": 286.0166202516791,
+        "max_dd": -4.390380360424461,
+        "batch_ts": "20260612_185325"
+      },
+      {
+        "vt_symbol": "511090.SSE",
+        "symbol": "511090",
+        "exchange": "SSE",
+        "sharpe": 0.8243965956903057,
+        "trades": 79,
+        "annual": 33.00336174130829,
+        "max_dd": -0.6283274181312044,
+        "batch_ts": "20260612_185325"
+      },
+      {
+        "vt_symbol": "159870.SZSE",
+        "symbol": "159870",
+        "exchange": "SZSE",
+        "sharpe": 0.8172374297264683,
+        "trades": 51,
+        "annual": 111.29064253812948,
+        "max_dd": -2.5259198848953455,
+        "batch_ts": "20260612_185325"
       }
     ],
     "TripleRsiLongShortStrategy": [
@@ -2841,258 +3080,6 @@
         "batch_ts": "20260613_055436"
       }
     ],
-    "VolatilitySupportStrategy": [
-      {
-        "vt_symbol": "159650.SZSE",
-        "symbol": "159650",
-        "exchange": "SZSE",
-        "sharpe": 2.43081649555534,
-        "trades": 51,
-        "annual": 13.564623039349588,
-        "max_dd": -0.044964037787051915,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "159363.SZSE",
-        "symbol": "159363",
-        "exchange": "SZSE",
-        "sharpe": 2.3533450447967885,
-        "trades": 55,
-        "annual": 1136.2537600966762,
-        "max_dd": -1.8664482140142797,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "511580.SSE",
-        "symbol": "511580",
-        "exchange": "SSE",
-        "sharpe": 2.174958866024725,
-        "trades": 57,
-        "annual": 18.043586737646972,
-        "max_dd": -0.06732669685851246,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "511520.SSE",
-        "symbol": "511520",
-        "exchange": "SSE",
-        "sharpe": 2.022849932105059,
-        "trades": 52,
-        "annual": 41.894304990422185,
-        "max_dd": -0.2896577147982507,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "511360.SSE",
-        "symbol": "511360",
-        "exchange": "SSE",
-        "sharpe": 1.6669125760630557,
-        "trades": 77,
-        "annual": 12.747941453964359,
-        "max_dd": -0.14151472216976513,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "511220.SSE",
-        "symbol": "511220",
-        "exchange": "SSE",
-        "sharpe": 1.4700908683649239,
-        "trades": 93,
-        "annual": 31.283880820061405,
-        "max_dd": -0.43461878354213984,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "511090.SSE",
-        "symbol": "511090",
-        "exchange": "SSE",
-        "sharpe": 1.3805825937130665,
-        "trades": 75,
-        "annual": 88.17827297245921,
-        "max_dd": -1.2046894707359934,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "511260.SSE",
-        "symbol": "511260",
-        "exchange": "SSE",
-        "sharpe": 1.3590527845166411,
-        "trades": 114,
-        "annual": 31.39872161271495,
-        "max_dd": -0.30907006975550066,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "159816.SZSE",
-        "symbol": "159816",
-        "exchange": "SZSE",
-        "sharpe": 1.275102790686856,
-        "trades": 94,
-        "annual": 30.579980127809847,
-        "max_dd": -0.15847543376708392,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "159566.SZSE",
-        "symbol": "159566",
-        "exchange": "SZSE",
-        "sharpe": 1.2293072645323415,
-        "trades": 63,
-        "annual": 483.62792128,
-        "max_dd": -2.9537419803423792,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "517520.SSE",
-        "symbol": "517520",
-        "exchange": "SSE",
-        "sharpe": 1.179199988989333,
-        "trades": 85,
-        "annual": 636.9352307046354,
-        "max_dd": -5.028958664278848,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "518880.SSE",
-        "symbol": "518880",
-        "exchange": "SSE",
-        "sharpe": 1.1708608730908958,
-        "trades": 151,
-        "annual": 311.0792270884389,
-        "max_dd": -4.778272330788143,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "513310.SSE",
-        "symbol": "513310",
-        "exchange": "SSE",
-        "sharpe": 1.1352184079299583,
-        "trades": 114,
-        "annual": 684.7165721677031,
-        "max_dd": -7.22413536467562,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "159516.SZSE",
-        "symbol": "159516",
-        "exchange": "SZSE",
-        "sharpe": 1.134242084600699,
-        "trades": 76,
-        "annual": 377.28957738620755,
-        "max_dd": -3.0545073550066517,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "513920.SSE",
-        "symbol": "513920",
-        "exchange": "SSE",
-        "sharpe": 1.1145335527997324,
-        "trades": 55,
-        "annual": 256.2618648524154,
-        "max_dd": -1.5167299741416034,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "518600.SSE",
-        "symbol": "518600",
-        "exchange": "SSE",
-        "sharpe": 1.0944444881618367,
-        "trades": 147,
-        "annual": 231.80194120287325,
-        "max_dd": -3.906490700569872,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "511100.SSE",
-        "symbol": "511100",
-        "exchange": "SSE",
-        "sharpe": 1.08437548348785,
-        "trades": 55,
-        "annual": 22.545856791519558,
-        "max_dd": -0.28661162876392443,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "513750.SSE",
-        "symbol": "513750",
-        "exchange": "SSE",
-        "sharpe": 1.0089318124944333,
-        "trades": 101,
-        "annual": 257.2827566449149,
-        "max_dd": -2.4238404231160167,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "560860.SSE",
-        "symbol": "560860",
-        "exchange": "SSE",
-        "sharpe": 1.0026647967611066,
-        "trades": 89,
-        "annual": 306.3741327452961,
-        "max_dd": -4.658622164339738,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "159980.SZSE",
-        "symbol": "159980",
-        "exchange": "SZSE",
-        "sharpe": 0.9545556287092465,
-        "trades": 132,
-        "annual": 221.72221663853634,
-        "max_dd": -3.849220538456618,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "159326.SZSE",
-        "symbol": "159326",
-        "exchange": "SZSE",
-        "sharpe": 0.9537989354166184,
-        "trades": 51,
-        "annual": 279.13983176040665,
-        "max_dd": -2.988111687527684,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "513630.SSE",
-        "symbol": "513630",
-        "exchange": "SSE",
-        "sharpe": 0.9266852509332362,
-        "trades": 51,
-        "annual": 187.4756390895805,
-        "max_dd": -1.6887262272053436,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "515880.SSE",
-        "symbol": "515880",
-        "exchange": "SSE",
-        "sharpe": 0.9083107803310987,
-        "trades": 249,
-        "annual": 348.3266348483963,
-        "max_dd": -6.672593134727875,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "512890.SSE",
-        "symbol": "512890",
-        "exchange": "SSE",
-        "sharpe": 0.8952455543165977,
-        "trades": 139,
-        "annual": 157.9278943696931,
-        "max_dd": -1.6117291453694056,
-        "batch_ts": "20260612_113144"
-      },
-      {
-        "vt_symbol": "513500.SSE",
-        "symbol": "513500",
-        "exchange": "SSE",
-        "sharpe": 0.8655387994670244,
-        "trades": 111,
-        "annual": 215.70436532723747,
-        "max_dd": -4.328468109556182,
-        "batch_ts": "20260612_113144"
-      }
-    ],
     "VpMacdStrategy": [
       {
         "vt_symbol": "511200.SSE",
@@ -3395,36 +3382,126 @@
         "batch_ts": "20260613_165546"
       }
     ],
-    "WilliamsRMrSimpleStrategy": [
+    "WohuStrategy": [
       {
-        "vt_symbol": "511030.SSE",
-        "symbol": "511030",
-        "exchange": "SSE",
-        "sharpe": 0.9834243320200634,
-        "trades": 70,
-        "annual": 15.247981740871602,
-        "max_dd": -0.2964298725745976,
-        "batch_ts": "20260612_151135"
+        "vt_symbol": "159570.SZSE",
+        "symbol": "159570",
+        "exchange": "SZSE",
+        "sharpe": 1.9263327920592392,
+        "trades": 60,
+        "annual": 569.8307555837663,
+        "max_dd": -2.1763821200921436,
+        "batch_ts": "20260612_223315"
       },
       {
-        "vt_symbol": "159611.SZSE",
-        "symbol": "159611",
+        "vt_symbol": "513750.SSE",
+        "symbol": "513750",
+        "exchange": "SSE",
+        "sharpe": 1.2698143115894105,
+        "trades": 72,
+        "annual": 220.0299663366556,
+        "max_dd": -1.8328471535813857,
+        "batch_ts": "20260612_223315"
+      },
+      {
+        "vt_symbol": "159636.SZSE",
+        "symbol": "159636",
         "exchange": "SZSE",
-        "sharpe": 0.9079093112810813,
-        "trades": 64,
-        "annual": 90.26525976046058,
-        "max_dd": -1.5500142028340702,
-        "batch_ts": "20260612_151135"
+        "sharpe": 1.2362331272255365,
+        "trades": 88,
+        "annual": 152.659950680656,
+        "max_dd": -1.1480714746744438,
+        "batch_ts": "20260612_223315"
+      },
+      {
+        "vt_symbol": "513050.SSE",
+        "symbol": "513050",
+        "exchange": "SSE",
+        "sharpe": 1.17038662162237,
+        "trades": 106,
+        "annual": 114.07676148587834,
+        "max_dd": -1.2466195334440873,
+        "batch_ts": "20260612_223315"
+      },
+      {
+        "vt_symbol": "562800.SSE",
+        "symbol": "562800",
+        "exchange": "SSE",
+        "sharpe": 1.0354247931357008,
+        "trades": 79,
+        "annual": 183.3431890722162,
+        "max_dd": -2.3773196236477774,
+        "batch_ts": "20260612_223315"
+      },
+      {
+        "vt_symbol": "588220.SSE",
+        "symbol": "588220",
+        "exchange": "SSE",
+        "sharpe": 0.9266610933025233,
+        "trades": 68,
+        "annual": 245.61785216481735,
+        "max_dd": -2.6292470074000067,
+        "batch_ts": "20260612_223315"
+      },
+      {
+        "vt_symbol": "511260.SSE",
+        "symbol": "511260",
+        "exchange": "SSE",
+        "sharpe": 0.9195112896601172,
+        "trades": 119,
+        "annual": 15.946894026486799,
+        "max_dd": -0.2714362551965076,
+        "batch_ts": "20260612_223315"
       },
       {
         "vt_symbol": "515450.SSE",
         "symbol": "515450",
         "exchange": "SSE",
-        "sharpe": 0.8186158770245326,
-        "trades": 74,
-        "annual": 101.98920862192861,
-        "max_dd": -1.4519250864848754,
-        "batch_ts": "20260612_151135"
+        "sharpe": 0.8478743183798383,
+        "trades": 97,
+        "annual": 114.58824389430933,
+        "max_dd": -1.4744487844045,
+        "batch_ts": "20260612_223315"
+      },
+      {
+        "vt_symbol": "515220.SSE",
+        "symbol": "515220",
+        "exchange": "SSE",
+        "sharpe": 0.8465163865834889,
+        "trades": 62,
+        "annual": 307.71910346113935,
+        "max_dd": -6.798183261815831,
+        "batch_ts": "20260612_223315"
+      },
+      {
+        "vt_symbol": "513980.SSE",
+        "symbol": "513980",
+        "exchange": "SSE",
+        "sharpe": 0.8454452915940172,
+        "trades": 58,
+        "annual": 46.21152272027387,
+        "max_dd": -0.6285550697939701,
+        "batch_ts": "20260612_223315"
+      },
+      {
+        "vt_symbol": "159920.SZSE",
+        "symbol": "159920",
+        "exchange": "SZSE",
+        "sharpe": 0.822166646315328,
+        "trades": 86,
+        "annual": 43.23705025379495,
+        "max_dd": -1.0443996114395493,
+        "batch_ts": "20260612_223315"
+      },
+      {
+        "vt_symbol": "511180.SSE",
+        "symbol": "511180",
+        "exchange": "SSE",
+        "sharpe": 0.8122360229632887,
+        "trades": 105,
+        "annual": 30.431799657641655,
+        "max_dd": -0.3748557308396617,
+        "batch_ts": "20260612_223315"
       }
     ]
   }
