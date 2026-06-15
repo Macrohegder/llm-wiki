@@ -485,6 +485,8 @@ cta_developer 中的策略代码资产与批量挖掘结果。
    325|
 ## 最新录入
 
+- 2026-06-15: CN 期货候选组合 Walk-Forward 验证 — [[CN_Futures_WFO_Deployable_Report]]
+
 - 2026-06-14: 目标 CN ETF 纯做多策略深度挖掘 — [[Targeted_CN_ETF_Deep_Dive_Report]]
 - 2026-05-01: 自动导入 1 篇 Substack 文章 (roguequant - PivotShift)
 - 2026-04-30: 自动导入 1 篇 Substack 文章
