@@ -52,6 +52,7 @@
     39|
     40|## 📥 最新录入
 
+- 2026-06-19: Quant Workspace Agent 架构与运维入口 — [[quant-agent-architecture]]
 - 2026-05-08: RSI2MR CRYPTO 批量回测 — [[rsi2mr-crypto-batch-2026-05-08]]
 - 2026-05-08: VPMACD ETF 批量回测 — [[vpmacd-etf-batch-2026-05-08]]
 - 2026-05-07: MH CRYPTO 批量回测 — [[mh-crypto-batch-2026-05-07]]
