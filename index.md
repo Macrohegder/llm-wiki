@@ -486,6 +486,7 @@ cta_developer 中的策略代码资产与批量挖掘结果。
    325|
 ## 最新录入
 
+- 2026-06-22: [[ibs_cn_etf_deep_mining_report_20260622|IBS 全 CN ETF 深度挖掘报告]] (7 个可实盘组合)
 - 2026-06-15: CN 期货候选组合 Walk-Forward 验证 — [[CN_Futures_WFO_Deployable_Report]]
 
 - 2026-06-14: 目标 CN ETF 纯做多策略深度挖掘 — [[Targeted_CN_ETF_Deep_Dive_Report]]
