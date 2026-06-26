@@ -494,7 +494,8 @@ cta_developer 中的策略代码资产与批量挖掘结果。
    324|
    325|
 ## 最新录入
-- [LDT 在 IF88/IC88 上的深度挖掘（2015-2025）](wiki/ldt_if_ic_2015_deep_dive.md) — 2026-06-26 12:58
+- [LDT 在 IF88/IC88 上的深度挖掘（2015-2025）](wiki/ldt_if_ic_2015_deep_dive.md) — 2026-06-26 14:34
+- [[CtaTrend_CN_Futures_Deep_Mine_Rolling_20260626|CtaTrend CN 期货深度挖掘（rolling + 扩大参数）]] (2026-06-26)
 - [[CtaTrend_CN_Futures_Deep_Mine_20260626|CtaTrend CN 期货深度挖掘（扩大参数）]] (2026-06-26)
 - [[DAB_CN_Futures_Deep_Mine_20260626|DAB CN 期货深度挖掘]] (2026-06-26)
 

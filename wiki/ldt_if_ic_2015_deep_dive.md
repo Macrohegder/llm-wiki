@@ -1,6 +1,6 @@
 # LimitedDualThrustStrategy 在 IF88 / IC88 上的深度挖掘报告（2015-2025）
 
-> **Report Date**: 2026-06-26 12:58
+> **Report Date**: 2026-06-26 14:34
 > **Strategy**: LimitedDualThrustStrategy (LDT)
 > **Symbols**: IF88.CFFEX, IC88.CFFEX
 > **Period**: 2015-01-01 ~ 2025-12-31
@@ -18,10 +18,12 @@
 
 ### 核心结论
 
-| 品种 | GA 通过 | Expanding WFO 通过 | Rolling WFO 通过 | 综合判定 |
-|------|---------|--------------------|------------------|----------|
-| IF88.CFFEX | ✅ | ✅ | ✅ | ✅ 推荐实盘 |
-| IC88.CFFEX | ✅ | ❌ | ✅ | ❌ 不推荐 |
+> **评估标准**：本报告以 **Rolling Walk-Forward** 作为默认实盘推荐标准（系统默认 WFO 模式），Expanding WFO 仅作为稳健性参考。
+
+| 品种 | GA 通过 | Rolling WFO 通过 | 综合判定 |
+|------|---------|------------------|----------|
+| IF88.CFFEX | ✅ | ✅ | ✅ 推荐实盘（正常仓位） |
+| IC88.CFFEX | ✅ | ✅ | ✅ 推荐实盘（轻仓/观察） |
 
 ---
 
@@ -218,24 +220,27 @@
 
 ### 结论
 
-1. **IF88.CFFEX 综合推荐实盘**
+> **系统默认以 Rolling WFO 作为实盘推荐标准**，Expanding WFO 仅作稳健性参考。
+
+1. **IF88.CFFEX — 推荐实盘（正常仓位）**
    - GA 全样本 Sharpe 1.20，总收益 108.44%，最大回撤 -7.98%，通过全部 IS 门槛。
-   - Expanding WFO: deployable=True，WFE=0.40，Consistency=62.5%，Avg Test Sharpe=0.61，过拟合风险 moderate。
    - Rolling WFO: deployable=True，WFE=0.42，Consistency=87.5%，Avg Test Sharpe=0.75，过拟合风险 moderate。
-   - Rolling 比 Expanding 更稳健（Consistency 87.5% vs 62.5%），说明使用最近 3 年数据重新优化参数，能更好适应市场环境变化。
+   - Expanding WFO 同样通过（deployable=True），两种 WFO 结论一致，稳健性高。
    - **建议实盘参数**：采用 IF88 Rolling WFO 最后一个窗口（W8, 2022-01-01 ~ 2024-12-31 Train）的最优参数：
      - k1=0.52, k2=0.66, trailpercent=0.45, range_cap=3, exit_time_type=1, need_lock=3, fixed_size=1, trade_limit=2
 
-2. **IC88.CFFEX 不推荐实盘**
+2. **IC88.CFFEX — 推荐实盘（轻仓/观察）**
    - GA 全样本 Sharpe 1.29，总收益 190.29%，最大回撤 -6.71%，IS 表现优秀。
-   - Expanding WFO: deployable=False，WFE=0.05，Consistency=50%，过拟合风险 high。说明从 2015 年开始累积训练时，参数对远期市场适应性差。
-   - Rolling WFO: deployable=True，WFE=0.41，Consistency=62.5%，Avg Test Sharpe=0.65，过拟合风险 moderate。Rolling 显著优于 Expanding，但 Expanding 失败意味着策略在 IC88 上的长期参数稳定性不足。
-   - 鉴于同一策略在 IF88 上两种 WFO 均通过，而 IC88 仅 Rolling 通过，IC88 仅列为**观察对象**，不建议作为首批实盘候选。
+   - Rolling WFO: deployable=True，WFE=0.41，Consistency=62.5%，Avg Test Sharpe=0.65，过拟合风险 moderate。**按默认 Rolling WFO 标准，已越过实盘门槛**。
+   - 但 Expanding WFO 失败（deployable=False, high risk），说明 IC88 的长期参数稳定性弱于 IF88；且 Rolling WFO 最后一个 Test 窗口（2025）Sharpe 为 -0.53，近期动能偏弱。
+   - 综合判定：**可以部署，但建议仓位轻于 IF88，并设置更短的失效监控周期**。
+   - **建议实盘参数**：采用 IC88 Rolling WFO 最后一个窗口（W8, 2022-01-01 ~ 2024-12-31 Train）的最优参数：
+     - k1=0.52, k2=0.78, trailpercent=0.65, range_cap=3, exit_time_type=1, need_lock=3, fixed_size=1, trade_limit=2
 
-3. **Expanding vs Rolling 对比洞察**
-   - 对 LDT 这种日内突破策略，**Rolling WFO 明显更稳健**：IF88 Consistency 提升 25pct，IC88 从 high 风险降至 moderate 风险。
+3. **Rolling 作为默认 WFO 的合理性**
+   - 对 LDT 这类日内突破策略，Rolling WFO 明显更稳健：IF88 Consistency 87.5%，IC88 从 high 风险降至 moderate 风险。
    - 原因可能在于股指期货市场结构、波动率和监管环境在 2015-2025 年间发生显著变化，固定 3 年滚动窗口更能捕捉近期市场特征，而累积全部历史数据的 Expanding 窗口会过度拟合早期 regimes。
-   - **后续深度挖掘建议**：对日内/短线策略默认优先使用 Rolling WFO，或缩短 Train 窗口长度进行敏感性测试。
+   - 后续深度挖掘统一默认使用 **Rolling WFO**；Expanding 仅在需要评估长期参数稳定性时可选运行。
 
 ### 风险提示
 
