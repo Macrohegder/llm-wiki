@@ -52,6 +52,9 @@
     39|
     40|## 📥 最新录入
 
+- 2026-06-26: CtaTrendStrategy CN 期货深度挖掘（扩大参数） — [[CtaTrend_CN_Futures_Deep_Mine_20260626]]
+- 2026-06-26: LDT 日内策略在 IF88.CFFEX 上的深度挖掘报告 — [[ldt_if88_deep_dive]]
+- 2026-06-24: CincoStrategy 国内期货深度挖掘报告 — [[CincoStrategy_CN_Futures_Deep_Mining_20260624]]
 - 2026-06-19: Quant Workspace Agent 架构与运维入口 — [[quant-agent-architecture]]
 - 2026-05-08: RSI2MR CRYPTO 批量回测 — [[rsi2mr-crypto-batch-2026-05-08]]
 - 2026-05-08: VPMACD ETF 批量回测 — [[vpmacd-etf-batch-2026-05-08]]
@@ -175,6 +178,12 @@
     82|
     83|
 
+
+
+
+
+
+
 ## cta_developer 策略资产
 
 cta_developer 中的策略代码资产与批量挖掘结果。
@@ -185,11 +194,11 @@ cta_developer 中的策略代码资产与批量挖掘结果。
 |----------|--------|----------|
 | Mean Reversion | 27 | [[ConsecutiveDownDaysStrategy]], [[FiveDayLowOvernightStrategy]], [[FiveDayLowRangeStrategy]] |
 | Trend Following | 12 | [[CtaTrendStrategy]], [[DonchianAdxBreakoutStrategy]], [[MacdHookGoldStrategy]] |
-| Intraday | 26 | [[CincoStrategy]], [[CincoLongOnlyStrategy]], [[DemarkScalperStrategy]] |
+| Intraday | 27 | [[CincoStrategy]], [[CincoLongOnlyStrategy]], [[DemarkScalperStrategy]] |
 | Portfolio | 3 | [[BensdorpMetaStrategy]], [[DonchianEnsembleCryptoTrendStrategy]], [[TrendMeanReversionPortfolioStrategy]] |
 | Hybrid | 2 | [[MoneyGrabberStrategy]], [[ThermostatStrategy]] |
 | Pattern | 1 | [[CandlestickPatternStrategy]] |
-| Unknown | 3 | [[OpeningDipMicroReversalStrategy]], [[TigerRsiStrategy]], [[Tt1Strategy]] |
+| Unknown | 4 | [[CryptoBuyTheDipStrategy]], [[OpeningDipMicroReversalStrategy]], [[TigerRsiStrategy]] |
 
 ### 高潜力空白机会
 
@@ -485,6 +494,9 @@ cta_developer 中的策略代码资产与批量挖掘结果。
    324|
    325|
 ## 最新录入
+- [LDT 在 IF88/IC88 上的深度挖掘（2015-2025）](wiki/ldt_if_ic_2015_deep_dive.md) — 2026-06-26 12:58
+- [[CtaTrend_CN_Futures_Deep_Mine_20260626|CtaTrend CN 期货深度挖掘（扩大参数）]] (2026-06-26)
+- [[DAB_CN_Futures_Deep_Mine_20260626|DAB CN 期货深度挖掘]] (2026-06-26)
 
 - 2026-06-22: [[ibs_cn_etf_deep_mining_report_20260622|IBS 全 CN ETF 深度挖掘报告]] (7 个可实盘组合)
 - 2026-06-15: CN 期货候选组合 Walk-Forward 验证 — [[CN_Futures_WFO_Deployable_Report]]
