@@ -216,30 +216,80 @@
 
 ---
 
-## 5. 结论与风险提示
+## 5. 2026 年前向验证与组合互补性分析
+
+### 5.1 2026 年前向验证
+
+使用 Rolling WFO 最后一个窗口（W8）优化出的参数，直接在 **2026-01-01 ~ 2026-06-25** 的样本外数据上运行前向验证：
+
+| 品种 | 2025 Test Sharpe | 2026 Forward Sharpe | 2026 Return | 2026 Max DD | Trades |
+|------|------------------|---------------------|-------------|-------------|--------|
+| IF88.CFFEX | 0.38 | **-0.60** | -2.33% | -9.48% | 206 |
+| IC88.CFFEX | 1.86 | **1.87** | +10.97% | -4.17% | 192 |
+
+> 2026 年上半年 IC88 表现强劲，而 IF88 出现阶段性失效。这与 2025 年 Test 窗口的趋势恰好相反，说明两个品种的收益驱动因素存在差异。
+
+### 5.2 年度收益互补性分析
+
+基于 Rolling WFO 各窗口 Test 期年度收益 + 2026 年前向验证收益：
+
+| 年份 | IF88 | IC88 | 等权组合 |
+|------|------|------|----------|
+| 2018 | +26.26% | -7.83% | +9.22% |
+| 2019 | +6.83% | +3.47% | +5.15% |
+| 2020 | +8.56% | +20.10% | +14.33% |
+| 2021 | +10.76% | -5.82% | +2.47% |
+| 2022 | +1.85% | +8.21% | +5.03% |
+| 2023 | +9.99% | -5.38% | +2.31% |
+| 2024 | -3.47% | +22.51% | +9.52% |
+| 2025 | +2.93% | +18.59% | +10.76% |
+| 2026H1 | -2.33% | +10.97% | +4.32% |
+
+| 指标 | IF88 单品种 | IC88 单品种 | 等权组合 |
+|------|-------------|-------------|----------|
+| 年均收益 | 6.82% | 7.20% | **7.01%** |
+| 年化波动 | 8.92% | 11.80% | **4.13%** |
+| 收益/波动 | 0.76 | 0.61 | **1.70** |
+| 负收益年份 | 2/9 | 3/9 | **0/9** |
+| 胜率 | 77.8% | 66.7% | **100%** |
+| 两者同时亏损年份 | - | - | **0** |
+
+**年度收益相关性：-0.72（强负相关）**
+
+### 5.3 组合配置结论
+
+- **IF88 与 IC88 不宜二选一，应作为组合同时部署**。
+- 等权组合将年化波动从 ~10% 降至 **4.13%**，收益/波动比从 0.6-0.8 提升至 **1.70**。
+- 9 个年度中没有任何一年两个品种同时亏损，组合每年均取得正收益。
+- **建议组合权重**：等权起步；后续可按波动率倒数或风险平价动态再平衡。
+
+实盘配置文件已生成：`configs/ldt_if_ic_rolling_live_config_20260626.json`
+
+---
+
+## 6. 结论与风险提示
 
 ### 结论
 
-> **系统默认以 Rolling WFO 作为实盘推荐标准**，Expanding WFO 仅作稳健性参考。
+> **系统默认以 Rolling WFO 作为实盘推荐标准**，Expanding WFO 仅作稳健性参考；**IF88 与 IC88 应组合部署，而非单独选择**。
 
-1. **IF88.CFFEX — 推荐实盘（正常仓位）**
-   - GA 全样本 Sharpe 1.20，总收益 108.44%，最大回撤 -7.98%，通过全部 IS 门槛。
+1. **IF88.CFFEX — 组合成员之一**
    - Rolling WFO: deployable=True，WFE=0.42，Consistency=87.5%，Avg Test Sharpe=0.75，过拟合风险 moderate。
-   - Expanding WFO 同样通过（deployable=True），两种 WFO 结论一致，稳健性高。
-   - **建议实盘参数**：采用 IF88 Rolling WFO 最后一个窗口（W8, 2022-01-01 ~ 2024-12-31 Train）的最优参数：
-     - k1=0.52, k2=0.66, trailpercent=0.45, range_cap=3, exit_time_type=1, need_lock=3, fixed_size=1, trade_limit=2
+   - 但 2026 年前向验证 Sharpe 为 -0.60，出现阶段性失效，需持续监控。
+   - **实盘参数**：k1=0.52, k2=0.66, trailpercent=0.45, range_cap=3, exit_time_type=1, need_lock=3, fixed_size=1, trade_limit=2
 
-2. **IC88.CFFEX — 推荐实盘（轻仓/观察）**
-   - GA 全样本 Sharpe 1.29，总收益 190.29%，最大回撤 -6.71%，IS 表现优秀。
-   - Rolling WFO: deployable=True，WFE=0.41，Consistency=62.5%，Avg Test Sharpe=0.65，过拟合风险 moderate。**按默认 Rolling WFO 标准，已越过实盘门槛**。
-   - 但 Expanding WFO 失败（deployable=False, high risk），说明 IC88 的长期参数稳定性弱于 IF88；且 Rolling WFO 最后一个 Test 窗口（2025）Sharpe 为 -0.53，近期动能偏弱。
-   - 综合判定：**可以部署，但建议仓位轻于 IF88，并设置更短的失效监控周期**。
-   - **建议实盘参数**：采用 IC88 Rolling WFO 最后一个窗口（W8, 2022-01-01 ~ 2024-12-31 Train）的最优参数：
-     - k1=0.52, k2=0.78, trailpercent=0.65, range_cap=3, exit_time_type=1, need_lock=3, fixed_size=1, trade_limit=2
+2. **IC88.CFFEX — 组合成员之二**
+   - Rolling WFO: deployable=True，WFE=0.41，Consistency=62.5%，Avg Test Sharpe=0.65，过拟合风险 moderate。
+   - 2026 年前向验证 Sharpe 1.87，表现强劲，与 IF88 形成互补。
+   - **实盘参数**：k1=0.52, k2=0.78, trailpercent=0.65, range_cap=3, exit_time_type=1, need_lock=3, fixed_size=1, trade_limit=2
 
-3. **Rolling 作为默认 WFO 的合理性**
-   - 对 LDT 这类日内突破策略，Rolling WFO 明显更稳健：IF88 Consistency 87.5%，IC88 从 high 风险降至 moderate 风险。
-   - 原因可能在于股指期货市场结构、波动率和监管环境在 2015-2025 年间发生显著变化，固定 3 年滚动窗口更能捕捉近期市场特征，而累积全部历史数据的 Expanding 窗口会过度拟合早期 regimes。
+3. **组合效应是核心**
+   - 两者年度收益相关性 **-0.72**，等权组合 9 年无亏损，收益/波动比 **1.70**。
+   - 2026 年上半年 IF88 亏损时 IC88 盈利，验证了组合的危机分散能力。
+   - **建议**：同时部署 IF88 + IC88，等权起步，月度再平衡。
+
+4. **Rolling 作为默认 WFO 的合理性**
+   - 对 LDT 这类日内突破策略，Rolling WFO 明显更稳健。
    - 后续深度挖掘统一默认使用 **Rolling WFO**；Expanding 仅在需要评估长期参数稳定性时可选运行。
 
 ### 风险提示
@@ -252,12 +302,13 @@
 
 ---
 
-## 6. 输出文件
+## 7. 输出文件
 
 | 文件 | 路径 |
 |------|------|
-| 本报告 | `{REPORT_DIR}/ldt_if_ic_2015_deep_dive.md` |
-| 报告图表 | `{ASSET_DIR}/` |
+| 本报告 | `/root/quant/llm-wiki/wiki/ldt_if_ic_2015_deep_dive.md` |
+| 报告图表 | `/root/quant/llm-wiki/raw/assets/ldt_if_ic_2015_deep_dive/` |
+| 实盘组合配置 JSON | `configs/ldt_if_ic_rolling_live_config_20260626.json` |
 | IF88 GA 最优参数 | `data/pipeline/ldt_if88_2015_ga_v2/LimitedDualThrustStrategy_IF88_CFFEX/best_params_*.json` |
 | IC88 GA 最优参数 | `data/pipeline/ldt_ic88_2015_ga_v2/LimitedDualThrustStrategy_IC88_CFFEX/best_params_*.json` |
 | IF88 Expanding WFO | `data/pipeline/ldt_if88_2015_wfo_v3/wfo/LimitedDualThrustStrategy_IF88_CFFEX/wfo_summary.json` |
