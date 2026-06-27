@@ -52,6 +52,9 @@
     39|
     40|## 📥 最新录入
 
+- 2026-06-26: CtaTrendStrategy 趋势品种（T/RB/I/J）验证 — [[CtaTrend_Trend_Universe_Validation_20260626]]
+- 2026-06-26: CtaTrendStrategy Expanding vs Rolling 对比 — [[CtaTrend_Expanding_vs_Rolling_Comparison_20260626]]
+- 2026-06-26: CtaTrendStrategy CN 期货深度挖掘（rolling + 扩大参数） — [[CtaTrend_CN_Futures_Deep_Mine_Rolling_20260626]]
 - 2026-06-26: CtaTrendStrategy CN 期货深度挖掘（扩大参数） — [[CtaTrend_CN_Futures_Deep_Mine_20260626]]
 - 2026-06-26: LDT 日内策略在 IF88.CFFEX 上的深度挖掘报告 — [[ldt_if88_deep_dive]]
 - 2026-06-24: CincoStrategy 国内期货深度挖掘报告 — [[CincoStrategy_CN_Futures_Deep_Mining_20260624]]
@@ -177,6 +180,18 @@
     81|---
     82|
     83|
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -528,3 +543,5 @@ cta_developer 中的策略代码资产与批量挖掘结果。
    334|- 2026-04-24: 自动导入 1 篇 Substack 文章
    335|- 2026-04-25: 录入 TradingRiot 多资产分析平台文章
    336|
+
+- [2026-06-27] CtaTrendStrategy CN 期货深度挖掘 — [查看报告](wiki/ctatrend_strategy_cn_futures_deep_mine.md)
