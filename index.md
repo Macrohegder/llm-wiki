@@ -199,6 +199,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 ## cta_developer 策略资产
 
 cta_developer 中的策略代码资产与批量挖掘结果。
@@ -543,5 +555,7 @@ cta_developer 中的策略代码资产与批量挖掘结果。
    334|- 2026-04-24: 自动导入 1 篇 Substack 文章
    335|- 2026-04-25: 录入 TradingRiot 多资产分析平台文章
    336|
+
+- [2026-06-27] CtaTrendStrategy CN 期货深度挖掘 — [查看报告](wiki/ctatrend_strategy_cn_futures_deep_mine.md)
 
 - [2026-06-27] CtaTrendStrategy CN 期货深度挖掘 — [查看报告](wiki/ctatrend_strategy_cn_futures_deep_mine.md)
