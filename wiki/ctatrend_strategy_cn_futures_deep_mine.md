@@ -1,6 +1,6 @@
 # CtaTrendStrategy CN 期货深度挖掘报告
 
-- 生成时间: 2026-06-27 15:27:06
+- 生成时间: 2026-06-27 15:27:54
 - GA 批量目录: `data/batch_results/ctt_cn_20260627_refix_merged`
 - 回测周期: 2020-01-01 ~ 2026-04-29
 - WFO 窗口: expanding, train=3y, test=1y
