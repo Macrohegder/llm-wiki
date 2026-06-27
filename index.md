@@ -564,3 +564,5 @@ cta_developer 中的策略代码资产与批量挖掘结果。
 - [2026-06-27] CtaTrendStrategy CN 期货深度挖掘 — [查看报告](wiki/ctatrend_strategy_cn_futures_deep_mine.md)
 
 - [2026-06-27] CtaTrendStrategy CN 期货深度挖掘 — [查看报告](wiki/ctatrend_strategy_cn_futures_deep_mine.md)
+
+- [2026-06-27] CtaTrendStrategy CN 期货深度挖掘 — [查看报告](wiki/ctatrend_strategy_cn_futures_deep_mine.md)
