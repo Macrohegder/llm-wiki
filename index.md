@@ -52,6 +52,7 @@
     39|
     40|## 📥 最新录入
 
+- 2026-06-28: LDT 在四大股指期货上的深度挖掘 v6（参数平原选择 + Top-N 集成） — [[ldt_cn_index_futures_2015]]
 - 2026-06-26: CtaTrendStrategy 趋势品种（T/RB/I/J）验证 — [[CtaTrend_Trend_Universe_Validation_20260626]]
 - 2026-06-26: CtaTrendStrategy Expanding vs Rolling 对比 — [[CtaTrend_Expanding_vs_Rolling_Comparison_20260626]]
 - 2026-06-26: CtaTrendStrategy CN 期货深度挖掘（rolling + 扩大参数） — [[CtaTrend_CN_Futures_Deep_Mine_Rolling_20260626]]
@@ -521,7 +522,7 @@ cta_developer 中的策略代码资产与批量挖掘结果。
    324|
    325|
 ## 最新录入
-- [LDT 在四大股指期货上的深度挖掘（IF88/IC88/IH88/IM88）](wiki/ldt_cn_index_futures_2015.md) — 2026-06-27 15:25
+- [LDT 在四大股指期货上的深度挖掘 v6（参数平原选择 + Top-N 集成）](wiki/ldt_cn_index_futures_2015.md) — 2026-06-28
 - [LDT 在 IF88/IC88 上的深度挖掘（2015-2025）](wiki/ldt_if_ic_2015_deep_dive.md) — 2026-06-26 14:34
 - [[CtaTrend_CN_Futures_Deep_Mine_Rolling_20260626|CtaTrend CN 期货深度挖掘（rolling + 扩大参数）]] (2026-06-26)
 - [[CtaTrend_CN_Futures_Deep_Mine_20260626|CtaTrend CN 期货深度挖掘（扩大参数）]] (2026-06-26)
